@@ -12,5 +12,11 @@
     },
     "question": {
         "en": "sixth illness or symptom"
-    }
+    },
+    "visibility": [
+        {
+            "variableName": "pex_bm_health_preg_i_illness_008_i_07",
+            "isVis": "  pex_bm_health_preg_i_illness_002  >= 6"
+        }
+    ]
 }
