@@ -1,4 +1,4 @@
-# Converting bridge2ai redcap to reproschema
+# Converting HBCD redcap to reproschema
 
 This repository contains the version-controlled implementation of the HEALthy Brain and Child Development Study (HBCD) ReproSchema, converted from REDCap data dictionaries, using the [`redcap2reproschema`](https://github.com/ReproNim/reproschema-py#redcap2reproschema-usage) tool
 
