@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_bm_bfy_bensvc_001",
+    "prefLabel": "sed_bm_bfy_bensvc_001",
+    "description": "sed_bm_bfy_bensvc_001 of sed_bm_bfy",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "preamble": {
+        "en": "Services and Support"
+    },
+    "question": {
+        "en": "Have you received any of these services in the past 12 months..."
+    }
+}

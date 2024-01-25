@@ -1,0 +1,96 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_bm_demo_roster_005_i_04",
+    "prefLabel": "sed_bm_demo_roster_005_i_04",
+    "description": "sed_bm_demo_roster_005_i_04 of sed_bm_demo",
+    "ui": {
+        "inputType": "select"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Biological Child ",
+                "value": 1
+            },
+            {
+                "name": "Step Child ",
+                "value": 2
+            },
+            {
+                "name": "Adopted Child ",
+                "value": 3
+            },
+            {
+                "name": "Foster Child ",
+                "value": 4
+            },
+            {
+                "name": "Child-in-Law ",
+                "value": 5
+            },
+            {
+                "name": "Grandchild ",
+                "value": 6
+            },
+            {
+                "name": "Spouse/Partner ",
+                "value": 7
+            },
+            {
+                "name": "Friend/Roommate ",
+                "value": 8
+            },
+            {
+                "name": "Roomer/Boarder ",
+                "value": 9
+            },
+            {
+                "name": "Parent ",
+                "value": 10
+            },
+            {
+                "name": "Step-parent ",
+                "value": 16
+            },
+            {
+                "name": "Parent-in-Law ",
+                "value": 11
+            },
+            {
+                "name": "Grandparent ",
+                "value": 12
+            },
+            {
+                "name": "Sibling ",
+                "value": 13
+            },
+            {
+                "name": "Other Relative ",
+                "value": 14
+            },
+            {
+                "name": "Other Non-relative ",
+                "value": 15
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "Person 2 relationship"
+    },
+    "visibility": [
+        {
+            "variableName": "sed_bm_demo_roster_005_i_04",
+            "isVis": " sed_bm_demo_roster_003  >= 2"
+        }
+    ]
+}

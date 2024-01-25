@@ -1,0 +1,52 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_apa2_repet_002",
+    "prefLabel": "pex_bm_apa2_repet_002",
+    "description": "pex_bm_apa2_repet_002 of pex_bm_apa",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "None ",
+                "value": 0
+            },
+            {
+                "name": "Mild (slightly disturbing) ",
+                "value": 1
+            },
+            {
+                "name": "Moderate (disturbing but still manageable) ",
+                "value": 2
+            },
+            {
+                "name": "Severe (very disturbing) ",
+                "value": 3
+            },
+            {
+                "name": "Extreme (overwhelming distress) ",
+                "value": 4
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "How much distress do these thoughts or behaviors cause you?"
+    },
+    "visibility": [
+        {
+            "variableName": "pex_bm_apa2_repet_002",
+            "isVis": " pex_bm_apa1_repet_001  >= '2' OR  pex_bm_apa1_repet_002  >= '2'"
+        }
+    ]
+}

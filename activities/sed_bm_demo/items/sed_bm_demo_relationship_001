@@ -1,0 +1,53 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_bm_demo_relationship_001",
+    "prefLabel": "sed_bm_demo_relationship_001",
+    "description": "sed_bm_demo_relationship_001 of sed_bm_demo",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Single ",
+                "value": 1
+            },
+            {
+                "name": "Married ",
+                "value": 2
+            },
+            {
+                "name": "Partnered ",
+                "value": 3
+            },
+            {
+                "name": "Divorced/Separated ",
+                "value": 4
+            },
+            {
+                "name": "Widowed ",
+                "value": 5
+            },
+            {
+                "name": "Other ",
+                "value": 6
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "preamble": {
+        "en": "Marital Status and Relationship Status"
+    },
+    "question": {
+        "en": "Which best describes you?"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_health_preg_i_illness_005_i_02",
+    "prefLabel": "pex_bm_health_preg_i_illness_005_i_02",
+    "description": "pex_bm_health_preg_i_illness_005_i_02 of pex_bm_health_preg_i_illness",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "If you don't know the name of the illness, please select the most prominent symptom."
+    },
+    "visibility": [
+        {
+            "variableName": "pex_bm_health_preg_i_illness_005_i_02",
+            "isVis": " pex_bm_health_preg_i_illness_005_i_dk   == '999'"
+        }
+    ]
+}

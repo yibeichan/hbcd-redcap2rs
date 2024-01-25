@@ -1,0 +1,47 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_bm_demo_mil_001",
+    "prefLabel": "sed_bm_demo_mil_001",
+    "description": "sed_bm_demo_mil_001 of sed_bm_demo",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Yes (current) ",
+                "value": 1
+            },
+            {
+                "name": "Yes (past) ",
+                "value": 2
+            },
+            {
+                "name": "No ",
+                "value": 0
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "preamble": {
+        "en": "Active Duty Military:"
+    },
+    "question": {
+        "en": "Have you ever served in active duty in the US armed forces?"
+    },
+    "visibility": [
+        {
+            "variableName": "sed_bm_demo_mil_001",
+            "isVis": " event-name  admin_caregiver_001  ! == '1'"
+        }
+    ]
+}

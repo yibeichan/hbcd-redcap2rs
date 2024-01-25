@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_health_preg_i_healthhx_008",
+    "prefLabel": "pex_bm_health_preg_i_healthhx_008",
+    "description": "pex_bm_health_preg_i_healthhx_008 of pex_bm_health_preg_i_healthhx",
+    "ui": {
+        "inputType": "number",
+        "hidden": true
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Pre-pregnancy height, centimeters"
+    },
+    "scoringLogic": [
+        {
+            "variableName": "pex_bm_health_preg_i_healthhx_008",
+            "jsExpression": "( pex_bm_health_preg_i_healthhx_007_i_01  * 12 +  pex_bm_health_preg_i_healthhx_007_i_02 ) * 2.54"
+        }
+    ]
+}

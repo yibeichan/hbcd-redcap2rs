@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_healthv2_inf_i_meds_006",
+    "prefLabel": "pex_bm_healthv2_inf_i_meds_006",
+    "description": "pex_bm_healthv2_inf_i_meds_006 of pex_bm_healthv2_inf",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "What is the fourth prescribed medication?"
+    },
+    "visibility": [
+        {
+            "variableName": "pex_bm_healthv2_inf_i_meds_006",
+            "isVis": " pex_bm_healthv2_inf_i_meds_006_i_dk   == ''"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_healthv2_preg_i_exp_i_pnv_010",
+    "prefLabel": "pex_bm_healthv2_preg_i_exp_i_pnv_010",
+    "description": "pex_bm_healthv2_preg_i_exp_i_pnv_010 of pex_bm_healthv2_preg",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "Since we last met, have you had indoor exposure to second-hand smoke from any of the following substances? Check all that apply"
+    },
+    "visibility": [
+        {
+            "variableName": "pex_bm_healthv2_preg_i_exp_i_pnv_010",
+            "isVis": " screening_arm_1  recruitment_period   =='1'"
+        }
+    ]
+}

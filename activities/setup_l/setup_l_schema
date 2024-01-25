@@ -1,0 +1,46 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "setup_l_schema",
+    "prefLabel": "setup_l",
+    "description": "Default description",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "order": [
+            "items/admin_caregiver_001",
+            "items/admin_caregiver_002",
+            "items/setup_onsite_started",
+            "items/setup_event_start",
+            "items/setup_event_end"
+        ],
+        "addProperties": [
+            {
+                "variableName": "admin_caregiver_001",
+                "isAbout": "items/admin_caregiver_001",
+                "isVis": true
+            },
+            {
+                "variableName": "admin_caregiver_002",
+                "isAbout": "items/admin_caregiver_002",
+                "isVis": " admin_caregiver_001   == '1'"
+            },
+            {
+                "variableName": "setup_onsite_started",
+                "isAbout": "items/setup_onsite_started",
+                "isVis": true
+            },
+            {
+                "variableName": "setup_event_start",
+                "isAbout": "items/setup_event_start",
+                "isVis": true
+            },
+            {
+                "variableName": "setup_event_end",
+                "isAbout": "items/setup_event_end",
+                "isVis": true
+            }
+        ],
+        "shuffle": false
+    }
+}

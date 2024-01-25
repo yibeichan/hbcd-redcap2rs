@@ -1,0 +1,75 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "sed_bm_nbhsaf_schema",
+    "prefLabel": "sed_bm_nbhsaf",
+    "description": "Default description",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "order": [
+            "items/sed_bm_nbhsaf_lang",
+            "items/sed_bm_nbhsaf_dtt",
+            "items/sed_bm_nbhsaf_timestamp_start",
+            "items/sed_bm_nbhsaf_location",
+            "items/sed_bm_nbhsaf_001",
+            "items/sed_bm_nbhsaf_002",
+            "items/sed_bm_nbhsaf_003"
+        ],
+        "addProperties": [
+            {
+                "variableName": "sed_bm_nbhsaf_lang",
+                "isAbout": "items/sed_bm_nbhsaf_lang",
+                "isVis": true
+            },
+            {
+                "variableName": "sed_bm_nbhsaf_dtt",
+                "isAbout": "items/sed_bm_nbhsaf_dtt",
+                "isVis": true
+            },
+            {
+                "variableName": "sed_bm_nbhsaf_timestamp_start",
+                "isAbout": "items/sed_bm_nbhsaf_timestamp_start",
+                "isVis": true
+            },
+            {
+                "variableName": "sed_bm_nbhsaf_location",
+                "isAbout": "items/sed_bm_nbhsaf_location",
+                "isVis": true
+            },
+            {
+                "variableName": "sed_bm_nbhsaf_001",
+                "isAbout": "items/sed_bm_nbhsaf_001",
+                "isVis": true
+            },
+            {
+                "variableName": "sed_bm_nbhsaf_002",
+                "isAbout": "items/sed_bm_nbhsaf_002",
+                "isVis": true
+            },
+            {
+                "variableName": "sed_bm_nbhsaf_003",
+                "isAbout": "items/sed_bm_nbhsaf_003",
+                "isVis": true
+            }
+        ],
+        "shuffle": false
+    },
+    "matrixInfo": [
+        {
+            "variableName": "sed_bm_nbhsaf_001",
+            "matrixGroupName": "seb_bm_nbhsaf_m01",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "sed_bm_nbhsaf_002",
+            "matrixGroupName": "seb_bm_nbhsaf_m01",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "sed_bm_nbhsaf_003",
+            "matrixGroupName": "seb_bm_nbhsaf_m01",
+            "matrixRanking": ""
+        }
+    ]
+}

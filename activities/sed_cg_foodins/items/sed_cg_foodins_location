@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_cg_foodins_location",
+    "prefLabel": "sed_cg_foodins_location",
+    "description": "sed_cg_foodins_location of sed_cg_foodins",
+    "ui": {
+        "inputType": "select"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Remote ",
+                "value": 1
+            },
+            {
+                "name": "On-site",
+                "value": 2
+            }
+        ]
+    },
+    "question": {
+        "en": "Remote or on-site?"
+    }
+}

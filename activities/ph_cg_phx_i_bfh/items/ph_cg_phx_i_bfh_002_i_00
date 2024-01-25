@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ph_cg_phx_i_bfh_002_i_00",
+    "prefLabel": "ph_cg_phx_i_bfh_002_i_00",
+    "description": "ph_cg_phx_i_bfh_002_i_00 of ph_cg_phx_i_bfh",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "How old was the baby when they were first fed something other than breastmilk or water? (Include formula, juice, and solid foods)Age in days: {ph_cg_phx_i_bfh_002_i_01}{ph_cg_phx_i_bfh_002_i_dk}"
+    },
+    "visibility": [
+        {
+            "variableName": "ph_cg_phx_i_bfh_002_i_00",
+            "isVis": " v02_arm_1  ph_cg_phx_i_bfh_002   == '1' AND  event-name   == 'v02_arm_1'"
+        }
+    ]
+}

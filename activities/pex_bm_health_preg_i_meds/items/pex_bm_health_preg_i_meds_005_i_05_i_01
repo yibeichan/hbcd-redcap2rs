@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_health_preg_i_meds_005_i_05_i_01",
+    "prefLabel": "pex_bm_health_preg_i_meds_005_i_05_i_01",
+    "description": "pex_bm_health_preg_i_meds_005_i_05_i_01 of pex_bm_health_preg_i_meds",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "What day did you stop taking [pex_bm_health_preg_i_meds_005_i_01]?"
+    },
+    "visibility": [
+        {
+            "variableName": "pex_bm_health_preg_i_meds_005_i_05_i_01",
+            "isVis": "  pex_bm_health_preg_i_meds_005_i_05_i_01_dk   ==''"
+        }
+    ]
+}

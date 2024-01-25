@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_health_preg_i_illness_012_i_12_i_00",
+    "prefLabel": "pex_bm_health_preg_i_illness_012_i_12_i_00",
+    "description": "pex_bm_health_preg_i_illness_012_i_12_i_00 of pex_bm_health_preg_i_illness",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "What was the highest temperature of the fever? {pex_bm_health_preg_i_illness_012_i_12} {pex_bm_health_preg_i_illness_012_i_12_i_dk}"
+    },
+    "visibility": [
+        {
+            "variableName": "pex_bm_health_preg_i_illness_012_i_12_i_00",
+            "isVis": "  pex_bm_health_preg_i_illness_012_i_11   =='1'"
+        }
+    ]
+}

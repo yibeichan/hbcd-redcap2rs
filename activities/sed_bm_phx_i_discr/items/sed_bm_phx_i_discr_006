@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_bm_phx_i_discr_006",
+    "prefLabel": "sed_bm_phx_i_discr_006",
+    "description": "sed_bm_phx_i_discr_006 of sed_bm_phx_i_discr",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "What do you think is the main reason for these experiences? If more than one main reason, check all that apply."
+    },
+    "visibility": [
+        {
+            "variableName": "sed_bm_phx_i_discr_006",
+            "isVis": " sed_bm_phx_i_discr_001   == '1' ||  sed_bm_phx_i_discr_001   == '2' ||  sed_bm_phx_i_discr_001   == '3' ||  sed_bm_phx_i_discr_001   == '4' ||  sed_bm_phx_i_discr_002   == '1' ||  sed_bm_phx_i_discr_002   == '2' ||  sed_bm_phx_i_discr_002   == '3' ||  sed_bm_phx_i_discr_002   == '4' ||  sed_bm_phx_i_discr_003   == '1' ||  sed_bm_phx_i_discr_003   == '2' ||  sed_bm_phx_i_discr_003   == '3' ||  sed_bm_phx_i_discr_003   == '4' ||  sed_bm_phx_i_discr_004   == '1' ||  sed_bm_phx_i_discr_004   == '3' ||  sed_bm_phx_i_discr_004   == '2' ||  sed_bm_phx_i_discr_004   == '4' ||  sed_bm_phx_i_discr_005   == '1' ||  sed_bm_phx_i_discr_005   == '2' ||  sed_bm_phx_i_discr_005   == '3' ||  sed_bm_phx_i_discr_005   == '4' OR  sed_bm_phx_i_discr_007   == '1' OR  sed_bm_phx_i_discr_008   == '1'  OR  sed_bm_phx_i_discr_009   == '1' OR   sed_bm_phx_i_discr_010   == '1' OR  sed_bm_phx_i_discr_011   == '1' OR  sed_bm_phx_i_discr_012   == '1'"
+        }
+    ]
+}

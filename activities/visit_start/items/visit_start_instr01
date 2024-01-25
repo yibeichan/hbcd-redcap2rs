@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "visit_start_instr01",
+    "prefLabel": "visit_start_instr01",
+    "description": "visit_start_instr01 of visit_start",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "If you have started the on-site visit for this participant, click 'Submit'"
+    }
+}

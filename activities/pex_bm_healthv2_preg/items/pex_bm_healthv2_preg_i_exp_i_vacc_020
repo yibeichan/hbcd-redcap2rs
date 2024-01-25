@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_healthv2_preg_i_exp_i_vacc_m02_9627",
+    "prefLabel": "pex_bm_healthv2_preg_i_exp_i_vacc_m02_9627",
+    "description": "pex_bm_healthv2_preg_i_exp_i_vacc_m02_9627 of pex_bm_healthv2_preg",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "Flu vaccine"
+    },
+    "visibility": [
+        {
+            "variableName": "pex_bm_healthv2_preg_i_exp_i_vacc_020",
+            "isVis": " pex_bm_healthv2_preg_i_exp_i_vacc_018___1   == '1'"
+        }
+    ]
+}

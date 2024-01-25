@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_epds_lang",
+    "prefLabel": "pex_bm_epds_lang",
+    "description": "pex_bm_epds_lang of pex_bm_epds",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "English ",
+                "value": "en"
+            },
+            {
+                "name": "Spanish",
+                "value": " es"
+            }
+        ]
+    },
+    "question": {
+        "en": "Language"
+    }
+}

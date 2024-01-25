@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_healthv2_preg_i_illness_024_i_03",
+    "prefLabel": "pex_bm_healthv2_preg_i_illness_024_i_03",
+    "description": "pex_bm_healthv2_preg_i_illness_024_i_03 of pex_bm_healthv2_preg",
+    "ui": {
+        "inputType": "sql"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "preamble": {
+        "en": ""
+    },
+    "question": {
+        "en": "Illness Label"
+    },
+    "visibility": [
+        {
+            "variableName": "pex_bm_healthv2_preg_i_illness_024_i_03",
+            "isVis": "  pex_bm_healthv2_preg_i_illness_014  >= 10"
+        }
+    ]
+}

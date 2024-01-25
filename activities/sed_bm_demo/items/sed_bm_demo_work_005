@@ -1,0 +1,56 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_bm_demo_work_005",
+    "prefLabel": "sed_bm_demo_work_005",
+    "description": "sed_bm_demo_work_005 of sed_bm_demo",
+    "ui": {
+        "inputType": "select"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": [
+            {
+                "name": "Less than 5 hours ",
+                "value": 1
+            },
+            {
+                "name": "5-10 hours ",
+                "value": 2
+            },
+            {
+                "name": "11-20 hours ",
+                "value": 3
+            },
+            {
+                "name": "21-30 hours ",
+                "value": 4
+            },
+            {
+                "name": "31-40 hours ",
+                "value": 5
+            },
+            {
+                "name": "More than 40 hours ",
+                "value": 6
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "How many hours did you work last week at all jobs or businesses?"
+    },
+    "visibility": [
+        {
+            "variableName": "sed_bm_demo_work_005",
+            "isVis": " sed_bm_demo_work_001   == '1'"
+        }
+    ]
+}

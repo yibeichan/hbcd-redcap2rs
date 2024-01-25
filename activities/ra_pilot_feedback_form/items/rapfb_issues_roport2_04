@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "rapfb_issues_roport2_04",
+    "prefLabel": "rapfb_issues_roport2_04",
+    "description": "rapfb_issues_roport2_04 of ra_pilot_feedback_form",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Issues with Child saliva"
+    },
+    "visibility": [
+        {
+            "variableName": "rapfb_issues_roport2_04",
+            "isVis": " rapfb_issues_roport2___4  ==1"
+        }
+    ]
+}

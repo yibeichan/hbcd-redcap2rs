@@ -1,0 +1,40 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_assistv3_3m_i_perform_m01_161",
+    "prefLabel": "pex_bm_assistv3_3m_i_perform_m01_161",
+    "description": "pex_bm_assistv3_3m_i_perform_m01_161 of pex_bm_assistv3",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Yes ",
+                "value": 1
+            },
+            {
+                "name": "No ",
+                "value": 0
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "Methadone"
+    },
+    "visibility": [
+        {
+            "variableName": "pex_bm_assistv3_3m_i_perform_008",
+            "isVis": "( pex_bm_assistv3_3m_i_use_008   == '1' OR  pex_bm_assistv3_3m_i_use_008   == '2' OR  pex_bm_assistv3_3m_i_use_008   == '3' OR  pex_bm_assistv3_3m_i_use_008   == '4')"
+        }
+    ]
+}

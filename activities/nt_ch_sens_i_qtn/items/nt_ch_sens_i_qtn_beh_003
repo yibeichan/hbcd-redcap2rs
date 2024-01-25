@@ -1,0 +1,62 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "nt_ch_sens_i_qtn_beh_003",
+    "prefLabel": "nt_ch_sens_i_qtn_beh_003",
+    "description": "nt_ch_sens_i_qtn_beh_003 of nt_ch_sens_i_qtn",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "More than 8 hours ",
+                "value": 1
+            },
+            {
+                "name": "7-8 hours ",
+                "value": 2
+            },
+            {
+                "name": "6-7 hours ",
+                "value": 3
+            },
+            {
+                "name": "5-6 hours ",
+                "value": 4
+            },
+            {
+                "name": "4-5 hours ",
+                "value": 5
+            },
+            {
+                "name": "3-4 hours ",
+                "value": 6
+            },
+            {
+                "name": "2-3 hours ",
+                "value": 7
+            },
+            {
+                "name": "1-2 hours ",
+                "value": 8
+            },
+            {
+                "name": "Less than 1 hour ",
+                "value": 9
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "How much time (in total) do you estimate your infant was in moving vehicle, moving stroller, or being carried around over the past 24 hours?"
+    }
+}

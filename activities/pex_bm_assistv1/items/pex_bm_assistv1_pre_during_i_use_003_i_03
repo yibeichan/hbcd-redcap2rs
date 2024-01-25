@@ -1,0 +1,40 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_assistv1_pre_during_i_use_003_m01_103",
+    "prefLabel": "pex_bm_assistv1_pre_during_i_use_003_m01_103",
+    "description": "pex_bm_assistv1_pre_during_i_use_003_m01_103 of pex_bm_assistv1",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Yes ",
+                "value": 1
+            },
+            {
+                "name": "No ",
+                "value": 0
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "Marijuana that you eat, such as pot cookies, gummy bears, brownies?"
+    },
+    "visibility": [
+        {
+            "variableName": "pex_bm_assistv1_pre_during_i_use_003_i_03",
+            "isVis": " pex_bm_assistv1_pre_i_use_003   == '1' OR  pex_bm_assistv1_during_i_use_003   == '1'"
+        }
+    ]
+}

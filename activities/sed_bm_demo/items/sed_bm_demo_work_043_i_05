@@ -1,0 +1,44 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_bm_demo_work_043_m01_782",
+    "prefLabel": "sed_bm_demo_work_043_m01_782",
+    "description": "sed_bm_demo_work_043_m01_782 of sed_bm_demo",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Never ",
+                "value": 1
+            },
+            {
+                "name": "Some days ",
+                "value": 2
+            },
+            {
+                "name": "Every day ",
+                "value": 3
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "Frequent bending or lifting"
+    },
+    "visibility": [
+        {
+            "variableName": "sed_bm_demo_work_043_i_05",
+            "isVis": " sed_bm_demo_work_i_env_005   == '1' "
+        }
+    ]
+}

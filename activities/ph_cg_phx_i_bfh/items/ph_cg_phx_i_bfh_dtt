@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ph_cg_phx_i_bfh_dtt",
+    "prefLabel": "ph_cg_phx_i_bfh_dtt",
+    "description": "ph_cg_phx_i_bfh_dtt of ph_cg_phx_i_bfh",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Start time"
+    }
+}

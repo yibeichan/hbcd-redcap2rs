@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "admin_alert_apa_2",
+    "prefLabel": "admin_alert_apa_2",
+    "description": "admin_alert_apa_2 of admin_alert",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Alert (APA)The participant has endorsed depressive symptoms over threshold."
+    },
+    "visibility": [
+        {
+            "variableName": "admin_alert_apa_2",
+            "isVis": " event-name  pex_bm_apa2_depr_flag01   == 1"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_health_preg_i_healthhx_i_preghx_004_i_post",
+    "prefLabel": "pex_bm_health_preg_i_healthhx_i_preghx_004_i_post",
+    "description": "pex_bm_health_preg_i_healthhx_i_preghx_004_i_post of pex_bm_health_preg_i_healthhx",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "No ",
+                "value": 0
+            },
+            {
+                "name": "Yes ",
+                "value": 1
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "Before this delivery, have you ever given birth via Cesarean delivery?"
+    },
+    "visibility": [
+        {
+            "variableName": "pex_bm_health_preg_i_healthhx_i_preghx_004_i_post",
+            "isVis": " pex_bm_health_preg_i_healthhx_i_preghx_001  >1 AND  recruitment_period   == '2'"
+        }
+    ]
+}

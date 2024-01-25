@@ -1,0 +1,45 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "admin_caregiver_002",
+    "prefLabel": "admin_caregiver_002",
+    "description": "admin_caregiver_002 of setup_l",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "CG Type A (Temporary alternative caregiver) ",
+                "value": 1
+            },
+            {
+                "name": "CG Type B (Change in primary caregiver (placement only) without change in legal custody (but BP unable to complete visit)) ",
+                "value": 2
+            },
+            {
+                "name": "CG Type C (Change in joint custody) ",
+                "value": 3
+            },
+            {
+                "name": "CG Type D (Child removed from BP and placed in foster care (change in placement)) ",
+                "value": 4
+            },
+            {
+                "name": "CG Type E (Change in legal custody and placement",
+                "value": 5,
+                "schema:image": "e.g. adoption).png"
+            }
+        ]
+    },
+    "question": {
+        "en": "New caregiver type"
+    },
+    "visibility": [
+        {
+            "variableName": "admin_caregiver_002",
+            "isVis": " admin_caregiver_001   == '1'"
+        }
+    ]
+}

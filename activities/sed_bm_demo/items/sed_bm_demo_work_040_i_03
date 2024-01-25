@@ -1,0 +1,84 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_bm_demo_work_040_i_03",
+    "prefLabel": "sed_bm_demo_work_040_i_03",
+    "description": "sed_bm_demo_work_040_i_03 of sed_bm_demo",
+    "ui": {
+        "inputType": "select"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "I am still working at this job ",
+                "value": 0
+            },
+            {
+                "name": "January ",
+                "value": 1
+            },
+            {
+                "name": "February ",
+                "value": 2
+            },
+            {
+                "name": "March ",
+                "value": 3
+            },
+            {
+                "name": "April ",
+                "value": 4
+            },
+            {
+                "name": "May ",
+                "value": 5
+            },
+            {
+                "name": "June ",
+                "value": 6
+            },
+            {
+                "name": "July ",
+                "value": 7
+            },
+            {
+                "name": "August ",
+                "value": 8
+            },
+            {
+                "name": "September ",
+                "value": 9
+            },
+            {
+                "name": "October ",
+                "value": 10
+            },
+            {
+                "name": "November ",
+                "value": 11
+            },
+            {
+                "name": "December ",
+                "value": 12
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "In what month did you end this job?"
+    },
+    "visibility": [
+        {
+            "variableName": "sed_bm_demo_work_040_i_03",
+            "isVis": " sed_bm_demo_work_i_env_005   == '1' "
+        }
+    ]
+}

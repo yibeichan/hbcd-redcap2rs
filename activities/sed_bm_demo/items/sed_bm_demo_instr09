@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_bm_demo_instr09",
+    "prefLabel": "sed_bm_demo_instr09",
+    "description": "sed_bm_demo_instr09 of sed_bm_demo",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "This set of questions is about your NEXT MOST RECENT JOB"
+    },
+    "visibility": [
+        {
+            "variableName": "sed_bm_demo_instr09",
+            "isVis": " sed_bm_demo_work_i_env_002   == '1' "
+        }
+    ]
+}

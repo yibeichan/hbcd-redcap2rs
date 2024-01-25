@@ -1,0 +1,40 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_assistv3_3m_i_problem_m01_496",
+    "prefLabel": "pex_bm_assistv3_3m_i_problem_m01_496",
+    "description": "pex_bm_assistv3_3m_i_problem_m01_496 of pex_bm_assistv3",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Yes ",
+                "value": 1
+            },
+            {
+                "name": "No ",
+                "value": 0
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "Nicotine or tobacco products (cigarettes, e-cigarettes, chewing tobacco, cigars, etc.)"
+    },
+    "visibility": [
+        {
+            "variableName": "pex_bm_assistv3_3m_i_problem_001",
+            "isVis": "( pex_bm_assistv3_3m_i_use_001   == '1' OR  pex_bm_assistv3_3m_i_use_001   == '2' OR  pex_bm_assistv3_3m_i_use_001   == '3' OR  pex_bm_assistv3_3m_i_use_001   == '4')"
+        }
+    ]
+}

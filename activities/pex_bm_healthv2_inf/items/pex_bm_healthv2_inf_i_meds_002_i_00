@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_healthv2_inf_i_meds_002_i_00",
+    "prefLabel": "pex_bm_healthv2_inf_i_meds_002_i_00",
+    "description": "pex_bm_healthv2_inf_i_meds_002_i_00 of pex_bm_healthv2_inf",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "How many medications was your infant prescribed?\n{pex_bm_healthv2_inf_i_meds_002}   {pex_bm_healthv2_inf_i_meds_002_i_dk}"
+    },
+    "visibility": [
+        {
+            "variableName": "pex_bm_healthv2_inf_i_meds_002_i_00",
+            "isVis": " pex_bm_healthv2_inf_i_meds_001   == '1'"
+        }
+    ]
+}

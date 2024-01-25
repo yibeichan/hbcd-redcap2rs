@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_bm_demo_herit_002_i_06",
+    "prefLabel": "sed_bm_demo_herit_002_i_06",
+    "description": "sed_bm_demo_herit_002_i_06 of sed_bm_demo",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "Native Hawaiian or other Pacific Islander"
+    },
+    "visibility": [
+        {
+            "variableName": "sed_bm_demo_herit_002_i_06",
+            "isVis": " sed_bm_demo_herit_002___5   == '1'"
+        }
+    ]
+}

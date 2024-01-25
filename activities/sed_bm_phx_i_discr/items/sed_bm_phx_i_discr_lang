@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_bm_phx_i_discr_lang",
+    "prefLabel": "sed_bm_phx_i_discr_lang",
+    "description": "sed_bm_phx_i_discr_lang of sed_bm_phx_i_discr",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "English ",
+                "value": "en"
+            },
+            {
+                "name": "Spanish",
+                "value": " es"
+            }
+        ]
+    },
+    "question": {
+        "en": "Language"
+    }
+}

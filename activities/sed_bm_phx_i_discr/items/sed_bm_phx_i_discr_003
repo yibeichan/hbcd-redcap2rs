@@ -1,0 +1,50 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_bm_phx_i_discr_m01_48",
+    "prefLabel": "sed_bm_phx_i_discr_m01_48",
+    "description": "sed_bm_phx_i_discr_m01_48 of sed_bm_phx_i_discr",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Almost everyday ",
+                "value": 1
+            },
+            {
+                "name": "At least once a week ",
+                "value": 2
+            },
+            {
+                "name": "A few times a month ",
+                "value": 3
+            },
+            {
+                "name": "A few times a year ",
+                "value": 4
+            },
+            {
+                "name": "Less than once a year ",
+                "value": 5
+            },
+            {
+                "name": "Never ",
+                "value": 6
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "People act as if they think you are not smart."
+    }
+}

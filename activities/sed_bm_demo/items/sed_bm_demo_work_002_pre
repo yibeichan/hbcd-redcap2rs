@@ -1,0 +1,40 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_bm_demo_work_002_pre",
+    "prefLabel": "sed_bm_demo_work_002_pre",
+    "description": "sed_bm_demo_work_002_pre of sed_bm_demo",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Yes ",
+                "value": 1
+            },
+            {
+                "name": "No ",
+                "value": 0
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "Have you worked for pay at any time during the current pregnancy?"
+    },
+    "visibility": [
+        {
+            "variableName": "sed_bm_demo_work_002_pre",
+            "isVis": " screening_arm_1  recruitment_period   == '1' AND  event-name  admin_caregiver_001  ! == '1'"
+        }
+    ]
+}

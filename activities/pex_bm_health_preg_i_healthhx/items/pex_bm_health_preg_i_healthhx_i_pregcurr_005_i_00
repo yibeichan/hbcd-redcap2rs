@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_health_preg_i_healthhx_i_pregcurr_005_i_00",
+    "prefLabel": "pex_bm_health_preg_i_healthhx_i_pregcurr_005_i_00",
+    "description": "pex_bm_health_preg_i_healthhx_i_pregcurr_005_i_00 of pex_bm_health_preg_i_healthhx",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "What is your current weight in pounds? {pex_bm_health_preg_i_healthhx_i_pregcurr_005} {pex_bm_health_preg_i_healthhx_i_pregcurr_005_i_dk}"
+    }
+}

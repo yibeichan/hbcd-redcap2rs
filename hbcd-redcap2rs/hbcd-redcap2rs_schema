@@ -1,0 +1,278 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Protocol",
+    "@id": "hbcd-redcap2rs_schema",
+    "skos:prefLabel": "HBCD Protocol",
+    "skos:altLabel": "hbcd-redcap2rs_schema",
+    "schema:description": "HBCD Protocol converted from REDCap to ReproSchema",
+    "schema:schemaVersion": "1.0.0-rc4",
+    "schema:version": "0.0.1",
+    "ui": {
+        "addProperties": [
+            {
+                "isAbout": "../activities/setup/setup_schema",
+                "variableName": "setup_schema",
+                "prefLabel": "Setup"
+            },
+            {
+                "isAbout": "../activities/setup_l/setup_l_schema",
+                "variableName": "setup_l_schema",
+                "prefLabel": "Setup L"
+            },
+            {
+                "isAbout": "../activities/visit_start/visit_start_schema",
+                "variableName": "visit_start_schema",
+                "prefLabel": "Visit Start"
+            },
+            {
+                "isAbout": "../activities/sed_bm_demo/sed_bm_demo_schema",
+                "variableName": "sed_bm_demo_schema",
+                "prefLabel": "Sed Bm Demo"
+            },
+            {
+                "isAbout": "../activities/remote_survey_introduction/remote_survey_introduction_schema",
+                "variableName": "remote_survey_introduction_schema",
+                "prefLabel": "Remote Survey Introduction"
+            },
+            {
+                "isAbout": "../activities/pex_bm_apa/pex_bm_apa_schema",
+                "variableName": "pex_bm_apa_schema",
+                "prefLabel": "Pex Bm Apa"
+            },
+            {
+                "isAbout": "../activities/pex_bm_str_i_ptsd/pex_bm_str_i_ptsd_schema",
+                "variableName": "pex_bm_str_i_ptsd_schema",
+                "prefLabel": "Pex Bm Str I Ptsd"
+            },
+            {
+                "isAbout": "../activities/sed_bm_strsup/sed_bm_strsup_schema",
+                "variableName": "sed_bm_strsup_schema",
+                "prefLabel": "Sed Bm Strsup"
+            },
+            {
+                "isAbout": "../activities/pex_bm_epds/pex_bm_epds_schema",
+                "variableName": "pex_bm_epds_schema",
+                "prefLabel": "Pex Bm Epds"
+            },
+            {
+                "isAbout": "../activities/ph_cg_phx_i_bfh/ph_cg_phx_i_bfh_schema",
+                "variableName": "ph_cg_phx_i_bfh_schema",
+                "prefLabel": "Ph Cg Phx I Bfh"
+            },
+            {
+                "isAbout": "../activities/sed_cg_foodins/sed_cg_foodins_schema",
+                "variableName": "sed_cg_foodins_schema",
+                "prefLabel": "Sed Cg Foodins"
+            },
+            {
+                "isAbout": "../activities/mh_cg_pms_i_cc_i_inf/mh_cg_pms_i_cc_i_inf_schema",
+                "variableName": "mh_cg_pms_i_cc_i_inf_schema",
+                "prefLabel": "Mh Cg Pms I Cc I Inf"
+            },
+            {
+                "isAbout": "../activities/ncl_cg_spm2_i_inf/ncl_cg_spm2_i_inf_schema",
+                "variableName": "ncl_cg_spm2_i_inf_schema",
+                "prefLabel": "Ncl Cg Spm2 I Inf"
+            },
+            {
+                "isAbout": "../activities/mh_cg_ibqr/mh_cg_ibqr_schema",
+                "variableName": "mh_cg_ibqr_schema",
+                "prefLabel": "Mh Cg Ibqr"
+            },
+            {
+                "isAbout": "../activities/mh_cg_mapdb_i_inf/mh_cg_mapdb_i_inf_schema",
+                "variableName": "mh_cg_mapdb_i_inf_schema",
+                "prefLabel": "Mh Cg Mapdb I Inf"
+            },
+            {
+                "isAbout": "../activities/pex_bm_assistv3/pex_bm_assistv3_schema",
+                "variableName": "pex_bm_assistv3_schema",
+                "prefLabel": "Pex Bm Assistv3"
+            },
+            {
+                "isAbout": "../activities/remote_survey_completion/remote_survey_completion_schema",
+                "variableName": "remote_survey_completion_schema",
+                "prefLabel": "Remote Survey Completion"
+            },
+            {
+                "isAbout": "../activities/sed_bm_nbhsaf/sed_bm_nbhsaf_schema",
+                "variableName": "sed_bm_nbhsaf_schema",
+                "prefLabel": "Sed Bm Nbhsaf"
+            },
+            {
+                "isAbout": "../activities/pex_bm_paces/pex_bm_paces_schema",
+                "variableName": "pex_bm_paces_schema",
+                "prefLabel": "Pex Bm Paces"
+            },
+            {
+                "isAbout": "../activities/sed_bm_bfy/sed_bm_bfy_schema",
+                "variableName": "sed_bm_bfy_schema",
+                "prefLabel": "Sed Bm Bfy"
+            },
+            {
+                "isAbout": "../activities/pex_bm_health_preg_i_healthhx/pex_bm_health_preg_i_healthhx_schema",
+                "variableName": "pex_bm_health_preg_i_healthhx_schema",
+                "prefLabel": "Pex Bm Health Preg I Healthhx"
+            },
+            {
+                "isAbout": "../activities/pex_bm_health_preg_i_exp_i_vacc/pex_bm_health_preg_i_exp_i_vacc_schema",
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_schema",
+                "prefLabel": "Pex Bm Health Preg I Exp I Vacc"
+            },
+            {
+                "isAbout": "../activities/pex_bm_health_preg_i_illness/pex_bm_health_preg_i_illness_schema",
+                "variableName": "pex_bm_health_preg_i_illness_schema",
+                "prefLabel": "Pex Bm Health Preg I Illness"
+            },
+            {
+                "isAbout": "../activities/pex_bm_health_preg_i_erhosp/pex_bm_health_preg_i_erhosp_schema",
+                "variableName": "pex_bm_health_preg_i_erhosp_schema",
+                "prefLabel": "Pex Bm Health Preg I Erhosp"
+            },
+            {
+                "isAbout": "../activities/pex_bm_health_preg_i_chroncond/pex_bm_health_preg_i_chroncond_schema",
+                "variableName": "pex_bm_health_preg_i_chroncond_schema",
+                "prefLabel": "Pex Bm Health Preg I Chroncond"
+            },
+            {
+                "isAbout": "../activities/pex_bm_health_preg_i_meds/pex_bm_health_preg_i_meds_schema",
+                "variableName": "pex_bm_health_preg_i_meds_schema",
+                "prefLabel": "Pex Bm Health Preg I Meds"
+            },
+            {
+                "isAbout": "../activities/pex_bm_healthv2_preg/pex_bm_healthv2_preg_schema",
+                "variableName": "pex_bm_healthv2_preg_schema",
+                "prefLabel": "Pex Bm Healthv2 Preg"
+            },
+            {
+                "isAbout": "../activities/pex_bm_healthv2_inf/pex_bm_healthv2_inf_schema",
+                "variableName": "pex_bm_healthv2_inf_schema",
+                "prefLabel": "Pex Bm Healthv2 Inf"
+            },
+            {
+                "isAbout": "../activities/sed_bm_phx_i_discr/sed_bm_phx_i_discr_schema",
+                "variableName": "sed_bm_phx_i_discr_schema",
+                "prefLabel": "Sed Bm Phx I Discr"
+            },
+            {
+                "isAbout": "../activities/sed_bm_ehits/sed_bm_ehits_schema",
+                "variableName": "sed_bm_ehits_schema",
+                "prefLabel": "Sed Bm Ehits"
+            },
+            {
+                "isAbout": "../activities/pex_bm_assistv1/pex_bm_assistv1_schema",
+                "variableName": "pex_bm_assistv1_schema",
+                "prefLabel": "Pex Bm Assistv1"
+            },
+            {
+                "isAbout": "../activities/pex_bm_assistv2/pex_bm_assistv2_schema",
+                "variableName": "pex_bm_assistv2_schema",
+                "prefLabel": "Pex Bm Assistv2"
+            },
+            {
+                "isAbout": "../activities/nt_ch_sens_i_qtn/nt_ch_sens_i_qtn_schema",
+                "variableName": "nt_ch_sens_i_qtn_schema",
+                "prefLabel": "Nt Ch Sens I Qtn"
+            },
+            {
+                "isAbout": "../activities/pex_bm_psych/pex_bm_psych_schema",
+                "variableName": "pex_bm_psych_schema",
+                "prefLabel": "Pex Bm Psych"
+            },
+            {
+                "isAbout": "../activities/admin_part_fb/admin_part_fb_schema",
+                "variableName": "admin_part_fb_schema",
+                "prefLabel": "Admin Part Fb"
+            },
+            {
+                "isAbout": "../activities/admin_alert/admin_alert_schema",
+                "variableName": "admin_alert_schema",
+                "prefLabel": "Admin Alert"
+            },
+            {
+                "isAbout": "../activities/ra_pilot_feedback_form/ra_pilot_feedback_form_schema",
+                "variableName": "ra_pilot_feedback_form_schema",
+                "prefLabel": "Ra Pilot Feedback Form"
+            }
+        ],
+        "order": [
+            "setup",
+            "setup_l",
+            "visit_start",
+            "sed_bm_demo",
+            "remote_survey_introduction",
+            "pex_bm_apa",
+            "pex_bm_str_i_ptsd",
+            "sed_bm_strsup",
+            "pex_bm_epds",
+            "ph_cg_phx_i_bfh",
+            "sed_cg_foodins",
+            "mh_cg_pms_i_cc_i_inf",
+            "ncl_cg_spm2_i_inf",
+            "mh_cg_ibqr",
+            "mh_cg_mapdb_i_inf",
+            "pex_bm_assistv3",
+            "remote_survey_completion",
+            "sed_bm_nbhsaf",
+            "pex_bm_paces",
+            "sed_bm_bfy",
+            "pex_bm_health_preg_i_healthhx",
+            "pex_bm_health_preg_i_exp_i_vacc",
+            "pex_bm_health_preg_i_illness",
+            "pex_bm_health_preg_i_erhosp",
+            "pex_bm_health_preg_i_chroncond",
+            "pex_bm_health_preg_i_meds",
+            "pex_bm_healthv2_preg",
+            "pex_bm_healthv2_inf",
+            "sed_bm_phx_i_discr",
+            "sed_bm_ehits",
+            "pex_bm_assistv1",
+            "pex_bm_assistv2",
+            "nt_ch_sens_i_qtn",
+            "pex_bm_psych",
+            "admin_part_fb",
+            "admin_alert",
+            "ra_pilot_feedback_form"
+        ],
+        "shuffle": false,
+        "visibility": {
+            "setup": true,
+            "setup_l": true,
+            "visit_start": true,
+            "sed_bm_demo": true,
+            "remote_survey_introduction": true,
+            "pex_bm_apa": true,
+            "pex_bm_str_i_ptsd": true,
+            "sed_bm_strsup": true,
+            "pex_bm_epds": true,
+            "ph_cg_phx_i_bfh": true,
+            "sed_cg_foodins": true,
+            "mh_cg_pms_i_cc_i_inf": true,
+            "ncl_cg_spm2_i_inf": true,
+            "mh_cg_ibqr": true,
+            "mh_cg_mapdb_i_inf": true,
+            "pex_bm_assistv3": true,
+            "remote_survey_completion": true,
+            "sed_bm_nbhsaf": true,
+            "pex_bm_paces": true,
+            "sed_bm_bfy": true,
+            "pex_bm_health_preg_i_healthhx": true,
+            "pex_bm_health_preg_i_exp_i_vacc": true,
+            "pex_bm_health_preg_i_illness": true,
+            "pex_bm_health_preg_i_erhosp": true,
+            "pex_bm_health_preg_i_chroncond": true,
+            "pex_bm_health_preg_i_meds": true,
+            "pex_bm_healthv2_preg": true,
+            "pex_bm_healthv2_inf": true,
+            "sed_bm_phx_i_discr": true,
+            "sed_bm_ehits": true,
+            "pex_bm_assistv1": true,
+            "pex_bm_assistv2": true,
+            "nt_ch_sens_i_qtn": true,
+            "pex_bm_psych": true,
+            "admin_part_fb": true,
+            "admin_alert": true,
+            "ra_pilot_feedback_form": true
+        }
+    }
+}

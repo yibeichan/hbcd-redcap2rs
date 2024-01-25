@@ -1,0 +1,52 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_apa2_mania_004",
+    "prefLabel": "pex_bm_apa2_mania_004",
+    "description": "pex_bm_apa2_mania_004 of pex_bm_apa",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "I do not talk more than usual ",
+                "value": 1
+            },
+            {
+                "name": "I occasionally talk more than usual ",
+                "value": 2
+            },
+            {
+                "name": "I often talk more than usual ",
+                "value": 3
+            },
+            {
+                "name": "I frequently talk more than usual ",
+                "value": 4
+            },
+            {
+                "name": "I talk constantly and cannot be interrupted ",
+                "value": 5
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "Question 4"
+    },
+    "visibility": [
+        {
+            "variableName": "pex_bm_apa2_mania_004",
+            "isVis": " pex_bm_apa1_mania_001  >= '2' OR  pex_bm_apa1_mania_002  >= '2'"
+        }
+    ]
+}

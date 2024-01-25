@@ -1,0 +1,32 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_health_preg_i_meds_007_i_05_i_01_dk",
+    "prefLabel": "pex_bm_health_preg_i_meds_007_i_05_i_01_dk",
+    "description": "pex_bm_health_preg_i_meds_007_i_05_i_01_dk of pex_bm_health_preg_i_meds",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "med stop date dk/decline"
+    },
+    "visibility": [
+        {
+            "variableName": "pex_bm_health_preg_i_meds_007_i_05_i_01_dk",
+            "isVis": " pex_bm_health_preg_i_meds_007_i_05   == '1' AND  pex_bm_health_preg_i_meds_007_i_05_i_01_dk   ==''"
+        }
+    ]
+}

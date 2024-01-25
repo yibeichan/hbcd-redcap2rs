@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "rapfb_issues_roport2_08",
+    "prefLabel": "rapfb_issues_roport2_08",
+    "description": "rapfb_issues_roport2_08 of ra_pilot_feedback_form",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Issues with Edinburgh Postnatal Depression Scale"
+    },
+    "visibility": [
+        {
+            "variableName": "rapfb_issues_roport2_08",
+            "isVis": " rapfb_issues_roport2___8  ==1"
+        }
+    ]
+}

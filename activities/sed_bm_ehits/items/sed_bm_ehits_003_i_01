@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_bm_ehits_003_i_01",
+    "prefLabel": "sed_bm_ehits_003_i_01",
+    "description": "sed_bm_ehits_003_i_01 of sed_bm_ehits",
+    "ui": {
+        "inputType": "number",
+        "hidden": true
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Value of \"threatened\""
+    },
+    "scoringLogic": [
+        {
+            "variableName": "sed_bm_ehits_003_i_01",
+            "jsExpression": "if(( sed_bm_ehits_003   == '777' OR  sed_bm_ehits_003   == '999'), '',  sed_bm_ehits_003 )"
+        }
+    ]
+}

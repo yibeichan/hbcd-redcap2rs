@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_bm_demo_location",
+    "prefLabel": "sed_bm_demo_location",
+    "description": "sed_bm_demo_location of sed_bm_demo",
+    "ui": {
+        "inputType": "select"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Remote ",
+                "value": 1
+            },
+            {
+                "name": "On-site",
+                "value": 2
+            }
+        ]
+    },
+    "question": {
+        "en": "Remote or on-site?"
+    }
+}

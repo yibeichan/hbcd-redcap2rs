@@ -1,0 +1,38 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "admin_part_fb_002",
+    "prefLabel": "admin_part_fb_002",
+    "description": "admin_part_fb_002 of admin_part_fb",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Strongly Agree ",
+                "value": 1
+            },
+            {
+                "name": "Agree ",
+                "value": 2
+            },
+            {
+                "name": "Neutral (neither agree nor disagree) ",
+                "value": 3
+            },
+            {
+                "name": "Disagree ",
+                "value": 4
+            },
+            {
+                "name": "Strongly Disagree",
+                "value": 5
+            }
+        ]
+    },
+    "question": {
+        "en": "The purpose of the study was explained to me clearly and completely"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_004_i_00",
+    "prefLabel": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_004_i_00",
+    "description": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_004_i_00 of pex_bm_health_preg_i_healthhx",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Age of egg donor {pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_004} {pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_004_dk}"
+    },
+    "visibility": [
+        {
+            "variableName": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_004_i_00",
+            "isVis": " pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_003___6   == '1' OR  pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_003___8   == '1'"
+        }
+    ]
+}

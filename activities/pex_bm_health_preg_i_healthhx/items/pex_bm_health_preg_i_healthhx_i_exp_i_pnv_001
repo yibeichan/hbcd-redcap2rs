@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_001",
+    "prefLabel": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_001",
+    "description": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_001 of pex_bm_health_preg_i_healthhx",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "preamble": {
+        "en": "Pregnancy Exposures\n\nPrenatal Vitamins, Multivitamins, Folic Acid and Herbal Supplements"
+    },
+    "question": {
+        "en": "Trimester 1 (start)"
+    }
+}

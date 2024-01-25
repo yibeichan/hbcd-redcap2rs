@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "admin_alert_ehits",
+    "prefLabel": "admin_alert_ehits",
+    "description": "admin_alert_ehits of admin_alert",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Alert (eHITS)The participant has endorsed being harmed by their partner."
+    },
+    "visibility": [
+        {
+            "variableName": "admin_alert_ehits",
+            "isVis": " event-name  sed_bm_ehits_flag01   == 1"
+        }
+    ]
+}

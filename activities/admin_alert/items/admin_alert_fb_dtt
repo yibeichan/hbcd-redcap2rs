@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "admin_alert_fb_dtt",
+    "prefLabel": "admin_alert_fb_dtt",
+    "description": "admin_alert_fb_dtt of admin_alert",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Start time"
+    }
+}

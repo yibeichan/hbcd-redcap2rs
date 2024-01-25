@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_healthv2_inf_i_meds_014_i_01",
+    "prefLabel": "pex_bm_healthv2_inf_i_meds_014_i_01",
+    "description": "pex_bm_healthv2_inf_i_meds_014_i_01 of pex_bm_healthv2_inf",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "For what indication was your infant prescribed this medication?"
+    },
+    "visibility": [
+        {
+            "variableName": "pex_bm_healthv2_inf_i_meds_014_i_01",
+            "isVis": " pex_bm_healthv2_inf_i_meds_014_i_01_dk   == ''"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_health_preg_i_illness_010_i_10",
+    "prefLabel": "pex_bm_health_preg_i_illness_010_i_10",
+    "description": "pex_bm_health_preg_i_illness_010_i_10 of pex_bm_health_preg_i_illness",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Stop date of [pex_bm_health_preg_i_illness_010_i_07]"
+    },
+    "visibility": [
+        {
+            "variableName": "pex_bm_health_preg_i_illness_010_i_10",
+            "isVis": " pex_bm_health_preg_i_illness_010_i_10_i_dk   == ''"
+        }
+    ]
+}

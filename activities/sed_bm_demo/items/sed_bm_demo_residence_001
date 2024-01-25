@@ -1,0 +1,53 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_bm_demo_residence_001",
+    "prefLabel": "sed_bm_demo_residence_001",
+    "description": "sed_bm_demo_residence_001 of sed_bm_demo",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Personal private residence ",
+                "value": 1
+            },
+            {
+                "name": "Residence of relative or friend ",
+                "value": 2
+            },
+            {
+                "name": "Treatment facility ",
+                "value": 3
+            },
+            {
+                "name": "Shelter ",
+                "value": 4
+            },
+            {
+                "name": "No primary residence ",
+                "value": 6
+            },
+            {
+                "name": "Other ",
+                "value": 5
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "preamble": {
+        "en": "Residence"
+    },
+    "question": {
+        "en": "How would you describe your primary residence? (Your primary residence is the place outside of work where you sleep or spend the most time)"
+    }
+}
