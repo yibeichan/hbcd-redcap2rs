@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "mh_cg_mapstl_i_tod_dtt",
+    "prefLabel": "mh_cg_mapstl_i_tod_dtt",
+    "description": "mh_cg_mapstl_i_tod_dtt of mh_cg_mapstl_i_tod",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Start time"
+    }
+}

@@ -1,0 +1,268 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ph_cg_ecls_i_medhist_016_i_01",
+    "prefLabel": "ph_cg_ecls_i_medhist_016_i_01",
+    "description": "ph_cg_ecls_i_medhist_016_i_01 of ph_cg_ecls_i_medhist",
+    "ui": {
+        "inputType": "select"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": [
+            {
+                "name": "0 months ",
+                "value": 0
+            },
+            {
+                "name": "1 month ",
+                "value": 1
+            },
+            {
+                "name": "2 months ",
+                "value": 2
+            },
+            {
+                "name": "3 months ",
+                "value": 3
+            },
+            {
+                "name": "4 months ",
+                "value": 4
+            },
+            {
+                "name": "5 months ",
+                "value": 5
+            },
+            {
+                "name": "6 months ",
+                "value": 6
+            },
+            {
+                "name": "7 months ",
+                "value": 7
+            },
+            {
+                "name": "8 months ",
+                "value": 8
+            },
+            {
+                "name": "9 months ",
+                "value": 9
+            },
+            {
+                "name": "10 months ",
+                "value": 10
+            },
+            {
+                "name": "11 months ",
+                "value": 11
+            },
+            {
+                "name": "12 months ",
+                "value": 12
+            },
+            {
+                "name": "13 months ",
+                "value": 13
+            },
+            {
+                "name": "14 months ",
+                "value": 14
+            },
+            {
+                "name": "15 months ",
+                "value": 15
+            },
+            {
+                "name": "16 months ",
+                "value": 16
+            },
+            {
+                "name": "17 months ",
+                "value": 17
+            },
+            {
+                "name": "18 months ",
+                "value": 18
+            },
+            {
+                "name": "19 months ",
+                "value": 19
+            },
+            {
+                "name": "20 months ",
+                "value": 20
+            },
+            {
+                "name": "21 months ",
+                "value": 21
+            },
+            {
+                "name": "22 months ",
+                "value": 22
+            },
+            {
+                "name": "23 months ",
+                "value": 23
+            },
+            {
+                "name": "24 months ",
+                "value": 24
+            },
+            {
+                "name": "2 years and 1 month ",
+                "value": 25
+            },
+            {
+                "name": "2 years and 2 months ",
+                "value": 26
+            },
+            {
+                "name": "2 years and 3 months ",
+                "value": 27
+            },
+            {
+                "name": "2 years and 4 months ",
+                "value": 28
+            },
+            {
+                "name": "2 years and 5 months ",
+                "value": 29
+            },
+            {
+                "name": "2 years and 6 months ",
+                "value": 30
+            },
+            {
+                "name": "2 years and 7 months ",
+                "value": 31
+            },
+            {
+                "name": "2 years and 8 months ",
+                "value": 32
+            },
+            {
+                "name": "2 years and 9 months ",
+                "value": 33
+            },
+            {
+                "name": "2 years and 10 months ",
+                "value": 34
+            },
+            {
+                "name": "2 years and 11 months ",
+                "value": 35
+            },
+            {
+                "name": "3 years ",
+                "value": 36
+            },
+            {
+                "name": "3 years and 1 month ",
+                "value": 37
+            },
+            {
+                "name": "3 years and 2 months ",
+                "value": 38
+            },
+            {
+                "name": "3 years and 3 months ",
+                "value": 39
+            },
+            {
+                "name": "3 years and 4 months ",
+                "value": 40
+            },
+            {
+                "name": "3 years and 5 months ",
+                "value": 41
+            },
+            {
+                "name": "3 years and 6 months ",
+                "value": 42
+            },
+            {
+                "name": "3 years and 7 months ",
+                "value": 43
+            },
+            {
+                "name": "3 years and 8 months ",
+                "value": 44
+            },
+            {
+                "name": "3 years and 9 months ",
+                "value": 45
+            },
+            {
+                "name": "3 years and 10 months ",
+                "value": 46
+            },
+            {
+                "name": "3 years and 11 months ",
+                "value": 47
+            },
+            {
+                "name": "4 years ",
+                "value": 48
+            },
+            {
+                "name": "4 years and 1 month ",
+                "value": 49
+            },
+            {
+                "name": "4 years and 2 months ",
+                "value": 50
+            },
+            {
+                "name": "4 years and 3 months ",
+                "value": 51
+            },
+            {
+                "name": "4 years and 4 months ",
+                "value": 52
+            },
+            {
+                "name": "4 years and 5 months ",
+                "value": 53
+            },
+            {
+                "name": "4 years and 6 months ",
+                "value": 54
+            },
+            {
+                "name": "4 years and 7 months ",
+                "value": 55
+            },
+            {
+                "name": "4 years and 8 months ",
+                "value": 56
+            },
+            {
+                "name": "4 years and 9 months ",
+                "value": 57
+            },
+            {
+                "name": "4 years and 10 months ",
+                "value": 58
+            },
+            {
+                "name": "4 years and 11 months ",
+                "value": 59
+            },
+            {
+                "name": "5 years +",
+                "value": 60
+            }
+        ]
+    },
+    "question": {
+        "en": "At what age did your child stop sucking on their thumb, fingers or pacifier?"
+    },
+    "visibility": [
+        {
+            "variableName": "ph_cg_ecls_i_medhist_016_i_01",
+            "isVis": " ph_cg_ecls_i_medhist_016   == '1'"
+        }
+    ]
+}

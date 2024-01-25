@@ -1,9 +1,9 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "ncl_cg_spm2_i_inf_plan_m01_54",
-    "prefLabel": "ncl_cg_spm2_i_inf_plan_m01_54",
-    "description": "ncl_cg_spm2_i_inf_plan_m01_54 of ncl_cg_spm2_i_inf",
+    "@id": "ncl_cg_spm2_i_inf_plan_m01_64",
+    "prefLabel": "ncl_cg_spm2_i_inf_plan_m01_64",
+    "description": "ncl_cg_spm2_i_inf_plan_m01_64 of ncl_cg_spm2_i_inf",
     "ui": {
         "inputType": "radio"
     },

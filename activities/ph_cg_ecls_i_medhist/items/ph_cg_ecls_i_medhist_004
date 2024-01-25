@@ -1,0 +1,50 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ph_cg_ecls_i_medhist_004",
+    "prefLabel": "ph_cg_ecls_i_medhist_004",
+    "description": "ph_cg_ecls_i_medhist_004 of ph_cg_ecls_i_medhist",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Yes",
+                "value": 1,
+                "schema:image": "on the schedule recommended by my pediatrician .png"
+            },
+            {
+                "name": "Yes",
+                "value": 2
+            },
+            {
+                "name": "No",
+                "value": 3,
+                "schema:image": "because we don't have access .png"
+            },
+            {
+                "name": "No",
+                "value": 4,
+                "schema:image": "because I don't believe in shots or vaccines .png"
+            },
+            {
+                "name": "No",
+                "value": 5,
+                "schema:image": "for another reason .png"
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "Have you taken your child to receive routine childhood immunizations (vaccines, shots)?"
+    }
+}

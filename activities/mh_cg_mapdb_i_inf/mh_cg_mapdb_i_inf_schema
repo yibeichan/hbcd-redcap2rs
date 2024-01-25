@@ -12,6 +12,7 @@
             "items/mh_cg_mapdb_i_inf_dtt",
             "items/mh_cg_mapdb_i_inf_timestamp_start",
             "items/mh_cg_mapdb_i_inf_location",
+            "items/mh_cg_mapdb_i_inf_instr001",
             "items/mh_cg_mapdb_i_inf_001",
             "items/mh_cg_mapdb_i_inf_002",
             "items/mh_cg_mapdb_i_inf_003",
@@ -49,6 +50,11 @@
             {
                 "variableName": "mh_cg_mapdb_i_inf_location",
                 "isAbout": "items/mh_cg_mapdb_i_inf_location",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_mapdb_i_inf_instr001",
+                "isAbout": "items/mh_cg_mapdb_i_inf_instr001",
                 "isVis": true
             },
             {

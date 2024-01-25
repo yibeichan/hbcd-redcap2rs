@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_cg_leadexp_dtt",
+    "prefLabel": "sed_cg_leadexp_dtt",
+    "description": "sed_cg_leadexp_dtt of sed_cg_leadexp",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Start time"
+    }
+}

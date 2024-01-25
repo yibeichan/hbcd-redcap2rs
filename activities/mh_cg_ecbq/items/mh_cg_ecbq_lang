@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "mh_cg_ecbq_lang",
+    "prefLabel": "mh_cg_ecbq_lang",
+    "description": "mh_cg_ecbq_lang of mh_cg_ecbq",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "English ",
+                "value": "en"
+            },
+            {
+                "name": "Spanish",
+                "value": " es"
+            }
+        ]
+    },
+    "question": {
+        "en": "Language"
+    }
+}

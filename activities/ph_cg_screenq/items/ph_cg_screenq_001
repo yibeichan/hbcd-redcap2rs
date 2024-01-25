@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ph_cg_screenq_001",
+    "prefLabel": "ph_cg_screenq_001",
+    "description": "ph_cg_screenq_001 of ph_cg_screenq",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "preamble": {
+        "en": "Please respond to each question or statement by marking one box per row."
+    },
+    "question": {
+        "en": "Does the child have any of these in their bedroom?"
+    }
+}

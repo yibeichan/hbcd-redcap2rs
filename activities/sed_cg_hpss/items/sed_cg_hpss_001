@@ -1,0 +1,57 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_cg_hpss_m01_154",
+    "prefLabel": "sed_cg_hpss_m01_154",
+    "description": "sed_cg_hpss_m01_154 of sed_cg_hpss",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "1 ",
+                "value": 1
+            },
+            {
+                "name": "2 ",
+                "value": 2
+            },
+            {
+                "name": "3 ",
+                "value": 3
+            },
+            {
+                "name": "4 ",
+                "value": 4
+            },
+            {
+                "name": "5 ",
+                "value": 5
+            },
+            {
+                "name": "6 ",
+                "value": 6
+            },
+            {
+                "name": "Not applicable ",
+                "value": 555
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "preamble": {
+        "en": "In this questionnaire, I will ask you a set of questions for me to understand types of stress you experienced during your last pregnancy. We would really like to know what you think. This information helps us better understand how your pregnancy needs are being met. \n\nPlease be as honest about your experience as you can with 1= \"Not a source of stress during pregnancy at all\" to 6 = \"Source of great stress during pregnancy.\""
+    },
+    "question": {
+        "en": "I had difficulty finding help with other children when I needed it during pregnancy."
+    }
+}

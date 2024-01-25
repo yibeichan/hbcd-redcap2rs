@@ -1,9 +1,9 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "sed_bm_demo_work_030_m01_1858",
-    "prefLabel": "sed_bm_demo_work_030_m01_1858",
-    "description": "sed_bm_demo_work_030_m01_1858 of sed_bm_demo",
+    "@id": "sed_bm_demo_work_030_m01_1868",
+    "prefLabel": "sed_bm_demo_work_030_m01_1868",
+    "description": "sed_bm_demo_work_030_m01_1868 of sed_bm_demo",
     "ui": {
         "inputType": "radio"
     },

@@ -1,0 +1,25 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_bm_demo_work_004_i_01_instr01",
+    "prefLabel": "sed_bm_demo_work_004_i_01_instr01",
+    "description": "sed_bm_demo_work_004_i_01_instr01 of sed_bm_demo",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "preamble": {
+        "en": "Work Environment"
+    },
+    "question": {
+        "en": "Now we are going to ask you about the job you held in your 3rd trimester for at least one month that involved at least 20 hours per week of work. If you held more than one job, answer the questions for the job that you worked at for the most time."
+    },
+    "visibility": [
+        {
+            "variableName": "sed_bm_demo_work_004_i_01_instr01",
+            "isVis": " v04_arm_1  admin_caregiver_002   == '6' AND ( sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2')"
+        }
+    ]
+}

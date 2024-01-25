@@ -1,0 +1,59 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ph_cg_ecls_i_medhist_009",
+    "prefLabel": "ph_cg_ecls_i_medhist_009",
+    "description": "ph_cg_ecls_i_medhist_009 of ph_cg_ecls_i_medhist",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "< 4 months ",
+                "value": 1
+            },
+            {
+                "name": "4-6 months ",
+                "value": 2
+            },
+            {
+                "name": "7-8 months ",
+                "value": 3
+            },
+            {
+                "name": "9-10 months ",
+                "value": 4
+            },
+            {
+                "name": "11-12 months",
+                "value": 5
+            },
+            {
+                "name": "> 12 months ",
+                "value": 6
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "preamble": {
+        "en": "Dental health\n\nSince we last discussed your child's dental health:"
+    },
+    "question": {
+        "en": "How old was your child when they got their first tooth?"
+    },
+    "visibility": [
+        {
+            "variableName": "ph_cg_ecls_i_medhist_009",
+            "isVis": " event-name   == 'v04_arm_1' OR ( event-name   == 'v06_arm_1' AND  v01_arm_1  ph_cg_ecls_i_medhist_010   == '0')"
+        }
+    ]
+}

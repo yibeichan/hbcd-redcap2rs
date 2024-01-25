@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ph_cg_ecls_i_medhist_018_i_table",
+    "prefLabel": "ph_cg_ecls_i_medhist_018_i_table",
+    "description": "ph_cg_ecls_i_medhist_018_i_table of ph_cg_ecls_i_medhist",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "How many over the counters medications?{ph_cg_ecls_i_medhist_018_i_01}{ph_cg_ecls_i_medhist_018_i_01_dk}"
+    },
+    "visibility": [
+        {
+            "variableName": "ph_cg_ecls_i_medhist_018_i_table",
+            "isVis": " ph_cg_ecls_i_medhist_018   == '1'"
+        }
+    ]
+}

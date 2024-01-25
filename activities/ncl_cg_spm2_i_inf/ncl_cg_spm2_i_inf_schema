@@ -99,7 +99,8 @@
             "items/ncl_cg_spm2_i_inf_plan_007",
             "items/ncl_cg_spm2_i_inf_plan_008",
             "items/ncl_cg_spm2_i_inf_plan_009",
-            "items/ncl_cg_spm2_i_inf_plan_010"
+            "items/ncl_cg_spm2_i_inf_plan_010",
+            "items/ncl_cg_spm2_i_inf_copyright"
         ],
         "addProperties": [
             {
@@ -560,6 +561,11 @@
             {
                 "variableName": "ncl_cg_spm2_i_inf_plan_010",
                 "isAbout": "items/ncl_cg_spm2_i_inf_plan_010",
+                "isVis": true
+            },
+            {
+                "variableName": "ncl_cg_spm2_i_inf_copyright",
+                "isAbout": "items/ncl_cg_spm2_i_inf_copyright",
                 "isVis": true
             }
         ],

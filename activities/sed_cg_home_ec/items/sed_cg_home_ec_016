@@ -1,0 +1,17 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_cg_home_ec_016",
+    "prefLabel": "sed_cg_home_ec_016",
+    "description": "sed_cg_home_ec_016 of sed_cg_home_ec",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "Most children get angry at their parents/caregivers from time to time. If your child got so angry that they hit you, what would you do? (check all that apply)"
+    }
+}

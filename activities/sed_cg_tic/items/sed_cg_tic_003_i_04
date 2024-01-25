@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_cg_tic_003_i_04",
+    "prefLabel": "sed_cg_tic_003_i_04",
+    "description": "sed_cg_tic_003_i_04 of sed_cg_tic",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "During that time period, what was the reason or reasons that you could not care for CHILD?"
+    },
+    "visibility": [
+        {
+            "variableName": "sed_cg_tic_003_i_04",
+            "isVis": " sed_cg_tic_003   == '1'"
+        }
+    ]
+}

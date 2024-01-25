@@ -1,0 +1,38 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_cg_paces_m02_2",
+    "prefLabel": "sed_cg_paces_m02_2",
+    "description": "sed_cg_paces_m02_2 of sed_cg_paces",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Not much ",
+                "value": 1
+            },
+            {
+                "name": "Some ",
+                "value": 2
+            },
+            {
+                "name": "A lot ",
+                "value": 3
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "Do you believe that these experiences have affected your physical health?"
+    }
+}

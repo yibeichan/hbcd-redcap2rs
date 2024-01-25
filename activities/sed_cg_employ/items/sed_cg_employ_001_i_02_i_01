@@ -1,0 +1,72 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_cg_employ_001_i_02_i_01",
+    "prefLabel": "sed_cg_employ_001_i_02_i_01",
+    "description": "sed_cg_employ_001_i_02_i_01 of sed_cg_employ",
+    "ui": {
+        "inputType": "select"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "1 ",
+                "value": 1
+            },
+            {
+                "name": "2 ",
+                "value": 2
+            },
+            {
+                "name": "3 ",
+                "value": 3
+            },
+            {
+                "name": "4 ",
+                "value": 4
+            },
+            {
+                "name": "5 ",
+                "value": 5
+            },
+            {
+                "name": "6 ",
+                "value": 6
+            },
+            {
+                "name": "7 ",
+                "value": 7
+            },
+            {
+                "name": "8 ",
+                "value": 8
+            },
+            {
+                "name": "9 ... ",
+                "value": 9
+            },
+            {
+                "name": "52 or more ",
+                "value": 52
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "How many weeks of leave, in total, did you take/ have you taken so far?"
+    },
+    "visibility": [
+        {
+            "variableName": "sed_cg_employ_001_i_02_i_01",
+            "isVis": " sed_cg_employ_001_i_02   == '1' OR  sed_cg_employ_001_i_02   == '2' OR  sed_cg_employ_001_i_02   == '3'"
+        }
+    ]
+}

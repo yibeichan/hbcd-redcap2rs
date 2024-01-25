@@ -1,0 +1,42 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_cg_home_it_009",
+    "prefLabel": "sed_cg_home_it_009",
+    "description": "sed_cg_home_it_009 of sed_cg_home_it",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Hardly ever ",
+                "value": 1
+            },
+            {
+                "name": "Once a month ",
+                "value": 2
+            },
+            {
+                "name": "Once a week ",
+                "value": 3
+            },
+            {
+                "name": "Twice a week or more ",
+                "value": 4
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "How often do you or another adult in your home take your child shopping (like going to the grocery store)?"
+    }
+}

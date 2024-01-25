@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_cg_home_it_lang",
+    "prefLabel": "sed_cg_home_it_lang",
+    "description": "sed_cg_home_it_lang of sed_cg_home_it",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "English ",
+                "value": "en"
+            },
+            {
+                "name": "Spanish",
+                "value": " es"
+            }
+        ]
+    },
+    "question": {
+        "en": "Language"
+    }
+}

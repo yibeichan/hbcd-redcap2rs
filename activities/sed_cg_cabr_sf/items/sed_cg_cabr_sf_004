@@ -1,0 +1,40 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_cg_cabr_sf_004",
+    "prefLabel": "sed_cg_cabr_sf_004",
+    "description": "sed_cg_cabr_sf_004 of sed_cg_cabr_sf",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Yes ",
+                "value": 1
+            },
+            {
+                "name": "No ",
+                "value": 0
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "My partner(s) tried to convince my family, children or friends that I am crazy or tried to turn them against me"
+    },
+    "visibility": [
+        {
+            "variableName": "sed_cg_cabr_sf_004",
+            "isVis": " sed_cg_cabr_sf_001   == '1'"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_cg_pedaces_010",
+    "prefLabel": "sed_cg_pedaces_010",
+    "description": "sed_cg_pedaces_010 of sed_cg_pedaces",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "10) Have there ever been significant changes in the relationship status of the child's caregiver(s)?(for example, a parent/caregiver got a divorce or separated, or a romantic partner moved in or out)"
+    }
+}

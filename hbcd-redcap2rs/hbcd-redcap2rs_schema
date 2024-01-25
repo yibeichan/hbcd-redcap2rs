@@ -30,6 +30,26 @@
                 "prefLabel": "Remote Survey Introduction"
             },
             {
+                "isAbout": "../activities/child_survey_introduction/child_survey_introduction_schema",
+                "variableName": "child_survey_introduction_schema",
+                "prefLabel": "Child Survey Introduction"
+            },
+            {
+                "isAbout": "../activities/parent_survey_introduction/parent_survey_introduction_schema",
+                "variableName": "parent_survey_introduction_schema",
+                "prefLabel": "Parent Survey Introduction"
+            },
+            {
+                "isAbout": "../activities/family_surveys_introduction/family_surveys_introduction_schema",
+                "variableName": "family_surveys_introduction_schema",
+                "prefLabel": "Family Surveys Introduction"
+            },
+            {
+                "isAbout": "../activities/sensitive_question_introduction/sensitive_question_introduction_schema",
+                "variableName": "sensitive_question_introduction_schema",
+                "prefLabel": "Sensitive Question Introduction"
+            },
+            {
                 "isAbout": "../activities/pex_bm_apa/pex_bm_apa_schema",
                 "variableName": "pex_bm_apa_schema",
                 "prefLabel": "Pex Bm Apa"
@@ -175,24 +195,179 @@
                 "prefLabel": "Pex Bm Psych"
             },
             {
-                "isAbout": "../activities/admin_part_fb/admin_part_fb_schema",
-                "variableName": "admin_part_fb_schema",
-                "prefLabel": "Admin Part Fb"
-            },
-            {
                 "isAbout": "../activities/admin_alert/admin_alert_schema",
                 "variableName": "admin_alert_schema",
                 "prefLabel": "Admin Alert"
             },
             {
-                "isAbout": "../activities/ra_pilot_feedback_form/ra_pilot_feedback_form_schema",
-                "variableName": "ra_pilot_feedback_form_schema",
-                "prefLabel": "Ra Pilot Feedback Form"
+                "isAbout": "../activities/mh_cg_pms_i_anx/mh_cg_pms_i_anx_schema",
+                "variableName": "mh_cg_pms_i_anx_schema",
+                "prefLabel": "Mh Cg Pms I Anx"
+            },
+            {
+                "isAbout": "../activities/mh_cg_pms_i_selfreg/mh_cg_pms_i_selfreg_schema",
+                "variableName": "mh_cg_pms_i_selfreg_schema",
+                "prefLabel": "Mh Cg Pms I Selfreg"
+            },
+            {
+                "isAbout": "../activities/mh_cg_pms_i_depr/mh_cg_pms_i_depr_schema",
+                "variableName": "mh_cg_pms_i_depr_schema",
+                "prefLabel": "Mh Cg Pms I Depr"
+            },
+            {
+                "isAbout": "../activities/mh_cg_pms_i_cc_i_1to5/mh_cg_pms_i_cc_i_1to5_schema",
+                "variableName": "mh_cg_pms_i_cc_i_1to5_schema",
+                "prefLabel": "Mh Cg Pms I Cc I 1To5"
+            },
+            {
+                "isAbout": "../activities/mh_cg_mapstl_i_tod/mh_cg_mapstl_i_tod_schema",
+                "variableName": "mh_cg_mapstl_i_tod_schema",
+                "prefLabel": "Mh Cg Mapstl I Tod"
+            },
+            {
+                "isAbout": "../activities/mh_cg_pms_i_peer/mh_cg_pms_i_peer_schema",
+                "variableName": "mh_cg_pms_i_peer_schema",
+                "prefLabel": "Mh Cg Pms I Peer"
+            },
+            {
+                "isAbout": "../activities/mh_cg_fad/mh_cg_fad_schema",
+                "variableName": "mh_cg_fad_schema",
+                "prefLabel": "Mh Cg Fad"
+            },
+            {
+                "isAbout": "../activities/mh_cg_chaos/mh_cg_chaos_schema",
+                "variableName": "mh_cg_chaos_schema",
+                "prefLabel": "Mh Cg Chaos"
+            },
+            {
+                "isAbout": "../activities/mh_cg_ecbq/mh_cg_ecbq_schema",
+                "variableName": "mh_cg_ecbq_schema",
+                "prefLabel": "Mh Cg Ecbq"
+            },
+            {
+                "isAbout": "../activities/sed_cg_cabr_sf/sed_cg_cabr_sf_schema",
+                "variableName": "sed_cg_cabr_sf_schema",
+                "prefLabel": "Sed Cg Cabr Sf"
+            },
+            {
+                "isAbout": "../activities/sed_cg_home_ec/sed_cg_home_ec_schema",
+                "variableName": "sed_cg_home_ec_schema",
+                "prefLabel": "Sed Cg Home Ec"
+            },
+            {
+                "isAbout": "../activities/sed_cg_home_it/sed_cg_home_it_schema",
+                "variableName": "sed_cg_home_it_schema",
+                "prefLabel": "Sed Cg Home It"
+            },
+            {
+                "isAbout": "../activities/sed_cg_hpss/sed_cg_hpss_schema",
+                "variableName": "sed_cg_hpss_schema",
+                "prefLabel": "Sed Cg Hpss"
+            },
+            {
+                "isAbout": "../activities/sed_cg_paces/sed_cg_paces_schema",
+                "variableName": "sed_cg_paces_schema",
+                "prefLabel": "Sed Cg Paces"
+            },
+            {
+                "isAbout": "../activities/sed_cg_via/sed_cg_via_schema",
+                "variableName": "sed_cg_via_schema",
+                "prefLabel": "Sed Cg Via"
+            },
+            {
+                "isAbout": "../activities/ph_cg_pms_i_sleep/ph_cg_pms_i_sleep_schema",
+                "variableName": "ph_cg_pms_i_sleep_schema",
+                "prefLabel": "Ph Cg Pms I Sleep"
+            },
+            {
+                "isAbout": "../activities/ph_cg_screenq/ph_cg_screenq_schema",
+                "variableName": "ph_cg_screenq_schema",
+                "prefLabel": "Ph Cg Screenq"
+            },
+            {
+                "isAbout": "../activities/sed_cg_shs/sed_cg_shs_schema",
+                "variableName": "sed_cg_shs_schema",
+                "prefLabel": "Sed Cg Shs"
+            },
+            {
+                "isAbout": "../activities/sed_cg_leadexp/sed_cg_leadexp_schema",
+                "variableName": "sed_cg_leadexp_schema",
+                "prefLabel": "Sed Cg Leadexp"
+            },
+            {
+                "isAbout": "../activities/ph_cg_cnq/ph_cg_cnq_schema",
+                "variableName": "ph_cg_cnq_schema",
+                "prefLabel": "Ph Cg Cnq"
+            },
+            {
+                "isAbout": "../activities/sed_cg_hce/sed_cg_hce_schema",
+                "variableName": "sed_cg_hce_schema",
+                "prefLabel": "Sed Cg Hce"
+            },
+            {
+                "isAbout": "../activities/ph_cg_pms_i_pags/ph_cg_pms_i_pags_schema",
+                "variableName": "ph_cg_pms_i_pags_schema",
+                "prefLabel": "Ph Cg Pms I Pags"
+            },
+            {
+                "isAbout": "../activities/sed_cg_nsc/sed_cg_nsc_schema",
+                "variableName": "sed_cg_nsc_schema",
+                "prefLabel": "Sed Cg Nsc"
+            },
+            {
+                "isAbout": "../activities/ph_cg_inq/ph_cg_inq_schema",
+                "variableName": "ph_cg_inq_schema",
+                "prefLabel": "Ph Cg Inq"
+            },
+            {
+                "isAbout": "../activities/sed_cg_tic/sed_cg_tic_schema",
+                "variableName": "sed_cg_tic_schema",
+                "prefLabel": "Sed Cg Tic"
+            },
+            {
+                "isAbout": "../activities/ncl_cg_spm2_i_tod/ncl_cg_spm2_i_tod_schema",
+                "variableName": "ncl_cg_spm2_i_tod_schema",
+                "prefLabel": "Ncl Cg Spm2 I Tod"
+            },
+            {
+                "isAbout": "../activities/sed_cg_ace/sed_cg_ace_schema",
+                "variableName": "sed_cg_ace_schema",
+                "prefLabel": "Sed Cg Ace"
+            },
+            {
+                "isAbout": "../activities/sed_cg_pedaces/sed_cg_pedaces_schema",
+                "variableName": "sed_cg_pedaces_schema",
+                "prefLabel": "Sed Cg Pedaces"
+            },
+            {
+                "isAbout": "../activities/ph_cg_bisq/ph_cg_bisq_schema",
+                "variableName": "ph_cg_bisq_schema",
+                "prefLabel": "Ph Cg Bisq"
+            },
+            {
+                "isAbout": "../activities/ph_cg_ecls_i_medhist/ph_cg_ecls_i_medhist_schema",
+                "variableName": "ph_cg_ecls_i_medhist_schema",
+                "prefLabel": "Ph Cg Ecls I Medhist"
+            },
+            {
+                "isAbout": "../activities/sed_cg_employ/sed_cg_employ_schema",
+                "variableName": "sed_cg_employ_schema",
+                "prefLabel": "Sed Cg Employ"
             },
             {
                 "isAbout": "../activities/sed_bm_demo/sed_bm_demo_schema",
                 "variableName": "sed_bm_demo_schema",
                 "prefLabel": "Sed Bm Demo"
+            },
+            {
+                "isAbout": "../activities/sed_bm_demo_child/sed_bm_demo_child_schema",
+                "variableName": "sed_bm_demo_child_schema",
+                "prefLabel": "Sed Bm Demo Child"
+            },
+            {
+                "isAbout": "../activities/admin_part_fb/admin_part_fb_schema",
+                "variableName": "admin_part_fb_schema",
+                "prefLabel": "Admin Part Fb"
             }
         ],
         "order": [
@@ -200,6 +375,10 @@
             "setup_l",
             "visit_start",
             "remote_survey_introduction",
+            "child_survey_introduction",
+            "parent_survey_introduction",
+            "family_surveys_introduction",
+            "sensitive_question_introduction",
             "pex_bm_apa",
             "pex_bm_str_i_ptsd",
             "sed_bm_strsup",
@@ -229,10 +408,41 @@
             "pex_bm_assistv2",
             "nt_ch_sens_i_qtn",
             "pex_bm_psych",
-            "admin_part_fb",
             "admin_alert",
-            "ra_pilot_feedback_form",
-            "sed_bm_demo"
+            "mh_cg_pms_i_anx",
+            "mh_cg_pms_i_selfreg",
+            "mh_cg_pms_i_depr",
+            "mh_cg_pms_i_cc_i_1to5",
+            "mh_cg_mapstl_i_tod",
+            "mh_cg_pms_i_peer",
+            "mh_cg_fad",
+            "mh_cg_chaos",
+            "mh_cg_ecbq",
+            "sed_cg_cabr_sf",
+            "sed_cg_home_ec",
+            "sed_cg_home_it",
+            "sed_cg_hpss",
+            "sed_cg_paces",
+            "sed_cg_via",
+            "ph_cg_pms_i_sleep",
+            "ph_cg_screenq",
+            "sed_cg_shs",
+            "sed_cg_leadexp",
+            "ph_cg_cnq",
+            "sed_cg_hce",
+            "ph_cg_pms_i_pags",
+            "sed_cg_nsc",
+            "ph_cg_inq",
+            "sed_cg_tic",
+            "ncl_cg_spm2_i_tod",
+            "sed_cg_ace",
+            "sed_cg_pedaces",
+            "ph_cg_bisq",
+            "ph_cg_ecls_i_medhist",
+            "sed_cg_employ",
+            "sed_bm_demo",
+            "sed_bm_demo_child",
+            "admin_part_fb"
         ],
         "shuffle": false,
         "visibility": {
@@ -240,6 +450,10 @@
             "setup_l": true,
             "visit_start": true,
             "remote_survey_introduction": true,
+            "child_survey_introduction": true,
+            "parent_survey_introduction": true,
+            "family_surveys_introduction": true,
+            "sensitive_question_introduction": true,
             "pex_bm_apa": true,
             "pex_bm_str_i_ptsd": true,
             "sed_bm_strsup": true,
@@ -269,10 +483,41 @@
             "pex_bm_assistv2": true,
             "nt_ch_sens_i_qtn": true,
             "pex_bm_psych": true,
-            "admin_part_fb": true,
             "admin_alert": true,
-            "ra_pilot_feedback_form": true,
-            "sed_bm_demo": true
+            "mh_cg_pms_i_anx": true,
+            "mh_cg_pms_i_selfreg": true,
+            "mh_cg_pms_i_depr": true,
+            "mh_cg_pms_i_cc_i_1to5": true,
+            "mh_cg_mapstl_i_tod": true,
+            "mh_cg_pms_i_peer": true,
+            "mh_cg_fad": true,
+            "mh_cg_chaos": true,
+            "mh_cg_ecbq": true,
+            "sed_cg_cabr_sf": true,
+            "sed_cg_home_ec": true,
+            "sed_cg_home_it": true,
+            "sed_cg_hpss": true,
+            "sed_cg_paces": true,
+            "sed_cg_via": true,
+            "ph_cg_pms_i_sleep": true,
+            "ph_cg_screenq": true,
+            "sed_cg_shs": true,
+            "sed_cg_leadexp": true,
+            "ph_cg_cnq": true,
+            "sed_cg_hce": true,
+            "ph_cg_pms_i_pags": true,
+            "sed_cg_nsc": true,
+            "ph_cg_inq": true,
+            "sed_cg_tic": true,
+            "ncl_cg_spm2_i_tod": true,
+            "sed_cg_ace": true,
+            "sed_cg_pedaces": true,
+            "ph_cg_bisq": true,
+            "ph_cg_ecls_i_medhist": true,
+            "sed_cg_employ": true,
+            "sed_bm_demo": true,
+            "sed_bm_demo_child": true,
+            "admin_part_fb": true
         }
     }
 }

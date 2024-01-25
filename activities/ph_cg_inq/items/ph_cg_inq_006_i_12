@@ -1,0 +1,52 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ph_cg_inq_006_i_12",
+    "prefLabel": "ph_cg_inq_006_i_12",
+    "description": "ph_cg_inq_006_i_12 of ph_cg_inq",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Not at all important ",
+                "value": 1
+            },
+            {
+                "name": "Not very important ",
+                "value": 2
+            },
+            {
+                "name": "Somewhat important ",
+                "value": 3
+            },
+            {
+                "name": "Very important ",
+                "value": 4
+            },
+            {
+                "name": "Not applicable ",
+                "value": 5
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "Friends or relatives said the child should begin eating solid foods"
+    },
+    "visibility": [
+        {
+            "variableName": "ph_cg_inq_006_i_12",
+            "isVis": " ph_cg_inq_006   == '2'"
+        }
+    ]
+}

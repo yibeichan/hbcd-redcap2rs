@@ -1,0 +1,38 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ph_cg_screenq_008",
+    "prefLabel": "ph_cg_screenq_008",
+    "description": "ph_cg_screenq_008 of ph_cg_screenq",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Often ",
+                "value": 1
+            },
+            {
+                "name": "Sometimes ",
+                "value": 2
+            },
+            {
+                "name": "Never ",
+                "value": 3
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "Does the child watch TV/videos at bedtime to help them fall asleep?"
+    }
+}

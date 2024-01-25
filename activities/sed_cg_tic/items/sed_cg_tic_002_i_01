@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_cg_tic_002_i_01",
+    "prefLabel": "sed_cg_tic_002_i_01",
+    "description": "sed_cg_tic_002_i_01 of sed_cg_tic",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "In what month and year did that period of time start?"
+    },
+    "visibility": [
+        {
+            "variableName": "sed_cg_tic_002_i_01",
+            "isVis": " sed_cg_tic_002   == '1'"
+        }
+    ]
+}

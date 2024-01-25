@@ -1,0 +1,72 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_cg_employ_009",
+    "prefLabel": "sed_cg_employ_009",
+    "description": "sed_cg_employ_009 of sed_cg_employ",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Day laborer",
+                "value": 1
+            },
+            {
+                "name": "Garbage collector",
+                "value": 2
+            },
+            {
+                "name": "Painter",
+                "value": 3
+            },
+            {
+                "name": "Automobile mechanic",
+                "value": 4
+            },
+            {
+                "name": "Machinist",
+                "value": 5
+            },
+            {
+                "name": "Supervisor",
+                "value": 6
+            },
+            {
+                "name": "Nurse",
+                "value": 7
+            },
+            {
+                "name": "Mechanical",
+                "value": 8
+            },
+            {
+                "name": "Physician",
+                "value": 9
+            },
+            {
+                "name": "Other ",
+                "value": 10
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "What best describes your current occupation? If you have more than one job, describe the job at which you worked the most hours in the past week."
+    },
+    "visibility": [
+        {
+            "variableName": "sed_cg_employ_009",
+            "isVis": "( sed_cg_employ_003   == '1' OR  sed_cg_employ_003   == '2' OR  sed_cg_employ_003   == '3' OR  sed_cg_employ_003   == '4' OR  sed_cg_employ_003   == '5' OR  sed_cg_employ_003   == '6' OR  sed_cg_employ_003   == '7') AND  sed_cg_employ_003  ! == 777 AND  sed_cg_employ_003  ! == '999'"
+        }
+    ]
+}

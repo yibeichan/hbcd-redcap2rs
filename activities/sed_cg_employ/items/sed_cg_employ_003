@@ -1,0 +1,72 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_cg_employ_003",
+    "prefLabel": "sed_cg_employ_003",
+    "description": "sed_cg_employ_003 of sed_cg_employ",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Employed for wages",
+                "value": 1,
+                "schema:image": "full time (30 hours per week or more) .png"
+            },
+            {
+                "name": "Employed for wages",
+                "value": 2,
+                "schema:image": "part time (29 hours per week or less) .png"
+            },
+            {
+                "name": "Self-employed or family business",
+                "value": 3,
+                "schema:image": "for wages .png"
+            },
+            {
+                "name": "Work without pay in a family business or farm ",
+                "value": 4
+            },
+            {
+                "name": " Active Duty in the United States Armed Forces (regular military",
+                "value": 5
+            },
+            {
+                "name": "On paid leave and expect to return (for example",
+                "value": 6
+            },
+            {
+                "name": " On unpaid leave and expect to return (for example",
+                "value": 7
+            },
+            {
+                "name": "Stay-at-home parent/caretaker",
+                "value": 8,
+                "schema:image": "not working for pay .png"
+            },
+            {
+                "name": "Unemployed or laid off",
+                "value": 9,
+                "schema:image": "looking for work .png"
+            },
+            {
+                "name": "Unemployed",
+                "value": 10,
+                "schema:image": "not currently looking for work .png"
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "Select the category that best describes your current work or employment status:"
+    }
+}

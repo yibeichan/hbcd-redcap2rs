@@ -1,9 +1,9 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "ncl_cg_spm2_i_inf_balance_m01_159",
-    "prefLabel": "ncl_cg_spm2_i_inf_balance_m01_159",
-    "description": "ncl_cg_spm2_i_inf_balance_m01_159 of ncl_cg_spm2_i_inf",
+    "@id": "ncl_cg_spm2_i_inf_balance_m01_169",
+    "prefLabel": "ncl_cg_spm2_i_inf_balance_m01_169",
+    "description": "ncl_cg_spm2_i_inf_balance_m01_169 of ncl_cg_spm2_i_inf",
     "ui": {
         "inputType": "radio"
     },

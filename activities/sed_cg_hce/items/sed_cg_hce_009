@@ -1,0 +1,44 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_cg_hce_009",
+    "prefLabel": "sed_cg_hce_009",
+    "description": "sed_cg_hce_009 of sed_cg_hce",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Gas ",
+                "value": 1
+            },
+            {
+                "name": "Electric ",
+                "value": 2
+            },
+            {
+                "name": "Other ",
+                "value": 3
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "What kind of cook stove does this home or dwelling have?"
+    },
+    "visibility": [
+        {
+            "variableName": "sed_cg_hce_009",
+            "isVis": " sed_cg_hce_001   == '1' OR  sed_cg_hce_001   == '2'"
+        }
+    ]
+}

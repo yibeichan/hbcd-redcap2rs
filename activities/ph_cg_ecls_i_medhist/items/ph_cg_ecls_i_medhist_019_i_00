@@ -1,0 +1,25 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ph_cg_ecls_i_medhist_019_i_00",
+    "prefLabel": "ph_cg_ecls_i_medhist_019_i_00",
+    "description": "ph_cg_ecls_i_medhist_019_i_00 of ph_cg_ecls_i_medhist",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "preamble": {
+        "en": "COVID health"
+    },
+    "question": {
+        "en": "Has your childever:"
+    },
+    "visibility": [
+        {
+            "variableName": "ph_cg_ecls_i_medhist_019_i_00",
+            "isVis": " event-name   == 'v04_arm_1'"
+        }
+    ]
+}

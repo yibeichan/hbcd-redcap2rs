@@ -1,0 +1,82 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ph_cg_bisq_005_i_01",
+    "prefLabel": "ph_cg_bisq_005_i_01",
+    "description": "ph_cg_bisq_005_i_01 of ph_cg_bisq",
+    "ui": {
+        "inputType": "select"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": [
+            {
+                "name": "0 ",
+                "value": 0
+            },
+            {
+                "name": "1 ",
+                "value": 60
+            },
+            {
+                "name": "2 ",
+                "value": 120
+            },
+            {
+                "name": "3 ",
+                "value": 180
+            },
+            {
+                "name": "4 ",
+                "value": 240
+            },
+            {
+                "name": "5 ",
+                "value": 300
+            },
+            {
+                "name": "6 ",
+                "value": 360
+            },
+            {
+                "name": "7 ",
+                "value": 420
+            },
+            {
+                "name": "8 ",
+                "value": 480
+            },
+            {
+                "name": "9 ",
+                "value": 540
+            },
+            {
+                "name": "10 ",
+                "value": 600
+            },
+            {
+                "name": "11 ",
+                "value": 660
+            },
+            {
+                "name": "12 ",
+                "value": 720
+            },
+            {
+                "name": "13 ",
+                "value": 780
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "Hours napping"
+    }
+}

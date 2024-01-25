@@ -1,0 +1,116 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ph_cg_inq_007_i_05_i_02",
+    "prefLabel": "ph_cg_inq_007_i_05_i_02",
+    "description": "ph_cg_inq_007_i_05_i_02 of ph_cg_inq",
+    "ui": {
+        "inputType": "select"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "1 ",
+                "value": 1
+            },
+            {
+                "name": "2 ",
+                "value": 2
+            },
+            {
+                "name": "3 ",
+                "value": 3
+            },
+            {
+                "name": "4 ",
+                "value": 4
+            },
+            {
+                "name": "5 ",
+                "value": 5
+            },
+            {
+                "name": "6 ",
+                "value": 6
+            },
+            {
+                "name": "7 ",
+                "value": 7
+            },
+            {
+                "name": "8 ",
+                "value": 8
+            },
+            {
+                "name": "9 ",
+                "value": 9
+            },
+            {
+                "name": "10 ",
+                "value": 10
+            },
+            {
+                "name": "11 ",
+                "value": 11
+            },
+            {
+                "name": "12 ",
+                "value": 12
+            },
+            {
+                "name": "13 ",
+                "value": 13
+            },
+            {
+                "name": "14 ",
+                "value": 14
+            },
+            {
+                "name": "15 ",
+                "value": 15
+            },
+            {
+                "name": "16 ",
+                "value": 16
+            },
+            {
+                "name": "17 ",
+                "value": 17
+            },
+            {
+                "name": "18 ",
+                "value": 18
+            },
+            {
+                "name": "19 ",
+                "value": 19
+            },
+            {
+                "name": "20 ",
+                "value": 20
+            },
+            {
+                "name": ">20 ",
+                "value": 21
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "Feedings of other soy per week"
+    },
+    "visibility": [
+        {
+            "variableName": "ph_cg_inq_007_i_05_i_02",
+            "isVis": " ph_cg_inq_007_i_05   == '1' AND  ph_cg_inq_007_i_05_i_01   == '' AND  ph_cg_inq_007_i_05_i_03   == ''"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_bm_demo_work_004_i_01",
+    "prefLabel": "sed_bm_demo_work_004_i_01",
+    "description": "sed_bm_demo_work_004_i_01 of sed_bm_demo",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Yes",
+                "value": 1,
+                "schema:image": "I had 1 job that I worked for 20 hours per week for at least a month .png"
+            },
+            {
+                "name": "Yes",
+                "value": 2,
+                "schema:image": "I had more than one job that I worked for 20 hours per week for at least a month .png"
+            },
+            {
+                "name": "No",
+                "value": 3,
+                "schema:image": "I worked but none of them were at least 20 hours per week for a month .png"
+            },
+            {
+                "name": "No",
+                "value": 0,
+                "schema:image": "I did not work .png"
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "preamble": {
+        "en": "Jobs During Pregnancy"
+    },
+    "question": {
+        "en": "Since your first study visit, did you have a job that involved at least 20 hours per week of work, that you held for at least one month?"
+    },
+    "visibility": [
+        {
+            "variableName": "sed_bm_demo_work_004_i_01",
+            "isVis": "  v04_arm_1  admin_caregiver_002   == '6'"
+        }
+    ]
+}

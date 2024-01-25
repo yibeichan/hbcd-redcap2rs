@@ -1,0 +1,17 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ph_cg_cnq_002",
+    "prefLabel": "ph_cg_cnq_002",
+    "description": "ph_cg_cnq_002 of ph_cg_cnq",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "What other beverages does your child drink?"
+    }
+}

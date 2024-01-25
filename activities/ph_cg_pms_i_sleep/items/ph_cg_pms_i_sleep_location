@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ph_cg_pms_i_sleep_location",
+    "prefLabel": "ph_cg_pms_i_sleep_location",
+    "description": "ph_cg_pms_i_sleep_location of ph_cg_pms_i_sleep",
+    "ui": {
+        "inputType": "select"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Remote ",
+                "value": 1
+            },
+            {
+                "name": "On-site",
+                "value": 2
+            }
+        ]
+    },
+    "question": {
+        "en": "Remote or on-site?"
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_cg_hce_028_i_02",
+    "prefLabel": "sed_cg_hce_028_i_02",
+    "description": "sed_cg_hce_028_i_02 of sed_cg_hce",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "No ",
+                "value": 0
+            },
+            {
+                "name": "Yes ",
+                "value": 1
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "Are any pesticide products used on the pet/s for fleas or other pests?"
+    },
+    "visibility": [
+        {
+            "variableName": "sed_cg_hce_028_i_02",
+            "isVis": " sed_cg_hce_028   == '1'"
+        }
+    ]
+}

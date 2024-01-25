@@ -1,0 +1,40 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_cg_via_002_i_01",
+    "prefLabel": "sed_cg_via_002_i_01",
+    "description": "sed_cg_via_002_i_01 of sed_cg_via",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "USA ",
+                "value": 1
+            },
+            {
+                "name": "Other ",
+                "value": 2
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "In what country was your spouse or partner born?"
+    },
+    "visibility": [
+        {
+            "variableName": "sed_cg_via_002_i_01",
+            "isVis": " sed_cg_via_002   == '1'"
+        }
+    ]
+}

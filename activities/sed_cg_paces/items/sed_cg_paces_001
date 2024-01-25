@@ -1,0 +1,37 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_cg_paces_m01_66",
+    "prefLabel": "sed_cg_paces_m01_66",
+    "description": "sed_cg_paces_m01_66 of sed_cg_paces",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "No ",
+                "value": 0
+            },
+            {
+                "name": "Yes ",
+                "value": 1
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "preamble": {
+        "en": "Below is a list of 10 types of Protective and Compensatory Experiences (PACEs).\nFrom the list below, please select each PACE category that you experienced prior to your 18th birthday."
+    },
+    "question": {
+        "en": "Did you have someone who loved you unconditionally (you did not doubt that they cared about you)?"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_bm_demo_child_i_roster_table_17",
+    "prefLabel": "sed_bm_demo_child_i_roster_table_17",
+    "description": "sed_bm_demo_child_i_roster_table_17 of sed_bm_demo_child",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "preamble": {
+        "en": "Please complete a row in the table below for each person\u00a0who lives in the child's household at least two nights a week. Please start with yourself if you are the primary caregiver and living in this houshold. Continue to list from the youngest person to the oldest for up to 16 people."
+    },
+    "question": {
+        "en": "Person 1Years of age{sed_bm_demo_child_i_roster_021_i_01}Months of age{sed_bm_demo_child_i_roster_021_i_02}Gender{sed_bm_demo_child_i_roster_021_i_03}{sed_bm_demo_child_i_roster_021_i_03_i_01}Relationship to YOU{sed_bm_demo_child_i_roster_021_i_04}Relationship to Child{sed_bm_demo_child_i_roster_021_i_05}Average\u00a0 days per month this person cares for the child?{sed_bm_demo_child_i_roster_021_i_06}"
+    },
+    "visibility": [
+        {
+            "variableName": "sed_bm_demo_child_i_roster_table_17",
+            "isVis": " sed_bm_demo_child_i_roster_020_i_02_i_03  >= 1"
+        }
+    ]
+}

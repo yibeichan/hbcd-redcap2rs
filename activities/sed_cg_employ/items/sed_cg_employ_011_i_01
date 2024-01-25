@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_cg_employ_011_i_01",
+    "prefLabel": "sed_cg_employ_011_i_01",
+    "description": "sed_cg_employ_011_i_01 of sed_cg_employ",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "Before coming home, do you/they.. (select all that apply)"
+    },
+    "visibility": [
+        {
+            "variableName": "sed_cg_employ_011_i_01",
+            "isVis": " sed_cg_employ_011___1   == '1' OR  sed_cg_employ_011___2   == '1' OR  sed_cg_employ_011___3   == '1' OR  sed_cg_employ_011___4   == '1' OR  sed_cg_employ_011___5   == '1' OR  sed_cg_employ_011___6   == '1'"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "parent_survey_introduction_schema",
+    "prefLabel": "parent_survey_introduction",
+    "description": "Default description",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "order": [
+            "items/parent_introduction_v4",
+            "items/parent_introduction_v5",
+            "items/parent_introduction_v6"
+        ],
+        "addProperties": [
+            {
+                "variableName": "parent_introduction_v4",
+                "isAbout": "items/parent_introduction_v4",
+                "isVis": " event-name   == 'v04_arm_1'"
+            },
+            {
+                "variableName": "parent_introduction_v5",
+                "isAbout": "items/parent_introduction_v5",
+                "isVis": " event-name   == 'v05_arm_1'"
+            },
+            {
+                "variableName": "parent_introduction_v6",
+                "isAbout": "items/parent_introduction_v6",
+                "isVis": " event-name   == 'v06_arm_1'"
+            }
+        ],
+        "shuffle": false
+    }
+}
