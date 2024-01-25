@@ -39,11 +39,5 @@
     },
     "question": {
         "en": "Caregiver type for this visit"
-    },
-    "visibility": [
-        {
-            "variableName": "admin_caregiver_002",
-            "isVis": " admin_caregiver_001   == '1'"
-        }
-    ]
+    }
 }
