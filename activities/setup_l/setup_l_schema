@@ -12,7 +12,8 @@
             "items/admin_caregiver_002",
             "items/setup_onsite_started",
             "items/setup_event_start",
-            "items/setup_event_end"
+            "items/setup_event_end",
+            "items/url_vineland"
         ],
         "addProperties": [
             {
@@ -38,6 +39,11 @@
             {
                 "variableName": "setup_event_end",
                 "isAbout": "items/setup_event_end",
+                "isVis": true
+            },
+            {
+                "variableName": "url_vineland",
+                "isAbout": "items/url_vineland",
                 "isVis": true
             }
         ],
