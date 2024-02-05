@@ -26,7 +26,7 @@
     "visibility": [
         {
             "variableName": "pex_bm_health_preg_i_illness_012_i_09_i_dk",
-            "isVis": " pex_bm_health_preg_i_illness_012_i_09   == ''"
+            "isVis": " pex_bm_health_preg_i_illness_012_i_09   == '' AND   pex_bm_health_preg_i_illness_002   == 10"
         }
     ]
 }

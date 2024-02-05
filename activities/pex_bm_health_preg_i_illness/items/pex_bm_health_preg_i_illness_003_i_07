@@ -12,5 +12,11 @@
     },
     "question": {
         "en": "First illness or symptom"
-    }
+    },
+    "visibility": [
+        {
+            "variableName": "pex_bm_health_preg_i_illness_003_i_07",
+            "isVis": "  pex_bm_health_preg_i_illness_002  >= 1 "
+        }
+    ]
 }

@@ -16,5 +16,11 @@
     },
     "question": {
         "en": "Illness Label"
-    }
+    },
+    "visibility": [
+        {
+            "variableName": "pex_bm_health_preg_i_illness_004_i_03",
+            "isVis": "  pex_bm_health_preg_i_illness_002  >= 2"
+        }
+    ]
 }

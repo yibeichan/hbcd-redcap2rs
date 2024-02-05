@@ -19,5 +19,11 @@
             "variableName": "pex_bm_health_preg_i_illness_006_i_04",
             "jsExpression": "$('#pex_bm_health_preg_i_illness_006_i_03-tr select option:nth___1').prop('selected',true)"
         }
+    ],
+    "visibility": [
+        {
+            "variableName": "pex_bm_health_preg_i_illness_006_i_04",
+            "isVis": "  pex_bm_health_preg_i_illness_002  >= 4"
+        }
     ]
 }
