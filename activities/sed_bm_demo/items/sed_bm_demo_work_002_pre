@@ -34,7 +34,7 @@
     "visibility": [
         {
             "variableName": "sed_bm_demo_work_002_pre",
-            "isVis": " screening_arm_1  recruitment_period   == '1' AND  event-name  admin_caregiver_001  ! == '1'"
+            "isVis": " screening_arm_1  recruitment_period   == '1' AND  event-name   == 'v01_arm_1' "
         }
     ]
 }

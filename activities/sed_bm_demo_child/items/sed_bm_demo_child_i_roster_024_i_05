@@ -1,0 +1,80 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_bm_demo_child_i_roster_024_i_05",
+    "prefLabel": "sed_bm_demo_child_i_roster_024_i_05",
+    "description": "sed_bm_demo_child_i_roster_024_i_05 of sed_bm_demo_child",
+    "ui": {
+        "inputType": "select"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Parent ",
+                "value": 1
+            },
+            {
+                "name": "Step Parent ",
+                "value": 2
+            },
+            {
+                "name": "Adopted Parent ",
+                "value": 3
+            },
+            {
+                "name": "Foster Parent ",
+                "value": 4
+            },
+            {
+                "name": "Full sibling ",
+                "value": 5
+            },
+            {
+                "name": "Half sibling ",
+                "value": 6
+            },
+            {
+                "name": "Non-biologically related sibling ",
+                "value": 7
+            },
+            {
+                "name": "Grandparent ",
+                "value": 8
+            },
+            {
+                "name": "Aunt or Uncle ",
+                "value": 9
+            },
+            {
+                "name": "Cousin ",
+                "value": 10
+            },
+            {
+                "name": "Other Relative ",
+                "value": 11
+            },
+            {
+                "name": "Other Non-relative ",
+                "value": 12
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "Person 4 relationship to child household 2"
+    },
+    "visibility": [
+        {
+            "variableName": "sed_bm_demo_child_i_roster_024_i_05",
+            "isVis": " sed_bm_demo_child_i_roster_020_i_02_i_03  >= 4"
+        }
+    ]
+}

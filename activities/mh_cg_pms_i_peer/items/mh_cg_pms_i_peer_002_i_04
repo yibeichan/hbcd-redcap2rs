@@ -1,0 +1,42 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "mh_cg_pms_i_peer_m01_10",
+    "prefLabel": "mh_cg_pms_i_peer_m01_10",
+    "description": "mh_cg_pms_i_peer_m01_10 of mh_cg_pms_i_peer",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Never ",
+                "value": 1
+            },
+            {
+                "name": "Almost never ",
+                "value": 2
+            },
+            {
+                "name": "Sometimes ",
+                "value": 3
+            },
+            {
+                "name": "Often ",
+                "value": 4
+            },
+            {
+                "name": "Almost always ",
+                "value": 5
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "My child showed interest in other children."
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ncl_cg_spm2_i_tod_soc_m01_829",
+    "prefLabel": "ncl_cg_spm2_i_tod_soc_m01_829",
+    "description": "ncl_cg_spm2_i_tod_soc_m01_829 of ncl_cg_spm2_i_tod",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Never ",
+                "value": 1
+            },
+            {
+                "name": "Occasionally ",
+                "value": 2
+            },
+            {
+                "name": "Frequently ",
+                "value": 3
+            },
+            {
+                "name": "Always ",
+                "value": 4
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "Is easily calmed by a familiar adult when upset."
+    }
+}

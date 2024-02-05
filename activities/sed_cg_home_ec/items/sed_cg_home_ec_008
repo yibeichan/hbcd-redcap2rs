@@ -1,0 +1,46 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_cg_home_ec_008",
+    "prefLabel": "sed_cg_home_ec_008",
+    "description": "sed_cg_home_ec_008 of sed_cg_home_ec",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "None ",
+                "value": 0
+            },
+            {
+                "name": "1-2 times ",
+                "value": 1
+            },
+            {
+                "name": "3-4 times ",
+                "value": 3
+            },
+            {
+                "name": "5-6 times ",
+                "value": 4
+            },
+            {
+                "name": "7 times or more ",
+                "value": 5
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "Sometimes kids mind pretty well and sometimes they don't. How many times, if any, have you spanked your child in the past week?"
+    }
+}

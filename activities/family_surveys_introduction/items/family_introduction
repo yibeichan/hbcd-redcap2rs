@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "family_introduction",
+    "prefLabel": "family_introduction",
+    "description": "family_introduction of family_surveys_introduction",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Thank you for completing those surveys! This final set of surveys is the shortest and will ask about your family and your home. These questions will give us a bigger picture of your child's day-to-day life and can help us understand their development. There are just3 surveysand all together they will takeabout 10 minutes."
+    }
+}

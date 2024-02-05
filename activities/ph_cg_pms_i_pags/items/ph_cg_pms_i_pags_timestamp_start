@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ph_cg_pms_i_pags_timestamp_start",
+    "prefLabel": "ph_cg_pms_i_pags_timestamp_start",
+    "description": "ph_cg_pms_i_pags_timestamp_start of ph_cg_pms_i_pags",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Start time (server)"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ph_cg_cnq_m08_9",
+    "prefLabel": "ph_cg_cnq_m08_9",
+    "description": "ph_cg_cnq_m08_9 of ph_cg_cnq",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Daily ",
+                "value": 1
+            },
+            {
+                "name": "Some days ",
+                "value": 2
+            },
+            {
+                "name": "Never ",
+                "value": 3
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "Beans"
+    }
+}

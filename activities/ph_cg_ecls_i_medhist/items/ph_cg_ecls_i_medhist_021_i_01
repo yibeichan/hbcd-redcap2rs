@@ -1,0 +1,44 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ph_cg_ecls_i_medhist_021_i_01",
+    "prefLabel": "ph_cg_ecls_i_medhist_021_i_01",
+    "description": "ph_cg_ecls_i_medhist_021_i_01 of ph_cg_ecls_i_medhist",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Passed ",
+                "value": 1
+            },
+            {
+                "name": "Didn't pass ",
+                "value": 2
+            },
+            {
+                "name": "Referred but not yet tested ",
+                "value": 3
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "What were the results?"
+    },
+    "visibility": [
+        {
+            "variableName": "ph_cg_ecls_i_medhist_021_i_01",
+            "isVis": " ph_cg_ecls_i_medhist_021   == '1' OR  ph_cg_ecls_i_medhist_021   == '2'"
+        }
+    ]
+}

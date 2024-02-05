@@ -1,0 +1,48 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ph_cg_cnq_008_i_01",
+    "prefLabel": "ph_cg_cnq_008_i_01",
+    "description": "ph_cg_cnq_008_i_01 of ph_cg_cnq",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Mashed ",
+                "value": 1
+            },
+            {
+                "name": "Finely chopped ",
+                "value": 2
+            },
+            {
+                "name": "Chunky ",
+                "value": 3
+            },
+            {
+                "name": "Regular ",
+                "value": 4
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "What is the texture of the table foods your child eats?"
+    },
+    "visibility": [
+        {
+            "variableName": "ph_cg_cnq_008_i_01",
+            "isVis": " ph_cg_cnq_008   == '1'"
+        }
+    ]
+}

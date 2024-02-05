@@ -1,0 +1,54 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "mh_cg_ecbq_m04_136",
+    "prefLabel": "mh_cg_ecbq_m04_136",
+    "description": "mh_cg_ecbq_m04_136 of mh_cg_ecbq",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Never ",
+                "value": 1
+            },
+            {
+                "name": "Very Rarely ",
+                "value": 2
+            },
+            {
+                "name": "Less Than Half the Time ",
+                "value": 3
+            },
+            {
+                "name": "About Half the Time ",
+                "value": 4
+            },
+            {
+                "name": "More than Half the Time ",
+                "value": 5
+            },
+            {
+                "name": "Almost Always ",
+                "value": 6
+            },
+            {
+                "name": "Always ",
+                "value": 7
+            },
+            {
+                "name": "Does Not Apply ",
+                "value": 0
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "When your child was upset, how often did your child cry for more than 3 minutes, even when being comforted?"
+    }
+}

@@ -165,6 +165,13 @@
             "items/sed_bm_demo_herit_007",
             "items/sed_bm_demo_income_001",
             "items/sed_bm_demo_income_002",
+            "items/sed_bm_demo_disab_instr01",
+            "items/sed_bm_demo_disab_001",
+            "items/sed_bm_demo_disab_002",
+            "items/sed_bm_demo_disab_003",
+            "items/sed_bm_demo_disab_004",
+            "items/sed_bm_demo_disab_005",
+            "items/sed_bm_demo_disab_006",
             "items/sed_bm_demo_edu_001",
             "items/sed_bm_demo_mil_001",
             "items/sed_bm_demo_instr03",
@@ -173,6 +180,8 @@
             "items/sed_bm_demo_work_001",
             "items/sed_bm_demo_work_004_pre",
             "items/sed_bm_demo_work_004_post",
+            "items/sed_bm_demo_work_004_i_01",
+            "items/sed_bm_demo_work_004_i_01_instr01",
             "items/sed_bm_demo_work_005",
             "items/sed_bm_demo_work_003_pre",
             "items/sed_bm_demo_work_003_post",
@@ -496,7 +505,8 @@
             "items/sed_bm_demo_work_i_oth_001_i_02",
             "items/sed_bm_demo_mil_002",
             "items/sed_bm_demo_mil_002_i_01",
-            "items/sed_bm_demo_ses_i_oth_001"
+            "items/sed_bm_demo_ses_i_oth_001",
+            "items/sed_bm_demo_transp_001"
         ],
         "addProperties": [
             {
@@ -527,17 +537,17 @@
             {
                 "variableName": "sed_bm_demo_gndrident_001",
                 "isAbout": "items/sed_bm_demo_gndrident_001",
-                "isVis": " event-name  admin_caregiver_001  ! == '1'"
+                "isVis": " event-name   == 'v01_arm_1' OR ( event-name   == 'v02_arm_1' AND  screening_arm_1  recruitment_period   == '2') OR  event-name   == 'v04_arm_1' OR  event-name   == 'v06_arm_1'"
             },
             {
                 "variableName": "sed_bm_demo_gndrident_001_i_01",
                 "isAbout": "items/sed_bm_demo_gndrident_001_i_01",
-                "isVis": " sed_bm_demo_gndrident_001___6   == '1' AND  event-name  admin_caregiver_001  ! == '1'"
+                "isVis": " sed_bm_demo_gndrident_001___6   == '1'"
             },
             {
                 "variableName": "sed_bm_demo_sexorient_001",
                 "isAbout": "items/sed_bm_demo_sexorient_001",
-                "isVis": " event-name  admin_caregiver_001  ! == '1'"
+                "isVis": " event-name   == 'v01_arm_1' OR ( event-name   == 'v02_arm_1' AND  screening_arm_1  recruitment_period   == '2') OR  event-name   == 'v04_arm_1' OR  event-name   == 'v06_arm_1'"
             },
             {
                 "variableName": "sed_bm_demo_sexorient_001_i_01",
@@ -547,12 +557,12 @@
             {
                 "variableName": "sed_bm_demo_residence_001",
                 "isAbout": "items/sed_bm_demo_residence_001",
-                "isVis": true
+                "isVis": " event-name   == 'v01_arm_1' OR ( screening_arm_1  recruitment_period   == '2' AND  event-name   == 'v02_arm_1')"
             },
             {
                 "variableName": "sed_bm_demo_residence_002",
                 "isAbout": "items/sed_bm_demo_residence_002",
-                "isVis": true
+                "isVis": " event-name   == 'v01_arm_1' OR ( screening_arm_1  recruitment_period   == '2' AND  event-name   == 'v02_arm_1')"
             },
             {
                 "variableName": "sed_bm_demo_instr_011",
@@ -1202,7 +1212,7 @@
             {
                 "variableName": "sed_bm_demo_herit_001",
                 "isAbout": "items/sed_bm_demo_herit_001",
-                "isVis": true
+                "isVis": "( event-name   == 'v01_arm_1') OR ( screening_arm_1  recruitment_period   == '2' AND  event-name   == 'v02_arm_1') OR ( event-name   == 'v02_arm_1' AND  v02_arm_1  admin_caregiver_001   == '1') OR ( v03_arm_1  admin_caregiver_001   == '1' AND  event-name   == 'v03_arm_1')"
             },
             {
                 "variableName": "sed_bm_demo_herit_001_i_01",
@@ -1222,7 +1232,7 @@
             {
                 "variableName": "sed_bm_demo_herit_002",
                 "isAbout": "items/sed_bm_demo_herit_002",
-                "isVis": true
+                "isVis": " event-name   == 'v01_arm_1' OR ( screening_arm_1  recruitment_period   == '2' AND  event-name   == 'v02_arm_1') OR ( event-name   == 'v02_arm_1' AND  v02_arm_1  admin_caregiver_001   == '1') OR ( v03_arm_1  admin_caregiver_001   == '1' AND  event-name   == 'v03_arm_1') OR  event-name   == 'v04_arm_1' OR  event-name   == 'v06_arm_1'"
             },
             {
                 "variableName": "sed_bm_demo_herit_002_i_01",
@@ -1262,67 +1272,112 @@
             {
                 "variableName": "sed_bm_demo_herit_003",
                 "isAbout": "items/sed_bm_demo_herit_003",
-                "isVis": true
+                "isVis": "( event-name   == 'v01_arm_1') OR ( screening_arm_1  recruitment_period   == '2' AND  event-name   == 'v02_arm_1') OR ( event-name   == 'v02_arm_1' AND  v02_arm_1  admin_caregiver_001   == '1') OR ( v03_arm_1  admin_caregiver_001   == '1' AND  event-name   == 'v03_arm_1') OR  event-name   == 'v04_arm_1' OR  event-name   == 'v06_arm_1'"
             },
             {
                 "variableName": "sed_bm_demo_herit_006",
                 "isAbout": "items/sed_bm_demo_herit_006",
-                "isVis": " event-name  admin_caregiver_001  ! == '1'"
+                "isVis": " event-name   == 'v01_arm_1' OR ( screening_arm_1  recruitment_period   == '2' AND  event-name   == 'v02_arm_1')"
             },
             {
                 "variableName": "sed_bm_demo_herit_007",
                 "isAbout": "items/sed_bm_demo_herit_007",
-                "isVis": " event-name  admin_caregiver_001  ! == '1'"
+                "isVis": " event-name   == 'v01_arm_1' OR ( screening_arm_1  recruitment_period   == '2' AND  event-name   == 'v02_arm_1')"
             },
             {
                 "variableName": "sed_bm_demo_income_001",
                 "isAbout": "items/sed_bm_demo_income_001",
-                "isVis": " event-name  admin_caregiver_001  ! == '1'"
+                "isVis": " event-name   == 'v01_arm_1' OR ( screening_arm_1  recruitment_period   == '2' AND  event-name   == 'v02_arm_1')"
             },
             {
                 "variableName": "sed_bm_demo_income_002",
                 "isAbout": "items/sed_bm_demo_income_002",
-                "isVis": " event-name  admin_caregiver_001  ! == '1'"
+                "isVis": " event-name   == 'v01_arm_1' OR ( screening_arm_1  recruitment_period   == '2' AND  event-name   == 'v02_arm_1')"
+            },
+            {
+                "variableName": "sed_bm_demo_disab_instr01",
+                "isAbout": "items/sed_bm_demo_disab_instr01",
+                "isVis": " event-name   == 'v04_arm_1' OR  event-name   == 'v06_arm_1' "
+            },
+            {
+                "variableName": "sed_bm_demo_disab_001",
+                "isAbout": "items/sed_bm_demo_disab_001",
+                "isVis": " event-name   == 'v04_arm_1' OR  event-name   == 'v06_arm_1' "
+            },
+            {
+                "variableName": "sed_bm_demo_disab_002",
+                "isAbout": "items/sed_bm_demo_disab_002",
+                "isVis": " event-name   == 'v04_arm_1' OR  event-name   == 'v06_arm_1' "
+            },
+            {
+                "variableName": "sed_bm_demo_disab_003",
+                "isAbout": "items/sed_bm_demo_disab_003",
+                "isVis": " event-name   == 'v04_arm_1' OR  event-name   == 'v06_arm_1' "
+            },
+            {
+                "variableName": "sed_bm_demo_disab_004",
+                "isAbout": "items/sed_bm_demo_disab_004",
+                "isVis": " event-name   == 'v04_arm_1' OR  event-name   == 'v06_arm_1' "
+            },
+            {
+                "variableName": "sed_bm_demo_disab_005",
+                "isAbout": "items/sed_bm_demo_disab_005",
+                "isVis": " event-name   == 'v04_arm_1' OR  event-name   == 'v06_arm_1' "
+            },
+            {
+                "variableName": "sed_bm_demo_disab_006",
+                "isAbout": "items/sed_bm_demo_disab_006",
+                "isVis": " event-name   == 'v04_arm_1' OR  event-name   == 'v06_arm_1' "
             },
             {
                 "variableName": "sed_bm_demo_edu_001",
                 "isAbout": "items/sed_bm_demo_edu_001",
-                "isVis": true
+                "isVis": "( event-name   == 'v01_arm_1') OR ( screening_arm_1  recruitment_period   == '2' AND  event-name   == 'v02_arm_1') OR ( event-name   == 'v02_arm_1' AND  v02_arm_1  admin_caregiver_001   == '1') OR ( v03_arm_1  admin_caregiver_001   == '1' AND  event-name   == 'v03_arm_1') OR  event-name   == 'v04_arm_1' OR  event-name   == 'v06_arm_1'"
             },
             {
                 "variableName": "sed_bm_demo_mil_001",
                 "isAbout": "items/sed_bm_demo_mil_001",
-                "isVis": " event-name  admin_caregiver_001  ! == '1'"
+                "isVis": " event-name   == 'v01_arm_1' OR ( screening_arm_1  recruitment_period   == '2' AND  event-name   == 'v02_arm_1')"
             },
             {
                 "variableName": "sed_bm_demo_instr03",
                 "isAbout": "items/sed_bm_demo_instr03",
-                "isVis": " event-name  admin_caregiver_001  ! == '1'"
+                "isVis": " event-name   == 'v01_arm_1' OR ( screening_arm_1  recruitment_period   == '2' AND  event-name   == 'v02_arm_1')"
             },
             {
                 "variableName": "sed_bm_demo_work_002_pre",
                 "isAbout": "items/sed_bm_demo_work_002_pre",
-                "isVis": " screening_arm_1  recruitment_period   == '1' AND  event-name  admin_caregiver_001  ! == '1'"
+                "isVis": " screening_arm_1  recruitment_period   == '1' AND  event-name   == 'v01_arm_1' "
             },
             {
                 "variableName": "sed_bm_demo_work_002_post",
                 "isAbout": "items/sed_bm_demo_work_002_post",
-                "isVis": " screening_arm_1  recruitment_period   == '2' AND  event-name  admin_caregiver_001  ! == '1'"
+                "isVis": " screening_arm_1  recruitment_period   == '2' AND  event-name   == 'v02_arm_1'"
             },
             {
                 "variableName": "sed_bm_demo_work_001",
                 "isAbout": "items/sed_bm_demo_work_001",
-                "isVis": "( sed_bm_demo_work_002_pre   == '1' OR  sed_bm_demo_work_002_post   == '1') AND  event-name  admin_caregiver_001  ! == '1'"
+                "isVis": " sed_bm_demo_work_002_pre   == '1' OR  sed_bm_demo_work_002_post   == '1'"
             },
             {
                 "variableName": "sed_bm_demo_work_004_pre",
                 "isAbout": "items/sed_bm_demo_work_004_pre",
-                "isVis": " sed_bm_demo_work_002_pre   == '1' AND  event-name  admin_caregiver_001  ! == '1'"
+                "isVis": " sed_bm_demo_work_002_pre   == '1' "
             },
             {
                 "variableName": "sed_bm_demo_work_004_post",
                 "isAbout": "items/sed_bm_demo_work_004_post",
                 "isVis": " sed_bm_demo_work_002_post   == '1'"
+            },
+            {
+                "variableName": "sed_bm_demo_work_004_i_01",
+                "isAbout": "items/sed_bm_demo_work_004_i_01",
+                "isVis": "  v04_arm_1  admin_caregiver_002   == '6'"
+            },
+            {
+                "variableName": "sed_bm_demo_work_004_i_01_instr01",
+                "isAbout": "items/sed_bm_demo_work_004_i_01_instr01",
+                "isVis": " v04_arm_1  admin_caregiver_002   == '6' AND ( sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2')"
             },
             {
                 "variableName": "sed_bm_demo_work_005",
@@ -1352,247 +1407,247 @@
             {
                 "variableName": "sed_bm_demo_instr08",
                 "isAbout": "items/sed_bm_demo_instr08",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_007",
                 "isAbout": "items/sed_bm_demo_work_007",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_008_i_01",
                 "isAbout": "items/sed_bm_demo_work_008_i_01",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_008_i_02",
                 "isAbout": "items/sed_bm_demo_work_008_i_02",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_008_i_03",
                 "isAbout": "items/sed_bm_demo_work_008_i_03",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_008_i_04",
                 "isAbout": "items/sed_bm_demo_work_008_i_04",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_014",
                 "isAbout": "items/sed_bm_demo_work_014",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_009",
                 "isAbout": "items/sed_bm_demo_work_009",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_010_i_01",
                 "isAbout": "items/sed_bm_demo_work_010_i_01",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_010_i_02",
                 "isAbout": "items/sed_bm_demo_work_010_i_02",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_010_i_03",
                 "isAbout": "items/sed_bm_demo_work_010_i_03",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_010_i_04",
                 "isAbout": "items/sed_bm_demo_work_010_i_04",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_010_i_05",
                 "isAbout": "items/sed_bm_demo_work_010_i_05",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_010_i_06",
                 "isAbout": "items/sed_bm_demo_work_010_i_06",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_010_i_07",
                 "isAbout": "items/sed_bm_demo_work_010_i_07",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_011_i_01",
                 "isAbout": "items/sed_bm_demo_work_011_i_01",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_011_i_02",
                 "isAbout": "items/sed_bm_demo_work_011_i_02",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_011_i_03",
                 "isAbout": "items/sed_bm_demo_work_011_i_03",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_011_i_04",
                 "isAbout": "items/sed_bm_demo_work_011_i_04",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_011_i_05",
                 "isAbout": "items/sed_bm_demo_work_011_i_05",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_012_i_01",
                 "isAbout": "items/sed_bm_demo_work_012_i_01",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_012_i_02",
                 "isAbout": "items/sed_bm_demo_work_012_i_02",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_012_i_03",
                 "isAbout": "items/sed_bm_demo_work_012_i_03",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_012_i_04",
                 "isAbout": "items/sed_bm_demo_work_012_i_04",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_012_i_05",
                 "isAbout": "items/sed_bm_demo_work_012_i_05",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_012_i_06",
                 "isAbout": "items/sed_bm_demo_work_012_i_06",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_012_i_07",
                 "isAbout": "items/sed_bm_demo_work_012_i_07",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_012_i_08",
                 "isAbout": "items/sed_bm_demo_work_012_i_08",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_012_i_09",
                 "isAbout": "items/sed_bm_demo_work_012_i_09",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_012_i_10",
                 "isAbout": "items/sed_bm_demo_work_012_i_10",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_013_i_01",
                 "isAbout": "items/sed_bm_demo_work_013_i_01",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_013_i_02",
                 "isAbout": "items/sed_bm_demo_work_013_i_02",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_013_i_03",
                 "isAbout": "items/sed_bm_demo_work_013_i_03",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_013_i_04",
                 "isAbout": "items/sed_bm_demo_work_013_i_04",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_013_i_05",
                 "isAbout": "items/sed_bm_demo_work_013_i_05",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_013_i_06",
                 "isAbout": "items/sed_bm_demo_work_013_i_06",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_013_i_07",
                 "isAbout": "items/sed_bm_demo_work_013_i_07",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_013_i_08",
                 "isAbout": "items/sed_bm_demo_work_013_i_08",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_013_i_09",
                 "isAbout": "items/sed_bm_demo_work_013_i_09",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_013_i_10",
                 "isAbout": "items/sed_bm_demo_work_013_i_10",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_013_i_11",
                 "isAbout": "items/sed_bm_demo_work_013_i_11",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_013_i_12",
                 "isAbout": "items/sed_bm_demo_work_013_i_12",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_013_i_13",
                 "isAbout": "items/sed_bm_demo_work_013_i_13",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_013_i_14",
                 "isAbout": "items/sed_bm_demo_work_013_i_14",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_013_i_15",
                 "isAbout": "items/sed_bm_demo_work_013_i_15",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_013_i_16",
                 "isAbout": "items/sed_bm_demo_work_013_i_16",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_013_i_17",
                 "isAbout": "items/sed_bm_demo_work_013_i_17",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_013_i_18",
                 "isAbout": "items/sed_bm_demo_work_013_i_18",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
             },
             {
                 "variableName": "sed_bm_demo_work_i_env_002",
                 "isAbout": "items/sed_bm_demo_work_i_env_002",
-                "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+                "isVis": "( sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2' OR  sed_bm_demo_work_004_i_01   == '3') AND ( event-name   == 'v01_arm_1' OR  event-name   == 'v02_arm_1')"
             },
             {
                 "variableName": "sed_bm_demo_instr09",
@@ -2822,7 +2877,7 @@
             {
                 "variableName": "sed_bm_demo_obp_001",
                 "isAbout": "items/sed_bm_demo_obp_001",
-                "isVis": true
+                "isVis": " event-name   == 'v01_arm_1' OR ( screening_arm_1  recruitment_period   == '2' AND  event-name   == 'v02_arm_1')"
             },
             {
                 "variableName": "sed_bm_demo_instr05",
@@ -2943,6 +2998,11 @@
                 "variableName": "sed_bm_demo_ses_i_oth_001",
                 "isAbout": "items/sed_bm_demo_ses_i_oth_001",
                 "isVis": " sed_bm_demo_obp_001   == '1'"
+            },
+            {
+                "variableName": "sed_bm_demo_transp_001",
+                "isAbout": "items/sed_bm_demo_transp_001",
+                "isVis": " event-name   == 'v04_arm_1' OR  event-name   == 'v06_arm_1' "
             }
         ],
         "shuffle": false

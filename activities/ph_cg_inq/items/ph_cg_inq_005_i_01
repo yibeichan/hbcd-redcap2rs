@@ -1,0 +1,50 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ph_cg_inq_005_i_01",
+    "prefLabel": "ph_cg_inq_005_i_01",
+    "description": "ph_cg_inq_005_i_01 of ph_cg_inq",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Never ",
+                "value": 1
+            },
+            {
+                "name": "Rarely ",
+                "value": 2
+            },
+            {
+                "name": "Every few days ",
+                "value": 3
+            },
+            {
+                "name": "About once a day ",
+                "value": 4
+            },
+            {
+                "name": "At most feedings ",
+                "value": 5
+            },
+            {
+                "name": "Every feeding ",
+                "value": 6
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "Vitamins or minerals (e.g. PolyViSol, vitamin D, iron drops)"
+    }
+}

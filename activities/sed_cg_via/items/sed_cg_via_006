@@ -1,0 +1,68 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_cg_via_m01_34",
+    "prefLabel": "sed_cg_via_m01_34",
+    "description": "sed_cg_via_m01_34 of sed_cg_via",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Disagree ",
+                "value": 1
+            },
+            {
+                "name": "2 ",
+                "value": 2
+            },
+            {
+                "name": "3 ",
+                "value": 3
+            },
+            {
+                "name": "4 ",
+                "value": 4
+            },
+            {
+                "name": "5 ",
+                "value": 5
+            },
+            {
+                "name": "6 ",
+                "value": 6
+            },
+            {
+                "name": "7 ",
+                "value": 7
+            },
+            {
+                "name": "8 ",
+                "value": 8
+            },
+            {
+                "name": "Agree ",
+                "value": 9
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "I often participate in my family cultural traditions."
+    },
+    "visibility": [
+        {
+            "variableName": "sed_cg_via_006",
+            "isVis": "( sed_cg_via_005___0  ! == '1') AND  sed_cg_via_005___1   == '1' OR \n sed_cg_via_005___2   == '1' OR  sed_cg_via_005___3   == '1' OR \n sed_cg_via_005___4   == '1' OR  sed_cg_via_005___5   == '1' OR \n sed_cg_via_005___6   == '1' OR  sed_cg_via_005___7   == '1' OR \n sed_cg_via_005___8   == '1' OR  sed_cg_via_005___9   == '1' OR \n sed_cg_via_005___10   == '1' OR  sed_cg_via_005___12   == '1' OR \n sed_cg_via_005___13   == '1' OR  sed_cg_via_005___14   == '1' OR \n sed_cg_via_005___15   == '1' OR  sed_cg_via_005___16   == '1' OR \n sed_cg_via_005___17   == '1' OR  sed_cg_via_005___18   == '1' OR \n sed_cg_via_005___19   == '1' OR  sed_cg_via_005___20   == '1' OR \n sed_cg_via_005___22   == '1' OR  sed_cg_via_005___23   == '1' OR \n sed_cg_via_005___24   == '1' OR  sed_cg_via_005___25   == '1' OR \n sed_cg_via_005___26   == '1' OR  sed_cg_via_005___27   == '1' OR \n sed_cg_via_005___28   == '1' OR  sed_cg_via_005___29   == '1' OR \n sed_cg_via_005___30   == '1' OR  sed_cg_via_005___31   == '1' OR \n sed_cg_via_005___32   == '1' OR  sed_cg_via_005___33   == '1' OR \n sed_cg_via_005___34   == '1' OR  sed_cg_via_005___35   == '1' OR \n sed_cg_via_005___36   == '1' OR  sed_cg_via_005___37   == '1' OR \n sed_cg_via_005___38   == '1' OR  sed_cg_via_005___39   == '1' OR \n sed_cg_via_005___40   == '1' OR  sed_cg_via_005___41   == '1' OR \n sed_cg_via_005___42   == '1' OR  sed_cg_via_005___43   == '1' OR \n sed_cg_via_005___44   == '1' OR  sed_cg_via_005___45   == '1' OR \n sed_cg_via_005___46   == '1' OR  sed_cg_via_005___47   == '1' OR \n sed_cg_via_005___48   == '1' OR  sed_cg_via_005___49   == '1' OR \n sed_cg_via_005___50   == '1' OR  sed_cg_via_005___51   == '1' OR \n sed_cg_via_005___52   == '1' OR  sed_cg_via_005___53   == '1' OR \n sed_cg_via_005___54   == '1' OR  sed_cg_via_005___55   == '1' OR \n sed_cg_via_005___56   == '1' OR  sed_cg_via_005___57   == '1' OR \n sed_cg_via_005___58   == '1' OR  sed_cg_via_005___59   == '1' OR \n sed_cg_via_005___60   == '1' OR  sed_cg_via_005___61   == '1' OR \n sed_cg_via_005___62   == '1' OR  sed_cg_via_005___63   == '1' OR \n sed_cg_via_005___64   == '1' OR  sed_cg_via_005___65   == '1' OR \n sed_cg_via_005___66   == '1' OR  sed_cg_via_005___67   == '1' OR \n sed_cg_via_005___68   == '1' OR  sed_cg_via_005___69   == '1' OR \n sed_cg_via_005___70   == '1' OR  sed_cg_via_005___71   == '1' OR \n sed_cg_via_005___72   == '1' OR  sed_cg_via_005___73   == '1' OR \n sed_cg_via_005___74   == '1' OR  sed_cg_via_005___75   == '1' OR \n sed_cg_via_005___76   == '1' OR  sed_cg_via_005___77   == '1' OR \n sed_cg_via_005___78   == '1' OR  sed_cg_via_005___79   == '1' OR \n sed_cg_via_005___80   == '1' OR  sed_cg_via_005___81   == '1' OR \n sed_cg_via_005___82   == '1' OR  sed_cg_via_005___83   == '1' OR \n sed_cg_via_005___84   == '1' OR  sed_cg_via_005___85   == '1' OR \n sed_cg_via_005___86   == '1' OR  sed_cg_via_005___87   == '1' OR \n sed_cg_via_005___88   == '1' OR  sed_cg_via_005___89   == '1' OR \n sed_cg_via_005___90   == '1' OR  sed_cg_via_005___91   == '1' OR \n sed_cg_via_005___92   == '1' OR  sed_cg_via_005___93   == '1' OR \n sed_cg_via_005___94   == '1' OR  sed_cg_via_005___95   == '1' OR \n sed_cg_via_005___96   == '1'"
+        }
+    ]
+}

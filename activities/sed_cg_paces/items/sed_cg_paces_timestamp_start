@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_cg_paces_timestamp_start",
+    "prefLabel": "sed_cg_paces_timestamp_start",
+    "description": "sed_cg_paces_timestamp_start of sed_cg_paces",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Start time (server)"
+    }
+}

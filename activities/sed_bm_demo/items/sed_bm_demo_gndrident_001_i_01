@@ -17,7 +17,7 @@
     "visibility": [
         {
             "variableName": "sed_bm_demo_gndrident_001_i_01",
-            "isVis": " sed_bm_demo_gndrident_001___6   == '1' AND  event-name  admin_caregiver_001  ! == '1'"
+            "isVis": " sed_bm_demo_gndrident_001___6   == '1'"
         }
     ]
 }

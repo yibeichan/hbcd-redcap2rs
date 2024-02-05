@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_cg_ace_007",
+    "prefLabel": "sed_cg_ace_007",
+    "description": "sed_cg_ace_007 of sed_cg_ace",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "7) Did a parent or adult in your home ever swear at you, insult you, or put you down?"
+    }
+}

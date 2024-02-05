@@ -1,0 +1,40 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_cg_cabr_sf_008",
+    "prefLabel": "sed_cg_cabr_sf_008",
+    "description": "sed_cg_cabr_sf_008 of sed_cg_cabr_sf",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Yes ",
+                "value": 1
+            },
+            {
+                "name": "No ",
+                "value": 0
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "My partner(s) threatened to harm or kill me or someone close to me"
+    },
+    "visibility": [
+        {
+            "variableName": "sed_cg_cabr_sf_008",
+            "isVis": " sed_cg_cabr_sf_001   == '1'"
+        }
+    ]
+}

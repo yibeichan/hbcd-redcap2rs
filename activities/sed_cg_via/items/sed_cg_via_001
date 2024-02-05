@@ -1,0 +1,37 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_cg_via_001",
+    "prefLabel": "sed_cg_via_001",
+    "description": "sed_cg_via_001 of sed_cg_via",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "USA ",
+                "value": 1
+            },
+            {
+                "name": "Other ",
+                "value": 2
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "preamble": {
+        "en": "The following questions are about where you, your spouse or partner (if applicable), and your parents (your child's grandparents) were born."
+    },
+    "question": {
+        "en": "In what country were you born?"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "mh_cg_pms_i_selfreg_flex_instr01",
+    "prefLabel": "mh_cg_pms_i_selfreg_flex_instr01",
+    "description": "mh_cg_pms_i_selfreg_flex_instr01 of mh_cg_pms_i_selfreg",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Please respond to each question or statement by marking one box per row."
+    }
+}

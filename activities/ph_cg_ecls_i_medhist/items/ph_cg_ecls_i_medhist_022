@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ph_cg_ecls_i_medhist_022",
+    "prefLabel": "ph_cg_ecls_i_medhist_022",
+    "description": "ph_cg_ecls_i_medhist_022 of ph_cg_ecls_i_medhist",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "preamble": {
+        "en": "Since the last time we discussed your child's medical history"
+    },
+    "question": {
+        "en": "Has a doctor, nurse, or other medical professionalevertold you that your child has or needed treatment for:"
+    }
+}

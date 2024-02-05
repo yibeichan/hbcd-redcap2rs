@@ -1,0 +1,59 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_bm_demo_child_i_roster_002",
+    "prefLabel": "sed_bm_demo_child_i_roster_002",
+    "description": "sed_bm_demo_child_i_roster_002 of sed_bm_demo_child",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Personal private residence (own or rent) ",
+                "value": 1
+            },
+            {
+                "name": "Residence of a relative or friend ",
+                "value": 2
+            },
+            {
+                "name": "Treatment facility ",
+                "value": 3
+            },
+            {
+                "name": "Shelter ",
+                "value": 4
+            },
+            {
+                "name": "No primary residence ",
+                "value": 5
+            },
+            {
+                "name": "Other ",
+                "value": 6
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "preamble": {
+        "en": "Household 1"
+    },
+    "question": {
+        "en": "How would you describe this household?"
+    },
+    "visibility": [
+        {
+            "variableName": "sed_bm_demo_child_i_roster_002",
+            "isVis": "( event-name   == 'v04_arm_1' OR  event-name   == 'v06_arm_1') AND  sed_bm_demo_child_i_roster_001_i_01  >= 1"
+        }
+    ]
+}

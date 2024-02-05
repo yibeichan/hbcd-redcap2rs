@@ -1,0 +1,75 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_bm_demo_child_i_income_001",
+    "prefLabel": "sed_bm_demo_child_i_income_001",
+    "description": "sed_bm_demo_child_i_income_001 of sed_bm_demo_child",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Less than $10,000 ",
+                "value": 1
+            },
+            {
+                "name": "$10,000 through $14,999 ",
+                "value": 2
+            },
+            {
+                "name": "$15,000 through $19,999 ",
+                "value": 3
+            },
+            {
+                "name": "$20,000 through $24,999 ",
+                "value": 4
+            },
+            {
+                "name": "$25,000 through $34,999 ",
+                "value": 5
+            },
+            {
+                "name": "$35,000 through $49,999 ",
+                "value": 6
+            },
+            {
+                "name": "$50,000 through $74,999 ",
+                "value": 7
+            },
+            {
+                "name": "$75,000 through $99,999 ",
+                "value": 8
+            },
+            {
+                "name": "$100,000 through $199,999 ",
+                "value": 9
+            },
+            {
+                "name": "$200,000 and greater ",
+                "value": 10
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "preamble": {
+        "en": "Income"
+    },
+    "question": {
+        "en": "Which of these categories best describes the TOTAL COMBINED INCOME of the CHILD'S HOUSEHOLD(S) for the past 12 months? This should include income (before taxes and deductions) from all sources, wages, rent from properties, social security, disability and/or veteran's benefits, unemployment benefits, workman's compensation, help from relatives (include child payments and alimony), and so on. If the child lives in more than one household, please average the household incomes."
+    },
+    "visibility": [
+        {
+            "variableName": "sed_bm_demo_child_i_income_001",
+            "isVis": " event-name   == 'v04_arm_1' OR  event-name   == 'v06_arm_1' "
+        }
+    ]
+}

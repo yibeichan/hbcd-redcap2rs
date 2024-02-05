@@ -1,0 +1,76 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ph_cg_inq_007_i_06_i_01",
+    "prefLabel": "ph_cg_inq_007_i_06_i_01",
+    "description": "ph_cg_inq_007_i_06_i_01 of ph_cg_inq",
+    "ui": {
+        "inputType": "select"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "1 ",
+                "value": 1
+            },
+            {
+                "name": "2 ",
+                "value": 2
+            },
+            {
+                "name": "3 ",
+                "value": 3
+            },
+            {
+                "name": "4 ",
+                "value": 4
+            },
+            {
+                "name": "5 ",
+                "value": 5
+            },
+            {
+                "name": "6 ",
+                "value": 6
+            },
+            {
+                "name": "7 ",
+                "value": 7
+            },
+            {
+                "name": "8 ",
+                "value": 8
+            },
+            {
+                "name": "9 ",
+                "value": 9
+            },
+            {
+                "name": "10 ",
+                "value": 10
+            },
+            {
+                "name": ">10 ",
+                "value": 11
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "Feedings of juice per day"
+    },
+    "visibility": [
+        {
+            "variableName": "ph_cg_inq_007_i_06_i_01",
+            "isVis": " ph_cg_inq_007_i_06   == '1' AND  ph_cg_inq_007_i_06_i_02   == '' AND  ph_cg_inq_007_i_06_i_03   == ''"
+        }
+    ]
+}

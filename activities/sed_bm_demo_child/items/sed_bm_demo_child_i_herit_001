@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_bm_demo_child_i_herit_001",
+    "prefLabel": "sed_bm_demo_child_i_herit_001",
+    "description": "sed_bm_demo_child_i_herit_001 of sed_bm_demo_child",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "preamble": {
+        "en": "Child's Race and Ethnicity"
+    },
+    "question": {
+        "en": "Which categories describe your child? Select all that apply. Note, you may select more than one group."
+    },
+    "visibility": [
+        {
+            "variableName": "sed_bm_demo_child_i_herit_001",
+            "isVis": " event-name   == 'v04_arm_1' OR  event-name   == 'v06_arm_1' "
+        }
+    ]
+}

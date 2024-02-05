@@ -1,0 +1,17 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ph_cg_pms_i_pags_010",
+    "prefLabel": "ph_cg_pms_i_pags_010",
+    "description": "ph_cg_pms_i_pags_010 of ph_cg_pms_i_pags",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "When spending time outside in greenspace, what type of activities does your child do? Check all that apply"
+    }
+}

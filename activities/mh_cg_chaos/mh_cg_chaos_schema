@@ -1,0 +1,213 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "mh_cg_chaos_schema",
+    "prefLabel": "mh_cg_chaos",
+    "description": "Default description",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "order": [
+            "items/mh_cg_chaos_lang",
+            "items/mh_cg_chaos_dtt",
+            "items/mh_cg_chaos_timestamp_start",
+            "items/mh_cg_chaos_location",
+            "items/mh_cg_chaos_instr01",
+            "items/mh_cg_chaos_001",
+            "items/mh_cg_chaos_002",
+            "items/mh_cg_chaos_003",
+            "items/mh_cg_chaos_004",
+            "items/mh_cg_chaos_005",
+            "items/mh_cg_chaos_006",
+            "items/mh_cg_chaos_007",
+            "items/mh_cg_chaos_008",
+            "items/mh_cg_chaos_009",
+            "items/mh_cg_chaos_010",
+            "items/mh_cg_chaos_011",
+            "items/mh_cg_chaos_012",
+            "items/mh_cg_chaos_013",
+            "items/mh_cg_chaos_014",
+            "items/mh_cg_chaos_015"
+        ],
+        "addProperties": [
+            {
+                "variableName": "mh_cg_chaos_lang",
+                "isAbout": "items/mh_cg_chaos_lang",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_chaos_dtt",
+                "isAbout": "items/mh_cg_chaos_dtt",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_chaos_timestamp_start",
+                "isAbout": "items/mh_cg_chaos_timestamp_start",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_chaos_location",
+                "isAbout": "items/mh_cg_chaos_location",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_chaos_instr01",
+                "isAbout": "items/mh_cg_chaos_instr01",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_chaos_001",
+                "isAbout": "items/mh_cg_chaos_001",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_chaos_002",
+                "isAbout": "items/mh_cg_chaos_002",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_chaos_003",
+                "isAbout": "items/mh_cg_chaos_003",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_chaos_004",
+                "isAbout": "items/mh_cg_chaos_004",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_chaos_005",
+                "isAbout": "items/mh_cg_chaos_005",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_chaos_006",
+                "isAbout": "items/mh_cg_chaos_006",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_chaos_007",
+                "isAbout": "items/mh_cg_chaos_007",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_chaos_008",
+                "isAbout": "items/mh_cg_chaos_008",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_chaos_009",
+                "isAbout": "items/mh_cg_chaos_009",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_chaos_010",
+                "isAbout": "items/mh_cg_chaos_010",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_chaos_011",
+                "isAbout": "items/mh_cg_chaos_011",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_chaos_012",
+                "isAbout": "items/mh_cg_chaos_012",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_chaos_013",
+                "isAbout": "items/mh_cg_chaos_013",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_chaos_014",
+                "isAbout": "items/mh_cg_chaos_014",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_chaos_015",
+                "isAbout": "items/mh_cg_chaos_015",
+                "isVis": true
+            }
+        ],
+        "shuffle": false
+    },
+    "matrixInfo": [
+        {
+            "variableName": "mh_cg_chaos_001",
+            "matrixGroupName": "mh_cg_chaos_m01",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "mh_cg_chaos_002",
+            "matrixGroupName": "mh_cg_chaos_m01",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "mh_cg_chaos_003",
+            "matrixGroupName": "mh_cg_chaos_m01",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "mh_cg_chaos_004",
+            "matrixGroupName": "mh_cg_chaos_m01",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "mh_cg_chaos_005",
+            "matrixGroupName": "mh_cg_chaos_m01",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "mh_cg_chaos_006",
+            "matrixGroupName": "mh_cg_chaos_m01",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "mh_cg_chaos_007",
+            "matrixGroupName": "mh_cg_chaos_m01",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "mh_cg_chaos_008",
+            "matrixGroupName": "mh_cg_chaos_m01",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "mh_cg_chaos_009",
+            "matrixGroupName": "mh_cg_chaos_m01",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "mh_cg_chaos_010",
+            "matrixGroupName": "mh_cg_chaos_m01",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "mh_cg_chaos_011",
+            "matrixGroupName": "mh_cg_chaos_m01",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "mh_cg_chaos_012",
+            "matrixGroupName": "mh_cg_chaos_m01",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "mh_cg_chaos_013",
+            "matrixGroupName": "mh_cg_chaos_m01",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "mh_cg_chaos_014",
+            "matrixGroupName": "mh_cg_chaos_m01",
+            "matrixRanking": ""
+        },
+        {
+            "variableName": "mh_cg_chaos_015",
+            "matrixGroupName": "mh_cg_chaos_m01",
+            "matrixRanking": ""
+        }
+    ]
+}

@@ -1,0 +1,190 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ph_cg_bisq_pb_006",
+    "prefLabel": "ph_cg_bisq_pb_006",
+    "description": "ph_cg_bisq_pb_006 of ph_cg_bisq",
+    "ui": {
+        "inputType": "select"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": [
+            {
+                "name": "5:00 PM ",
+                "value": 1
+            },
+            {
+                "name": "5:15 PM ",
+                "value": 2
+            },
+            {
+                "name": "5:30 PM ",
+                "value": 3
+            },
+            {
+                "name": "5:45 PM ",
+                "value": 4
+            },
+            {
+                "name": "6:00 PM ",
+                "value": 5
+            },
+            {
+                "name": "6:15 PM ",
+                "value": 6
+            },
+            {
+                "name": "6:30 PM ",
+                "value": 7
+            },
+            {
+                "name": "6:45 PM ",
+                "value": 8
+            },
+            {
+                "name": "7:00 PM ",
+                "value": 9
+            },
+            {
+                "name": "7:15 PM ",
+                "value": 10
+            },
+            {
+                "name": "7:30 PM ",
+                "value": 11
+            },
+            {
+                "name": "7:45 PM ",
+                "value": 12
+            },
+            {
+                "name": "8:00 PM ",
+                "value": 13
+            },
+            {
+                "name": "8:15 PM ",
+                "value": 14
+            },
+            {
+                "name": "8:30 PM ",
+                "value": 15
+            },
+            {
+                "name": "8:45 PM ",
+                "value": 16
+            },
+            {
+                "name": "9:00 PM ",
+                "value": 17
+            },
+            {
+                "name": "9:15 PM ",
+                "value": 18
+            },
+            {
+                "name": "9:30 PM ",
+                "value": 19
+            },
+            {
+                "name": "9:45 PM ",
+                "value": 20
+            },
+            {
+                "name": "10:00 PM ",
+                "value": 21
+            },
+            {
+                "name": "10:15 PM ",
+                "value": 22
+            },
+            {
+                "name": "10:30 PM ",
+                "value": 23
+            },
+            {
+                "name": "10:45 PM ",
+                "value": 24
+            },
+            {
+                "name": "11:00 PM ",
+                "value": 25
+            },
+            {
+                "name": "11:15 PM ",
+                "value": 26
+            },
+            {
+                "name": "11:30 PM ",
+                "value": 27
+            },
+            {
+                "name": "11:45 PM ",
+                "value": 28
+            },
+            {
+                "name": "12:00 AM ",
+                "value": 29
+            },
+            {
+                "name": "12:15 AM ",
+                "value": 30
+            },
+            {
+                "name": "12:30 AM ",
+                "value": 31
+            },
+            {
+                "name": "12:45 AM ",
+                "value": 32
+            },
+            {
+                "name": "1:00 AM ",
+                "value": 33
+            },
+            {
+                "name": "1:15 AM ",
+                "value": 34
+            },
+            {
+                "name": "1:30 AM ",
+                "value": 35
+            },
+            {
+                "name": "1:45 AM ",
+                "value": 36
+            },
+            {
+                "name": "2:00 AM ",
+                "value": 37
+            },
+            {
+                "name": "2:15 AM ",
+                "value": 38
+            },
+            {
+                "name": "2:30 AM ",
+                "value": 39
+            },
+            {
+                "name": "2:45 AM ",
+                "value": 40
+            },
+            {
+                "name": "3:00 AM ",
+                "value": 41
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "What time do you usually put your child to bed at night (lights out)?"
+    }
+}

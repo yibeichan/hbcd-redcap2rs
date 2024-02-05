@@ -34,7 +34,7 @@
     "visibility": [
         {
             "variableName": "sed_bm_demo_work_004_pre",
-            "isVis": " sed_bm_demo_work_002_pre   == '1' AND  event-name  admin_caregiver_001  ! == '1'"
+            "isVis": " sed_bm_demo_work_002_pre   == '1' "
         }
     ]
 }

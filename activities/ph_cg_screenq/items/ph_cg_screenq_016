@@ -1,0 +1,42 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ph_cg_screenq_016",
+    "prefLabel": "ph_cg_screenq_016",
+    "description": "ph_cg_screenq_016 of ph_cg_screenq",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Often ",
+                "value": 1
+            },
+            {
+                "name": "Sometimes ",
+                "value": 2
+            },
+            {
+                "name": "Rarely ",
+                "value": 3
+            },
+            {
+                "name": "Never ",
+                "value": 4
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "While the child is watching a TV show/movie, how often do you talk to them about what's happening or ask questions?"
+    }
+}

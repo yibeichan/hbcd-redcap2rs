@@ -1,0 +1,123 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_cg_employ_010_i_01",
+    "prefLabel": "sed_cg_employ_010_i_01",
+    "description": "sed_cg_employ_010_i_01 of sed_cg_employ",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Never attended / Kindergarten only ",
+                "value": 0
+            },
+            {
+                "name": "1st grade ",
+                "value": 1
+            },
+            {
+                "name": "2nd grade ",
+                "value": 2
+            },
+            {
+                "name": "3rd grade ",
+                "value": 3
+            },
+            {
+                "name": "4th grade ",
+                "value": 4
+            },
+            {
+                "name": "5th grade ",
+                "value": 5
+            },
+            {
+                "name": "6th grade ",
+                "value": 6
+            },
+            {
+                "name": "7th grade ",
+                "value": 7
+            },
+            {
+                "name": "8th grade ",
+                "value": 8
+            },
+            {
+                "name": "9th grade ",
+                "value": 9
+            },
+            {
+                "name": "10th grade ",
+                "value": 10
+            },
+            {
+                "name": "11th grade ",
+                "value": 11
+            },
+            {
+                "name": "12th grade",
+                "value": 12,
+                "schema:image": "no diploma .png"
+            },
+            {
+                "name": "High school graduate ",
+                "value": 13
+            },
+            {
+                "name": "GED or equivalent ",
+                "value": 14
+            },
+            {
+                "name": "Some college",
+                "value": 15,
+                "schema:image": "no degree .png"
+            },
+            {
+                "name": "Occupational",
+                "value": 16
+            },
+            {
+                "name": "Associate degree: Academic program ",
+                "value": 17
+            },
+            {
+                "name": "Bachelor's degree (ex: BA",
+                "value": 18
+            },
+            {
+                "name": "Master's degree (ex: MA",
+                "value": 19
+            },
+            {
+                "name": "Professional school degree (ex: MD",
+                "value": 20
+            },
+            {
+                "name": "Doctoral degree (ex: PhD",
+                "value": 21,
+                "schema:image": "EdD) .png"
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "What is the highest grade or level of school that your partner completed?"
+    },
+    "visibility": [
+        {
+            "variableName": "sed_cg_employ_010_i_01",
+            "isVis": " sed_cg_employ_010   == '1'"
+        }
+    ]
+}

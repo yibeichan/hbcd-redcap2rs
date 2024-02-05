@@ -1,0 +1,17 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ph_cg_ecls_i_medhist_026",
+    "prefLabel": "ph_cg_ecls_i_medhist_026",
+    "description": "ph_cg_ecls_i_medhist_026 of ph_cg_ecls_i_medhist",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "Has a doctor or nurse ever told you that your child has the following chronic (long-lasting or permanent) problem(s):"
+    }
+}

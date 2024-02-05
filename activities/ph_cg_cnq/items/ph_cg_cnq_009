@@ -1,0 +1,17 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ph_cg_cnq_009",
+    "prefLabel": "ph_cg_cnq_009",
+    "description": "ph_cg_cnq_009 of ph_cg_cnq",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "Check any concerns you have with getting your child to eat well"
+    }
+}

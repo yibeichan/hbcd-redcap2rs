@@ -1,9 +1,9 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "sed_bm_demo_work_013_m01_2845",
-    "prefLabel": "sed_bm_demo_work_013_m01_2845",
-    "description": "sed_bm_demo_work_013_m01_2845 of sed_bm_demo",
+    "@id": "sed_bm_demo_work_013_m01_2855",
+    "prefLabel": "sed_bm_demo_work_013_m01_2855",
+    "description": "sed_bm_demo_work_013_m01_2855 of sed_bm_demo",
     "ui": {
         "inputType": "radio"
     },
@@ -38,7 +38,7 @@
     "visibility": [
         {
             "variableName": "sed_bm_demo_work_013_i_10",
-            "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' "
+            "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
         }
     ]
 }

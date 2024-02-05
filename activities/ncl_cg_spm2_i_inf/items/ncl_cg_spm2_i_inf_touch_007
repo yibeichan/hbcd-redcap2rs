@@ -1,9 +1,9 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "ncl_cg_spm2_i_inf_touch_m01_492",
-    "prefLabel": "ncl_cg_spm2_i_inf_touch_m01_492",
-    "description": "ncl_cg_spm2_i_inf_touch_m01_492 of ncl_cg_spm2_i_inf",
+    "@id": "ncl_cg_spm2_i_inf_touch_m01_502",
+    "prefLabel": "ncl_cg_spm2_i_inf_touch_m01_502",
+    "description": "ncl_cg_spm2_i_inf_touch_m01_502 of ncl_cg_spm2_i_inf",
     "ui": {
         "inputType": "radio"
     },
