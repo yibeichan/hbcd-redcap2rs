@@ -29,12 +29,16 @@
             {
                 "name": "CG Type E (Change in legal custody and placement",
                 "value": 5,
-                "schema:image": "e.g. adoption).png"
+                "schema:image": "e.g. adoption) .png"
+            },
+            {
+                "name": "CG Type F (Birth mother)",
+                "value": 6
             }
         ]
     },
     "question": {
-        "en": "New caregiver type"
+        "en": "Caregiver type for this visit"
     },
     "visibility": [
         {
