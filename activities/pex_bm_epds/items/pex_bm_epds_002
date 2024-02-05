@@ -1,0 +1,42 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_epds_002",
+    "prefLabel": "pex_bm_epds_002",
+    "description": "pex_bm_epds_002 of pex_bm_epds",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "As much as I ever did ",
+                "value": 0
+            },
+            {
+                "name": "Rather less than I used to ",
+                "value": 1
+            },
+            {
+                "name": "Definitely less than I used to ",
+                "value": 2
+            },
+            {
+                "name": "Hardly at all ",
+                "value": 3
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "I have looked forward with enjoyment to things:"
+    }
+}

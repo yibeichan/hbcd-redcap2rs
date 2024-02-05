@@ -1,0 +1,54 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "mh_cg_ibqr_m01_1116",
+    "prefLabel": "mh_cg_ibqr_m01_1116",
+    "description": "mh_cg_ibqr_m01_1116 of mh_cg_ibqr",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Never ",
+                "value": 1
+            },
+            {
+                "name": "Very Rarely ",
+                "value": 2
+            },
+            {
+                "name": "Less Than Half the Time ",
+                "value": 3
+            },
+            {
+                "name": "About Half the Time ",
+                "value": 4
+            },
+            {
+                "name": "More than Half the Time ",
+                "value": 5
+            },
+            {
+                "name": "Almost Always ",
+                "value": 6
+            },
+            {
+                "name": "Always ",
+                "value": 7
+            },
+            {
+                "name": "Does Not Apply ",
+                "value": 8
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "When patting or gently rubbing some part of the baby's body, how often did s/he soothe immediately?"
+    }
+}

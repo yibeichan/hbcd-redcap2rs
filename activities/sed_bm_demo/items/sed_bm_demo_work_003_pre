@@ -1,0 +1,40 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_bm_demo_work_003_pre",
+    "prefLabel": "sed_bm_demo_work_003_pre",
+    "description": "sed_bm_demo_work_003_pre of sed_bm_demo",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Yes ",
+                "value": 1
+            },
+            {
+                "name": "No ",
+                "value": 0
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "During the current pregnancy, have you held a job for at least 1 month that included at least 20 hours a week of work?"
+    },
+    "visibility": [
+        {
+            "variableName": "sed_bm_demo_work_003_pre",
+            "isVis": "  sed_bm_demo_work_002_pre   == '1'"
+        }
+    ]
+}

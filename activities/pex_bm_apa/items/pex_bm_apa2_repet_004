@@ -1,0 +1,52 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_apa2_repet_004",
+    "prefLabel": "pex_bm_apa2_repet_004",
+    "description": "pex_bm_apa2_repet_004 of pex_bm_apa",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "No avoidance ",
+                "value": 0
+            },
+            {
+                "name": "Mild (occasional avoidance) ",
+                "value": 1
+            },
+            {
+                "name": "Moderate (regularly avoid doing these things) ",
+                "value": 2
+            },
+            {
+                "name": "Severe (frequent and extensive avoidance) ",
+                "value": 3
+            },
+            {
+                "name": "Extreme (nearly complete avoidance; house- bound) ",
+                "value": 4
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "How much do these thoughts or behaviors cause you to avoid doing anything, going anyplace, or being with anyone?"
+    },
+    "visibility": [
+        {
+            "variableName": "pex_bm_apa2_repet_004",
+            "isVis": " pex_bm_apa1_repet_001  >= '2' OR  pex_bm_apa1_repet_002  >= '2'"
+        }
+    ]
+}

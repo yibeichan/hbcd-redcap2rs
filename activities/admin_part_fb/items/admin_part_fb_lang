@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "admin_part_fb_lang",
+    "prefLabel": "admin_part_fb_lang",
+    "description": "admin_part_fb_lang of admin_part_fb",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "English ",
+                "value": "en"
+            },
+            {
+                "name": "Spanish",
+                "value": " es"
+            }
+        ]
+    },
+    "question": {
+        "en": "Language"
+    }
+}

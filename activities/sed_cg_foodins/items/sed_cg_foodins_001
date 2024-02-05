@@ -1,0 +1,38 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_cg_foodins_001",
+    "prefLabel": "sed_cg_foodins_001",
+    "description": "sed_cg_foodins_001 of sed_cg_foodins",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Never true ",
+                "value": 0
+            },
+            {
+                "name": "Sometimes true ",
+                "value": 1
+            },
+            {
+                "name": "Often true ",
+                "value": 2
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "The food that (I/we) bought just didn't last, and (I/we) didn't have money to get more. Was that often, sometimes, or never true for (you/your household) in the last 12 months?"
+    }
+}

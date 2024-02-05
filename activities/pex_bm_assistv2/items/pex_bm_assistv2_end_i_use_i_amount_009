@@ -1,0 +1,72 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_assistv2_end_i_use_i_amount_009",
+    "prefLabel": "pex_bm_assistv2_end_i_use_i_amount_009",
+    "description": "pex_bm_assistv2_end_i_use_i_amount_009 of pex_bm_assistv2",
+    "ui": {
+        "inputType": "select"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "0.5 ",
+                "value": 1
+            },
+            {
+                "name": "1 ",
+                "value": 2
+            },
+            {
+                "name": "1.5 ",
+                "value": 3
+            },
+            {
+                "name": "2 ",
+                "value": 4
+            },
+            {
+                "name": "2.5 ",
+                "value": 5
+            },
+            {
+                "name": "3 ",
+                "value": 6
+            },
+            {
+                "name": "3.5 ",
+                "value": 7
+            },
+            {
+                "name": "4 ",
+                "value": 8
+            },
+            {
+                "name": "4.5 ",
+                "value": 9
+            },
+            {
+                "name": "5 ",
+                "value": 10
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "Buprenorphine amount (pills)"
+    },
+    "visibility": [
+        {
+            "variableName": "pex_bm_assistv2_end_i_use_i_amount_009",
+            "isVis": " pex_bm_assistv2_end_i_use_i_unit_009   == '1'"
+        }
+    ]
+}

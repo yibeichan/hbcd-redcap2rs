@@ -1,0 +1,40 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_healthv2_preg_i_covid_009",
+    "prefLabel": "pex_bm_healthv2_preg_i_covid_009",
+    "description": "pex_bm_healthv2_preg_i_covid_009 of pex_bm_healthv2_preg",
+    "ui": {
+        "inputType": "select"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "1 ",
+                "value": 1
+            },
+            {
+                "name": "2 ",
+                "value": 2
+            },
+            {
+                "name": "3 ",
+                "value": 3
+            },
+            {
+                "name": "4",
+                "value": 4
+            }
+        ]
+    },
+    "question": {
+        "en": "How many times have you tested positive for Covid-19 since we last met?"
+    },
+    "visibility": [
+        {
+            "variableName": "pex_bm_healthv2_preg_i_covid_009",
+            "isVis": " pex_bm_healthv2_preg_i_covid_008   == '1' AND  pex_bm_healthv2_preg_i_covid_009_i_dk   == ''"
+        }
+    ]
+}

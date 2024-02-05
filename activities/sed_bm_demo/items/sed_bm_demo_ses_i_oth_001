@@ -1,0 +1,40 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_bm_demo_ses_i_oth_001",
+    "prefLabel": "sed_bm_demo_ses_i_oth_001",
+    "description": "sed_bm_demo_ses_i_oth_001 of sed_bm_demo",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Yes ",
+                "value": 1
+            },
+            {
+                "name": "No ",
+                "value": 0
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "Does the other biological parent help you out financially?"
+    },
+    "visibility": [
+        {
+            "variableName": "sed_bm_demo_ses_i_oth_001",
+            "isVis": " sed_bm_demo_obp_001   == '1'"
+        }
+    ]
+}

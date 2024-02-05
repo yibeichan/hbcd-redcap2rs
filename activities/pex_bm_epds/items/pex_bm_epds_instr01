@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_epds_instr01",
+    "prefLabel": "pex_bm_epds_instr01",
+    "description": "pex_bm_epds_instr01 of pex_bm_epds",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "preamble": {
+        "en": "Edinburgh Postnatal Depression Scale (EDPS)"
+    },
+    "question": {
+        "en": "Since you are either pregnant or have recently had a baby, we want to know how you feel. MARK the answer that comes closest to how you have feltIN THE PAST 7 DAYS-not just how you feel today.In the past 7 days"
+    }
+}

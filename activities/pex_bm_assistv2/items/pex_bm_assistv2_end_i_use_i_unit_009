@@ -1,0 +1,32 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_assistv2_end_i_use_i_unit_009",
+    "prefLabel": "pex_bm_assistv2_end_i_use_i_unit_009",
+    "description": "pex_bm_assistv2_end_i_use_i_unit_009 of pex_bm_assistv2",
+    "ui": {
+        "inputType": "select"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "pills ",
+                "value": 1
+            },
+            {
+                "name": "injectable",
+                "value": 2
+            }
+        ]
+    },
+    "question": {
+        "en": "Buprenorphine (unit)"
+    },
+    "visibility": [
+        {
+            "variableName": "pex_bm_assistv2_end_i_use_i_unit_009",
+            "isVis": " pex_bm_assistv2_end_i_use_009   == '1' AND  pex_bm_assistv2_end_i_use_i_unit_009_dk   ==''"
+        }
+    ]
+}

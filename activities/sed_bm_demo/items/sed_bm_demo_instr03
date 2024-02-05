@@ -1,0 +1,25 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_bm_demo_instr03",
+    "prefLabel": "sed_bm_demo_instr03",
+    "description": "sed_bm_demo_instr03 of sed_bm_demo",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "preamble": {
+        "en": "Jobs During Pregnancy"
+    },
+    "question": {
+        "en": "The purpose of the employment and occupation section is to obtain information on jobs held during pregnancy."
+    },
+    "visibility": [
+        {
+            "variableName": "sed_bm_demo_instr03",
+            "isVis": " event-name  admin_caregiver_001  ! == '1'"
+        }
+    ]
+}

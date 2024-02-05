@@ -1,0 +1,212 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_bm_demo_work_032_i_02",
+    "prefLabel": "sed_bm_demo_work_032_i_02",
+    "description": "sed_bm_demo_work_032_i_02 of sed_bm_demo",
+    "ui": {
+        "inputType": "select"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": " 1985 ",
+                "value": 1
+            },
+            {
+                "name": "1986 ",
+                "value": 2
+            },
+            {
+                "name": "1987 ",
+                "value": 3
+            },
+            {
+                "name": "1988 ",
+                "value": 4
+            },
+            {
+                "name": "1989 ",
+                "value": 5
+            },
+            {
+                "name": " 1990 ",
+                "value": 6
+            },
+            {
+                "name": "1991 ",
+                "value": 7
+            },
+            {
+                "name": "1992 ",
+                "value": 8
+            },
+            {
+                "name": "1993 ",
+                "value": 9
+            },
+            {
+                "name": "1994 ",
+                "value": 10
+            },
+            {
+                "name": " 1995 ",
+                "value": 11
+            },
+            {
+                "name": "1996 ",
+                "value": 12
+            },
+            {
+                "name": "1997 ",
+                "value": 13
+            },
+            {
+                "name": "1998 ",
+                "value": 14
+            },
+            {
+                "name": "1999 ",
+                "value": 15
+            },
+            {
+                "name": " 2000 ",
+                "value": 16
+            },
+            {
+                "name": "2001 ",
+                "value": 17
+            },
+            {
+                "name": "2002 ",
+                "value": 18
+            },
+            {
+                "name": "2003 ",
+                "value": 19
+            },
+            {
+                "name": "2004 ",
+                "value": 20
+            },
+            {
+                "name": " 2005 ",
+                "value": 21
+            },
+            {
+                "name": "2006 ",
+                "value": 22
+            },
+            {
+                "name": "2007 ",
+                "value": 23
+            },
+            {
+                "name": "2008 ",
+                "value": 24
+            },
+            {
+                "name": "2009 ",
+                "value": 25
+            },
+            {
+                "name": " 2010 ",
+                "value": 26
+            },
+            {
+                "name": "2011 ",
+                "value": 27
+            },
+            {
+                "name": "2012 ",
+                "value": 28
+            },
+            {
+                "name": "2013 ",
+                "value": 29
+            },
+            {
+                "name": "2014 ",
+                "value": 30
+            },
+            {
+                "name": " 2015 ",
+                "value": 31
+            },
+            {
+                "name": "2016 ",
+                "value": 32
+            },
+            {
+                "name": "2017 ",
+                "value": 33
+            },
+            {
+                "name": "2018 ",
+                "value": 34
+            },
+            {
+                "name": "2019 ",
+                "value": 35
+            },
+            {
+                "name": " 2020 ",
+                "value": 36
+            },
+            {
+                "name": "2021 ",
+                "value": 37
+            },
+            {
+                "name": "2022 ",
+                "value": 38
+            },
+            {
+                "name": "2023 ",
+                "value": 39
+            },
+            {
+                "name": "2024 ",
+                "value": 40
+            },
+            {
+                "name": " 2025 ",
+                "value": 41
+            },
+            {
+                "name": "2026 ",
+                "value": 42
+            },
+            {
+                "name": "2027 ",
+                "value": 43
+            },
+            {
+                "name": "2028 ",
+                "value": 44
+            },
+            {
+                "name": "2029 ",
+                "value": 45
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "In what year did you start this job?"
+    },
+    "visibility": [
+        {
+            "variableName": "sed_bm_demo_work_032_i_02",
+            "isVis": " sed_bm_demo_work_i_env_004   == '1' "
+        }
+    ]
+}

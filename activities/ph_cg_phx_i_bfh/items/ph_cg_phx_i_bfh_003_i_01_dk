@@ -1,0 +1,32 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ph_cg_phx_i_bfh_003_i_01_dk",
+    "prefLabel": "ph_cg_phx_i_bfh_003_i_01_dk",
+    "description": "ph_cg_phx_i_bfh_003_i_01_dk of ph_cg_phx_i_bfh",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "How old was the baby when they completely stopped breastfeeding or being fed breast milk?"
+    },
+    "visibility": [
+        {
+            "variableName": "ph_cg_phx_i_bfh_003_i_01_dk",
+            "isVis": " v03_arm_1  ph_cg_phx_i_bfh_003_i_01_i_01   =='' AND  v03_arm_1  ph_cg_phx_i_bfh_003_i_02   ==''"
+        }
+    ]
+}

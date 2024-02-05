@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_epds_flag02",
+    "prefLabel": "pex_bm_epds_flag02",
+    "description": "pex_bm_epds_flag02 of pex_bm_epds",
+    "ui": {
+        "inputType": "number",
+        "hidden": true
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "EPDS - Flag 2: Depression summary score above threshold."
+    },
+    "scoringLogic": [
+        {
+            "variableName": "pex_bm_epds_flag02",
+            "jsExpression": "if( pex_bm_epds_score  >= 12, 1, 0)"
+        }
+    ]
+}

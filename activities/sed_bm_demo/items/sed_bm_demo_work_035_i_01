@@ -1,0 +1,47 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_bm_demo_work_035_m01_1121",
+    "prefLabel": "sed_bm_demo_work_035_m01_1121",
+    "description": "sed_bm_demo_work_035_m01_1121 of sed_bm_demo",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Never ",
+                "value": 1
+            },
+            {
+                "name": "Some days ",
+                "value": 2
+            },
+            {
+                "name": "Every day ",
+                "value": 3
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "preamble": {
+        "en": "Did this job involve:"
+    },
+    "question": {
+        "en": "Standing for more than 6 hours at a time"
+    },
+    "visibility": [
+        {
+            "variableName": "sed_bm_demo_work_035_i_01",
+            "isVis": " sed_bm_demo_work_i_env_004   == '1' "
+        }
+    ]
+}

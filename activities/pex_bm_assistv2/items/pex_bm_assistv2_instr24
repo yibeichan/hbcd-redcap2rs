@@ -1,0 +1,25 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_assistv2_instr24",
+    "prefLabel": "pex_bm_assistv2_instr24",
+    "description": "pex_bm_assistv2_instr24 of pex_bm_assistv2",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "preamble": {
+        "en": "Opioids"
+    },
+    "question": {
+        "en": "When you were using opioids SINCE WE LAST MET UNTIL THE END OF PREGNANCY, please select the specific substances you used below.For each substance that you endorse, please describe the typical amount that you use per occasion.Type of usageAmount/unit"
+    },
+    "visibility": [
+        {
+            "variableName": "pex_bm_assistv2_instr24",
+            "isVis": "( pex_bm_assistv2_end_i_use_006   == '1' OR  pex_bm_assistv2_end_i_use_007   == '1' OR  pex_bm_assistv2_end_i_use_008   == '1' OR  pex_bm_assistv2_end_i_use_009   == '1' ) AND  screening_arm_1  recruitment_period   =='1'"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_bm_demo_instr_011",
+    "prefLabel": "sed_bm_demo_instr_011",
+    "description": "sed_bm_demo_instr_011 of sed_bm_demo",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "preamble": {
+        "en": "Household Relationships"
+    },
+    "question": {
+        "en": "These questions are about all the people living with you. We are interested in knowing about all children, relatives, partner / spouse, and friendswho spend at least two nights a weekwith you."
+    },
+    "visibility": [
+        {
+            "variableName": "sed_bm_demo_instr_011",
+            "isVis": " sed_bm_demo_residence_001   == '1' OR  sed_bm_demo_residence_001   == '2' OR  sed_bm_demo_residence_001   == '5'"
+        }
+    ]
+}

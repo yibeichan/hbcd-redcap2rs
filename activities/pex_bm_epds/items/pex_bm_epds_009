@@ -1,0 +1,45 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_epds_009",
+    "prefLabel": "pex_bm_epds_009",
+    "description": "pex_bm_epds_009 of pex_bm_epds",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Yes",
+                "value": 3,
+                "schema:image": "most of the time .png"
+            },
+            {
+                "name": "Yes",
+                "value": 2,
+                "schema:image": "quite often .png"
+            },
+            {
+                "name": "Only occasionally ",
+                "value": 1
+            },
+            {
+                "name": "No",
+                "value": 0,
+                "schema:image": "never .png"
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "I have been so unhappy that I have been crying:"
+    }
+}

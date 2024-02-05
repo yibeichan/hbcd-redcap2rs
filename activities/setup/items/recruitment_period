@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "recruitment_period",
+    "prefLabel": "recruitment_period",
+    "description": "recruitment_period of setup",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Prenatal ",
+                "value": 1
+            },
+            {
+                "name": "Postnatal",
+                "value": 2
+            }
+        ]
+    },
+    "question": {
+        "en": "Timepoint of participant recruitment"
+    }
+}

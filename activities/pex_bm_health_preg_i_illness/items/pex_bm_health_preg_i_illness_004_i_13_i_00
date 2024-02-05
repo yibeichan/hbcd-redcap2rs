@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_health_preg_i_illness_004_i_13_i_00",
+    "prefLabel": "pex_bm_health_preg_i_illness_004_i_13_i_00",
+    "description": "pex_bm_health_preg_i_illness_004_i_13_i_00 of pex_bm_health_preg_i_illness",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "How many hours or days did the fever last? {pex_bm_health_preg_i_illness_004_i_13_i_01} {pex_bm_health_preg_i_illness_004_i_13_i_02} {pex_bm_health_preg_i_illness_004_i_13_i_dk}"
+    },
+    "visibility": [
+        {
+            "variableName": "pex_bm_health_preg_i_illness_004_i_13_i_00",
+            "isVis": "  pex_bm_health_preg_i_illness_004_i_11   =='1'"
+        }
+    ]
+}

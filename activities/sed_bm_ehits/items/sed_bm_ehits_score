@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_bm_ehits_score",
+    "prefLabel": "sed_bm_ehits_score",
+    "description": "sed_bm_ehits_score of sed_bm_ehits",
+    "ui": {
+        "inputType": "number",
+        "hidden": true
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "eHITS - Summary Score (Sum of all items)"
+    },
+    "scoringLogic": [
+        {
+            "variableName": "sed_bm_ehits_score",
+            "jsExpression": "sum( sed_bm_ehits_001_i_01 ,  sed_bm_ehits_002_i_01 ,  sed_bm_ehits_003_i_01 ,  sed_bm_ehits_004_i_01 ,  sed_bm_ehits_005_i_01 )"
+        }
+    ]
+}

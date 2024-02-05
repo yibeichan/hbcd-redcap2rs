@@ -1,0 +1,25 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_bm_demo_instr07_post",
+    "prefLabel": "sed_bm_demo_instr07_post",
+    "description": "sed_bm_demo_instr07_post of sed_bm_demo",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "preamble": {
+        "en": "Work Environment"
+    },
+    "question": {
+        "en": "Now we are going to ask you about all of the jobs that involve at least 20 hours per week of work, and that you have held for at least 1 month while you were pregnant with this child, starting with the most recent or current job(s)."
+    },
+    "visibility": [
+        {
+            "variableName": "sed_bm_demo_instr07_post",
+            "isVis": " sed_bm_demo_work_003_post   == '1' "
+        }
+    ]
+}

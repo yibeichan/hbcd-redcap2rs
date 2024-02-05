@@ -1,0 +1,42 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_apa2_pers_m01_688",
+    "prefLabel": "pex_bm_apa2_pers_m01_688",
+    "description": "pex_bm_apa2_pers_m01_688 of pex_bm_apa",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Very False or Often False ",
+                "value": 0
+            },
+            {
+                "name": "Sometimes or Somewhat False ",
+                "value": 1
+            },
+            {
+                "name": "Sometimes or Somewhat True ",
+                "value": 2
+            },
+            {
+                "name": "Very True or Often True ",
+                "value": 3
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "I steer clear of romantic relationships."
+    }
+}

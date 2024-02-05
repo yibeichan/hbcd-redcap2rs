@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "remote_completion",
+    "prefLabel": "remote_completion",
+    "description": "remote_completion of remote_survey_completion",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Thank you for completing these questionnaires! Your answers are recorded and saved. If you have any questions or concerns, please feel free to reach out to your HBCD Study Coordinator for more information."
+    },
+    "visibility": [
+        {
+            "variableName": "remote_completion",
+            "isVis": "( pex_bm_assistv3_3m_i_use_018   == '1' OR  pex_bm_assistv3_3m_i_use_018   == '2' OR  pex_bm_assistv3_3m_i_use_018   == '3' OR  pex_bm_assistv3_3m_i_use_018   == '4')"
+        }
+    ]
+}

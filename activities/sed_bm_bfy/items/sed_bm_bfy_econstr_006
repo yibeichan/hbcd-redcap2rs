@@ -1,0 +1,39 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_bm_bfy_econstr_006",
+    "prefLabel": "sed_bm_bfy_econstr_006",
+    "description": "sed_bm_bfy_econstr_006 of sed_bm_bfy",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Yes ",
+                "value": 1
+            },
+            {
+                "name": "No ",
+                "value": 0
+            },
+            {
+                "name": "Not applicable",
+                "value": 2,
+                "schema:image": "does not pay or does not have these utilities .png"
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "In the past 12 months, did you ever miss a payment for oil, gas, water, or electricity?"
+    }
+}

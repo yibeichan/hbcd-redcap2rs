@@ -1,0 +1,42 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_healthv2_preg_i_outcome_004",
+    "prefLabel": "pex_bm_healthv2_preg_i_outcome_004",
+    "description": "pex_bm_healthv2_preg_i_outcome_004 of pex_bm_healthv2_preg",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Hospital ",
+                "value": 1
+            },
+            {
+                "name": "Birthing center (not within a hospital) ",
+                "value": 2
+            },
+            {
+                "name": "Home ",
+                "value": 3
+            },
+            {
+                "name": "Other (like ambulance",
+                "value": 4
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "Where was your baby born?"
+    }
+}

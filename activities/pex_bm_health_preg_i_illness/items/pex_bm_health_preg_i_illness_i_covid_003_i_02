@@ -1,0 +1,40 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_health_preg_i_illness_i_covid_003_i_02",
+    "prefLabel": "pex_bm_health_preg_i_illness_i_covid_003_i_02",
+    "description": "pex_bm_health_preg_i_illness_i_covid_003_i_02 of pex_bm_health_preg_i_illness",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Yes ",
+                "value": 1
+            },
+            {
+                "name": "No ",
+                "value": 0
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "Did you have any symptoms accompanying your first positive test for COVID-19?"
+    },
+    "visibility": [
+        {
+            "variableName": "pex_bm_health_preg_i_illness_i_covid_003_i_02",
+            "isVis": " pex_bm_health_preg_i_illness_i_covid_002  >= 1"
+        }
+    ]
+}

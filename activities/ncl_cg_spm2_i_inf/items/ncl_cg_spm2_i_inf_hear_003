@@ -1,0 +1,38 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ncl_cg_spm2_i_inf_hear_m01_598",
+    "prefLabel": "ncl_cg_spm2_i_inf_hear_m01_598",
+    "description": "ncl_cg_spm2_i_inf_hear_m01_598 of ncl_cg_spm2_i_inf",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Never ",
+                "value": 1
+            },
+            {
+                "name": "Occasionally ",
+                "value": 2
+            },
+            {
+                "name": "Frequently ",
+                "value": 3
+            },
+            {
+                "name": "Always ",
+                "value": 4
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "This child fails to look at me when I call his or her name."
+    }
+}

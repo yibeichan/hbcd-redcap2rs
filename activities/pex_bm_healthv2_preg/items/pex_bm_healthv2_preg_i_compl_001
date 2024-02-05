@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_healthv2_preg_i_compl_001",
+    "prefLabel": "pex_bm_healthv2_preg_i_compl_001",
+    "description": "pex_bm_healthv2_preg_i_compl_001 of pex_bm_healthv2_preg",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "preamble": {
+        "en": "Pregnancy Complications"
+    },
+    "question": {
+        "en": "During your pregnancy, were you ever told that you have any of the following?"
+    }
+}

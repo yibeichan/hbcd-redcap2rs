@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_assistv2_end_i_use_i_info_006",
+    "prefLabel": "pex_bm_assistv2_end_i_use_i_info_006",
+    "description": "pex_bm_assistv2_end_i_use_i_info_006 of pex_bm_assistv2",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Prescription opioids{pex_bm_assistv2_end_i_use_i_amount_006}pills{pex_bm_assistv2_end_i_use_i_amount_006_dk}"
+    },
+    "visibility": [
+        {
+            "variableName": "pex_bm_assistv2_end_i_use_i_info_006",
+            "isVis": " pex_bm_assistv2_end_i_use_006   == '1'"
+        }
+    ]
+}

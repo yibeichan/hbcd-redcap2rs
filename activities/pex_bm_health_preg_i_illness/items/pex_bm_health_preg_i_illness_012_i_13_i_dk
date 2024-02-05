@@ -1,0 +1,32 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_health_preg_i_illness_012_i_13_i_dk",
+    "prefLabel": "pex_bm_health_preg_i_illness_012_i_13_i_dk",
+    "description": "pex_bm_health_preg_i_illness_012_i_13_i_dk of pex_bm_health_preg_i_illness",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "dk/decline duration"
+    },
+    "visibility": [
+        {
+            "variableName": "pex_bm_health_preg_i_illness_012_i_13_i_dk",
+            "isVis": " pex_bm_health_preg_i_illness_012_i_13_i_01   == ''"
+        }
+    ]
+}

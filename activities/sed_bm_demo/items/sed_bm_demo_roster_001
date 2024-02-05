@@ -1,0 +1,68 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sed_bm_demo_roster_001",
+    "prefLabel": "sed_bm_demo_roster_001",
+    "description": "sed_bm_demo_roster_001 of sed_bm_demo",
+    "ui": {
+        "inputType": "select"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "0 ",
+                "value": 0
+            },
+            {
+                "name": "1 ",
+                "value": 1
+            },
+            {
+                "name": "2 ",
+                "value": 2
+            },
+            {
+                "name": "3 ",
+                "value": 3
+            },
+            {
+                "name": "4 ",
+                "value": 4
+            },
+            {
+                "name": "5 ",
+                "value": 5
+            },
+            {
+                "name": "6 ",
+                "value": 6
+            },
+            {
+                "name": "7 ",
+                "value": 7
+            },
+            {
+                "name": "8 ",
+                "value": 8
+            },
+            {
+                "name": "9 ",
+                "value": 9
+            },
+            {
+                "name": "10",
+                "value": 10
+            }
+        ]
+    },
+    "question": {
+        "en": "How many adults (18 or older) are living at your address?"
+    },
+    "visibility": [
+        {
+            "variableName": "sed_bm_demo_roster_001",
+            "isVis": " sed_bm_demo_roster_001_i_dk   == '' AND ( sed_bm_demo_residence_001   == '1' OR  sed_bm_demo_residence_001   == '2' OR  sed_bm_demo_residence_001   == '5' )"
+        }
+    ]
+}

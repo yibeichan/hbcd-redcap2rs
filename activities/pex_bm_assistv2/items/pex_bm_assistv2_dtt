@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_assistv2_dtt",
+    "prefLabel": "pex_bm_assistv2_dtt",
+    "description": "pex_bm_assistv2_dtt of pex_bm_assistv2",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Start time"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "admin_part_fb_timestamp_start",
+    "prefLabel": "admin_part_fb_timestamp_start",
+    "description": "admin_part_fb_timestamp_start of admin_part_fb",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Start time (server)"
+    }
+}

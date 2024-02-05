@@ -1,0 +1,40 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "pex_bm_healthv2_preg_i_meds_064_i_03_i_01",
+    "prefLabel": "pex_bm_healthv2_preg_i_meds_064_i_03_i_01",
+    "description": "pex_bm_healthv2_preg_i_meds_064_i_03_i_01 of pex_bm_healthv2_preg",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Hour ",
+                "value": 1
+            },
+            {
+                "name": "Day ",
+                "value": 2
+            },
+            {
+                "name": "Month ",
+                "value": 3
+            },
+            {
+                "name": "Year",
+                "value": 4
+            }
+        ]
+    },
+    "question": {
+        "en": "Unit of frequency"
+    },
+    "visibility": [
+        {
+            "variableName": "pex_bm_healthv2_preg_i_meds_064_i_03_i_01",
+            "isVis": " pex_bm_healthv2_preg_i_meds_058  >= 6 AND  pex_bm_healthv2_preg_i_meds_064_i_03_dk   ==''"
+        }
+    ]
+}
