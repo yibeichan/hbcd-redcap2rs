@@ -25,11 +25,6 @@
                 "prefLabel": "Visit Start"
             },
             {
-                "isAbout": "../activities/sed_bm_demo/sed_bm_demo_schema",
-                "variableName": "sed_bm_demo_schema",
-                "prefLabel": "Sed Bm Demo"
-            },
-            {
                 "isAbout": "../activities/remote_survey_introduction/remote_survey_introduction_schema",
                 "variableName": "remote_survey_introduction_schema",
                 "prefLabel": "Remote Survey Introduction"
@@ -193,13 +188,17 @@
                 "isAbout": "../activities/ra_pilot_feedback_form/ra_pilot_feedback_form_schema",
                 "variableName": "ra_pilot_feedback_form_schema",
                 "prefLabel": "Ra Pilot Feedback Form"
+            },
+            {
+                "isAbout": "../activities/sed_bm_demo/sed_bm_demo_schema",
+                "variableName": "sed_bm_demo_schema",
+                "prefLabel": "Sed Bm Demo"
             }
         ],
         "order": [
             "setup",
             "setup_l",
             "visit_start",
-            "sed_bm_demo",
             "remote_survey_introduction",
             "pex_bm_apa",
             "pex_bm_str_i_ptsd",
@@ -232,14 +231,14 @@
             "pex_bm_psych",
             "admin_part_fb",
             "admin_alert",
-            "ra_pilot_feedback_form"
+            "ra_pilot_feedback_form",
+            "sed_bm_demo"
         ],
         "shuffle": false,
         "visibility": {
             "setup": true,
             "setup_l": true,
             "visit_start": true,
-            "sed_bm_demo": true,
             "remote_survey_introduction": true,
             "pex_bm_apa": true,
             "pex_bm_str_i_ptsd": true,
@@ -272,7 +271,8 @@
             "pex_bm_psych": true,
             "admin_part_fb": true,
             "admin_alert": true,
-            "ra_pilot_feedback_form": true
+            "ra_pilot_feedback_form": true,
+            "sed_bm_demo": true
         }
     }
 }
