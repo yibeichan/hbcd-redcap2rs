@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ncl_ch_mlds_arr05_hr_wk",
+    "prefLabel": "ncl_ch_mlds_arr05_hr_wk",
+    "description": "ncl_ch_mlds_arr05_hr_wk of ncl_ch_mlds",
+    "ui": {
+        "inputType": "number",
+        "hidden": true
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Hours per week, arrangement 5"
+    },
+    "scoringLogic": [
+        {
+            "variableName": "ncl_ch_mlds_arr05_hr_wk",
+            "jsExpression": "if(\n     ncl_ch_mlds_007_i_08_i_01  ! == '' AND  ncl_ch_mlds_007_i_08_i_02  ! == '',\n     ncl_ch_mlds_007_i_08_i_01  *  ncl_ch_mlds_007_i_08_i_02 ,\n    0\n)"
+        }
+    ]
+}

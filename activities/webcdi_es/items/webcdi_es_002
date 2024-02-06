@@ -1,0 +1,30 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "webcdi_es_002",
+    "prefLabel": "webcdi_es_002",
+    "description": "webcdi_es_002 of webcdi_es",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Not confident ",
+                "value": 1
+            },
+            {
+                "name": "Somewhat confident ",
+                "value": 2
+            },
+            {
+                "name": "Very confident",
+                "value": 3
+            }
+        ]
+    },
+    "question": {
+        "en": "How confident do you feel answering questions about words your child uses in Spanish?"
+    }
+}

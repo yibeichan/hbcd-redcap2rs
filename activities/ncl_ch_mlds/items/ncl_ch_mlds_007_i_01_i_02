@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ncl_ch_mlds_007_i_01_i_02",
+    "prefLabel": "ncl_ch_mlds_007_i_01_i_02",
+    "description": "ncl_ch_mlds_007_i_01_i_02 of ncl_ch_mlds",
+    "ui": {
+        "inputType": "number",
+        "hidden": true
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Languages in fifth arrangement calculation"
+    },
+    "scoringLogic": [
+        {
+            "variableName": "ncl_ch_mlds_007_i_01_i_02",
+            "jsExpression": "sum(\n(if( ncl_ch_mlds_007_i_01___1   == '1', 1, '')), \n(if( ncl_ch_mlds_007_i_01___2   == '1', 1, '')), \n(if( ncl_ch_mlds_007_i_01___3   == '1', 1, ''))\n)"
+        }
+    ]
+}

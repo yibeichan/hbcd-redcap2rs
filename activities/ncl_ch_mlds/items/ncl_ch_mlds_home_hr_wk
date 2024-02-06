@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ncl_ch_mlds_home_hr_wk",
+    "prefLabel": "ncl_ch_mlds_home_hr_wk",
+    "description": "ncl_ch_mlds_home_hr_wk of ncl_ch_mlds",
+    "ui": {
+        "inputType": "number",
+        "hidden": true
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Total hours per week spent at home"
+    },
+    "scoringLogic": [
+        {
+            "variableName": "ncl_ch_mlds_home_hr_wk",
+            "jsExpression": "7 * 24 -  ncl_ch_mlds_arr_hr_wk "
+        }
+    ]
+}

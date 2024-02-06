@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ncl_ch_mlds_011_i_06",
+    "prefLabel": "ncl_ch_mlds_011_i_06",
+    "description": "ncl_ch_mlds_011_i_06 of ncl_ch_mlds",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "When did you begin using this non-parental childcare arrangement?"
+    },
+    "visibility": [
+        {
+            "variableName": "ncl_ch_mlds_011_i_06",
+            "isVis": " ncl_ch_mlds_002_i_01  >= 9 AND  ncl_ch_mlds_002_i_01  ! == '777' AND   ncl_ch_mlds_002_i_01  ! == '999'"
+        }
+    ]
+}

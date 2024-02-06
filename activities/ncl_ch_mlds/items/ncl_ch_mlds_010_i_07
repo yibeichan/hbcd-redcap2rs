@@ -1,0 +1,40 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ncl_ch_mlds_010_i_07",
+    "prefLabel": "ncl_ch_mlds_010_i_07",
+    "description": "ncl_ch_mlds_010_i_07 of ncl_ch_mlds",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Yes ",
+                "value": 1
+            },
+            {
+                "name": "No ",
+                "value": 0
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "Are there other children being cared for at the same time with your child?"
+    },
+    "visibility": [
+        {
+            "variableName": "ncl_ch_mlds_010_i_07",
+            "isVis": " ncl_ch_mlds_002_i_01  >= 8 AND  ncl_ch_mlds_002_i_01  ! == '777' AND   ncl_ch_mlds_002_i_01  ! == '999'"
+        }
+    ]
+}

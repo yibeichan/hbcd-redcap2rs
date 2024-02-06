@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ncl_ch_mlds_012_i_01_i_01",
+    "prefLabel": "ncl_ch_mlds_012_i_01_i_01",
+    "description": "ncl_ch_mlds_012_i_01_i_01 of ncl_ch_mlds",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "What other language(s) are spoken in this non-parental childcare arrangement? (can check all that apply)"
+    },
+    "visibility": [
+        {
+            "variableName": "ncl_ch_mlds_012_i_01_i_01",
+            "isVis": " ncl_ch_mlds_012_i_01___3   == '1'"
+        }
+    ]
+}

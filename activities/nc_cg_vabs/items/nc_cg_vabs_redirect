@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "nc_cg_vabs_redirect",
+    "prefLabel": "nc_cg_vabs_redirect",
+    "description": "nc_cg_vabs_redirect of nc_cg_vabs",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Please clickhereto be redirected to the Vineland survey.This survey asks about the adaptive behaviors of the child on whom you are reporting. Adaptive behaviors are the day-to-day things that people do to communicate, take care of themselves, and get along with others. This survey will take about 15 minutes to complete."
+    },
+    "visibility": [
+        {
+            "variableName": "nc_cg_vabs_redirect",
+            "isVis": " nc_cg_vabs_completion_status  ! == '1'"
+        }
+    ]
+}

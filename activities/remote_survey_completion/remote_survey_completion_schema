@@ -14,7 +14,7 @@
             {
                 "variableName": "remote_completion",
                 "isAbout": "items/remote_completion",
-                "isVis": "( pex_bm_assistv3_3m_i_use_018   == '1' OR  pex_bm_assistv3_3m_i_use_018   == '2' OR  pex_bm_assistv3_3m_i_use_018   == '3' OR  pex_bm_assistv3_3m_i_use_018   == '4')"
+                "isVis": true
             }
         ],
         "shuffle": false

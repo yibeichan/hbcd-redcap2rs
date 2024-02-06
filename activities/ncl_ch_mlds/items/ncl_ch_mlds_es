@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ncl_ch_mlds_es",
+    "prefLabel": "ncl_ch_mlds_es",
+    "description": "ncl_ch_mlds_es of ncl_ch_mlds",
+    "ui": {
+        "inputType": "number",
+        "hidden": true
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Total percentage per week spoken Spanish"
+    },
+    "scoringLogic": [
+        {
+            "variableName": "ncl_ch_mlds_es",
+            "jsExpression": "(\n     ncl_ch_mlds_arr01_hr_wk  *  ncl_ch_mlds_arr01_es  +\n     ncl_ch_mlds_arr02_hr_wk  *  ncl_ch_mlds_arr02_es  +\n     ncl_ch_mlds_arr03_hr_wk  *  ncl_ch_mlds_arr03_es  +\n     ncl_ch_mlds_arr04_hr_wk  *  ncl_ch_mlds_arr04_es  +\n     ncl_ch_mlds_arr05_hr_wk  *  ncl_ch_mlds_arr05_es  +\n     ncl_ch_mlds_arr06_hr_wk  *  ncl_ch_mlds_arr06_es  +\n     ncl_ch_mlds_arr07_hr_wk  *  ncl_ch_mlds_arr07_es  +\n     ncl_ch_mlds_arr08_hr_wk  *  ncl_ch_mlds_arr08_es  +\n     ncl_ch_mlds_arr09_hr_wk  *  ncl_ch_mlds_arr09_es  +\n     ncl_ch_mlds_arr10_hr_wk  *  ncl_ch_mlds_arr10_es  +\n     ncl_ch_mlds_home_hr_wk  *  ncl_ch_mlds_home_es \n) /\n(7 * 24) * 100"
+        }
+    ]
+}

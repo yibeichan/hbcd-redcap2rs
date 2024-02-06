@@ -1,0 +1,30 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "webcdi_en_001",
+    "prefLabel": "webcdi_en_001",
+    "description": "webcdi_en_001 of webcdi_en",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "English ",
+                "value": 1
+            },
+            {
+                "name": "Spanish ",
+                "value": 2
+            },
+            {
+                "name": "Other",
+                "value": 3
+            }
+        ]
+    },
+    "question": {
+        "en": "What language do you usually use with your child?"
+    }
+}

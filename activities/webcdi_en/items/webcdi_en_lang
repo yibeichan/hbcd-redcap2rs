@@ -1,0 +1,29 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "webcdi_en_lang",
+    "prefLabel": "webcdi_en_lang",
+    "description": "webcdi_en_lang of webcdi_en",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "English ",
+                "value": "en"
+            },
+            {
+                "name": "Spanish",
+                "value": " es"
+            }
+        ]
+    },
+    "preamble": {
+        "en": "WebCDI Instructions"
+    },
+    "question": {
+        "en": "Language"
+    }
+}

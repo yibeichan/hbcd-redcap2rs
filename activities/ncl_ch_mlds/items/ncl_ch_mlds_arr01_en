@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ncl_ch_mlds_arr01_en",
+    "prefLabel": "ncl_ch_mlds_arr01_en",
+    "description": "ncl_ch_mlds_arr01_en of ncl_ch_mlds",
+    "ui": {
+        "inputType": "number",
+        "hidden": true
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Frequency English at arrangement 1"
+    },
+    "scoringLogic": [
+        {
+            "variableName": "ncl_ch_mlds_arr01_en",
+            "jsExpression": "if(\n     ncl_ch_mlds_003_i_01_i_02   == 1 AND  ncl_ch_mlds_003_i_01___1   == '1',\n    1,\n    if(\n         ncl_ch_mlds_003_i_01_i_02  >= 2 AND  ncl_ch_mlds_003_i_02  ! == '',\n         ncl_ch_mlds_003_i_02  / 100,\n        0\n    )\n)"
+        }
+    ]
+}

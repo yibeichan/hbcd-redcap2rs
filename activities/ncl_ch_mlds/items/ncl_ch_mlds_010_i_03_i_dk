@@ -1,0 +1,32 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ncl_ch_mlds_010_i_03_i_dk",
+    "prefLabel": "ncl_ch_mlds_010_i_03_i_dk",
+    "description": "ncl_ch_mlds_010_i_03_i_dk of ncl_ch_mlds",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "percent time SPANISH other arrangements dk/decline eighth"
+    },
+    "visibility": [
+        {
+            "variableName": "ncl_ch_mlds_010_i_03_i_dk",
+            "isVis": " ncl_ch_mlds_010_i_03   == '' "
+        }
+    ]
+}

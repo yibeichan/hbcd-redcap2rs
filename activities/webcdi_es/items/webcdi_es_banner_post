@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "webcdi_es_banner_post",
+    "prefLabel": "webcdi_es_banner_post",
+    "description": "webcdi_es_banner_post of webcdi_es",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Thank you for completing the WebCDI survey. Please click \"Submit\" to start the next survey!"
+    },
+    "visibility": [
+        {
+            "variableName": "webcdi_es_banner_post",
+            "isVis": " webcdi_es_completion_status   == '1'"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "webcdi_en_age",
+    "prefLabel": "webcdi_en_age",
+    "description": "webcdi_en_age of webcdi_en",
+    "ui": {
+        "inputType": "number",
+        "hidden": true
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Age (in month) at time of WebCDI (English) administration"
+    },
+    "scoringLogic": [
+        {
+            "variableName": "webcdi_en_age",
+            "jsExpression": "rounddown(datediff( screening_arm_1  setup_delivery , 'today', 'M'), 0)"
+        }
+    ]
+}

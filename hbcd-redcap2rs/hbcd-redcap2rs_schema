@@ -368,6 +368,26 @@
                 "isAbout": "../activities/admin_part_fb/admin_part_fb_schema",
                 "variableName": "admin_part_fb_schema",
                 "prefLabel": "Admin Part Fb"
+            },
+            {
+                "isAbout": "../activities/ncl_ch_mlds/ncl_ch_mlds_schema",
+                "variableName": "ncl_ch_mlds_schema",
+                "prefLabel": "Ncl Ch Mlds"
+            },
+            {
+                "isAbout": "../activities/nc_cg_vabs/nc_cg_vabs_schema",
+                "variableName": "nc_cg_vabs_schema",
+                "prefLabel": "Nc Cg Vabs"
+            },
+            {
+                "isAbout": "../activities/webcdi_en/webcdi_en_schema",
+                "variableName": "webcdi_en_schema",
+                "prefLabel": "Webcdi En"
+            },
+            {
+                "isAbout": "../activities/webcdi_es/webcdi_es_schema",
+                "variableName": "webcdi_es_schema",
+                "prefLabel": "Webcdi Es"
             }
         ],
         "order": [
@@ -442,7 +462,11 @@
             "sed_cg_employ",
             "sed_bm_demo",
             "sed_bm_demo_child",
-            "admin_part_fb"
+            "admin_part_fb",
+            "ncl_ch_mlds",
+            "nc_cg_vabs",
+            "webcdi_en",
+            "webcdi_es"
         ],
         "shuffle": false,
         "visibility": {
@@ -517,7 +541,11 @@
             "sed_cg_employ": true,
             "sed_bm_demo": true,
             "sed_bm_demo_child": true,
-            "admin_part_fb": true
+            "admin_part_fb": true,
+            "ncl_ch_mlds": true,
+            "nc_cg_vabs": true,
+            "webcdi_en": true,
+            "webcdi_es": true
         }
     }
 }

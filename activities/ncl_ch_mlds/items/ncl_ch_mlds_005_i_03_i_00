@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ncl_ch_mlds_005_i_03_i_00",
+    "prefLabel": "ncl_ch_mlds_005_i_03_i_00",
+    "description": "ncl_ch_mlds_005_i_03_i_00 of ncl_ch_mlds",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "About what percent of the time does your child hear SPANISH spoken in this non-parental childcare arrangement? {ncl_ch_mlds_005_i_03}\n{ncl_ch_mlds_005_i_03_i_dk}"
+    },
+    "visibility": [
+        {
+            "variableName": "ncl_ch_mlds_005_i_03_i_00",
+            "isVis": " ncl_ch_mlds_005_i_01___2   == '1' AND  ncl_ch_mlds_005_i_01_i_02  >=2"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "nc_cg_vabs_schema",
+    "prefLabel": "nc_cg_vabs",
+    "description": "Default description",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "order": [
+            "items/nc_cg_vabs_redirect",
+            "items/nc_cg_vabs_banner_post",
+            "items/nc_cg_vabs_completion_status"
+        ],
+        "addProperties": [
+            {
+                "variableName": "nc_cg_vabs_redirect",
+                "isAbout": "items/nc_cg_vabs_redirect",
+                "isVis": " nc_cg_vabs_completion_status  ! == '1'"
+            },
+            {
+                "variableName": "nc_cg_vabs_banner_post",
+                "isAbout": "items/nc_cg_vabs_banner_post",
+                "isVis": " nc_cg_vabs_completion_status   == '1'"
+            },
+            {
+                "variableName": "nc_cg_vabs_completion_status",
+                "isAbout": "items/nc_cg_vabs_completion_status",
+                "isVis": true
+            }
+        ],
+        "shuffle": false
+    }
+}

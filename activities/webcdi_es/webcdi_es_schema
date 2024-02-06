@@ -1,0 +1,76 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "webcdi_es_schema",
+    "prefLabel": "webcdi_es",
+    "description": "Default description",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "order": [
+            "items/webcdi_es_lang",
+            "items/webcdi_es_dtt",
+            "items/webcdi_es_timestamp_start",
+            "items/webcdi_es_age",
+            "items/webcdi_es_url",
+            "items/webcdi_es_001",
+            "items/webcdi_es_002",
+            "items/webcdi_es_instr",
+            "items/webcdi_es_banner_post",
+            "items/webcdi_es_completion_status"
+        ],
+        "addProperties": [
+            {
+                "variableName": "webcdi_es_lang",
+                "isAbout": "items/webcdi_es_lang",
+                "isVis": true
+            },
+            {
+                "variableName": "webcdi_es_dtt",
+                "isAbout": "items/webcdi_es_dtt",
+                "isVis": true
+            },
+            {
+                "variableName": "webcdi_es_timestamp_start",
+                "isAbout": "items/webcdi_es_timestamp_start",
+                "isVis": true
+            },
+            {
+                "variableName": "webcdi_es_age",
+                "isAbout": "items/webcdi_es_age",
+                "isVis": true
+            },
+            {
+                "variableName": "webcdi_es_url",
+                "isAbout": "items/webcdi_es_url",
+                "isVis": true
+            },
+            {
+                "variableName": "webcdi_es_001",
+                "isAbout": "items/webcdi_es_001",
+                "isVis": true
+            },
+            {
+                "variableName": "webcdi_es_002",
+                "isAbout": "items/webcdi_es_002",
+                "isVis": true
+            },
+            {
+                "variableName": "webcdi_es_instr",
+                "isAbout": "items/webcdi_es_instr",
+                "isVis": " webcdi_es_completion_status  ! == '1'"
+            },
+            {
+                "variableName": "webcdi_es_banner_post",
+                "isAbout": "items/webcdi_es_banner_post",
+                "isVis": " webcdi_es_completion_status   == '1'"
+            },
+            {
+                "variableName": "webcdi_es_completion_status",
+                "isAbout": "items/webcdi_es_completion_status",
+                "isVis": true
+            }
+        ],
+        "shuffle": false
+    }
+}
