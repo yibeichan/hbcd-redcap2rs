@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
     "@type": "reproschema:Activity",
     "@id": "sed_bm_bfy_schema",
     "prefLabel": "sed_bm_bfy",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "version": "unknown",
     "ui": {
         "order": [
             "items/sed_bm_bfy_lang",
@@ -82,7 +82,7 @@
             {
                 "variableName": "sed_bm_bfy_econstr_006_i_01",
                 "isAbout": "items/sed_bm_bfy_econstr_006_i_01",
-                "isVis": " sed_bm_bfy_econstr_006   == '1'"
+                "isVis": "sed_bm_bfy_econstr_006 == '1'"
             },
             {
                 "variableName": "sed_bm_bfy_econstr_007",

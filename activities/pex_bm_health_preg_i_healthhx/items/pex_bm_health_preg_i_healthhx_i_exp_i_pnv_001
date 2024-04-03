@@ -1,9 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_001",
     "prefLabel": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_001",
-    "description": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_001 of pex_bm_health_preg_i_healthhx",
+    "description": {
+        "en": "@CALCDATE([screening_arm_1][setup_lmp], 0, \"d\") @HIDDEN"
+    },
     "ui": {
         "inputType": "text"
     },

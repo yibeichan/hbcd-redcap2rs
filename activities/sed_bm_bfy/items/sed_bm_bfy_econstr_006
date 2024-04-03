@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "sed_bm_bfy_econstr_006",
     "prefLabel": "sed_bm_bfy_econstr_006",
     "description": "sed_bm_bfy_econstr_006 of sed_bm_bfy",
@@ -19,9 +19,8 @@
                 "value": 0
             },
             {
-                "name": "Not applicable",
-                "value": 2,
-                "schema:image": "does not pay or does not have these utilities .png"
+                "name": "Not applicable does not pay or does not have these utilities ",
+                "value": 2
             },
             {
                 "name": "<font color=\"gray\">Don't know</font> ",

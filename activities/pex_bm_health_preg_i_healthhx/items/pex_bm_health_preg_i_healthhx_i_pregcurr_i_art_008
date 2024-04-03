@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_008",
     "prefLabel": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_008",
     "description": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_008 of pex_bm_health_preg_i_healthhx",
@@ -30,11 +30,5 @@
     },
     "question": {
         "en": "Was this pregnancy the result of this treatment?"
-    },
-    "visibility": [
-        {
-            "variableName": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_008",
-            "isVis": " pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_001   == '1'"
-        }
-    ]
+    }
 }

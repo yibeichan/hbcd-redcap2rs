@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
     "@type": "reproschema:Activity",
     "@id": "sed_bm_nbhsaf_schema",
     "prefLabel": "sed_bm_nbhsaf",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "version": "unknown",
     "ui": {
         "order": [
             "items/sed_bm_nbhsaf_lang",
@@ -54,22 +54,5 @@
             }
         ],
         "shuffle": false
-    },
-    "matrixInfo": [
-        {
-            "variableName": "sed_bm_nbhsaf_001",
-            "matrixGroupName": "seb_bm_nbhsaf_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "sed_bm_nbhsaf_002",
-            "matrixGroupName": "seb_bm_nbhsaf_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "sed_bm_nbhsaf_003",
-            "matrixGroupName": "seb_bm_nbhsaf_m01",
-            "matrixRanking": ""
-        }
-    ]
+    }
 }

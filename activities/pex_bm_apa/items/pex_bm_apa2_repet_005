@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "pex_bm_apa2_repet_005",
     "prefLabel": "pex_bm_apa2_repet_005",
     "description": "pex_bm_apa2_repet_005 of pex_bm_apa",
@@ -19,9 +19,8 @@
                 "value": 1
             },
             {
-                "name": "Moderate; (definite interference with functioning",
-                "value": 2,
-                "schema:image": "but still manageable) .png"
+                "name": "Moderate; (definite interference with functioning but still manageable) ",
+                "value": 2
             },
             {
                 "name": "Severe (substantial interference) ",
@@ -43,11 +42,5 @@
     },
     "question": {
         "en": "How much do these thoughts or behaviors interfere with school, work, or your social or family life?"
-    },
-    "visibility": [
-        {
-            "variableName": "pex_bm_apa2_repet_005",
-            "isVis": " pex_bm_apa1_repet_001  >= '2' OR  pex_bm_apa1_repet_002  >= '2'"
-        }
-    ]
+    }
 }

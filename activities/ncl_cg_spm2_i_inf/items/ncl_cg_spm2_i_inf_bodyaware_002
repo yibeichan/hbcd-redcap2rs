@@ -1,9 +1,9 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "ncl_cg_spm2_i_inf_bodyaware_m01_277",
-    "prefLabel": "ncl_cg_spm2_i_inf_bodyaware_m01_277",
-    "description": "ncl_cg_spm2_i_inf_bodyaware_m01_277 of ncl_cg_spm2_i_inf",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "ncl_cg_spm2_i_inf_bodyaware_m01_267",
+    "prefLabel": "ncl_cg_spm2_i_inf_bodyaware_m01_267",
+    "description": "ncl_cg_spm2_i_inf_bodyaware_m01_267 of ncl_cg_spm2_i_inf",
     "ui": {
         "inputType": "radio"
     },

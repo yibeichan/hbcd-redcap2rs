@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
     "@type": "reproschema:Activity",
     "@id": "nt_ch_sens_i_qtn_schema",
     "prefLabel": "nt_ch_sens_i_qtn",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "version": "unknown",
     "ui": {
         "order": [
             "items/nt_ch_sens_i_qtn_lang",
@@ -62,7 +62,7 @@
             {
                 "variableName": "nt_ch_sens_i_qtn_beh_001_i_01",
                 "isAbout": "items/nt_ch_sens_i_qtn_beh_001_i_01",
-                "isVis": " nt_ch_sens_i_qtn_beh_001   == '0'"
+                "isVis": "nt_ch_sens_i_qtn_beh_001 == '0'"
             },
             {
                 "variableName": "nt_ch_sens_i_qtn_beh_002",

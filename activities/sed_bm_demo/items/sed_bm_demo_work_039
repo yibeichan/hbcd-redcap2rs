@@ -1,9 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "sed_bm_demo_work_039",
     "prefLabel": "sed_bm_demo_work_039",
-    "description": "sed_bm_demo_work_039 of sed_bm_demo",
+    "description": {
+        "en": "@NONEOFTHEABOVE='777,999'"
+    },
     "ui": {
         "inputType": "select"
     },
@@ -11,7 +13,7 @@
         "valueType": "xsd:string",
         "choices": [
             {
-                "name": "Administrative Assistant",
+                "name": "Administrative Assistant Secretary office support worker ",
                 "value": 1
             },
             {
@@ -19,56 +21,51 @@
                 "value": 2
             },
             {
-                "name": "Barber or hairdresser",
-                "value": 3,
-                "schema:image": "cosmetologist .png"
+                "name": "Barber or hairdresser cosmetologist ",
+                "value": 3
             },
             {
-                "name": "Bookkeeper",
+                "name": "Bookkeeper accounting or auditing ",
                 "value": 4
             },
             {
-                "name": "Building Maintenance worker (Commercial",
-                "value": 5,
-                "schema:image": "Residential or Institutional) .png"
+                "name": "Building Maintenance worker (Commercial Residential or Institutional) ",
+                "value": 5
             },
             {
-                "name": "Business",
+                "name": "Business Finance and Corporate Sales including banking investments broker ",
                 "value": 6
             },
             {
-                "name": "Cashier",
-                "value": 7,
-                "schema:image": "teller .png"
+                "name": "Cashier teller ",
+                "value": 7
             },
             {
-                "name": "Chef",
+                "name": "Chef cook catering ",
                 "value": 8
             },
             {
-                "name": "Kitchen worker",
-                "value": 9,
-                "schema:image": "dishwasher .png"
+                "name": "Kitchen worker dishwasher ",
+                "value": 9
             },
             {
-                "name": "Child care provider (nanny",
+                "name": "Child care provider (nanny preschool daycare) ",
                 "value": 10
             },
             {
-                "name": "Personal care aide (elder care",
-                "value": 11,
-                "schema:image": "disability care) .png"
+                "name": "Personal care aide (elder care disability care) ",
+                "value": 11
             },
             {
-                "name": "Social services provider (including Social worker",
+                "name": "Social services provider (including Social worker Psychologist or Counselor) ",
                 "value": 12
             },
             {
-                "name": "Construction worker",
+                "name": "Construction worker Carpenter or other Construction-related jobs (Roofing Cement Framing Highway repair) ",
                 "value": 13
             },
             {
-                "name": "Electrician/repair of transformers",
+                "name": "Electrician/repair of transformers electrical or electronic equipment ",
                 "value": 14
             },
             {
@@ -76,34 +73,32 @@
                 "value": 15
             },
             {
-                "name": "Dentist",
+                "name": "Dentist dental hygienist dental assistant or orthodontist ",
                 "value": 16
             },
             {
-                "name": "Driver (bus",
+                "name": "Driver (bus truck commercial public transport) ",
                 "value": 17
             },
             {
-                "name": "Driver",
+                "name": "Driver Taxicab ride-hail limo driver ",
                 "value": 18
             },
             {
-                "name": "Dry cleaner",
-                "value": 19,
-                "schema:image": "launderer .png"
+                "name": "Dry cleaner launderer ",
+                "value": 19
             },
             {
-                "name": "Education",
+                "name": "Education Primary or Secondary (teacher or teaching assistant for preschool elementary middle high school ",
                 "value": 20
             },
             {
-                "name": "Education",
+                "name": "Education Post-secondary (University College Vocation or Trade school teaching professional) ",
                 "value": 21
             },
             {
-                "name": "Farmer",
-                "value": 22,
-                "schema:image": "rancher .png"
+                "name": "Farmer rancher ",
+                "value": 22
             },
             {
                 "name": "General farm worker or field crop and vegetable worker ",
@@ -118,11 +113,11 @@
                 "value": 25
             },
             {
-                "name": "Host",
+                "name": "Host hostess restaurant lounge and coffee shop (including barista) ",
                 "value": 26
             },
             {
-                "name": "Janitor",
+                "name": "Janitor maid or housekeeping ",
                 "value": 27
             },
             {
@@ -130,38 +125,35 @@
                 "value": 28
             },
             {
-                "name": "Lawyer",
+                "name": "Lawyer paralegal legal assistant ",
                 "value": 29
             },
             {
-                "name": "Mail carrier",
-                "value": 30,
-                "schema:image": "Postal Worker or Courier .png"
+                "name": "Mail carrier Postal Worker or Courier ",
+                "value": 30
             },
             {
-                "name": "Manager",
+                "name": "Manager executive or supervisor ",
                 "value": 31
             },
             {
-                "name": "Manicurist",
-                "value": 32,
-                "schema:image": "pedicurist .png"
+                "name": "Manicurist pedicurist ",
+                "value": 32
             },
             {
                 "name": "Massage therapist ",
                 "value": 33
             },
             {
-                "name": "Mechanic",
-                "value": 34,
-                "schema:image": "Vehicle Technician .png"
+                "name": "Mechanic Vehicle Technician ",
+                "value": 34
             },
             {
                 "name": "Medical doctor ",
                 "value": 35
             },
             {
-                "name": "Medical support provider (e.g.",
+                "name": "Medical support provider (e.g. respiratory therapist medical technologist physical therapist occupational therapist) ",
                 "value": 36
             },
             {
@@ -173,12 +165,11 @@
                 "value": 38
             },
             {
-                "name": "Mover",
-                "value": 39,
-                "schema:image": "works with material moving equipment .png"
+                "name": "Mover works with material moving equipment ",
+                "value": 39
             },
             {
-                "name": "Pest Control Worker (Residential",
+                "name": "Pest Control Worker (Residential Industrial Institutional) ",
                 "value": 40
             },
             {
@@ -190,7 +181,7 @@
                 "value": 42
             },
             {
-                "name": "Public Safety Officer (Police officer",
+                "name": "Public Safety Officer (Police officer Detective Security Guard) ",
                 "value": 43
             },
             {
@@ -202,26 +193,23 @@
                 "value": 45
             },
             {
-                "name": "Science Professional (Life",
-                "value": 46,
-                "schema:image": "Physical or Social Science related job) .png"
+                "name": "Science Professional (Life Physical or Social Science related job) ",
+                "value": 46
             },
             {
-                "name": "Software development",
-                "value": 47,
-                "schema:image": "Information technology and telecommunications professionals .png"
+                "name": "Software development Information technology and telecommunications professionals ",
+                "value": 47
             },
             {
                 "name": "Stock and inventory clerk ",
                 "value": 48
             },
             {
-                "name": "Pharmacist",
-                "value": 49,
-                "schema:image": "pharmacy technician .png"
+                "name": "Pharmacist pharmacy technician ",
+                "value": 49
             },
             {
-                "name": "Tailor",
+                "name": "Tailor dressmaker sewer ",
                 "value": 50
             },
             {
@@ -248,11 +236,5 @@
     },
     "question": {
         "en": "What kind of work did you do at this job?\n\nIf your occupation is not in the list below, select \"Other\""
-    },
-    "visibility": [
-        {
-            "variableName": "sed_bm_demo_work_039",
-            "isVis": " sed_bm_demo_work_i_env_005   == '1' "
-        }
-    ]
+    }
 }

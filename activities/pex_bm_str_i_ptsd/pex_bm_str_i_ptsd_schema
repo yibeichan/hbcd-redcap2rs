@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
     "@type": "reproschema:Activity",
     "@id": "pex_bm_str_i_ptsd_schema",
     "prefLabel": "pex_bm_str_i_ptsd",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "version": "unknown",
     "ui": {
         "order": [
             "items/pex_bm_str_i_ptsd",
@@ -102,57 +102,5 @@
             }
         ],
         "shuffle": false
-    },
-    "matrixInfo": [
-        {
-            "variableName": "pex_bm_str_i_ptsd_001",
-            "matrixGroupName": "pex_bm_str_i_ptsd_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_str_i_ptsd_002",
-            "matrixGroupName": "pex_bm_str_i_ptsd_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_str_i_ptsd_003",
-            "matrixGroupName": "pex_bm_str_i_ptsd_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_str_i_ptsd_004",
-            "matrixGroupName": "pex_bm_str_i_ptsd_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_str_i_ptsd_005",
-            "matrixGroupName": "pex_bm_str_i_ptsd_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_str_i_ptsd_006",
-            "matrixGroupName": "pex_bm_str_i_ptsd_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_str_i_ptsd_007",
-            "matrixGroupName": "pex_bm_str_i_ptsd_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_str_i_ptsd_008",
-            "matrixGroupName": "pex_bm_str_i_ptsd_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_str_i_ptsd_009",
-            "matrixGroupName": "pex_bm_str_i_ptsd_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_str_i_ptsd_010",
-            "matrixGroupName": "pex_bm_str_i_ptsd_m01",
-            "matrixRanking": ""
-        }
-    ]
+    }
 }

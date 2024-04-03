@@ -1,9 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "sed_bm_demo_work_027_m01_1473",
-    "prefLabel": "sed_bm_demo_work_027_m01_1473",
-    "description": "sed_bm_demo_work_027_m01_1473 of sed_bm_demo",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "sed_bm_demo_work_027_m01_1466",
+    "prefLabel": "sed_bm_demo_work_027_m01_1466",
+    "description": {
+        "en": "@NONEOFTHEABOVE='777,999'"
+    },
     "ui": {
         "inputType": "radio"
     },
@@ -34,11 +36,5 @@
     },
     "question": {
         "en": "Extended sun exposure"
-    },
-    "visibility": [
-        {
-            "variableName": "sed_bm_demo_work_027_i_03",
-            "isVis": " sed_bm_demo_work_i_env_003   == '1' "
-        }
-    ]
+    }
 }

@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "admin_part_fb_005",
     "prefLabel": "admin_part_fb_005",
     "description": "admin_part_fb_005 of admin_part_fb",
@@ -34,11 +34,5 @@
     },
     "question": {
         "en": "My child and I were comfortable with the MRI"
-    },
-    "visibility": [
-        {
-            "variableName": "admin_part_fb_005",
-            "isVis": "  event-name   =='v02_arm_1'  OR  event-name   =='v03_arm_1' OR  event-name   =='v04_arm_1' OR  event-name   =='v06_arm_1'  "
-        }
-    ]
+    }
 }

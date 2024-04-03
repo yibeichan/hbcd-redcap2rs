@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
     "@type": "reproschema:Activity",
     "@id": "sed_bm_phx_i_discr_schema",
     "prefLabel": "sed_bm_phx_i_discr",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "version": "unknown",
     "ui": {
         "order": [
             "items/sed_bm_phx_i_discr_lang",
@@ -104,66 +104,9 @@
             {
                 "variableName": "sed_bm_phx_i_discr_006",
                 "isAbout": "items/sed_bm_phx_i_discr_006",
-                "isVis": " sed_bm_phx_i_discr_001   == '1' ||  sed_bm_phx_i_discr_001   == '2' ||  sed_bm_phx_i_discr_001   == '3' ||  sed_bm_phx_i_discr_001   == '4' ||  sed_bm_phx_i_discr_002   == '1' ||  sed_bm_phx_i_discr_002   == '2' ||  sed_bm_phx_i_discr_002   == '3' ||  sed_bm_phx_i_discr_002   == '4' ||  sed_bm_phx_i_discr_003   == '1' ||  sed_bm_phx_i_discr_003   == '2' ||  sed_bm_phx_i_discr_003   == '3' ||  sed_bm_phx_i_discr_003   == '4' ||  sed_bm_phx_i_discr_004   == '1' ||  sed_bm_phx_i_discr_004   == '3' ||  sed_bm_phx_i_discr_004   == '2' ||  sed_bm_phx_i_discr_004   == '4' ||  sed_bm_phx_i_discr_005   == '1' ||  sed_bm_phx_i_discr_005   == '2' ||  sed_bm_phx_i_discr_005   == '3' ||  sed_bm_phx_i_discr_005   == '4' OR  sed_bm_phx_i_discr_007   == '1' OR  sed_bm_phx_i_discr_008   == '1'  OR  sed_bm_phx_i_discr_009   == '1' OR   sed_bm_phx_i_discr_010   == '1' OR  sed_bm_phx_i_discr_011   == '1' OR  sed_bm_phx_i_discr_012   == '1'"
+                "isVis": "sed_bm_phx_i_discr_001 == '1' || sed_bm_phx_i_discr_001 == '2' || sed_bm_phx_i_discr_001 == '3' || sed_bm_phx_i_discr_001 == '4' || sed_bm_phx_i_discr_002 == '1' || sed_bm_phx_i_discr_002 == '2' || sed_bm_phx_i_discr_002 == '3' || sed_bm_phx_i_discr_002 == '4' || sed_bm_phx_i_discr_003 == '1' || sed_bm_phx_i_discr_003 == '2' || sed_bm_phx_i_discr_003 == '3' || sed_bm_phx_i_discr_003 == '4' || sed_bm_phx_i_discr_004 == '1' || sed_bm_phx_i_discr_004 == '3' || sed_bm_phx_i_discr_004 == '2' || sed_bm_phx_i_discr_004 == '4' || sed_bm_phx_i_discr_005 == '1' || sed_bm_phx_i_discr_005 == '2' || sed_bm_phx_i_discr_005 == '3' || sed_bm_phx_i_discr_005 == '4' OR sed_bm_phx_i_discr_007 == '1' OR sed_bm_phx_i_discr_008 == '1' OR sed_bm_phx_i_discr_009 == '1' OR sed_bm_phx_i_discr_010 == '1' OR sed_bm_phx_i_discr_011 == '1' OR sed_bm_phx_i_discr_012 == '1'"
             }
         ],
         "shuffle": false
-    },
-    "matrixInfo": [
-        {
-            "variableName": "sed_bm_phx_i_discr_001",
-            "matrixGroupName": "sed_bm_phx_i_discr_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "sed_bm_phx_i_discr_002",
-            "matrixGroupName": "sed_bm_phx_i_discr_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "sed_bm_phx_i_discr_003",
-            "matrixGroupName": "sed_bm_phx_i_discr_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "sed_bm_phx_i_discr_004",
-            "matrixGroupName": "sed_bm_phx_i_discr_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "sed_bm_phx_i_discr_005",
-            "matrixGroupName": "sed_bm_phx_i_discr_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "sed_bm_phx_i_discr_007",
-            "matrixGroupName": "sed_bm_phx_i_discr_m02",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "sed_bm_phx_i_discr_008",
-            "matrixGroupName": "sed_bm_phx_i_discr_m02",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "sed_bm_phx_i_discr_009",
-            "matrixGroupName": "sed_bm_phx_i_discr_m02",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "sed_bm_phx_i_discr_010",
-            "matrixGroupName": "sed_bm_phx_i_discr_m02",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "sed_bm_phx_i_discr_011",
-            "matrixGroupName": "sed_bm_phx_i_discr_m02",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "sed_bm_phx_i_discr_012",
-            "matrixGroupName": "sed_bm_phx_i_discr_m02",
-            "matrixRanking": ""
-        }
-    ]
+    }
 }

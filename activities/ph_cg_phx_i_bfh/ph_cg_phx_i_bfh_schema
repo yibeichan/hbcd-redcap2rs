@@ -1,14 +1,14 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
     "@type": "reproschema:Activity",
     "@id": "ph_cg_phx_i_bfh_schema",
     "prefLabel": "ph_cg_phx_i_bfh",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "version": "unknown",
     "ui": {
         "order": [
-            "items/ph_cg_phx_i_bfh_lang",
+            "items/ph_cg_phx_lang",
             "items/ph_cg_phx_i_bfh_dtt",
             "items/ph_cg_phx_i_bfh_timestamp_start",
             "items/ph_cg_phx_i_bfh_location",
@@ -33,8 +33,8 @@
         ],
         "addProperties": [
             {
-                "variableName": "ph_cg_phx_i_bfh_lang",
-                "isAbout": "items/ph_cg_phx_i_bfh_lang",
+                "variableName": "ph_cg_phx_lang",
+                "isAbout": "items/ph_cg_phx_lang",
                 "isVis": true
             },
             {
@@ -60,87 +60,87 @@
             {
                 "variableName": "ph_cg_phx_i_bfh_001",
                 "isAbout": "items/ph_cg_phx_i_bfh_001",
-                "isVis": " event-name   == 'v02_arm_1'\n\nOR\n\n( event-name   == 'v03_arm_1' AND  v02_arm_1  ph_cg_phx_i_bfh_001  ! == '1')"
+                "isVis": "event-name == 'v02_arm_1' OR ( event-name == 'v03_arm_1' AND v02_arm_1 ph_cg_phx_i_bfh_001 ! == '1')"
             },
             {
                 "variableName": "ph_cg_phx_i_bfh_002",
                 "isAbout": "items/ph_cg_phx_i_bfh_002",
-                "isVis": "( v02_arm_1  ph_cg_phx_i_bfh_001   == '1')\n\nOR\n\n( event-name   == 'v03_arm_1' AND  v02_arm_1  ph_cg_phx_i_bfh_001  ! == '1' AND  v03_arm_1  ph_cg_phx_i_bfh_001   == '1')"
+                "isVis": "( v02_arm_1 ph_cg_phx_i_bfh_001 == '1') OR ( event-name == 'v03_arm_1' AND v02_arm_1 ph_cg_phx_i_bfh_001 ! == '1' AND v03_arm_1 ph_cg_phx_i_bfh_001 == '1')"
             },
             {
                 "variableName": "ph_cg_phx_i_bfh_002_i_00",
                 "isAbout": "items/ph_cg_phx_i_bfh_002_i_00",
-                "isVis": " v02_arm_1  ph_cg_phx_i_bfh_002   == '1' AND  event-name   == 'v02_arm_1'"
+                "isVis": "v02_arm_1 ph_cg_phx_i_bfh_002 == '1' AND event-name == 'v02_arm_1'"
             },
             {
                 "variableName": "ph_cg_phx_i_bfh_002_i_00_i_01",
                 "isAbout": "items/ph_cg_phx_i_bfh_002_i_00_i_01",
-                "isVis": " v03_arm_1  ph_cg_phx_i_bfh_002   == '1'"
+                "isVis": "v03_arm_1 ph_cg_phx_i_bfh_002 == '1'"
             },
             {
                 "variableName": "ph_cg_phx_i_bfh_002_i_01",
                 "isAbout": "items/ph_cg_phx_i_bfh_002_i_01",
-                "isVis": " v02_arm_1  ph_cg_phx_i_bfh_002_i_dk   == ''"
+                "isVis": "v02_arm_1 ph_cg_phx_i_bfh_002_i_dk == ''"
             },
             {
                 "variableName": "ph_cg_phx_i_bfh_002_i_01_i_01",
                 "isAbout": "items/ph_cg_phx_i_bfh_002_i_01_i_01",
-                "isVis": " v03_arm_1  ph_cg_phx_i_bfh_002_i_01_dk   == '' AND  v03_arm_1  ph_cg_phx_i_bfh_002_i_02  == ''"
+                "isVis": "v03_arm_1 ph_cg_phx_i_bfh_002_i_01_dk == '' AND v03_arm_1 ph_cg_phx_i_bfh_002_i_02 == ''"
             },
             {
                 "variableName": "ph_cg_phx_i_bfh_002_i_02",
                 "isAbout": "items/ph_cg_phx_i_bfh_002_i_02",
-                "isVis": " v03_arm_1  ph_cg_phx_i_bfh_002_i_01_dk   =='' AND  v03_arm_1  ph_cg_phx_i_bfh_002_i_01_i_01   == ''"
+                "isVis": "v03_arm_1 ph_cg_phx_i_bfh_002_i_01_dk =='' AND v03_arm_1 ph_cg_phx_i_bfh_002_i_01_i_01 == ''"
             },
             {
                 "variableName": "ph_cg_phx_i_bfh_002_i_dk",
                 "isAbout": "items/ph_cg_phx_i_bfh_002_i_dk",
-                "isVis": " v02_arm_1  ph_cg_phx_i_bfh_002_i_01   ==''"
+                "isVis": "v02_arm_1 ph_cg_phx_i_bfh_002_i_01 ==''"
             },
             {
                 "variableName": "ph_cg_phx_i_bfh_002_i_01_dk",
                 "isAbout": "items/ph_cg_phx_i_bfh_002_i_01_dk",
-                "isVis": " v03_arm_1  ph_cg_phx_i_bfh_002_i_01_i_01   =='' AND  v03_arm_1  ph_cg_phx_i_bfh_002_i_02   ==''"
+                "isVis": "v03_arm_1 ph_cg_phx_i_bfh_002_i_01_i_01 =='' AND v03_arm_1 ph_cg_phx_i_bfh_002_i_02 ==''"
             },
             {
                 "variableName": "ph_cg_phx_i_bfh_003",
                 "isAbout": "items/ph_cg_phx_i_bfh_003",
-                "isVis": "( v02_arm_1  ph_cg_phx_i_bfh_001   == '1')\n\nOR\n\n( event-name   == 'v03_arm_1' AND  v02_arm_1  ph_cg_phx_i_bfh_003  ! == '0' AND  v02_arm_1  ph_cg_phx_i_bfh_001   == '1')"
+                "isVis": "( v02_arm_1 ph_cg_phx_i_bfh_001 == '1') OR ( event-name == 'v03_arm_1' AND v02_arm_1 ph_cg_phx_i_bfh_003 ! == '0' AND v02_arm_1 ph_cg_phx_i_bfh_001 == '1')"
             },
             {
                 "variableName": "ph_cg_phx_i_bfh_003_i_00",
                 "isAbout": "items/ph_cg_phx_i_bfh_003_i_00",
-                "isVis": " v02_arm_1  ph_cg_phx_i_bfh_003   == '0'\n\n"
+                "isVis": "v02_arm_1 ph_cg_phx_i_bfh_003 == '0'"
             },
             {
                 "variableName": "ph_cg_phx_i_bfh_003_i_01_i_00",
                 "isAbout": "items/ph_cg_phx_i_bfh_003_i_01_i_00",
-                "isVis": "\n v03_arm_1  ph_cg_phx_i_bfh_003   == '0'"
+                "isVis": "v03_arm_1 ph_cg_phx_i_bfh_003 == '0'"
             },
             {
                 "variableName": "ph_cg_phx_i_bfh_003_i_01",
                 "isAbout": "items/ph_cg_phx_i_bfh_003_i_01",
-                "isVis": " v02_arm_1  ph_cg_phx_i_bfh_003_i_dk   == ''"
+                "isVis": "v02_arm_1 ph_cg_phx_i_bfh_003_i_dk == ''"
             },
             {
                 "variableName": "ph_cg_phx_i_bfh_003_i_01_i_01",
                 "isAbout": "items/ph_cg_phx_i_bfh_003_i_01_i_01",
-                "isVis": " v03_arm_1  ph_cg_phx_i_bfh_003_i_01_dk   == '' AND  v03_arm_1  ph_cg_phx_i_bfh_003_i_02   == ''"
+                "isVis": "v03_arm_1 ph_cg_phx_i_bfh_003_i_01_dk == '' AND v03_arm_1 ph_cg_phx_i_bfh_003_i_02 == ''"
             },
             {
                 "variableName": "ph_cg_phx_i_bfh_003_i_02",
                 "isAbout": "items/ph_cg_phx_i_bfh_003_i_02",
-                "isVis": " v03_arm_1  ph_cg_phx_i_bfh_003_i_01_dk   == '' AND  v03_arm_1  ph_cg_phx_i_bfh_003_i_01_i_01   == ''"
+                "isVis": "v03_arm_1 ph_cg_phx_i_bfh_003_i_01_dk == '' AND v03_arm_1 ph_cg_phx_i_bfh_003_i_01_i_01 == ''"
             },
             {
                 "variableName": "ph_cg_phx_i_bfh_003_i_dk",
                 "isAbout": "items/ph_cg_phx_i_bfh_003_i_dk",
-                "isVis": " v02_arm_1  ph_cg_phx_i_bfh_003   == '0' AND  v02_arm_1  ph_cg_phx_i_bfh_003_i_01   ==''"
+                "isVis": "v02_arm_1 ph_cg_phx_i_bfh_003 == '0' AND v02_arm_1 ph_cg_phx_i_bfh_003_i_01 ==''"
             },
             {
                 "variableName": "ph_cg_phx_i_bfh_003_i_01_dk",
                 "isAbout": "items/ph_cg_phx_i_bfh_003_i_01_dk",
-                "isVis": " v03_arm_1  ph_cg_phx_i_bfh_003_i_01_i_01   =='' AND  v03_arm_1  ph_cg_phx_i_bfh_003_i_02   ==''"
+                "isVis": "v03_arm_1 ph_cg_phx_i_bfh_003_i_01_i_01 =='' AND v03_arm_1 ph_cg_phx_i_bfh_003_i_02 ==''"
             }
         ],
         "shuffle": false

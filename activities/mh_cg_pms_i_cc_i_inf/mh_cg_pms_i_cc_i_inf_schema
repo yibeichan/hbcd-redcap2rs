@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
     "@type": "reproschema:Activity",
     "@id": "mh_cg_pms_i_cc_i_inf_schema",
     "prefLabel": "mh_cg_pms_i_cc_i_inf",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "version": "unknown",
     "ui": {
         "order": [
             "items/mh_cg_pms_i_cc_i_inf_lang",
@@ -72,32 +72,5 @@
             }
         ],
         "shuffle": false
-    },
-    "matrixInfo": [
-        {
-            "variableName": "mh_cg_pms_i_cc_i_inf_001",
-            "matrixGroupName": "mh_cg_pms_i_cc_i_inf_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "mh_cg_pms_i_cc_i_inf_002",
-            "matrixGroupName": "mh_cg_pms_i_cc_i_inf_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "mh_cg_pms_i_cc_i_inf_003",
-            "matrixGroupName": "mh_cg_pms_i_cc_i_inf_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "mh_cg_pms_i_cc_i_inf_004",
-            "matrixGroupName": "mh_cg_pms_i_cc_i_inf_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "mh_cg_pms_i_cc_i_inf_005",
-            "matrixGroupName": "mh_cg_pms_i_cc_i_inf_m01",
-            "matrixRanking": ""
-        }
-    ]
+    }
 }

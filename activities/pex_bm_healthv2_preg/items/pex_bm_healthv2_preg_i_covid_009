@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "pex_bm_healthv2_preg_i_covid_009",
     "prefLabel": "pex_bm_healthv2_preg_i_covid_009",
     "description": "pex_bm_healthv2_preg_i_covid_009 of pex_bm_healthv2_preg",
@@ -30,11 +30,5 @@
     },
     "question": {
         "en": "How many times have you tested positive for Covid-19 since we last met?"
-    },
-    "visibility": [
-        {
-            "variableName": "pex_bm_healthv2_preg_i_covid_009",
-            "isVis": " pex_bm_healthv2_preg_i_covid_008   == '1' AND  pex_bm_healthv2_preg_i_covid_009_i_dk   == ''"
-        }
-    ]
+    }
 }

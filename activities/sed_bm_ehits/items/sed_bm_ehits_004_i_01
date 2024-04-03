@@ -1,9 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "sed_bm_ehits_004_i_01",
     "prefLabel": "sed_bm_ehits_004_i_01",
-    "description": "sed_bm_ehits_004_i_01 of sed_bm_ehits",
+    "description": {
+        "en": "@HIDDEN"
+    },
     "ui": {
         "inputType": "number",
         "hidden": true
@@ -17,7 +19,7 @@
     "scoringLogic": [
         {
             "variableName": "sed_bm_ehits_004_i_01",
-            "jsExpression": "if(( sed_bm_ehits_004   == '777' OR  sed_bm_ehits_004   == '999'), '',  sed_bm_ehits_004 )"
+            "jsExpression": "if(( sed_bm_ehits_004 == '777' OR sed_bm_ehits_004 == '999'), '', sed_bm_ehits_004 )"
         }
     ]
 }

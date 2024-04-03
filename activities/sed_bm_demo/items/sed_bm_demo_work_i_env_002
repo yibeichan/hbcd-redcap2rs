@@ -1,9 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "sed_bm_demo_work_i_env_002",
     "prefLabel": "sed_bm_demo_work_i_env_002",
-    "description": "sed_bm_demo_work_i_env_002 of sed_bm_demo",
+    "description": {
+        "en": "@NONEOFTHEABOVE='777,999'"
+    },
     "ui": {
         "inputType": "radio"
     },
@@ -30,11 +32,5 @@
     },
     "question": {
         "en": "Are there any other jobs that you have held for at least 1 month of your pregnancy that involved at least 20 hours per week of work?"
-    },
-    "visibility": [
-        {
-            "variableName": "sed_bm_demo_work_i_env_002",
-            "isVis": "( sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2' OR  sed_bm_demo_work_004_i_01   == '3') AND ( event-name   == 'v01_arm_1' OR  event-name   == 'v02_arm_1')"
-        }
-    ]
+    }
 }

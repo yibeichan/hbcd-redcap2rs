@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "pex_bm_health_preg_chroncond_m01_79",
     "prefLabel": "pex_bm_health_preg_chroncond_m01_79",
     "description": "pex_bm_health_preg_chroncond_m01_79 of pex_bm_health_preg_i_chroncond",
@@ -11,15 +11,15 @@
         "valueType": "xsd:integer",
         "choices": [
             {
-                "name": "1st Trimester <br> ([pex_bm_health_preg_i_healthhx_i_exp_i_pnv_001] - [pex_bm_health_preg_i_healthhx_i_exp_i_pnv_002]) ",
+                "name": "1st Trimester <br> ([pex_bm_health_preg_i_exp_i_pnv_001] - [pex_bm_health_preg_i_exp_i_pnv_002]) ",
                 "value": 1
             },
             {
-                "name": "2nd Trimester <br> ([pex_bm_health_preg_i_healthhx_i_exp_i_pnv_003] - [pex_bm_health_preg_i_healthhx_i_exp_i_pnv_004]) ",
+                "name": "2nd Trimester <br> ([pex_bm_health_preg_i_exp_i_pnv_003] - [pex_bm_health_preg_i_exp_i_pnv_004]) ",
                 "value": 2
             },
             {
-                "name": "3rd Trimester <br> (after [pex_bm_health_preg_i_healthhx_i_exp_i_pnv_005]) ",
+                "name": "3rd Trimester <br> (after [pex_bm_health_preg_i_exp_i_pnv_005]) ",
                 "value": 3
             },
             {
@@ -37,11 +37,5 @@
     },
     "question": {
         "en": "gonorrhea?"
-    },
-    "visibility": [
-        {
-            "variableName": "pex_bm_health_preg_i_chroncond_013_i_01",
-            "isVis": " pex_bm_health_preg_i_chroncond_013___1   == '1'"
-        }
-    ]
+    }
 }

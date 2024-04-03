@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "sed_bm_demo_herit_i_oth_001_i_04",
     "prefLabel": "sed_bm_demo_herit_i_oth_001_i_04",
     "description": "sed_bm_demo_herit_i_oth_001_i_04 of sed_bm_demo",
@@ -46,11 +46,5 @@
     },
     "question": {
         "en": "About how many years has the other biological parent been living in the United States?"
-    },
-    "visibility": [
-        {
-            "variableName": "sed_bm_demo_herit_i_oth_001_i_04",
-            "isVis": " sed_bm_demo_herit_i_oth_001   == '1'"
-        }
-    ]
+    }
 }

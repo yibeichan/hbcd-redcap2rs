@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "pex_bm_assistv2_end_i_use_003_m01_105",
     "prefLabel": "pex_bm_assistv2_end_i_use_003_m01_105",
     "description": "pex_bm_assistv2_end_i_use_003_m01_105 of pex_bm_assistv2",
@@ -30,11 +30,5 @@
     },
     "question": {
         "en": "Smoked marijuana oils or concentrates, such as THC, hash, CO2 or BHO oil, kief, dabs, or wax in a pipe or dab rig?"
-    },
-    "visibility": [
-        {
-            "variableName": "pex_bm_assistv2_end_i_use_003_i_05",
-            "isVis": " pex_bm_assistv2_end_i_use_003   == '1'"
-        }
-    ]
+    }
 }

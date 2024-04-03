@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "pex_bm_health_preg_i_erhosp_007_i_01_dk",
     "prefLabel": "pex_bm_health_preg_i_erhosp_007_i_01_dk",
     "description": "pex_bm_health_preg_i_erhosp_007_i_01_dk of pex_bm_health_preg_i_erhosp",
@@ -21,12 +21,6 @@
         ]
     },
     "question": {
-        "en": "reason er dk/decline 5"
-    },
-    "visibility": [
-        {
-            "variableName": "pex_bm_health_preg_i_erhosp_007_i_01_dk",
-            "isVis": " pex_bm_health_preg_i_erhosp_007_i_01   == ''"
-        }
-    ]
+        "en": "reason dk/decline"
+    }
 }

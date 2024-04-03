@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "sed_bm_demo_sexorient_001_i_01",
     "prefLabel": "sed_bm_demo_sexorient_001_i_01",
     "description": "sed_bm_demo_sexorient_001_i_01 of sed_bm_demo",
@@ -15,7 +15,7 @@
                 "value": 1
             },
             {
-                "name": "Polysexual",
+                "name": "Polysexual omnisexual sapiosexual or pansexual ",
                 "value": 2
             },
             {
@@ -31,9 +31,8 @@
                 "value": 5
             },
             {
-                "name": "Mostly straight",
-                "value": 6,
-                "schema:image": "but sometimes attracted to people of your own sex .png"
+                "name": "Mostly straight but sometimes attracted to people of your own sex ",
+                "value": 6
             },
             {
                 "name": "Do not think of yourself as having sexuality ",
@@ -55,11 +54,5 @@
     },
     "question": {
         "en": "Are any of these a closer description of how you think of yourself?"
-    },
-    "visibility": [
-        {
-            "variableName": "sed_bm_demo_sexorient_001_i_01",
-            "isVis": " sed_bm_demo_sexorient_001   == '5'"
-        }
-    ]
+    }
 }

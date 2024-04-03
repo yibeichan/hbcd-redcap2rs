@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "pex_bm_assistv1_pre_during_i_use_i_amount_002_i_02_dk",
     "prefLabel": "pex_bm_assistv1_pre_during_i_use_i_amount_002_i_02_dk",
     "description": "pex_bm_assistv1_pre_during_i_use_i_amount_002_i_02_dk of pex_bm_assistv1",
@@ -21,12 +21,6 @@
         ]
     },
     "question": {
-        "en": "Beer, cider, seltzer (ounces) , dk"
-    },
-    "visibility": [
-        {
-            "variableName": "pex_bm_assistv1_pre_during_i_use_i_amount_002_i_02_dk",
-            "isVis": " pex_bm_assistv1_pre_during_i_use_002_i_02   == '1' AND  pex_bm_assistv1_pre_during_i_use_i_amount_002_i_02   == ''"
-        }
-    ]
+        "en": "Beer (ounces)"
+    }
 }

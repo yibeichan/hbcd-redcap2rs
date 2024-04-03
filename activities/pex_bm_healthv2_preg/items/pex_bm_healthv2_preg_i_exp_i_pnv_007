@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "pex_bm_healthv2_preg_i_exp_i_pnv_007",
     "prefLabel": "pex_bm_healthv2_preg_i_exp_i_pnv_007",
     "description": "pex_bm_healthv2_preg_i_exp_i_pnv_007 of pex_bm_healthv2_preg",
@@ -11,14 +11,12 @@
         "valueType": "xsd:integer",
         "choices": [
             {
-                "name": "No",
-                "value": 0,
-                "schema:image": "continued use .png"
+                "name": "No continued use ",
+                "value": 0
             },
             {
-                "name": "Yes",
-                "value": 1,
-                "schema:image": "stopped use .png"
+                "name": "Yes stopped use ",
+                "value": 1
             },
             {
                 "name": "<font color=\"gray\">Don't know</font> ",
@@ -35,11 +33,5 @@
     },
     "question": {
         "en": "When we last met you stated that you were taking a prenatal vitamin or folic acid containing vitamin. Did you stop taking the prenatal vitamin/folic acid containing vitamin?"
-    },
-    "visibility": [
-        {
-            "variableName": "pex_bm_healthv2_preg_i_exp_i_pnv_007",
-            "isVis": " pex_bm_health_preg_i_healthhx_i_exp_i_pnv_006_i_02   == '0' AND  screening_arm_1  recruitment_period   =='1'"
-        }
-    ]
+    }
 }

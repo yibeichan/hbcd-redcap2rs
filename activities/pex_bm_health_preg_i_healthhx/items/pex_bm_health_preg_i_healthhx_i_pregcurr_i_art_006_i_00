@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_006_i_00",
     "prefLabel": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_006_i_00",
     "description": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_006_i_00 of pex_bm_health_preg_i_healthhx",
@@ -12,11 +12,5 @@
     },
     "question": {
         "en": "Age of sperm donor {pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_006} {pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_006_dk}"
-    },
-    "visibility": [
-        {
-            "variableName": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_006_i_00",
-            "isVis": " pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_003___7   == '1' OR  pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_003___8   == '1'"
-        }
-    ]
+    }
 }

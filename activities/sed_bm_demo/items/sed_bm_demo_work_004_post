@@ -1,9 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "sed_bm_demo_work_004_post",
     "prefLabel": "sed_bm_demo_work_004_post",
-    "description": "sed_bm_demo_work_004_post of sed_bm_demo",
+    "description": {
+        "en": "@NONEOFTHEABOVE='777,999'"
+    },
     "ui": {
         "inputType": "radio"
     },
@@ -30,11 +32,5 @@
     },
     "question": {
         "en": "While you were pregnant with this child, did you usually work 35 hours or more per week in total at all jobs or businesses?"
-    },
-    "visibility": [
-        {
-            "variableName": "sed_bm_demo_work_004_post",
-            "isVis": " sed_bm_demo_work_002_post   == '1'"
-        }
-    ]
+    }
 }

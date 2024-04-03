@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "pex_bm_epds_007",
     "prefLabel": "pex_bm_epds_007",
     "description": "pex_bm_epds_007 of pex_bm_epds",
@@ -11,24 +11,20 @@
         "valueType": "xsd:integer",
         "choices": [
             {
-                "name": "Yes",
-                "value": 3,
-                "schema:image": "most of the time .png"
+                "name": "Yes most of the time ",
+                "value": 3
             },
             {
-                "name": "Yes",
-                "value": 2,
-                "schema:image": "sometimes .png"
+                "name": "Yes sometimes ",
+                "value": 2
             },
             {
-                "name": "No",
-                "value": 1,
-                "schema:image": "not very often .png"
+                "name": "No not very often ",
+                "value": 1
             },
             {
-                "name": "No",
-                "value": 0,
-                "schema:image": "not at all .png"
+                "name": "No not at all ",
+                "value": 0
             },
             {
                 "name": "<font color=\"gray\">Don't know</font> ",

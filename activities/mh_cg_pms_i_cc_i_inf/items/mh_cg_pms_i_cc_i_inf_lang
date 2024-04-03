@@ -1,9 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "mh_cg_pms_i_cc_i_inf_lang",
     "prefLabel": "mh_cg_pms_i_cc_i_inf_lang",
-    "description": "mh_cg_pms_i_cc_i_inf_lang of mh_cg_pms_i_cc_i_inf",
+    "description": {
+        "en": "@HIDDEN @LANGUAGE-CURRENT-SURVEY"
+    },
     "ui": {
         "inputType": "radio"
     },

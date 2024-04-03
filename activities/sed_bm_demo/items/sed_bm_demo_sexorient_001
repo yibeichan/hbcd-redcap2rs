@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "sed_bm_demo_sexorient_001",
     "prefLabel": "sed_bm_demo_sexorient_001",
     "description": "sed_bm_demo_sexorient_001 of sed_bm_demo",
@@ -19,7 +19,7 @@
                 "value": 2
             },
             {
-                "name": "Straight; that is",
+                "name": "Straight; that is not gay or lesbian etc. ",
                 "value": 3
             },
             {
@@ -27,9 +27,8 @@
                 "value": 4
             },
             {
-                "name": "None of these describe me",
-                "value": 5,
-                "schema:image": "and I'd like to see additional options .png"
+                "name": "None of these describe me and I'd like to see additional options ",
+                "value": 5
             },
             {
                 "name": "<font color=\"gray\">Don't know</font> ",
@@ -46,11 +45,5 @@
     },
     "question": {
         "en": "Which of the following best represents how you think of yourself?"
-    },
-    "visibility": [
-        {
-            "variableName": "sed_bm_demo_sexorient_001",
-            "isVis": " event-name   == 'v01_arm_1' OR ( event-name   == 'v02_arm_1' AND  screening_arm_1  recruitment_period   == '2') OR  event-name   == 'v04_arm_1' OR  event-name   == 'v06_arm_1'"
-        }
-    ]
+    }
 }

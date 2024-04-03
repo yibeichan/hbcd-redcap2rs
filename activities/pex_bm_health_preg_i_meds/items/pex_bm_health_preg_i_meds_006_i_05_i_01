@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "pex_bm_health_preg_i_meds_006_i_05_i_01",
     "prefLabel": "pex_bm_health_preg_i_meds_006_i_05_i_01",
     "description": "pex_bm_health_preg_i_meds_006_i_05_i_01 of pex_bm_health_preg_i_meds",
@@ -12,11 +12,5 @@
     },
     "question": {
         "en": "What day did you stop taking [pex_bm_health_preg_i_meds_006_i_01]?"
-    },
-    "visibility": [
-        {
-            "variableName": "pex_bm_health_preg_i_meds_006_i_05_i_01",
-            "isVis": " pex_bm_health_preg_i_meds_006_i_05_i_01_dk   ==''"
-        }
-    ]
+    }
 }

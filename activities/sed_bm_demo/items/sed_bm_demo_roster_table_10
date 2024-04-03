@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "sed_bm_demo_roster_table_10",
     "prefLabel": "sed_bm_demo_roster_table_10",
     "description": "sed_bm_demo_roster_table_10 of sed_bm_demo",
@@ -12,11 +12,5 @@
     },
     "question": {
         "en": "Person 10Years {sed_bm_demo_roster_013_i_01}Months {sed_bm_demo_roster_013_i_02}{sed_bm_demo_roster_013_i_03}{sed_bm_demo_roster_013_i_03_i_01}{sed_bm_demo_roster_013_i_04}"
-    },
-    "visibility": [
-        {
-            "variableName": "sed_bm_demo_roster_table_10",
-            "isVis": " sed_bm_demo_roster_003  >= 10"
-        }
-    ]
+    }
 }

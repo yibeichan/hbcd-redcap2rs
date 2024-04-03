@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "pex_bm_healthv2_preg_i_illness_014",
     "prefLabel": "pex_bm_healthv2_preg_i_illness_014",
     "description": "pex_bm_healthv2_preg_i_illness_014 of pex_bm_healthv2_preg",
@@ -54,11 +54,5 @@
     },
     "question": {
         "en": "How many other illnesses have you had?"
-    },
-    "visibility": [
-        {
-            "variableName": "pex_bm_healthv2_preg_i_illness_014",
-            "isVis": " pex_bm_healthv2_preg_i_illness_013   == \"1\" AND  pex_bm_healthv2_preg_i_illness_014_i_dk   ==''"
-        }
-    ]
+    }
 }

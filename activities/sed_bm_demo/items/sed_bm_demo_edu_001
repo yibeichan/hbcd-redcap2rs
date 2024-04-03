@@ -1,9 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "sed_bm_demo_edu_001",
     "prefLabel": "sed_bm_demo_edu_001",
-    "description": "sed_bm_demo_edu_001 of sed_bm_demo",
+    "description": {
+        "en": "@NONEOFTHEABOVE='777,999'"
+    },
     "ui": {
         "inputType": "select"
     },
@@ -59,9 +61,8 @@
                 "value": 11
             },
             {
-                "name": "12th grade",
-                "value": 12,
-                "schema:image": "no diploma .png"
+                "name": "12th grade no diploma ",
+                "value": 12
             },
             {
                 "name": "High school graduate ",
@@ -72,12 +73,11 @@
                 "value": 14
             },
             {
-                "name": "Some college",
-                "value": 15,
-                "schema:image": "no degree .png"
+                "name": "Some college no degree ",
+                "value": 15
             },
             {
-                "name": "Occupational",
+                "name": "Occupational Vocational or Technical program ",
                 "value": 16
             },
             {
@@ -85,21 +85,20 @@
                 "value": 17
             },
             {
-                "name": "Bachelor's degree (ex: BA",
+                "name": "Bachelor's degree (ex: BA AB BS BBA) ",
                 "value": 18
             },
             {
-                "name": "Master's degree (ex: MA",
+                "name": "Master's degree (ex: MA MS MEng MEd MBA) ",
                 "value": 19
             },
             {
-                "name": "Professional school degree (ex: MD",
+                "name": "Professional school degree (ex: MD DDS DVM JD) ",
                 "value": 20
             },
             {
-                "name": "Doctoral degree (ex: PhD",
-                "value": 21,
-                "schema:image": "EdD) .png"
+                "name": "Doctoral degree (ex: PhD EdD) ",
+                "value": 21
             },
             {
                 "name": "<font color=\"gray\">Don't know</font> ",
@@ -116,11 +115,5 @@
     },
     "question": {
         "en": "What is the highest grade or level of school you have completed or the highest degree you have received?"
-    },
-    "visibility": [
-        {
-            "variableName": "sed_bm_demo_edu_001",
-            "isVis": "( event-name   == 'v01_arm_1') OR ( screening_arm_1  recruitment_period   == '2' AND  event-name   == 'v02_arm_1') OR ( event-name   == 'v02_arm_1' AND  v02_arm_1  admin_caregiver_001   == '1') OR ( v03_arm_1  admin_caregiver_001   == '1' AND  event-name   == 'v03_arm_1') OR  event-name   == 'v04_arm_1' OR  event-name   == 'v06_arm_1'"
-        }
-    ]
+    }
 }

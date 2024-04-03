@@ -1,9 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "sed_bm_demo_work_002_post",
     "prefLabel": "sed_bm_demo_work_002_post",
-    "description": "sed_bm_demo_work_002_post of sed_bm_demo",
+    "description": {
+        "en": "@NONEOFTHEABOVE='777,999'"
+    },
     "ui": {
         "inputType": "radio"
     },
@@ -30,11 +32,5 @@
     },
     "question": {
         "en": "Have you worked for pay at any time while pregnant with this child?"
-    },
-    "visibility": [
-        {
-            "variableName": "sed_bm_demo_work_002_post",
-            "isVis": " screening_arm_1  recruitment_period   == '2' AND  event-name   == 'v02_arm_1'"
-        }
-    ]
+    }
 }

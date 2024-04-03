@@ -1,9 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "sed_bm_demo_work_035_m01_1133",
-    "prefLabel": "sed_bm_demo_work_035_m01_1133",
-    "description": "sed_bm_demo_work_035_m01_1133 of sed_bm_demo",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "sed_bm_demo_work_035_m01_1126",
+    "prefLabel": "sed_bm_demo_work_035_m01_1126",
+    "description": {
+        "en": "@NONEOFTHEABOVE='777,999'"
+    },
     "ui": {
         "inputType": "radio"
     },
@@ -34,11 +36,5 @@
     },
     "question": {
         "en": "Strenuous physical activity"
-    },
-    "visibility": [
-        {
-            "variableName": "sed_bm_demo_work_035_i_06",
-            "isVis": " sed_bm_demo_work_i_env_004   == '1' "
-        }
-    ]
+    }
 }

@@ -1,19 +1,18 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
     "@type": "reproschema:Activity",
     "@id": "setup_l_schema",
     "prefLabel": "setup_l",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "version": "unknown",
     "ui": {
         "order": [
             "items/admin_caregiver_001",
             "items/admin_caregiver_002",
             "items/setup_onsite_started",
             "items/setup_event_start",
-            "items/setup_event_end",
-            "items/url_vineland"
+            "items/setup_event_end"
         ],
         "addProperties": [
             {
@@ -24,7 +23,7 @@
             {
                 "variableName": "admin_caregiver_002",
                 "isAbout": "items/admin_caregiver_002",
-                "isVis": true
+                "isVis": "admin_caregiver_001 == '1'"
             },
             {
                 "variableName": "setup_onsite_started",
@@ -39,11 +38,6 @@
             {
                 "variableName": "setup_event_end",
                 "isAbout": "items/setup_event_end",
-                "isVis": true
-            },
-            {
-                "variableName": "url_vineland",
-                "isAbout": "items/url_vineland",
                 "isVis": true
             }
         ],

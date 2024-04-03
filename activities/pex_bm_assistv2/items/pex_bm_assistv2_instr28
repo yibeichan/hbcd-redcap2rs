@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "pex_bm_assistv2_instr28",
     "prefLabel": "pex_bm_assistv2_instr28",
     "description": "pex_bm_assistv2_instr28 of pex_bm_assistv2",
@@ -15,11 +15,5 @@
     },
     "question": {
         "en": "When you were using hallucinogens or club drugs SINCE WE LAST MET UNTIL THE END OF PREGNANCY, please select the specific substances you used below."
-    },
-    "visibility": [
-        {
-            "variableName": "pex_bm_assistv2_instr28",
-            "isVis": " pex_bm_assistv2_end_i_use_015   == '1'"
-        }
-    ]
+    }
 }

@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "pex_bm_health_preg_i_meds_021_i_02",
     "prefLabel": "pex_bm_health_preg_i_meds_021_i_02",
     "description": "pex_bm_health_preg_i_meds_021_i_02 of pex_bm_health_preg_i_meds",
@@ -13,11 +13,5 @@
     },
     "question": {
         "en": "For what indication did you take this medication?"
-    },
-    "visibility": [
-        {
-            "variableName": "pex_bm_health_preg_i_meds_021_i_02",
-            "isVis": " pex_bm_health_preg_i_meds_014  >= 7 AND  pex_bm_health_preg_i_meds_021_i_02_dk   == ''"
-        }
-    ]
+    }
 }

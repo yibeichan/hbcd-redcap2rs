@@ -1,18 +1,17 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
     "@type": "reproschema:Activity",
     "@id": "mh_cg_mapdb_i_inf_schema",
     "prefLabel": "mh_cg_mapdb_i_inf",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "version": "unknown",
     "ui": {
         "order": [
             "items/mh_cg_mapdb_i_inf_lang",
             "items/mh_cg_mapdb_i_inf_dtt",
             "items/mh_cg_mapdb_i_inf_timestamp_start",
             "items/mh_cg_mapdb_i_inf_location",
-            "items/mh_cg_mapdb_i_inf_instr001",
             "items/mh_cg_mapdb_i_inf_001",
             "items/mh_cg_mapdb_i_inf_002",
             "items/mh_cg_mapdb_i_inf_003",
@@ -50,11 +49,6 @@
             {
                 "variableName": "mh_cg_mapdb_i_inf_location",
                 "isAbout": "items/mh_cg_mapdb_i_inf_location",
-                "isVis": true
-            },
-            {
-                "variableName": "mh_cg_mapdb_i_inf_instr001",
-                "isAbout": "items/mh_cg_mapdb_i_inf_instr001",
                 "isVis": true
             },
             {
@@ -144,92 +138,5 @@
             }
         ],
         "shuffle": false
-    },
-    "matrixInfo": [
-        {
-            "variableName": "mh_cg_mapdb_i_inf_001",
-            "matrixGroupName": "mh_cg_mapdb_i_inf_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "mh_cg_mapdb_i_inf_002",
-            "matrixGroupName": "mh_cg_mapdb_i_inf_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "mh_cg_mapdb_i_inf_003",
-            "matrixGroupName": "mh_cg_mapdb_i_inf_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "mh_cg_mapdb_i_inf_004",
-            "matrixGroupName": "mh_cg_mapdb_i_inf_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "mh_cg_mapdb_i_inf_005",
-            "matrixGroupName": "mh_cg_mapdb_i_inf_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "mh_cg_mapdb_i_inf_006",
-            "matrixGroupName": "mh_cg_mapdb_i_inf_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "mh_cg_mapdb_i_inf_007",
-            "matrixGroupName": "mh_cg_mapdb_i_inf_m02",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "mh_cg_mapdb_i_inf_008",
-            "matrixGroupName": "mh_cg_mapdb_i_inf_m02",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "mh_cg_mapdb_i_inf_009",
-            "matrixGroupName": "mh_cg_mapdb_i_inf_m02",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "mh_cg_mapdb_i_inf_010",
-            "matrixGroupName": "mh_cg_mapdb_i_inf_m02",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "mh_cg_mapdb_i_inf_011",
-            "matrixGroupName": "mh_cg_mapdb_i_inf_m02",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "mh_cg_mapdb_i_inf_012",
-            "matrixGroupName": "mh_cg_mapdb_i_inf_m02",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "mh_cg_mapdb_i_inf_013",
-            "matrixGroupName": "mh_cg_mapdb_i_inf_m03",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "mh_cg_mapdb_i_inf_014",
-            "matrixGroupName": "mh_cg_mapdb_i_inf_m03",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "mh_cg_mapdb_i_inf_015",
-            "matrixGroupName": "mh_cg_mapdb_i_inf_m03",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "mh_cg_mapdb_i_inf_016",
-            "matrixGroupName": "mh_cg_mapdb_i_inf_m03",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "mh_cg_mapdb_i_inf_017",
-            "matrixGroupName": "mh_cg_mapdb_i_inf_m03",
-            "matrixRanking": ""
-        }
-    ]
+    }
 }

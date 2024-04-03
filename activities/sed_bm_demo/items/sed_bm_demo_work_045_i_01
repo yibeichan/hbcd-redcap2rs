@@ -1,9 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "sed_bm_demo_work_045_m01_986",
-    "prefLabel": "sed_bm_demo_work_045_m01_986",
-    "description": "sed_bm_demo_work_045_m01_986 of sed_bm_demo",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "sed_bm_demo_work_045_m01_976",
+    "prefLabel": "sed_bm_demo_work_045_m01_976",
+    "description": {
+        "en": "@NONEOFTHEABOVE='777,999'"
+    },
     "ui": {
         "inputType": "radio"
     },
@@ -37,11 +39,5 @@
     },
     "question": {
         "en": "Clean floor, counters, sinks, or toilets"
-    },
-    "visibility": [
-        {
-            "variableName": "sed_bm_demo_work_045_i_01",
-            "isVis": " sed_bm_demo_work_i_env_005   == '1' "
-        }
-    ]
+    }
 }

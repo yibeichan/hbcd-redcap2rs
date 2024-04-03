@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
     "@type": "reproschema:Activity",
     "@id": "pex_bm_apa_schema",
     "prefLabel": "pex_bm_apa",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "version": "unknown",
     "ui": {
         "order": [
             "items/pex_bm_apa_lang",
@@ -329,152 +329,152 @@
             {
                 "variableName": "pex_bm_apa2_anx_001",
                 "isAbout": "items/pex_bm_apa2_anx_001",
-                "isVis": " pex_bm_apa1_anx_001  >= '2' OR  pex_bm_apa1_anx_002  >= '2' OR  pex_bm_apa1_anx_003  >= '2'"
+                "isVis": "pex_bm_apa1_anx_001 >= '2' OR pex_bm_apa1_anx_002 >= '2' OR pex_bm_apa1_anx_003 >= '2'"
             },
             {
                 "variableName": "pex_bm_apa2_anx_002",
                 "isAbout": "items/pex_bm_apa2_anx_002",
-                "isVis": " pex_bm_apa1_anx_001  >= '2' OR  pex_bm_apa1_anx_002  >= '2' OR  pex_bm_apa1_anx_003  >= '2'"
+                "isVis": "pex_bm_apa1_anx_001 >= '2' OR pex_bm_apa1_anx_002 >= '2' OR pex_bm_apa1_anx_003 >= '2'"
             },
             {
                 "variableName": "pex_bm_apa2_anx_003",
                 "isAbout": "items/pex_bm_apa2_anx_003",
-                "isVis": " pex_bm_apa1_anx_001  >= '2' OR  pex_bm_apa1_anx_002  >= '2' OR  pex_bm_apa1_anx_003  >= '2'"
+                "isVis": "pex_bm_apa1_anx_001 >= '2' OR pex_bm_apa1_anx_002 >= '2' OR pex_bm_apa1_anx_003 >= '2'"
             },
             {
                 "variableName": "pex_bm_apa2_anx_004",
                 "isAbout": "items/pex_bm_apa2_anx_004",
-                "isVis": " pex_bm_apa1_anx_001  >= '2' OR  pex_bm_apa1_anx_002  >= '2' OR  pex_bm_apa1_anx_003  >= '2'"
+                "isVis": "pex_bm_apa1_anx_001 >= '2' OR pex_bm_apa1_anx_002 >= '2' OR pex_bm_apa1_anx_003 >= '2'"
             },
             {
                 "variableName": "pex_bm_apa2_anx_005",
                 "isAbout": "items/pex_bm_apa2_anx_005",
-                "isVis": " pex_bm_apa1_anx_001  >= '2' OR  pex_bm_apa1_anx_002  >= '2' OR  pex_bm_apa1_anx_003  >= '2'"
+                "isVis": "pex_bm_apa1_anx_001 >= '2' OR pex_bm_apa1_anx_002 >= '2' OR pex_bm_apa1_anx_003 >= '2'"
             },
             {
                 "variableName": "pex_bm_apa2_anx_006",
                 "isAbout": "items/pex_bm_apa2_anx_006",
-                "isVis": " pex_bm_apa1_anx_001  >= '2' OR  pex_bm_apa1_anx_002  >= '2' OR  pex_bm_apa1_anx_003  >= '2'"
+                "isVis": "pex_bm_apa1_anx_001 >= '2' OR pex_bm_apa1_anx_002 >= '2' OR pex_bm_apa1_anx_003 >= '2'"
             },
             {
                 "variableName": "pex_bm_apa2_anx_007",
                 "isAbout": "items/pex_bm_apa2_anx_007",
-                "isVis": " pex_bm_apa1_anx_001  >= '2' OR  pex_bm_apa1_anx_002  >= '2' OR  pex_bm_apa1_anx_003  >= '2'"
+                "isVis": "pex_bm_apa1_anx_001 >= '2' OR pex_bm_apa1_anx_002 >= '2' OR pex_bm_apa1_anx_003 >= '2'"
             },
             {
                 "variableName": "pex_bm_apa2_anger_001",
                 "isAbout": "items/pex_bm_apa2_anger_001",
-                "isVis": " pex_bm_apa1_anger_001  >= '2'"
+                "isVis": "pex_bm_apa1_anger_001 >= '2'"
             },
             {
                 "variableName": "pex_bm_apa2_anger_002",
                 "isAbout": "items/pex_bm_apa2_anger_002",
-                "isVis": " pex_bm_apa1_anger_001  >= '2'"
+                "isVis": "pex_bm_apa1_anger_001 >= '2'"
             },
             {
                 "variableName": "pex_bm_apa2_anger_003",
                 "isAbout": "items/pex_bm_apa2_anger_003",
-                "isVis": " pex_bm_apa1_anger_001  >= '2'"
+                "isVis": "pex_bm_apa1_anger_001 >= '2'"
             },
             {
                 "variableName": "pex_bm_apa2_anger_004",
                 "isAbout": "items/pex_bm_apa2_anger_004",
-                "isVis": " pex_bm_apa1_anger_001  >= '2'"
+                "isVis": "pex_bm_apa1_anger_001 >= '2'"
             },
             {
                 "variableName": "pex_bm_apa2_anger_005",
                 "isAbout": "items/pex_bm_apa2_anger_005",
-                "isVis": " pex_bm_apa1_anger_001  >= '2'"
+                "isVis": "pex_bm_apa1_anger_001 >= '2'"
             },
             {
                 "variableName": "pex_bm_apa2_sleep_001",
                 "isAbout": "items/pex_bm_apa2_sleep_001",
-                "isVis": " pex_bm_apa1_sleep_001  >= '2' "
+                "isVis": "pex_bm_apa1_sleep_001 >= '2'"
             },
             {
                 "variableName": "pex_bm_apa2_sleep_002",
                 "isAbout": "items/pex_bm_apa2_sleep_002",
-                "isVis": " pex_bm_apa1_sleep_001  >= '2' "
+                "isVis": "pex_bm_apa1_sleep_001 >= '2'"
             },
             {
                 "variableName": "pex_bm_apa2_sleep_003",
                 "isAbout": "items/pex_bm_apa2_sleep_003",
-                "isVis": " pex_bm_apa1_sleep_001  >= '2' "
+                "isVis": "pex_bm_apa1_sleep_001 >= '2'"
             },
             {
                 "variableName": "pex_bm_apa2_sleep_004",
                 "isAbout": "items/pex_bm_apa2_sleep_004",
-                "isVis": " pex_bm_apa1_sleep_001  >= '2' "
+                "isVis": "pex_bm_apa1_sleep_001 >= '2'"
             },
             {
                 "variableName": "pex_bm_apa2_sleep_005",
                 "isAbout": "items/pex_bm_apa2_sleep_005",
-                "isVis": " pex_bm_apa1_sleep_001  >= '2' "
+                "isVis": "pex_bm_apa1_sleep_001 >= '2'"
             },
             {
                 "variableName": "pex_bm_apa2_sleep_006",
                 "isAbout": "items/pex_bm_apa2_sleep_006",
-                "isVis": " pex_bm_apa1_sleep_001  >= '2' "
+                "isVis": "pex_bm_apa1_sleep_001 >= '2'"
             },
             {
                 "variableName": "pex_bm_apa2_sleep_007",
                 "isAbout": "items/pex_bm_apa2_sleep_007",
-                "isVis": " pex_bm_apa1_sleep_001  >= '2' "
+                "isVis": "pex_bm_apa1_sleep_001 >= '2'"
             },
             {
                 "variableName": "pex_bm_apa2_sleep_008",
                 "isAbout": "items/pex_bm_apa2_sleep_008",
-                "isVis": " pex_bm_apa1_sleep_001  >= '2' "
+                "isVis": "pex_bm_apa1_sleep_001 >= '2'"
             },
             {
                 "variableName": "pex_bm_apa2_mania_001",
                 "isAbout": "items/pex_bm_apa2_mania_001",
-                "isVis": " pex_bm_apa1_mania_001  >= '2' OR  pex_bm_apa1_mania_002  >= '2'"
+                "isVis": "pex_bm_apa1_mania_001 >= '2' OR pex_bm_apa1_mania_002 >= '2'"
             },
             {
                 "variableName": "pex_bm_apa2_mania_002",
                 "isAbout": "items/pex_bm_apa2_mania_002",
-                "isVis": " pex_bm_apa1_mania_001  >= '2' OR  pex_bm_apa1_mania_002  >= '2'"
+                "isVis": "pex_bm_apa1_mania_001 >= '2' OR pex_bm_apa1_mania_002 >= '2'"
             },
             {
                 "variableName": "pex_bm_apa2_mania_003",
                 "isAbout": "items/pex_bm_apa2_mania_003",
-                "isVis": " pex_bm_apa1_mania_001  >= '2' OR  pex_bm_apa1_mania_002  >= '2'"
+                "isVis": "pex_bm_apa1_mania_001 >= '2' OR pex_bm_apa1_mania_002 >= '2'"
             },
             {
                 "variableName": "pex_bm_apa2_mania_004",
                 "isAbout": "items/pex_bm_apa2_mania_004",
-                "isVis": " pex_bm_apa1_mania_001  >= '2' OR  pex_bm_apa1_mania_002  >= '2'"
+                "isVis": "pex_bm_apa1_mania_001 >= '2' OR pex_bm_apa1_mania_002 >= '2'"
             },
             {
                 "variableName": "pex_bm_apa2_mania_005",
                 "isAbout": "items/pex_bm_apa2_mania_005",
-                "isVis": " pex_bm_apa1_mania_001  >= '2' OR  pex_bm_apa1_mania_002  >= '2'"
+                "isVis": "pex_bm_apa1_mania_001 >= '2' OR pex_bm_apa1_mania_002 >= '2'"
             },
             {
                 "variableName": "pex_bm_apa2_repet_001",
                 "isAbout": "items/pex_bm_apa2_repet_001",
-                "isVis": " pex_bm_apa1_repet_001  >= '2' OR  pex_bm_apa1_repet_002  >= '2'"
+                "isVis": "pex_bm_apa1_repet_001 >= '2' OR pex_bm_apa1_repet_002 >= '2'"
             },
             {
                 "variableName": "pex_bm_apa2_repet_002",
                 "isAbout": "items/pex_bm_apa2_repet_002",
-                "isVis": " pex_bm_apa1_repet_001  >= '2' OR  pex_bm_apa1_repet_002  >= '2'"
+                "isVis": "pex_bm_apa1_repet_001 >= '2' OR pex_bm_apa1_repet_002 >= '2'"
             },
             {
                 "variableName": "pex_bm_apa2_repet_003",
                 "isAbout": "items/pex_bm_apa2_repet_003",
-                "isVis": " pex_bm_apa1_repet_001  >= '2' OR  pex_bm_apa1_repet_002  >= '2'"
+                "isVis": "pex_bm_apa1_repet_001 >= '2' OR pex_bm_apa1_repet_002 >= '2'"
             },
             {
                 "variableName": "pex_bm_apa2_repet_004",
                 "isAbout": "items/pex_bm_apa2_repet_004",
-                "isVis": " pex_bm_apa1_repet_001  >= '2' OR  pex_bm_apa1_repet_002  >= '2'"
+                "isVis": "pex_bm_apa1_repet_001 >= '2' OR pex_bm_apa1_repet_002 >= '2'"
             },
             {
                 "variableName": "pex_bm_apa2_repet_005",
                 "isAbout": "items/pex_bm_apa2_repet_005",
-                "isVis": " pex_bm_apa1_repet_001  >= '2' OR  pex_bm_apa1_repet_002  >= '2'"
+                "isVis": "pex_bm_apa1_repet_001 >= '2' OR pex_bm_apa1_repet_002 >= '2'"
             },
             {
                 "variableName": "pex_bm_apa2_pers_001",
@@ -678,432 +678,5 @@
             }
         ],
         "shuffle": false
-    },
-    "matrixInfo": [
-        {
-            "variableName": "pex_bm_apa1_depr_001",
-            "matrixGroupName": "pex_bm_apa1_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa1_depr_002",
-            "matrixGroupName": "pex_bm_apa1_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa1_anger_001",
-            "matrixGroupName": "pex_bm_apa1_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa1_mania_001",
-            "matrixGroupName": "pex_bm_apa1_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa1_mania_002",
-            "matrixGroupName": "pex_bm_apa1_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa1_anx_001",
-            "matrixGroupName": "pex_bm_apa1_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa1_anx_002",
-            "matrixGroupName": "pex_bm_apa1_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa1_anx_003",
-            "matrixGroupName": "pex_bm_apa1_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa1_somat_001",
-            "matrixGroupName": "pex_bm_apa1_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa1_somat_002",
-            "matrixGroupName": "pex_bm_apa1_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa1_suic_001",
-            "matrixGroupName": "pex_bm_apa1_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa1_psych_001",
-            "matrixGroupName": "pex_bm_apa1_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa1_psych_002",
-            "matrixGroupName": "pex_bm_apa1_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa1_sleep_001",
-            "matrixGroupName": "pex_bm_apa1_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa1_memo_001",
-            "matrixGroupName": "pex_bm_apa1_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa1_repet_001",
-            "matrixGroupName": "pex_bm_apa1_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa1_repet_002",
-            "matrixGroupName": "pex_bm_apa1_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa1_disso_001",
-            "matrixGroupName": "pex_bm_apa1_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_depr_001",
-            "matrixGroupName": "pex_bm_apa2_depr_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_depr_002",
-            "matrixGroupName": "pex_bm_apa2_depr_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_depr_003",
-            "matrixGroupName": "pex_bm_apa2_depr_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_depr_004",
-            "matrixGroupName": "pex_bm_apa2_depr_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_depr_005",
-            "matrixGroupName": "pex_bm_apa2_depr_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_depr_006",
-            "matrixGroupName": "pex_bm_apa2_depr_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_depr_007",
-            "matrixGroupName": "pex_bm_apa2_depr_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_depr_008",
-            "matrixGroupName": "pex_bm_apa2_depr_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_anx_001",
-            "matrixGroupName": "pex_bm_apa2_anx_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_anx_002",
-            "matrixGroupName": "pex_bm_apa2_anx_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_anx_003",
-            "matrixGroupName": "pex_bm_apa2_anx_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_anx_004",
-            "matrixGroupName": "pex_bm_apa2_anx_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_anx_005",
-            "matrixGroupName": "pex_bm_apa2_anx_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_anx_006",
-            "matrixGroupName": "pex_bm_apa2_anx_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_anx_007",
-            "matrixGroupName": "pex_bm_apa2_anx_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_anger_001",
-            "matrixGroupName": "pex_bm_apa2_anger_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_anger_002",
-            "matrixGroupName": "pex_bm_apa2_anger_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_anger_003",
-            "matrixGroupName": "pex_bm_apa2_anger_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_anger_004",
-            "matrixGroupName": "pex_bm_apa2_anger_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_anger_005",
-            "matrixGroupName": "pex_bm_apa2_anger_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_sleep_002",
-            "matrixGroupName": "pex_bm_apa2_sleep_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_sleep_003",
-            "matrixGroupName": "pex_bm_apa2_sleep_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_sleep_004",
-            "matrixGroupName": "pex_bm_apa2_sleep_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_sleep_005",
-            "matrixGroupName": "pex_bm_apa2_sleep_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_sleep_006",
-            "matrixGroupName": "pex_bm_apa2_sleep_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_sleep_007",
-            "matrixGroupName": "pex_bm_apa2_sleep_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_sleep_008",
-            "matrixGroupName": "pex_bm_apa2_sleep_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_pers_001",
-            "matrixGroupName": "pex_bm_apa2_pers_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_pers_002",
-            "matrixGroupName": "pex_bm_apa2_pers_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_pers_003",
-            "matrixGroupName": "pex_bm_apa2_pers_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_pers_004",
-            "matrixGroupName": "pex_bm_apa2_pers_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_pers_005",
-            "matrixGroupName": "pex_bm_apa2_pers_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_pers_006",
-            "matrixGroupName": "pex_bm_apa2_pers_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_pers_007",
-            "matrixGroupName": "pex_bm_apa2_pers_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_pers_008",
-            "matrixGroupName": "pex_bm_apa2_pers_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_pers_009",
-            "matrixGroupName": "pex_bm_apa2_pers_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_pers_010",
-            "matrixGroupName": "pex_bm_apa2_pers_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_pers_011",
-            "matrixGroupName": "pex_bm_apa2_pers_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_pers_012",
-            "matrixGroupName": "pex_bm_apa2_pers_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_pers_013",
-            "matrixGroupName": "pex_bm_apa2_pers_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_pers_014",
-            "matrixGroupName": "pex_bm_apa2_pers_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_pers_015",
-            "matrixGroupName": "pex_bm_apa2_pers_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_pers_016",
-            "matrixGroupName": "pex_bm_apa2_pers_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_pers_017",
-            "matrixGroupName": "pex_bm_apa2_pers_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_pers_018",
-            "matrixGroupName": "pex_bm_apa2_pers_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_pers_019",
-            "matrixGroupName": "pex_bm_apa2_pers_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_pers_020",
-            "matrixGroupName": "pex_bm_apa2_pers_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_pers_021",
-            "matrixGroupName": "pex_bm_apa2_pers_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_pers_022",
-            "matrixGroupName": "pex_bm_apa2_pers_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_pers_023",
-            "matrixGroupName": "pex_bm_apa2_pers_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_pers_024",
-            "matrixGroupName": "pex_bm_apa2_pers_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_pers_025",
-            "matrixGroupName": "pex_bm_apa2_pers_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_somat_001",
-            "matrixGroupName": "pex_bm_apa2_somat_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_somat_002",
-            "matrixGroupName": "pex_bm_apa2_somat_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_somat_003",
-            "matrixGroupName": "pex_bm_apa2_somat_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_somat_004",
-            "matrixGroupName": "pex_bm_apa2_somat_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_somat_005",
-            "matrixGroupName": "pex_bm_apa2_somat_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_somat_006",
-            "matrixGroupName": "pex_bm_apa2_somat_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_somat_007",
-            "matrixGroupName": "pex_bm_apa2_somat_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_somat_008",
-            "matrixGroupName": "pex_bm_apa2_somat_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_somat_009",
-            "matrixGroupName": "pex_bm_apa2_somat_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_somat_010",
-            "matrixGroupName": "pex_bm_apa2_somat_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_somat_011",
-            "matrixGroupName": "pex_bm_apa2_somat_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_somat_012",
-            "matrixGroupName": "pex_bm_apa2_somat_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_somat_013",
-            "matrixGroupName": "pex_bm_apa2_somat_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_somat_014",
-            "matrixGroupName": "pex_bm_apa2_somat_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_apa2_somat_015",
-            "matrixGroupName": "pex_bm_apa2_somat_m01",
-            "matrixRanking": ""
-        }
-    ]
+    }
 }

@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "ra_feedback_desc",
+    "prefLabel": "ra_feedback_desc",
+    "description": "ra_feedback_desc of ra_pilot_feedback_form",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Please use this form to document any feedback regarding the pilot protocol elements.Input information related issues such as: typos, branching logic, redundancy or omissions, concerns about the wording or meaning of items, pilot's observations, checklists, etc.DO NOTinclude any PII/PHI"
+    }
+}

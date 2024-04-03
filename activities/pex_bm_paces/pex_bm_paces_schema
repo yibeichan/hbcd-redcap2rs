@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
     "@type": "reproschema:Activity",
     "@id": "pex_bm_paces_schema",
     "prefLabel": "pex_bm_paces",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "version": "unknown",
     "ui": {
         "order": [
             "items/pex_bm_paces_lang",
@@ -96,57 +96,5 @@
             }
         ],
         "shuffle": false
-    },
-    "matrixInfo": [
-        {
-            "variableName": "pex_bm_paces_001",
-            "matrixGroupName": "sed_bm_paces_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_paces_002",
-            "matrixGroupName": "sed_bm_paces_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_paces_003",
-            "matrixGroupName": "sed_bm_paces_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_paces_004",
-            "matrixGroupName": "sed_bm_paces_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_paces_005",
-            "matrixGroupName": "sed_bm_paces_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_paces_006",
-            "matrixGroupName": "sed_bm_paces_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_paces_007",
-            "matrixGroupName": "sed_bm_paces_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_paces_008",
-            "matrixGroupName": "sed_bm_paces_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_paces_009",
-            "matrixGroupName": "sed_bm_paces_m01",
-            "matrixRanking": ""
-        },
-        {
-            "variableName": "pex_bm_paces_010",
-            "matrixGroupName": "sed_bm_paces_m01",
-            "matrixRanking": ""
-        }
-    ]
+    }
 }

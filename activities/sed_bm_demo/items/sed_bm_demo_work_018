@@ -1,9 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "sed_bm_demo_work_018",
     "prefLabel": "sed_bm_demo_work_018",
-    "description": "sed_bm_demo_work_018 of sed_bm_demo",
+    "description": {
+        "en": "@NONEOFTHEABOVE='777,999'"
+    },
     "ui": {
         "inputType": "radio"
     },
@@ -42,11 +44,5 @@
     },
     "question": {
         "en": "Which of the following best describes the hours you usually work at this job or business? \n\n\nStandard Shift Definitions are:\nA regular daytime schedule:this is work anytime between 6am and 6pm.A regular evening shift:this is work anytime between 2pm and midnight.A regular night shift:this is work anytime between 9pm and 8am.A rotating shift:a work shift that changes periodically from days to evenings or nights.Another schedule includes:a split shift (consisting of two distinct work periods each day), an irregular schedule arranged by the employer, or any other schedule."
-    },
-    "visibility": [
-        {
-            "variableName": "sed_bm_demo_work_018",
-            "isVis": " sed_bm_demo_work_i_env_002   == '1' "
-        }
-    ]
+    }
 }

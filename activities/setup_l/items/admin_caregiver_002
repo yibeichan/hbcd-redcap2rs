@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "admin_caregiver_002",
     "prefLabel": "admin_caregiver_002",
     "description": "admin_caregiver_002 of setup_l",
@@ -27,17 +27,12 @@
                 "value": 4
             },
             {
-                "name": "CG Type E (Change in legal custody and placement",
-                "value": 5,
-                "schema:image": "e.g. adoption) .png"
-            },
-            {
-                "name": "CG Type F (Birth mother)",
-                "value": 6
+                "name": "CG Type E (Change in legal custody and placement e.g. adoption)",
+                "value": 5
             }
         ]
     },
     "question": {
-        "en": "Caregiver type for this visit"
+        "en": "New caregiver type"
     }
 }

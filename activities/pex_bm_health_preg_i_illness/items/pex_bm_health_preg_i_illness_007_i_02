@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "pex_bm_health_preg_i_illness_007_i_02",
     "prefLabel": "pex_bm_health_preg_i_illness_007_i_02",
     "description": "pex_bm_health_preg_i_illness_007_i_02 of pex_bm_health_preg_i_illness",
@@ -13,11 +13,5 @@
     },
     "question": {
         "en": "If you don't know the name of the illness, please select the most prominent symptom."
-    },
-    "visibility": [
-        {
-            "variableName": "pex_bm_health_preg_i_illness_007_i_02",
-            "isVis": " pex_bm_health_preg_i_illness_007_i_dk   == '999' AND  pex_bm_health_preg_i_illness_002  >= 5"
-        }
-    ]
+    }
 }

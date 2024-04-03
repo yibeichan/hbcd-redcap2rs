@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
     "@type": "reproschema:Activity",
     "@id": "admin_part_fb_schema",
     "prefLabel": "admin_part_fb",
     "description": "Default description",
     "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
+    "version": "unknown",
     "ui": {
         "order": [
             "items/admin_part_fb_lang",
@@ -62,42 +62,42 @@
             {
                 "variableName": "admin_part_fb_003_i_01",
                 "isAbout": "items/admin_part_fb_003_i_01",
-                "isVis": " event-name   == 'v01_arm_1'"
+                "isVis": "event-name == 'v01_arm_1'"
             },
             {
                 "variableName": "admin_part_fb_003_i_02",
                 "isAbout": "items/admin_part_fb_003_i_02",
-                "isVis": " event-name  ! == 'v01_arm_1'"
+                "isVis": "event-name ! == 'v01_arm_1'"
             },
             {
                 "variableName": "admin_part_fb_004",
                 "isAbout": "items/admin_part_fb_004",
-                "isVis": " event-name   =='v03_arm_1' OR  event-name   =='v04_arm_1' OR  event-name   =='v06_arm_1' "
+                "isVis": "event-name =='v03_arm_1' OR event-name =='v04_arm_1' OR event-name =='v06_arm_1'"
             },
             {
                 "variableName": "admin_part_fb_005",
                 "isAbout": "items/admin_part_fb_005",
-                "isVis": "  event-name   =='v02_arm_1'  OR  event-name   =='v03_arm_1' OR  event-name   =='v04_arm_1' OR  event-name   =='v06_arm_1'  "
+                "isVis": "event-name =='v02_arm_1' OR event-name =='v03_arm_1' OR event-name =='v04_arm_1' OR event-name =='v06_arm_1'"
             },
             {
                 "variableName": "admin_part_fb_006_i_01",
                 "isAbout": "items/admin_part_fb_006_i_01",
-                "isVis": " event-name   == 'v01_arm_1' OR  event-name   == 'v05_arm_1'"
+                "isVis": "event-name == 'v01_arm_1' OR event-name == 'v05_arm_1'"
             },
             {
                 "variableName": "admin_part_fb_006_i_02",
                 "isAbout": "items/admin_part_fb_006_i_02",
-                "isVis": "  event-name   =='v02_arm_1'  OR  event-name   =='v03_arm_1' OR  event-name   =='v04_arm_1' OR  event-name   =='v06_arm_1'  "
+                "isVis": "event-name =='v02_arm_1' OR event-name =='v03_arm_1' OR event-name =='v04_arm_1' OR event-name =='v06_arm_1'"
             },
             {
                 "variableName": "admin_part_fb_007",
                 "isAbout": "items/admin_part_fb_007",
-                "isVis": " event-name   == 'v02_arm_1' OR  event-name   == 'v03_arm_1'"
+                "isVis": "event-name == 'v02_arm_1' OR event-name == 'v03_arm_1'"
             },
             {
                 "variableName": "admin_part_fb_008",
                 "isAbout": "items/admin_part_fb_008",
-                "isVis": " event-name   == 'v02_arm_1' OR  event-name   == 'v03_arm_1'"
+                "isVis": "event-name == 'v02_arm_1' OR event-name == 'v03_arm_1'"
             },
             {
                 "variableName": "admin_part_fb_009",

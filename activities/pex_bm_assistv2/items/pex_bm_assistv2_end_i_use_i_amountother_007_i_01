@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "pex_bm_assistv2_end_i_use_i_amountother_007_i_01",
     "prefLabel": "pex_bm_assistv2_end_i_use_i_amountother_007_i_01",
     "description": "pex_bm_assistv2_end_i_use_i_amountother_007_i_01 of pex_bm_assistv2",
@@ -54,11 +54,5 @@
     },
     "question": {
         "en": "Heroin amount (bags)"
-    },
-    "visibility": [
-        {
-            "variableName": "pex_bm_assistv2_end_i_use_i_amountother_007_i_01",
-            "isVis": " pex_bm_assistv2_end_i_use_i_unit_007_i_01   == '2' AND  pex_bm_assistv2_end_i_use_i_unit_007_i_01_dk   ==''"
-        }
-    ]
+    }
 }

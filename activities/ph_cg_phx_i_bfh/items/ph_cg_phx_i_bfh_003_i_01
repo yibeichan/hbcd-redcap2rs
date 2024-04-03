@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "ph_cg_phx_i_bfh_003_i_01",
     "prefLabel": "ph_cg_phx_i_bfh_003_i_01",
     "description": "ph_cg_phx_i_bfh_003_i_01 of ph_cg_phx_i_bfh",
@@ -253,12 +253,6 @@
         ]
     },
     "question": {
-        "en": "How old (in days) was the baby when they completely stopped breastfeeding or being fed breast milk? (days only, V2)"
-    },
-    "visibility": [
-        {
-            "variableName": "ph_cg_phx_i_bfh_003_i_01",
-            "isVis": " v02_arm_1  ph_cg_phx_i_bfh_003_i_dk   == ''"
-        }
-    ]
+        "en": "How old (in days) was the baby when they completely stopped breastfeeding or being fed breast milk?"
+    }
 }

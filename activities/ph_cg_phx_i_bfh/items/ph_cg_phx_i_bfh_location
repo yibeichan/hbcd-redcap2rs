@@ -1,9 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "ph_cg_phx_i_bfh_location",
     "prefLabel": "ph_cg_phx_i_bfh_location",
-    "description": "ph_cg_phx_i_bfh_location of ph_cg_phx_i_bfh",
+    "description": {
+        "en": "@IF([event-name][visit_start_complete] != 2, @DEFAULT='1', @DEFAULT='2') @HIDDEN"
+    },
     "ui": {
         "inputType": "select"
     },

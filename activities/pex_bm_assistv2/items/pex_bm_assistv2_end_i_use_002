@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "pex_bm_assistv2_end_i_use_m01_1577",
     "prefLabel": "pex_bm_assistv2_end_i_use_m01_1577",
     "description": "pex_bm_assistv2_end_i_use_m01_1577 of pex_bm_assistv2",
@@ -30,11 +30,5 @@
     },
     "question": {
         "en": "Alcoholic beverages (beer, wine, spirits, etc.)"
-    },
-    "visibility": [
-        {
-            "variableName": "pex_bm_assistv2_end_i_use_002",
-            "isVis": " screening_arm_1  recruitment_period   =='1'"
-        }
-    ]
+    }
 }

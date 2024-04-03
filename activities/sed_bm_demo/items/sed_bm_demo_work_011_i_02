@@ -1,9 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
-    "@id": "sed_bm_demo_work_011_m01_1512",
-    "prefLabel": "sed_bm_demo_work_011_m01_1512",
-    "description": "sed_bm_demo_work_011_m01_1512 of sed_bm_demo",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "sed_bm_demo_work_011_m01_1507",
+    "prefLabel": "sed_bm_demo_work_011_m01_1507",
+    "description": {
+        "en": "@NONEOFTHEABOVE='777,999'"
+    },
     "ui": {
         "inputType": "radio"
     },
@@ -34,11 +36,5 @@
     },
     "question": {
         "en": "Protective clothing"
-    },
-    "visibility": [
-        {
-            "variableName": "sed_bm_demo_work_011_i_02",
-            "isVis": " sed_bm_demo_work_003_pre   == '1'  OR  sed_bm_demo_work_003_post   == '1' OR  sed_bm_demo_work_004_i_01   == '1' OR  sed_bm_demo_work_004_i_01   == '2'"
-        }
-    ]
+    }
 }

@@ -1,6 +1,6 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
-    "@type": "reproschema:Field",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
     "@id": "pex_bm_apa2_anx_m01_468",
     "prefLabel": "pex_bm_apa2_anx_m01_468",
     "description": "pex_bm_apa2_anx_m01_468 of pex_bm_apa",
@@ -42,11 +42,5 @@
     },
     "question": {
         "en": "I felt uneasy."
-    },
-    "visibility": [
-        {
-            "variableName": "pex_bm_apa2_anx_006",
-            "isVis": " pex_bm_apa1_anx_001  >= '2' OR  pex_bm_apa1_anx_002  >= '2' OR  pex_bm_apa1_anx_003  >= '2'"
-        }
-    ]
+    }
 }
