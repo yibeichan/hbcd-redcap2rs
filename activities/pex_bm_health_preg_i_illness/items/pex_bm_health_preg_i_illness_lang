@@ -22,9 +22,6 @@
             }
         ]
     },
-    "preamble": {
-        "en": "Illnesses During Pregnancy"
-    },
     "question": {
         "en": "Language"
     }
