@@ -23,7 +23,7 @@
             {
                 "variableName": "admin_caregiver_002",
                 "isAbout": "items/admin_caregiver_002",
-                "isVis": "admin_caregiver_001 == '1'"
+                "isVis": true
             },
             {
                 "variableName": "setup_onsite_started",

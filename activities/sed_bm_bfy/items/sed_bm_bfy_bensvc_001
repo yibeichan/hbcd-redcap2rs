@@ -4,7 +4,7 @@
     "@id": "sed_bm_bfy_bensvc_001",
     "prefLabel": "sed_bm_bfy_bensvc_001",
     "description": {
-        "en": "@NONEOFTHEABOVE='777,999'"
+        "en": "@NONEOFTHEABOVE='777,999,12'"
     },
     "ui": {
         "inputType": "radio"

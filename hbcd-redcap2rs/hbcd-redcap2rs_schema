@@ -28,12 +28,6 @@
                 "isVis": true
             },
             {
-                "isAbout": "../activities/sed_bm_demo/sed_bm_demo_schema",
-                "variableName": "sed_bm_demo_schema",
-                "prefLabel": "Sed Bm Demo",
-                "isVis": true
-            },
-            {
                 "isAbout": "../activities/remote_survey_introduction/remote_survey_introduction_schema",
                 "variableName": "remote_survey_introduction_schema",
                 "prefLabel": "Remote Survey Introduction",
@@ -230,13 +224,18 @@
                 "variableName": "ra_pilot_feedback_form_schema",
                 "prefLabel": "Ra Pilot Feedback Form",
                 "isVis": true
+            },
+            {
+                "isAbout": "../activities/sed_bm_demo/sed_bm_demo_schema",
+                "variableName": "sed_bm_demo_schema",
+                "prefLabel": "Sed Bm Demo",
+                "isVis": true
             }
         ],
         "order": [
             "../activities/setup/setup_schema",
             "../activities/setup_l/setup_l_schema",
             "../activities/visit_start/visit_start_schema",
-            "../activities/sed_bm_demo/sed_bm_demo_schema",
             "../activities/remote_survey_introduction/remote_survey_introduction_schema",
             "../activities/pex_bm_apa/pex_bm_apa_schema",
             "../activities/pex_bm_str_i_ptsd/pex_bm_str_i_ptsd_schema",
@@ -269,7 +268,8 @@
             "../activities/pex_bm_psych/pex_bm_psych_schema",
             "../activities/admin_part_fb/admin_part_fb_schema",
             "../activities/admin_alert/admin_alert_schema",
-            "../activities/ra_pilot_feedback_form/ra_pilot_feedback_form_schema"
+            "../activities/ra_pilot_feedback_form/ra_pilot_feedback_form_schema",
+            "../activities/sed_bm_demo/sed_bm_demo_schema"
         ],
         "shuffle": false
     }
