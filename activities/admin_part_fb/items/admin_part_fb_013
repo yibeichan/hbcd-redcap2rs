@@ -11,23 +11,23 @@
         "valueType": "xsd:integer",
         "choices": [
             {
-                "name": "Strongly Agree ",
+                "name": "Very Positive ",
                 "value": 1
             },
             {
-                "name": "Agree ",
+                "name": "Positive ",
                 "value": 2
             },
             {
-                "name": "Neutral (neither agree nor disagree) ",
+                "name": "Neutral (neither positive nor negative) ",
                 "value": 3
             },
             {
-                "name": "Disagree ",
+                "name": "Negative ",
                 "value": 4
             },
             {
-                "name": "Strongly Disagree",
+                "name": "Very negative",
                 "value": 5
             }
         ]
