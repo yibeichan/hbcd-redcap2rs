@@ -1,0 +1,17 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "pex_bm_healthv2_preg_i_meds_060_i_02",
+    "prefLabel": "pex_bm_healthv2_preg_i_meds_060_i_02",
+    "description": "pex_bm_healthv2_preg_i_meds_060_i_02 of pex_bm_healthv2_preg",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "For what indication did you take this medication?"
+    }
+}

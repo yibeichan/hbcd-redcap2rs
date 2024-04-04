@@ -1,0 +1,49 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "pex_bm_health_preg_i_healthhx_i_pregcurr_001",
+    "prefLabel": "pex_bm_health_preg_i_healthhx_i_pregcurr_001",
+    "description": "pex_bm_health_preg_i_healthhx_i_pregcurr_001 of pex_bm_health_preg_i_healthhx",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "I wanted to be pregnant sooner ",
+                "value": 1
+            },
+            {
+                "name": "I wanted to be pregnant then ",
+                "value": 2
+            },
+            {
+                "name": "I wanted to be pregnant later ",
+                "value": 3
+            },
+            {
+                "name": "I didn't want to be pregnant then or ever ",
+                "value": 4
+            },
+            {
+                "name": "I wasn't sure what I wanted ",
+                "value": 5
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "preamble": {
+        "en": "Current Pregnancy"
+    },
+    "question": {
+        "en": "Thinking back to just before you got pregnant, how did you feel about becoming pregnant?"
+    }
+}

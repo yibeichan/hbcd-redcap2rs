@@ -1,0 +1,38 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "admin_caregiver_002",
+    "prefLabel": "admin_caregiver_002",
+    "description": "admin_caregiver_002 of setup_l",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "CG Type A (Temporary alternative caregiver) ",
+                "value": 1
+            },
+            {
+                "name": "CG Type B (Change in primary caregiver (placement only) without change in legal custody (but BP unable to complete visit)) ",
+                "value": 2
+            },
+            {
+                "name": "CG Type C (Change in joint custody) ",
+                "value": 3
+            },
+            {
+                "name": "CG Type D (Child removed from BP and placed in foster care (change in placement)) ",
+                "value": 4
+            },
+            {
+                "name": "CG Type E (Change in legal custody and placement e.g. adoption)",
+                "value": 5
+            }
+        ]
+    },
+    "question": {
+        "en": "New caregiver type"
+    }
+}

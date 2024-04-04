@@ -1,0 +1,40 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "sed_bm_demo_work_033",
+    "prefLabel": "sed_bm_demo_work_033",
+    "description": {
+        "en": "@NONEOFTHEABOVE='777,999'"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "20-30 hours ",
+                "value": 1
+            },
+            {
+                "name": "31-40 hours ",
+                "value": 2
+            },
+            {
+                "name": "More than 40 hours ",
+                "value": 3
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "Approximately how many hours per week did you work at your next most recent previous job?"
+    }
+}

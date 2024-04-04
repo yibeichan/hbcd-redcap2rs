@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "pex_bm_health_preg_i_chroncond_001",
+    "prefLabel": "pex_bm_health_preg_i_chroncond_001",
+    "description": {
+        "en": "@NONEOFTHEABOVE = '12,999,777'"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "preamble": {
+        "en": "Chronic Conditions"
+    },
+    "question": {
+        "en": "Have you ever been told that you have any of the following?"
+    }
+}

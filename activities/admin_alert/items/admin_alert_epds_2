@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "admin_alert_epds_2",
+    "prefLabel": "admin_alert_epds_2",
+    "description": "admin_alert_epds_2 of admin_alert",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Alert (EPDS)The participant's depression score is above threshold."
+    }
+}

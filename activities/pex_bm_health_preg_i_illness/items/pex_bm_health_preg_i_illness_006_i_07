@@ -1,0 +1,18 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "pex_bm_health_preg_i_illness_006_i_07",
+    "prefLabel": "pex_bm_health_preg_i_illness_006_i_07",
+    "description": {
+        "en": "@HIDDEN @CALCTEXT(if([pex_bm_health_preg_i_illness_006_i_03] != \"\", [pex_bm_health_preg_i_illness_006_i_03], [pex_bm_health_preg_i_illness_006_i_05]))"
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "fourth illness or symptom"
+    }
+}

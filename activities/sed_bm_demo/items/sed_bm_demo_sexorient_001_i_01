@@ -1,0 +1,58 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "sed_bm_demo_sexorient_001_i_01",
+    "prefLabel": "sed_bm_demo_sexorient_001_i_01",
+    "description": "sed_bm_demo_sexorient_001_i_01 of sed_bm_demo",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Queer ",
+                "value": 1
+            },
+            {
+                "name": "Polysexual omnisexual sapiosexual or pansexual ",
+                "value": 2
+            },
+            {
+                "name": "Asexual ",
+                "value": 3
+            },
+            {
+                "name": "Two-spirit ",
+                "value": 4
+            },
+            {
+                "name": "Have not figured out or are in the process of figuring out your sexuality ",
+                "value": 5
+            },
+            {
+                "name": "Mostly straight but sometimes attracted to people of your own sex ",
+                "value": 6
+            },
+            {
+                "name": "Do not think of yourself as having sexuality ",
+                "value": 7
+            },
+            {
+                "name": "Do not use labels to identify yourself ",
+                "value": 8
+            },
+            {
+                "name": "Don't know the answer ",
+                "value": 9
+            },
+            {
+                "name": "None of these describe me",
+                "value": 10
+            }
+        ]
+    },
+    "question": {
+        "en": "Are any of these a closer description of how you think of yourself?"
+    }
+}

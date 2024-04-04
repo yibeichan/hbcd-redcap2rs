@@ -1,0 +1,42 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "mh_cg_pms_i_cc_i_inf_m01_14",
+    "prefLabel": "mh_cg_pms_i_cc_i_inf_m01_14",
+    "description": "mh_cg_pms_i_cc_i_inf_m01_14 of mh_cg_pms_i_cc_i_inf",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Never ",
+                "value": 1
+            },
+            {
+                "name": "Rarely ",
+                "value": 2
+            },
+            {
+                "name": "Sometimes ",
+                "value": 3
+            },
+            {
+                "name": "Often ",
+                "value": 4
+            },
+            {
+                "name": "Always ",
+                "value": 5
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "My baby let me know when he/she needed help."
+    }
+}

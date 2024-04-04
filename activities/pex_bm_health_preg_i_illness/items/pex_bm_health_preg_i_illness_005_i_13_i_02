@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "pex_bm_health_preg_i_illness_005_i_13_i_02",
+    "prefLabel": "pex_bm_health_preg_i_illness_005_i_13_i_02",
+    "description": "pex_bm_health_preg_i_illness_005_i_13_i_02 of pex_bm_health_preg_i_illness",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Hours ",
+                "value": 0
+            },
+            {
+                "name": "Days",
+                "value": 1
+            }
+        ]
+    },
+    "question": {
+        "en": "Unit of duration"
+    }
+}

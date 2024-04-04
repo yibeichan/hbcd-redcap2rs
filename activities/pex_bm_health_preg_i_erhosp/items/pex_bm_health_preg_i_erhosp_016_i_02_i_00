@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "pex_bm_health_preg_i_erhosp_016_i_02_i_00",
+    "prefLabel": "pex_bm_health_preg_i_erhosp_016_i_02_i_00",
+    "description": "pex_bm_health_preg_i_erhosp_016_i_02_i_00 of pex_bm_health_preg_i_erhosp",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Start date of second hospital admission {pex_bm_health_preg_i_erhosp_016_i_02} {pex_bm_health_preg_i_erhosp_016_i_02_dk}"
+    }
+}

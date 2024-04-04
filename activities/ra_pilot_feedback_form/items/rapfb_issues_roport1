@@ -1,0 +1,17 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "rapfb_issues_roport1",
+    "prefLabel": "rapfb_issues_roport1",
+    "description": "rapfb_issues_roport1 of ra_pilot_feedback_form",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "Please check anywhere you have issues to report"
+    }
+}

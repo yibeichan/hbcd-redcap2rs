@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "pex_bm_health_preg_i_erhosp_019_i_02_dk",
+    "prefLabel": "pex_bm_health_preg_i_erhosp_019_i_02_dk",
+    "description": "pex_bm_health_preg_i_erhosp_019_i_02_dk of pex_bm_health_preg_i_erhosp",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "start date dk/decline"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "pex_bm_health_preg_i_erhosp_022_i_01",
+    "prefLabel": "pex_bm_health_preg_i_erhosp_022_i_01",
+    "description": "pex_bm_health_preg_i_erhosp_022_i_01 of pex_bm_health_preg_i_erhosp",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "Reason for eighth hospital admission {pex_bm_health_preg_i_erhosp_022}"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "sed_cg_foodins_002",
+    "prefLabel": "sed_cg_foodins_002",
+    "description": "sed_cg_foodins_002 of sed_cg_foodins",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Never true ",
+                "value": 0
+            },
+            {
+                "name": "Sometimes true ",
+                "value": 1
+            },
+            {
+                "name": "Often true ",
+                "value": 2
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "In the last 12 months, did (you/you or other adults in your household) ever cut the size of your meals or skip meals because there wasn't enough money for food?"
+    }
+}

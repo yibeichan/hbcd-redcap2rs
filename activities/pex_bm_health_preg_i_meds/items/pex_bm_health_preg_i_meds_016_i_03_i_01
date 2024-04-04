@@ -1,0 +1,34 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "pex_bm_health_preg_i_meds_016_i_03_i_01",
+    "prefLabel": "pex_bm_health_preg_i_meds_016_i_03_i_01",
+    "description": "pex_bm_health_preg_i_meds_016_i_03_i_01 of pex_bm_health_preg_i_meds",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Hour ",
+                "value": 1
+            },
+            {
+                "name": "Day ",
+                "value": 2
+            },
+            {
+                "name": "Month ",
+                "value": 3
+            },
+            {
+                "name": "Year",
+                "value": 4
+            }
+        ]
+    },
+    "question": {
+        "en": "Unit of frequency"
+    }
+}

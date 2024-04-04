@@ -1,0 +1,38 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "admin_part_fb_002",
+    "prefLabel": "admin_part_fb_002",
+    "description": "admin_part_fb_002 of admin_part_fb",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Strongly Agree ",
+                "value": 1
+            },
+            {
+                "name": "Agree ",
+                "value": 2
+            },
+            {
+                "name": "Neutral (neither agree nor disagree) ",
+                "value": 3
+            },
+            {
+                "name": "Disagree ",
+                "value": 4
+            },
+            {
+                "name": "Strongly Disagree",
+                "value": 5
+            }
+        ]
+    },
+    "question": {
+        "en": "The purpose of the study was explained to me clearly and completely"
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "pex_bm_apa2_repet_002",
+    "prefLabel": "pex_bm_apa2_repet_002",
+    "description": "pex_bm_apa2_repet_002 of pex_bm_apa",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "None ",
+                "value": 0
+            },
+            {
+                "name": "Mild (slightly disturbing) ",
+                "value": 1
+            },
+            {
+                "name": "Moderate (disturbing but still manageable) ",
+                "value": 2
+            },
+            {
+                "name": "Severe (very disturbing) ",
+                "value": 3
+            },
+            {
+                "name": "Extreme (overwhelming distress) ",
+                "value": 4
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "How much distress do these thoughts or behaviors cause you?"
+    }
+}

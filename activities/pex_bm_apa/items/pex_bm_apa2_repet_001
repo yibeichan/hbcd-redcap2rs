@@ -1,0 +1,49 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "pex_bm_apa2_repet_001",
+    "prefLabel": "pex_bm_apa2_repet_001",
+    "description": "pex_bm_apa2_repet_001 of pex_bm_apa",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "None ",
+                "value": 0
+            },
+            {
+                "name": "Mild (Less than an hour a day) ",
+                "value": 1
+            },
+            {
+                "name": "Moderate (1 to 3 hours a day) ",
+                "value": 2
+            },
+            {
+                "name": "Severe (3 to 8 hours a day) ",
+                "value": 3
+            },
+            {
+                "name": "Extreme (more than 8 hours a day) ",
+                "value": 4
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "preamble": {
+        "en": "In the past SEVEN (7) DAYS...."
+    },
+    "question": {
+        "en": "On average, how much time is occupied by these thoughts or behaviors each day?"
+    }
+}

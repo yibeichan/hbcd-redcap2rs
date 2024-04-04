@@ -1,0 +1,38 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "pex_bm_health_preg_chroncond_m01_84",
+    "prefLabel": "pex_bm_health_preg_chroncond_m01_84",
+    "description": "pex_bm_health_preg_chroncond_m01_84 of pex_bm_health_preg_i_chroncond",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "1st Trimester <br> ([pex_bm_health_preg_i_exp_i_pnv_001] - [pex_bm_health_preg_i_exp_i_pnv_002]) ",
+                "value": 1
+            },
+            {
+                "name": "2nd Trimester <br> ([pex_bm_health_preg_i_exp_i_pnv_003] - [pex_bm_health_preg_i_exp_i_pnv_004]) ",
+                "value": 2
+            },
+            {
+                "name": "3rd Trimester <br> (after [pex_bm_health_preg_i_exp_i_pnv_005]) ",
+                "value": 3
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "CMV?"
+    }
+}

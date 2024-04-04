@@ -1,0 +1,46 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "pex_bm_apa2_sleep_m01_374",
+    "prefLabel": "pex_bm_apa2_sleep_m01_374",
+    "description": "pex_bm_apa2_sleep_m01_374 of pex_bm_apa",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Not at all ",
+                "value": 1
+            },
+            {
+                "name": "A little bit ",
+                "value": 2
+            },
+            {
+                "name": "Somewhat ",
+                "value": 3
+            },
+            {
+                "name": "Quite a bit ",
+                "value": 4
+            },
+            {
+                "name": "Very Much ",
+                "value": 5
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "I had difficulty falling asleep."
+    }
+}

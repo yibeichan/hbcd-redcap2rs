@@ -1,0 +1,18 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_003",
+    "prefLabel": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_003",
+    "description": {
+        "en": "@CALCDATE([screening_arm_1][setup_lmp], 85, \"d\") @HIDDEN"
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Trimester 2 (start)"
+    }
+}

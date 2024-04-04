@@ -1,0 +1,88 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Activity",
+    "@id": "sed_bm_strsup_schema",
+    "prefLabel": "sed_bm_strsup",
+    "description": "Default description",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "unknown",
+    "ui": {
+        "order": [
+            "items/sed_bm_strsup_lang",
+            "items/sed_bm_strsup_dtt",
+            "items/sed_bm_strsup_timestamp_start",
+            "items/sed_bm_strsup_location",
+            "items/sed_bm_strsup_socspprt_001",
+            "items/sed_bm_strsup_socspprt_002",
+            "items/sed_bm_strsup_socspprt_003",
+            "items/sed_bm_strsup_socspprt_004",
+            "items/sed_bm_strsup_coping_001",
+            "items/sed_bm_strsup_coping_002",
+            "items/sed_bm_strsup_coping_003",
+            "items/sed_bm_strsup_coping_004"
+        ],
+        "addProperties": [
+            {
+                "variableName": "sed_bm_strsup_lang",
+                "isAbout": "items/sed_bm_strsup_lang",
+                "isVis": true
+            },
+            {
+                "variableName": "sed_bm_strsup_dtt",
+                "isAbout": "items/sed_bm_strsup_dtt",
+                "isVis": true
+            },
+            {
+                "variableName": "sed_bm_strsup_timestamp_start",
+                "isAbout": "items/sed_bm_strsup_timestamp_start",
+                "isVis": true
+            },
+            {
+                "variableName": "sed_bm_strsup_location",
+                "isAbout": "items/sed_bm_strsup_location",
+                "isVis": true
+            },
+            {
+                "variableName": "sed_bm_strsup_socspprt_001",
+                "isAbout": "items/sed_bm_strsup_socspprt_001",
+                "isVis": true
+            },
+            {
+                "variableName": "sed_bm_strsup_socspprt_002",
+                "isAbout": "items/sed_bm_strsup_socspprt_002",
+                "isVis": true
+            },
+            {
+                "variableName": "sed_bm_strsup_socspprt_003",
+                "isAbout": "items/sed_bm_strsup_socspprt_003",
+                "isVis": true
+            },
+            {
+                "variableName": "sed_bm_strsup_socspprt_004",
+                "isAbout": "items/sed_bm_strsup_socspprt_004",
+                "isVis": true
+            },
+            {
+                "variableName": "sed_bm_strsup_coping_001",
+                "isAbout": "items/sed_bm_strsup_coping_001",
+                "isVis": true
+            },
+            {
+                "variableName": "sed_bm_strsup_coping_002",
+                "isAbout": "items/sed_bm_strsup_coping_002",
+                "isVis": true
+            },
+            {
+                "variableName": "sed_bm_strsup_coping_003",
+                "isAbout": "items/sed_bm_strsup_coping_003",
+                "isVis": true
+            },
+            {
+                "variableName": "sed_bm_strsup_coping_004",
+                "isAbout": "items/sed_bm_strsup_coping_004",
+                "isVis": true
+            }
+        ],
+        "shuffle": false
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "sed_bm_demo_work_016_i_03",
+    "prefLabel": "sed_bm_demo_work_016_i_03",
+    "description": {
+        "en": "@NONEOFTHEABOVE='777,999'"
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "I am still working at this job ",
+                "value": 0
+            },
+            {
+                "name": "January ",
+                "value": 1
+            },
+            {
+                "name": "February ",
+                "value": 2
+            },
+            {
+                "name": "March ",
+                "value": 3
+            },
+            {
+                "name": "April ",
+                "value": 4
+            },
+            {
+                "name": "May ",
+                "value": 5
+            },
+            {
+                "name": "June ",
+                "value": 6
+            },
+            {
+                "name": "July ",
+                "value": 7
+            },
+            {
+                "name": "August ",
+                "value": 8
+            },
+            {
+                "name": "September ",
+                "value": 9
+            },
+            {
+                "name": "October ",
+                "value": 10
+            },
+            {
+                "name": "November ",
+                "value": 11
+            },
+            {
+                "name": "December ",
+                "value": 12
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "In what month did you end this job?"
+    }
+}

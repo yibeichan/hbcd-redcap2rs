@@ -1,0 +1,25 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "sed_bm_ehits_flag01",
+    "prefLabel": "sed_bm_ehits_flag01",
+    "description": {
+        "en": "@HIDDEN"
+    },
+    "ui": {
+        "inputType": "number",
+        "hidden": true
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "eHITS - Flag: Endorsed being harmed by partner."
+    },
+    "scoringLogic": [
+        {
+            "variableName": "sed_bm_ehits_flag01",
+            "jsExpression": "if(( sed_bm_ehits_score > 7 OR sed_bm_ehits_001 >= 1 OR sed_bm_ehits_005 >= 1), 1, 0)"
+        }
+    ]
+}

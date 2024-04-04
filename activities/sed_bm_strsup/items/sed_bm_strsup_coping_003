@@ -1,0 +1,46 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "sed_bm_strsup_coping_m01_9",
+    "prefLabel": "sed_bm_strsup_coping_m01_9",
+    "description": "sed_bm_strsup_coping_m01_9 of sed_bm_strsup",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Never ",
+                "value": 0
+            },
+            {
+                "name": "Almost Never ",
+                "value": 1
+            },
+            {
+                "name": "Sometimes ",
+                "value": 2
+            },
+            {
+                "name": "Fairly Often ",
+                "value": 3
+            },
+            {
+                "name": "Very Often ",
+                "value": 4
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "In the last month, how often have you felt that things were going your way?"
+    }
+}

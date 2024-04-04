@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "sed_bm_demo_instr_012",
+    "prefLabel": "sed_bm_demo_instr_012",
+    "description": "sed_bm_demo_instr_012 of sed_bm_demo",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Please complete a row in the table below for each personwho spends at least two nights a weekliving with you. Please start with the youngest person and continue to list from youngest to oldest for up to 16 people."
+    }
+}
