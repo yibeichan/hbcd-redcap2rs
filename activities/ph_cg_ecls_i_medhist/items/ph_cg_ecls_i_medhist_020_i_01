@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "ph_cg_ecls_i_medhist_020_i_01",
+    "prefLabel": "ph_cg_ecls_i_medhist_020_i_01",
+    "description": {
+        "en": "@NONEOFTHEABOVE='777,999'"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "What kind of specialist?"
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "ph_cg_cnq_025",
+    "prefLabel": "ph_cg_cnq_025",
+    "description": "ph_cg_cnq_025 of ph_cg_cnq",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Always ",
+                "value": 1
+            },
+            {
+                "name": "Most of the time ",
+                "value": 2
+            },
+            {
+                "name": "Sometimes ",
+                "value": 3
+            },
+            {
+                "name": "Rarely ",
+                "value": 4
+            },
+            {
+                "name": "Never ",
+                "value": 5
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "How often do you let your child decide how much to eat?"
+    }
+}

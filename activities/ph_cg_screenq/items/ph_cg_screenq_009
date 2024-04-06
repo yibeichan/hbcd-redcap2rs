@@ -1,0 +1,42 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "ph_cg_screenq_009",
+    "prefLabel": "ph_cg_screenq_009",
+    "description": "ph_cg_screenq_009 of ph_cg_screenq",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Often ",
+                "value": 1
+            },
+            {
+                "name": "Sometimes ",
+                "value": 2
+            },
+            {
+                "name": "Rarely ",
+                "value": 3
+            },
+            {
+                "name": "Never ",
+                "value": 4
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "Does the child watch TV/videos to help them calm down when upset?"
+    }
+}

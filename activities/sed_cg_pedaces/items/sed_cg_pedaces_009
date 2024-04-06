@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "sed_cg_pedaces_009",
+    "prefLabel": "sed_cg_pedaces_009",
+    "description": "sed_cg_pedaces_009 of sed_cg_pedaces",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "9) Has your child ever experienced sexual abuse?(for example, anyone touched your child or asked your child to touch that person in a way that was unwanted, or made your child feel uncomfortable, or anyone ever attempted or actually had oral, anal, or vaginal sex with your child)"
+    }
+}

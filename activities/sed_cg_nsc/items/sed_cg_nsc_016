@@ -1,0 +1,42 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "sed_cg_nsc_016",
+    "prefLabel": "sed_cg_nsc_016",
+    "description": "sed_cg_nsc_016 of sed_cg_nsc",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Almost never ",
+                "value": 1
+            },
+            {
+                "name": "Somewhat ",
+                "value": 2
+            },
+            {
+                "name": "Often ",
+                "value": 3
+            },
+            {
+                "name": "Almost always ",
+                "value": 4
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "The police treat individuals fairly in my community:"
+    }
+}

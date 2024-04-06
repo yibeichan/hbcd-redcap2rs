@@ -1,0 +1,34 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "sed_cg_tic_001",
+    "prefLabel": "sed_cg_tic_001",
+    "description": "sed_cg_tic_001 of sed_cg_tic",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Yes ",
+                "value": 1
+            },
+            {
+                "name": "No ",
+                "value": 0
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "The next few questions ask about the people who have provided care and support for CHILD at different times during CHILD's life. Since CHILD was born, has there been a time when someone other than you was primarily responsible for providing CHILD with care and support?  \n[NOTE: This might include times the child was in the care of someone else, or times that you could not care for CHILD for 2 weeks or more, or when things in your life kept you from having time for being CHILD's caregiver. Do NOT include very short periods like a weekend away or a vacation, or periods of time like when you were working -- or had an appointment - so CHILD had daycare, a nanny, or a babysitter."
+    }
+}

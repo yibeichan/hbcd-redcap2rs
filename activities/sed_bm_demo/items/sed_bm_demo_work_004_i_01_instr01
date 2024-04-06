@@ -1,0 +1,21 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "sed_bm_demo_work_004_i_01_instr01",
+    "prefLabel": "sed_bm_demo_work_004_i_01_instr01",
+    "description": {
+        "en": "@NONEOFTHEABOVE='777,999'"
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "preamble": {
+        "en": "Work Environment"
+    },
+    "question": {
+        "en": "Now we are going to ask you about the job you held in your 3rd trimester for at least one month that involved at least 20 hours per week of work. If you held more than one job, answer the questions for the job that you worked at for the most time."
+    }
+}

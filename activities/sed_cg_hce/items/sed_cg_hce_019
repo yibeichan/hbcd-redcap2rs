@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "sed_cg_hce_019",
+    "prefLabel": "sed_cg_hce_019",
+    "description": {
+        "en": "@NONEOFTHEABOVE='0,777,999'"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "In the past year, did you see, or were you aware of, any of the following pests inside the child's home or dwelling? (select all that apply)"
+    }
+}

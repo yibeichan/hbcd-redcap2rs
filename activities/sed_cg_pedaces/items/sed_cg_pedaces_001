@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "sed_cg_pedaces_001",
+    "prefLabel": "sed_cg_pedaces_001",
+    "description": "sed_cg_pedaces_001 of sed_cg_pedaces",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "preamble": {
+        "en": "At any point in time since your child was born, has your child seen or been present when the following experiences happened? Please include past and present experiences.\nPlease note, some questions have more than one part separated by \"OR.\" If any part of the question is answered \"Yes,\" then the answer to the entire question is \"Yes.\""
+    },
+    "question": {
+        "en": "1) Has your child ever lived with a parent/caregiver who went to jail/prison?"
+    }
+}

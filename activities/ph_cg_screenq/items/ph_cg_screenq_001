@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "ph_cg_screenq_001",
+    "prefLabel": "ph_cg_screenq_001",
+    "description": {
+        "en": "@NONEOFTHEABOVE='0,777,999'"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "preamble": {
+        "en": "Please respond to each question or statement by marking one box per row."
+    },
+    "question": {
+        "en": "Does the child have any of these in their bedroom?"
+    }
+}

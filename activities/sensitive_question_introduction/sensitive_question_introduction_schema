@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Activity",
+    "@id": "sensitive_question_introduction_schema",
+    "prefLabel": "sensitive_question_introduction",
+    "description": "Default description",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "unknown",
+    "ui": {
+        "order": [
+            "items/sensitive_q_introduction"
+        ],
+        "addProperties": [
+            {
+                "variableName": "sensitive_q_introduction",
+                "isAbout": "items/sensitive_q_introduction",
+                "isVis": true
+            }
+        ],
+        "shuffle": false
+    }
+}

@@ -4,7 +4,7 @@
     "@id": "pex_bm_health_preg_i_chroncond_001",
     "prefLabel": "pex_bm_health_preg_i_chroncond_001",
     "description": {
-        "en": "@NONEOFTHEABOVE = '12,999,777'"
+        "en": "@NONEOFTHEABOVE='12,999,777'"
     },
     "ui": {
         "inputType": "radio"

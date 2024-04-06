@@ -1,9 +1,9 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
     "@type": "reproschema:Item",
-    "@id": "ncl_cg_spm2_i_inf_balance_m01_160",
-    "prefLabel": "ncl_cg_spm2_i_inf_balance_m01_160",
-    "description": "ncl_cg_spm2_i_inf_balance_m01_160 of ncl_cg_spm2_i_inf",
+    "@id": "ncl_cg_spm2_i_inf_balance_m01_170",
+    "prefLabel": "ncl_cg_spm2_i_inf_balance_m01_170",
+    "description": "ncl_cg_spm2_i_inf_balance_m01_170 of ncl_cg_spm2_i_inf",
     "ui": {
         "inputType": "radio"
     },

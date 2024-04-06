@@ -1,9 +1,9 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
     "@type": "reproschema:Item",
-    "@id": "ncl_cg_spm2_i_inf_soc_m01_819",
-    "prefLabel": "ncl_cg_spm2_i_inf_soc_m01_819",
-    "description": "ncl_cg_spm2_i_inf_soc_m01_819 of ncl_cg_spm2_i_inf",
+    "@id": "ncl_cg_spm2_i_inf_soc_m01_829",
+    "prefLabel": "ncl_cg_spm2_i_inf_soc_m01_829",
+    "description": "ncl_cg_spm2_i_inf_soc_m01_829 of ncl_cg_spm2_i_inf",
     "ui": {
         "inputType": "radio"
     },

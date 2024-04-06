@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "ph_cg_bisq_instr02",
+    "prefLabel": "ph_cg_bisq_instr02",
+    "description": "ph_cg_bisq_instr02 of ph_cg_bisq",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Please think about your child's sleep during the past two weeks in answering the following questions."
+    }
+}

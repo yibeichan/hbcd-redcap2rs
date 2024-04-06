@@ -73,6 +73,6 @@
         ]
     },
     "question": {
-        "en": "Including live births, stillbirths, miscarriages, abortions, and tubal and other ectopic pregnancies, how many times have you been pregnant?(Be sure to count your current pregnancy)"
+        "en": "number of pregancies pre enrollment"
     }
 }

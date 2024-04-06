@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "ph_cg_bisq_002",
+    "prefLabel": "ph_cg_bisq_002",
+    "description": {
+        "en": "@NONEOFTHEABOVE='999,777,5'"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "When your child wakes up during the night, what do you usually do? (check all that apply)"
+    }
+}

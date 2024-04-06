@@ -1,0 +1,17 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "ph_cg_ecls_i_medhist_017_i_16",
+    "prefLabel": "ph_cg_ecls_i_medhist_017_i_16",
+    "description": "ph_cg_ecls_i_medhist_017_i_16 of ph_cg_ecls_i_medhist",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "Name of prescription medication 15"
+    }
+}

@@ -4,7 +4,7 @@
     "@id": "pex_bm_health_preg_i_healthhx_006_i_post",
     "prefLabel": "pex_bm_health_preg_i_healthhx_006_i_post",
     "description": {
-        "en": "@NONEOFTHEABOVE = '7,777,999'"
+        "en": "@NONEOFTHEABOVE='7,777,999'"
     },
     "ui": {
         "inputType": "radio"

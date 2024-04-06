@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "ph_cg_ecls_i_medhist_019_i_00",
+    "prefLabel": "ph_cg_ecls_i_medhist_019_i_00",
+    "description": "ph_cg_ecls_i_medhist_019_i_00 of ph_cg_ecls_i_medhist",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "preamble": {
+        "en": "COVID health"
+    },
+    "question": {
+        "en": "Has your childever:"
+    }
+}

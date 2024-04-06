@@ -1,0 +1,66 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "sed_cg_employ_010_i_07",
+    "prefLabel": "sed_cg_employ_010_i_07",
+    "description": "sed_cg_employ_010_i_07 of sed_cg_employ",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Employed for wages full time (30 hours per week or more) ",
+                "value": 1
+            },
+            {
+                "name": "Employed for wages part time (29 hours per week or less) ",
+                "value": 2
+            },
+            {
+                "name": "Self-employed or family business for wages ",
+                "value": 3
+            },
+            {
+                "name": "Work without pay in a family business or farm ",
+                "value": 4
+            },
+            {
+                "name": " Active Duty in the United States Armed Forces (regular military National Guard Military Reserve Unit) ",
+                "value": 5
+            },
+            {
+                "name": "On paid leave and expect to return (for example maternity family or sick leave) ",
+                "value": 6
+            },
+            {
+                "name": " On unpaid leave and expect to return (for example maternity family or sick leave) ",
+                "value": 7
+            },
+            {
+                "name": "Stay-at-home parent/caretaker not working for pay ",
+                "value": 8
+            },
+            {
+                "name": "Unemployed or laid off looking for work ",
+                "value": 9
+            },
+            {
+                "name": "Unemployed not currently looking for work ",
+                "value": 10
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "Select the category that best describes the current work or employment status of your spouse/partner:"
+    }
+}

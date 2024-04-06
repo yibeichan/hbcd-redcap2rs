@@ -1,0 +1,34 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "ph_cg_ecls_i_medhist_005",
+    "prefLabel": "ph_cg_ecls_i_medhist_005",
+    "description": "ph_cg_ecls_i_medhist_005 of ph_cg_ecls_i_medhist",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Yes ",
+                "value": 1
+            },
+            {
+                "name": "No ",
+                "value": 0
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "Have you ever delayed having your child get a shot for reasons other than illness or allergy?"
+    }
+}
