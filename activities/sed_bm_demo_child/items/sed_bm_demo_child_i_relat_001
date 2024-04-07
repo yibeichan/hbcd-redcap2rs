@@ -1,0 +1,57 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "sed_bm_demo_child_i_relat_001",
+    "prefLabel": "sed_bm_demo_child_i_relat_001",
+    "description": "sed_bm_demo_child_i_relat_001 of sed_bm_demo_child",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Child ",
+                "value": 1
+            },
+            {
+                "name": "Foster Child ",
+                "value": 2
+            },
+            {
+                "name": "Grandchild ",
+                "value": 3
+            },
+            {
+                "name": "Sibling ",
+                "value": 4
+            },
+            {
+                "name": "Other family member ",
+                "value": 5
+            },
+            {
+                "name": "Non-family (a friend or friend of the family) ",
+                "value": 6
+            },
+            {
+                "name": "Other ",
+                "value": 7
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "preamble": {
+        "en": "Relationship with the Child"
+    },
+    "question": {
+        "en": "What is the child's relationship to you?"
+    }
+}

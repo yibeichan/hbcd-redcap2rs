@@ -1,0 +1,46 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Activity",
+    "@id": "setup_schema",
+    "prefLabel": "setup",
+    "description": "Default description",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "unknown",
+    "ui": {
+        "order": [
+            "items/record_id",
+            "items/setup_lmp",
+            "items/setup_edd",
+            "items/setup_delivery",
+            "items/recruitment_period"
+        ],
+        "addProperties": [
+            {
+                "variableName": "record_id",
+                "isAbout": "items/record_id",
+                "isVis": true
+            },
+            {
+                "variableName": "setup_lmp",
+                "isAbout": "items/setup_lmp",
+                "isVis": true
+            },
+            {
+                "variableName": "setup_edd",
+                "isAbout": "items/setup_edd",
+                "isVis": true
+            },
+            {
+                "variableName": "setup_delivery",
+                "isAbout": "items/setup_delivery",
+                "isVis": true
+            },
+            {
+                "variableName": "recruitment_period",
+                "isAbout": "items/recruitment_period",
+                "isVis": true
+            }
+        ],
+        "shuffle": false
+    }
+}

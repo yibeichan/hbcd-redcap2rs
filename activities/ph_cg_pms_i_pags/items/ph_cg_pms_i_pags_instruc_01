@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "ph_cg_pms_i_pags_instruc_01",
+    "prefLabel": "ph_cg_pms_i_pags_instruc_01",
+    "description": "ph_cg_pms_i_pags_instruc_01 of ph_cg_pms_i_pags",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Please respond to each question or statement by marking one box per row."
+    }
+}

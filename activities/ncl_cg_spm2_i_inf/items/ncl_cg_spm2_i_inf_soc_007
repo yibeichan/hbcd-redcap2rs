@@ -1,0 +1,38 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "ncl_cg_spm2_i_inf_soc_m01_832",
+    "prefLabel": "ncl_cg_spm2_i_inf_soc_m01_832",
+    "description": "ncl_cg_spm2_i_inf_soc_m01_832 of ncl_cg_spm2_i_inf",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Never ",
+                "value": 1
+            },
+            {
+                "name": "Occasionally ",
+                "value": 2
+            },
+            {
+                "name": "Frequently ",
+                "value": 3
+            },
+            {
+                "name": "Always ",
+                "value": 4
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "This child tries to give or take objects to and from adults."
+    }
+}

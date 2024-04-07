@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "sed_cg_ace_001",
+    "prefLabel": "sed_cg_ace_001",
+    "description": "sed_cg_ace_001 of sed_cg_ace",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "preamble": {
+        "en": "Below is a list of 10 categories of Adverse Childhood Experiences (ACEs). From the list below, please select 'yes' for each ACE category that you experienced prior to your 18th birthday."
+    },
+    "question": {
+        "en": "1) Did you feel that you didn't have enough to eat, had to wear dirty clothes, or had no one to protect or take care of you?"
+    }
+}

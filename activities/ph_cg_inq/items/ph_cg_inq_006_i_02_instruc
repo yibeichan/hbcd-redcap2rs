@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "ph_cg_inq_006_i_02_instruc",
+    "prefLabel": "ph_cg_inq_006_i_02_instruc",
+    "description": "ph_cg_inq_006_i_02_instruc of ph_cg_inq",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "How important was each of the following reasons for feeding the child solid food for the first time:"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "mh_cg_fad_location",
+    "prefLabel": "mh_cg_fad_location",
+    "description": {
+        "en": "@IF([event-name][visit_start_complete] != 2, @DEFAULT='1', @DEFAULT='2') @HIDDEN"
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Remote ",
+                "value": 1
+            },
+            {
+                "name": "On-site",
+                "value": 2
+            }
+        ]
+    },
+    "question": {
+        "en": "Remote or on-site?"
+    }
+}

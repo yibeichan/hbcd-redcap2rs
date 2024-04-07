@@ -1,0 +1,38 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "pex_bm_healthv2_inf_i_meds_002",
+    "prefLabel": "pex_bm_healthv2_inf_i_meds_002",
+    "description": "pex_bm_healthv2_inf_i_meds_002 of pex_bm_healthv2_inf",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "1 ",
+                "value": 1
+            },
+            {
+                "name": "2 ",
+                "value": 2
+            },
+            {
+                "name": "3 ",
+                "value": 3
+            },
+            {
+                "name": "4 ",
+                "value": 4
+            },
+            {
+                "name": "5",
+                "value": 5
+            }
+        ]
+    },
+    "question": {
+        "en": "How many prescription medications was your infant prescribed?"
+    }
+}

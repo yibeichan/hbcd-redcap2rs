@@ -1,0 +1,46 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "pex_bm_apa1_m01_1768",
+    "prefLabel": "pex_bm_apa1_m01_1768",
+    "description": "pex_bm_apa1_m01_1768 of pex_bm_apa",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "None-Not at all ",
+                "value": 0
+            },
+            {
+                "name": "Slight-Rare less than a day or two ",
+                "value": 1
+            },
+            {
+                "name": "Mild-Several Days ",
+                "value": 2
+            },
+            {
+                "name": "Moderate-More than half the days ",
+                "value": 3
+            },
+            {
+                "name": "Severe-Nearly every day ",
+                "value": 4
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "Feeling that someone could hear your thoughts, or that you could hear what another person was thinking?"
+    }
+}

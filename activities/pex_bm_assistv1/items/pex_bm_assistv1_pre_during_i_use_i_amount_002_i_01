@@ -1,0 +1,818 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "pex_bm_assistv1_pre_during_i_use_i_amount_002_i_01",
+    "prefLabel": "pex_bm_assistv1_pre_during_i_use_i_amount_002_i_01",
+    "description": "pex_bm_assistv1_pre_during_i_use_i_amount_002_i_01 of pex_bm_assistv1",
+    "ui": {
+        "inputType": "select"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": [
+            {
+                "name": "0.5 ",
+                "value": 1
+            },
+            {
+                "name": "1 ",
+                "value": 2
+            },
+            {
+                "name": "1.5 ",
+                "value": 3
+            },
+            {
+                "name": "2 ",
+                "value": 4
+            },
+            {
+                "name": "2.5 ",
+                "value": 5
+            },
+            {
+                "name": "3 ",
+                "value": 6
+            },
+            {
+                "name": "3.5 ",
+                "value": 7
+            },
+            {
+                "name": "4 ",
+                "value": 8
+            },
+            {
+                "name": "4.5 ",
+                "value": 9
+            },
+            {
+                "name": "5 ",
+                "value": 10
+            },
+            {
+                "name": "5.5 ",
+                "value": 11
+            },
+            {
+                "name": "6 ",
+                "value": 12
+            },
+            {
+                "name": "6.5 ",
+                "value": 13
+            },
+            {
+                "name": "7 ",
+                "value": 14
+            },
+            {
+                "name": "7.5 ",
+                "value": 15
+            },
+            {
+                "name": "8 ",
+                "value": 16
+            },
+            {
+                "name": "8.5 ",
+                "value": 17
+            },
+            {
+                "name": "9 ",
+                "value": 18
+            },
+            {
+                "name": "9.5 ",
+                "value": 19
+            },
+            {
+                "name": "10 ",
+                "value": 20
+            },
+            {
+                "name": "10.5 ",
+                "value": 21
+            },
+            {
+                "name": "11 ",
+                "value": 22
+            },
+            {
+                "name": "11.5 ",
+                "value": 23
+            },
+            {
+                "name": "12 ",
+                "value": 24
+            },
+            {
+                "name": "12.5 ",
+                "value": 25
+            },
+            {
+                "name": "13 ",
+                "value": 26
+            },
+            {
+                "name": "13.5 ",
+                "value": 27
+            },
+            {
+                "name": "14 ",
+                "value": 28
+            },
+            {
+                "name": "14.5 ",
+                "value": 29
+            },
+            {
+                "name": "15 ",
+                "value": 30
+            },
+            {
+                "name": "15.5 ",
+                "value": 31
+            },
+            {
+                "name": "16 ",
+                "value": 32
+            },
+            {
+                "name": "16.5 ",
+                "value": 33
+            },
+            {
+                "name": "17 ",
+                "value": 34
+            },
+            {
+                "name": "17.5 ",
+                "value": 35
+            },
+            {
+                "name": "18 ",
+                "value": 36
+            },
+            {
+                "name": "18.5 ",
+                "value": 37
+            },
+            {
+                "name": "19 ",
+                "value": 38
+            },
+            {
+                "name": "19.5 ",
+                "value": 39
+            },
+            {
+                "name": "20 ",
+                "value": 40
+            },
+            {
+                "name": "20.5 ",
+                "value": 41
+            },
+            {
+                "name": "21 ",
+                "value": 42
+            },
+            {
+                "name": "21.5 ",
+                "value": 43
+            },
+            {
+                "name": "22 ",
+                "value": 44
+            },
+            {
+                "name": "22.5 ",
+                "value": 45
+            },
+            {
+                "name": "23 ",
+                "value": 46
+            },
+            {
+                "name": "23.5 ",
+                "value": 47
+            },
+            {
+                "name": "24 ",
+                "value": 48
+            },
+            {
+                "name": "24.5 ",
+                "value": 49
+            },
+            {
+                "name": "25 ",
+                "value": 50
+            },
+            {
+                "name": "25.5 ",
+                "value": 51
+            },
+            {
+                "name": "26 ",
+                "value": 52
+            },
+            {
+                "name": "26.5 ",
+                "value": 53
+            },
+            {
+                "name": "27 ",
+                "value": 54
+            },
+            {
+                "name": "27.5 ",
+                "value": 55
+            },
+            {
+                "name": "28 ",
+                "value": 56
+            },
+            {
+                "name": "28.5 ",
+                "value": 57
+            },
+            {
+                "name": "29 ",
+                "value": 58
+            },
+            {
+                "name": "29.5 ",
+                "value": 59
+            },
+            {
+                "name": "30 ",
+                "value": 60
+            },
+            {
+                "name": "30.5 ",
+                "value": 61
+            },
+            {
+                "name": "31 ",
+                "value": 62
+            },
+            {
+                "name": "31.5 ",
+                "value": 63
+            },
+            {
+                "name": "32 ",
+                "value": 64
+            },
+            {
+                "name": "32.5 ",
+                "value": 65
+            },
+            {
+                "name": "33 ",
+                "value": 66
+            },
+            {
+                "name": "33.5 ",
+                "value": 67
+            },
+            {
+                "name": "34 ",
+                "value": 68
+            },
+            {
+                "name": "34.5 ",
+                "value": 69
+            },
+            {
+                "name": "35 ",
+                "value": 70
+            },
+            {
+                "name": "35.5 ",
+                "value": 71
+            },
+            {
+                "name": "36 ",
+                "value": 72
+            },
+            {
+                "name": "36.5 ",
+                "value": 73
+            },
+            {
+                "name": "37 ",
+                "value": 74
+            },
+            {
+                "name": "37.5 ",
+                "value": 75
+            },
+            {
+                "name": "38 ",
+                "value": 76
+            },
+            {
+                "name": "38.5 ",
+                "value": 77
+            },
+            {
+                "name": "39 ",
+                "value": 78
+            },
+            {
+                "name": "39.5 ",
+                "value": 79
+            },
+            {
+                "name": "40 ",
+                "value": 80
+            },
+            {
+                "name": "40.5 ",
+                "value": 81
+            },
+            {
+                "name": "41 ",
+                "value": 82
+            },
+            {
+                "name": "41.5 ",
+                "value": 83
+            },
+            {
+                "name": "42 ",
+                "value": 84
+            },
+            {
+                "name": "42.5 ",
+                "value": 85
+            },
+            {
+                "name": "43 ",
+                "value": 86
+            },
+            {
+                "name": "43.5 ",
+                "value": 87
+            },
+            {
+                "name": "44 ",
+                "value": 88
+            },
+            {
+                "name": "44.5 ",
+                "value": 89
+            },
+            {
+                "name": "45 ",
+                "value": 90
+            },
+            {
+                "name": "45.5 ",
+                "value": 91
+            },
+            {
+                "name": "46 ",
+                "value": 92
+            },
+            {
+                "name": "46.5 ",
+                "value": 93
+            },
+            {
+                "name": "47 ",
+                "value": 94
+            },
+            {
+                "name": "47.5 ",
+                "value": 95
+            },
+            {
+                "name": "48 ",
+                "value": 96
+            },
+            {
+                "name": "48.5 ",
+                "value": 97
+            },
+            {
+                "name": "49 ",
+                "value": 98
+            },
+            {
+                "name": "49.5 ",
+                "value": 99
+            },
+            {
+                "name": "50 ",
+                "value": 100
+            },
+            {
+                "name": "50.5 ",
+                "value": 101
+            },
+            {
+                "name": "51 ",
+                "value": 102
+            },
+            {
+                "name": "51.5 ",
+                "value": 103
+            },
+            {
+                "name": "52 ",
+                "value": 104
+            },
+            {
+                "name": "52.5 ",
+                "value": 105
+            },
+            {
+                "name": "53 ",
+                "value": 106
+            },
+            {
+                "name": "53.5 ",
+                "value": 107
+            },
+            {
+                "name": "54 ",
+                "value": 108
+            },
+            {
+                "name": "54.5 ",
+                "value": 109
+            },
+            {
+                "name": "55 ",
+                "value": 110
+            },
+            {
+                "name": "55.5 ",
+                "value": 111
+            },
+            {
+                "name": "56 ",
+                "value": 112
+            },
+            {
+                "name": "56.5 ",
+                "value": 113
+            },
+            {
+                "name": "57 ",
+                "value": 114
+            },
+            {
+                "name": "57.5 ",
+                "value": 115
+            },
+            {
+                "name": "58 ",
+                "value": 116
+            },
+            {
+                "name": "58.5 ",
+                "value": 117
+            },
+            {
+                "name": "59 ",
+                "value": 118
+            },
+            {
+                "name": "59.5 ",
+                "value": 119
+            },
+            {
+                "name": "60 ",
+                "value": 120
+            },
+            {
+                "name": "60.5 ",
+                "value": 121
+            },
+            {
+                "name": "61 ",
+                "value": 122
+            },
+            {
+                "name": "61.5 ",
+                "value": 123
+            },
+            {
+                "name": "62 ",
+                "value": 124
+            },
+            {
+                "name": "62.5 ",
+                "value": 125
+            },
+            {
+                "name": "63 ",
+                "value": 126
+            },
+            {
+                "name": "63.5 ",
+                "value": 127
+            },
+            {
+                "name": "64 ",
+                "value": 128
+            },
+            {
+                "name": "64.5 ",
+                "value": 129
+            },
+            {
+                "name": "65 ",
+                "value": 130
+            },
+            {
+                "name": "65.5 ",
+                "value": 131
+            },
+            {
+                "name": "66 ",
+                "value": 132
+            },
+            {
+                "name": "66.5 ",
+                "value": 133
+            },
+            {
+                "name": "67 ",
+                "value": 134
+            },
+            {
+                "name": "67.5 ",
+                "value": 135
+            },
+            {
+                "name": "68 ",
+                "value": 136
+            },
+            {
+                "name": "68.5 ",
+                "value": 137
+            },
+            {
+                "name": "69 ",
+                "value": 138
+            },
+            {
+                "name": "69.5 ",
+                "value": 139
+            },
+            {
+                "name": "70 ",
+                "value": 140
+            },
+            {
+                "name": "70.5 ",
+                "value": 141
+            },
+            {
+                "name": "71 ",
+                "value": 142
+            },
+            {
+                "name": "71.5 ",
+                "value": 143
+            },
+            {
+                "name": "72 ",
+                "value": 144
+            },
+            {
+                "name": "72.5 ",
+                "value": 145
+            },
+            {
+                "name": "73 ",
+                "value": 146
+            },
+            {
+                "name": "73.5 ",
+                "value": 147
+            },
+            {
+                "name": "74 ",
+                "value": 148
+            },
+            {
+                "name": "74.5 ",
+                "value": 149
+            },
+            {
+                "name": "75 ",
+                "value": 150
+            },
+            {
+                "name": "75.5 ",
+                "value": 151
+            },
+            {
+                "name": "76 ",
+                "value": 152
+            },
+            {
+                "name": "76.5 ",
+                "value": 153
+            },
+            {
+                "name": "77 ",
+                "value": 154
+            },
+            {
+                "name": "77.5 ",
+                "value": 155
+            },
+            {
+                "name": "78 ",
+                "value": 156
+            },
+            {
+                "name": "78.5 ",
+                "value": 157
+            },
+            {
+                "name": "79 ",
+                "value": 158
+            },
+            {
+                "name": "79.5 ",
+                "value": 159
+            },
+            {
+                "name": "80 ",
+                "value": 160
+            },
+            {
+                "name": "80.5 ",
+                "value": 161
+            },
+            {
+                "name": "81 ",
+                "value": 162
+            },
+            {
+                "name": "81.5 ",
+                "value": 163
+            },
+            {
+                "name": "82 ",
+                "value": 164
+            },
+            {
+                "name": "82.5 ",
+                "value": 165
+            },
+            {
+                "name": "83 ",
+                "value": 166
+            },
+            {
+                "name": "83.5 ",
+                "value": 167
+            },
+            {
+                "name": "84 ",
+                "value": 168
+            },
+            {
+                "name": "84.5 ",
+                "value": 169
+            },
+            {
+                "name": "85 ",
+                "value": 170
+            },
+            {
+                "name": "85.5 ",
+                "value": 171
+            },
+            {
+                "name": "86 ",
+                "value": 172
+            },
+            {
+                "name": "86.5 ",
+                "value": 173
+            },
+            {
+                "name": "87 ",
+                "value": 174
+            },
+            {
+                "name": "87.5 ",
+                "value": 175
+            },
+            {
+                "name": "88 ",
+                "value": 176
+            },
+            {
+                "name": "88.5 ",
+                "value": 177
+            },
+            {
+                "name": "89 ",
+                "value": 178
+            },
+            {
+                "name": "89.5 ",
+                "value": 179
+            },
+            {
+                "name": "90 ",
+                "value": 180
+            },
+            {
+                "name": "90.5 ",
+                "value": 181
+            },
+            {
+                "name": "91 ",
+                "value": 182
+            },
+            {
+                "name": "91.5 ",
+                "value": 183
+            },
+            {
+                "name": "92 ",
+                "value": 184
+            },
+            {
+                "name": "92.5 ",
+                "value": 185
+            },
+            {
+                "name": "93 ",
+                "value": 186
+            },
+            {
+                "name": "93.5 ",
+                "value": 187
+            },
+            {
+                "name": "94 ",
+                "value": 188
+            },
+            {
+                "name": "94.5 ",
+                "value": 189
+            },
+            {
+                "name": "95 ",
+                "value": 190
+            },
+            {
+                "name": "95.5 ",
+                "value": 191
+            },
+            {
+                "name": "96 ",
+                "value": 192
+            },
+            {
+                "name": "96.5 ",
+                "value": 193
+            },
+            {
+                "name": "97 ",
+                "value": 194
+            },
+            {
+                "name": "97.5 ",
+                "value": 195
+            },
+            {
+                "name": "98 ",
+                "value": 196
+            },
+            {
+                "name": "98.5 ",
+                "value": 197
+            },
+            {
+                "name": "99 ",
+                "value": 198
+            },
+            {
+                "name": "99.5 ",
+                "value": 199
+            },
+            {
+                "name": "100",
+                "value": 200
+            }
+        ]
+    },
+    "question": {
+        "en": "Wine (ounces)"
+    }
+}

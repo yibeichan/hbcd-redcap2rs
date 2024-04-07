@@ -1,0 +1,25 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "pex_bm_epds_008_i_01",
+    "prefLabel": "pex_bm_epds_008_i_01",
+    "description": {
+        "en": "@HIDDEN"
+    },
+    "ui": {
+        "inputType": "number",
+        "hidden": true
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Value of \"sad\""
+    },
+    "scoringLogic": [
+        {
+            "variableName": "pex_bm_epds_008_i_01",
+            "jsExpression": "if(( pex_bm_epds_008 == '777' OR pex_bm_epds_008 == '999'), '', pex_bm_epds_008 )"
+        }
+    ]
+}

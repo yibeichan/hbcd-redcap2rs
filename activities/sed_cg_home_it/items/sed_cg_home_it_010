@@ -1,0 +1,34 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "sed_cg_home_it_010",
+    "prefLabel": "sed_cg_home_it_010",
+    "description": "sed_cg_home_it_010 of sed_cg_home_it",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "No ",
+                "value": 0
+            },
+            {
+                "name": "Yes ",
+                "value": 1
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "Does your child have cuddly, soft, or role-playing toys (like a doll)? These may be shared with sibling(s)."
+    }
+}

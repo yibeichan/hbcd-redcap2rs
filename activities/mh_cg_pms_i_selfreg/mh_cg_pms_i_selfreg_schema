@@ -1,0 +1,76 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Activity",
+    "@id": "mh_cg_pms_i_selfreg_schema",
+    "prefLabel": "mh_cg_pms_i_selfreg",
+    "description": "Default description",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "unknown",
+    "ui": {
+        "order": [
+            "items/mh_cg_pms_i_selfreg_lang",
+            "items/mh_cg_pms_i_selfreg_dtt",
+            "items/mh_cg_pms_i_selfreg_timestamp_start",
+            "items/mh_cg_pms_i_selfreg_location",
+            "items/mh_cg_pms_i_selfreg_flex_instr01",
+            "items/mh_cg_pms_i_selfreg_002",
+            "items/mh_cg_pms_i_selfreg_003",
+            "items/mh_cg_pms_i_selfreg_004",
+            "items/mh_cg_pms_i_selfreg_005",
+            "items/mh_cg_pms_i_selfreg_001"
+        ],
+        "addProperties": [
+            {
+                "variableName": "mh_cg_pms_i_selfreg_lang",
+                "isAbout": "items/mh_cg_pms_i_selfreg_lang",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_pms_i_selfreg_dtt",
+                "isAbout": "items/mh_cg_pms_i_selfreg_dtt",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_pms_i_selfreg_timestamp_start",
+                "isAbout": "items/mh_cg_pms_i_selfreg_timestamp_start",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_pms_i_selfreg_location",
+                "isAbout": "items/mh_cg_pms_i_selfreg_location",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_pms_i_selfreg_flex_instr01",
+                "isAbout": "items/mh_cg_pms_i_selfreg_flex_instr01",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_pms_i_selfreg_002",
+                "isAbout": "items/mh_cg_pms_i_selfreg_002",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_pms_i_selfreg_003",
+                "isAbout": "items/mh_cg_pms_i_selfreg_003",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_pms_i_selfreg_004",
+                "isAbout": "items/mh_cg_pms_i_selfreg_004",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_pms_i_selfreg_005",
+                "isAbout": "items/mh_cg_pms_i_selfreg_005",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_pms_i_selfreg_001",
+                "isAbout": "items/mh_cg_pms_i_selfreg_001",
+                "isVis": true
+            }
+        ],
+        "shuffle": false
+    }
+}

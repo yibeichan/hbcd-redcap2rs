@@ -1,0 +1,37 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "pex_bm_psych_dep_m01_184",
+    "prefLabel": "pex_bm_psych_dep_m01_184",
+    "description": "pex_bm_psych_dep_m01_184 of pex_bm_psych",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Yes ",
+                "value": 1
+            },
+            {
+                "name": "No ",
+                "value": 0
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "preamble": {
+        "en": "Have any of your relatives ever suffered from depression, that is, have they felt so low for a period  of at least two weeks that they hardly ate or slept or couldn't work or do whatever they usually do?"
+    },
+    "question": {
+        "en": "Baby's Biological Mother"
+    }
+}

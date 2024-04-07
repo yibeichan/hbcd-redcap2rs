@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "sed_cg_ace_008",
+    "prefLabel": "sed_cg_ace_008",
+    "description": "sed_cg_ace_008 of sed_cg_ace",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "8) Did a parent or adult in your home ever hit, beat, kick, or physically hurt you in any way?"
+    }
+}

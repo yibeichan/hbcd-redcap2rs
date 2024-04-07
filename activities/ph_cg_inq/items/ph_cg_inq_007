@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "ph_cg_inq_007",
+    "prefLabel": "ph_cg_inq_007",
+    "description": "ph_cg_inq_007 of ph_cg_inq",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "preamble": {
+        "en": "Infant Nutrition Questionnaire, continued\n\nIn this section you will be asked about the frequency with which your child is fed different foods. You will be able to choose frequency per day, per week, or less than weekly. Only one response is necessary for the frequency of each food"
+    },
+    "question": {
+        "en": "In the past 7 days was the child fed the foods listed below:"
+    }
+}

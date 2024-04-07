@@ -1,0 +1,112 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Activity",
+    "@id": "mh_cg_fad_schema",
+    "prefLabel": "mh_cg_fad",
+    "description": "Default description",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "unknown",
+    "ui": {
+        "order": [
+            "items/mh_cg_fad_lang",
+            "items/mh_cg_fad_dtt",
+            "items/mh_cg_fad_timestamp_start",
+            "items/mh_cg_fad_location",
+            "items/mh_cg_fad_001_i_01",
+            "items/mh_cg_fad_001_i_02",
+            "items/mh_cg_fad_001_i_03",
+            "items/mh_cg_fad_001_i_04",
+            "items/mh_cg_fad_001_i_05",
+            "items/mh_cg_fad_001_i_06",
+            "items/mh_cg_fad_001_i_07",
+            "items/mh_cg_fad_001_i_08",
+            "items/mh_cg_fad_001_i_09",
+            "items/mh_cg_fad_001_i_10",
+            "items/mh_cg_fad_001_i_11",
+            "items/mh_cg_fad_001_i_12"
+        ],
+        "addProperties": [
+            {
+                "variableName": "mh_cg_fad_lang",
+                "isAbout": "items/mh_cg_fad_lang",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_fad_dtt",
+                "isAbout": "items/mh_cg_fad_dtt",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_fad_timestamp_start",
+                "isAbout": "items/mh_cg_fad_timestamp_start",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_fad_location",
+                "isAbout": "items/mh_cg_fad_location",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_fad_001_i_01",
+                "isAbout": "items/mh_cg_fad_001_i_01",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_fad_001_i_02",
+                "isAbout": "items/mh_cg_fad_001_i_02",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_fad_001_i_03",
+                "isAbout": "items/mh_cg_fad_001_i_03",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_fad_001_i_04",
+                "isAbout": "items/mh_cg_fad_001_i_04",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_fad_001_i_05",
+                "isAbout": "items/mh_cg_fad_001_i_05",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_fad_001_i_06",
+                "isAbout": "items/mh_cg_fad_001_i_06",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_fad_001_i_07",
+                "isAbout": "items/mh_cg_fad_001_i_07",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_fad_001_i_08",
+                "isAbout": "items/mh_cg_fad_001_i_08",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_fad_001_i_09",
+                "isAbout": "items/mh_cg_fad_001_i_09",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_fad_001_i_10",
+                "isAbout": "items/mh_cg_fad_001_i_10",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_fad_001_i_11",
+                "isAbout": "items/mh_cg_fad_001_i_11",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_fad_001_i_12",
+                "isAbout": "items/mh_cg_fad_001_i_12",
+                "isVis": true
+            }
+        ],
+        "shuffle": false
+    }
+}

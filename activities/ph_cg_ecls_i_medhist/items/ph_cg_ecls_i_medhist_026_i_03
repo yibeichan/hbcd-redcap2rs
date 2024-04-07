@@ -1,0 +1,38 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "ph_cg_ecls_i_medhist_026_i_03",
+    "prefLabel": "ph_cg_ecls_i_medhist_026_i_03",
+    "description": "ph_cg_ecls_i_medhist_026_i_03 of ph_cg_ecls_i_medhist",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "HIV ",
+                "value": 1
+            },
+            {
+                "name": "Hepatitis C ",
+                "value": 2
+            },
+            {
+                "name": "Hepatitis B ",
+                "value": 3
+            },
+            {
+                "name": "A different one not listed here ",
+                "value": 4
+            },
+            {
+                "name": "No",
+                "value": 0
+            }
+        ]
+    },
+    "question": {
+        "en": "Has your child been tested for the following since the last visit?"
+    }
+}

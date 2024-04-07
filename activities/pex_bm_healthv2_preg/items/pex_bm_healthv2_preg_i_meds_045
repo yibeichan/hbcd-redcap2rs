@@ -1,0 +1,34 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "pex_bm_healthv2_preg_i_meds_045",
+    "prefLabel": "pex_bm_healthv2_preg_i_meds_045",
+    "description": "pex_bm_healthv2_preg_i_meds_045 of pex_bm_healthv2_preg",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Yes ",
+                "value": 1
+            },
+            {
+                "name": "No ",
+                "value": 0
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "Many individuals use a prescription medication at some point during pregnancy. Examples include pain medications (codeine, hydrocodone), antidepressants (Celexa, Prozac), Sedatives (Xanax, Valium), Insulin, antibiotics (penicillin, Cipro), anti-fungal (miconazole), anti-nausea (zofran), anti-seizure (gabapentin, lamictal), antipsychotics (Zyprexa, Risperidone), mood stabilizers (lithium), stimulants (Adderall, Concerta), blood pressure medications (Vasotrec, Zestril), or sleeping agents (Ambien, Halcion). Since we last met did you  take any  prescription medications before the end of your pregnancy?"
+    }
+}

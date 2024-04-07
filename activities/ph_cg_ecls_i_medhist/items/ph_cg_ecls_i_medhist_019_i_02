@@ -1,0 +1,42 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "ph_cg_ecls_i_medhist_019_i_02",
+    "prefLabel": "ph_cg_ecls_i_medhist_019_i_02",
+    "description": "ph_cg_ecls_i_medhist_019_i_02 of ph_cg_ecls_i_medhist",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "No symptoms ",
+                "value": 1
+            },
+            {
+                "name": "Mild symptoms (still able to play normally) ",
+                "value": 2
+            },
+            {
+                "name": "Moderate symptoms (impacted their daily activities) ",
+                "value": 3
+            },
+            {
+                "name": "Severe symptoms (prompted medical evaluation) ",
+                "value": 4
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "In your opinion what was the severity of COVID infection (if your child has had multiple infections, please report for the most severe)"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "pex_bm_assistv2_instr24",
+    "prefLabel": "pex_bm_assistv2_instr24",
+    "description": "pex_bm_assistv2_instr24 of pex_bm_assistv2",
+    "ui": {
+        "inputType": "static"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "preamble": {
+        "en": "Opioids"
+    },
+    "question": {
+        "en": "When you were using opioids SINCE WE LAST MET UNTIL THE END OF PREGNANCY, please select the specific substances you used below.For each substance that you endorse, please describe the typical amount that you use per occasion.Type of usageAmount/unit"
+    }
+}

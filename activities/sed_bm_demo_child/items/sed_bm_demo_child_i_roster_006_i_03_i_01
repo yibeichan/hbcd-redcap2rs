@@ -1,0 +1,42 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "sed_bm_demo_child_i_roster_006_i_03_i_01",
+    "prefLabel": "sed_bm_demo_child_i_roster_006_i_03_i_01",
+    "description": "sed_bm_demo_child_i_roster_006_i_03_i_01 of sed_bm_demo_child",
+    "ui": {
+        "inputType": "select"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Non-binary ",
+                "value": 1
+            },
+            {
+                "name": "Transgender male ",
+                "value": 2
+            },
+            {
+                "name": "Transgender female ",
+                "value": 3
+            },
+            {
+                "name": "None of these ",
+                "value": 4
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "Person 3 gender other  household 1"
+    }
+}

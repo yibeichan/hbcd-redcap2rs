@@ -1,0 +1,54 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "mh_cg_ecbq_m03_232",
+    "prefLabel": "mh_cg_ecbq_m03_232",
+    "description": "mh_cg_ecbq_m03_232 of mh_cg_ecbq",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Never ",
+                "value": 1
+            },
+            {
+                "name": "Very Rarely ",
+                "value": 2
+            },
+            {
+                "name": "Less Than Half the Time ",
+                "value": 3
+            },
+            {
+                "name": "About Half the Time ",
+                "value": 4
+            },
+            {
+                "name": "More than Half the Time ",
+                "value": 5
+            },
+            {
+                "name": "Almost Always ",
+                "value": 6
+            },
+            {
+                "name": "Always ",
+                "value": 7
+            },
+            {
+                "name": "Does Not Apply ",
+                "value": 0
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "When your child asked for something and you said \"no\", how often did your child have a temper tantrum?"
+    }
+}

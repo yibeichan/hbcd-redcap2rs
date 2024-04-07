@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "pex_bm_healthv2_preg_i_exp_i_pnv_010",
+    "prefLabel": "pex_bm_healthv2_preg_i_exp_i_pnv_010",
+    "description": {
+        "en": "@NONEOFTHEABOVE='4,999,777'"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "question": {
+        "en": "Since we last met, have you had indoor exposure to second-hand smoke from any of the following substances? Check all that apply"
+    }
+}

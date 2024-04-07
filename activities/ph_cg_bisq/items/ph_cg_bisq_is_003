@@ -1,0 +1,218 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "ph_cg_bisq_is_003",
+    "prefLabel": "ph_cg_bisq_is_003",
+    "description": "ph_cg_bisq_is_003 of ph_cg_bisq",
+    "ui": {
+        "inputType": "select"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": [
+            {
+                "name": "0 minutes ",
+                "value": 0
+            },
+            {
+                "name": "5 minutes ",
+                "value": 5
+            },
+            {
+                "name": "10 minutes ",
+                "value": 10
+            },
+            {
+                "name": "15 minutes ",
+                "value": 15
+            },
+            {
+                "name": "20 minutes ",
+                "value": 20
+            },
+            {
+                "name": "25 minutes ",
+                "value": 25
+            },
+            {
+                "name": "30 minutes ",
+                "value": 30
+            },
+            {
+                "name": "35 minutes ",
+                "value": 35
+            },
+            {
+                "name": "40 minutes ",
+                "value": 40
+            },
+            {
+                "name": "45 minutes ",
+                "value": 45
+            },
+            {
+                "name": "50 minutes ",
+                "value": 50
+            },
+            {
+                "name": "55 minutes ",
+                "value": 55
+            },
+            {
+                "name": "1 hour ",
+                "value": 60
+            },
+            {
+                "name": "1 hour and 5 minutes ",
+                "value": 65
+            },
+            {
+                "name": "1 hour and 10 minutes ",
+                "value": 70
+            },
+            {
+                "name": "1 hour and 15 minutes ",
+                "value": 75
+            },
+            {
+                "name": "1 hour and 20 minutes ",
+                "value": 80
+            },
+            {
+                "name": "1 hour and 25 minutes ",
+                "value": 85
+            },
+            {
+                "name": "1 hour and 30 minutes ",
+                "value": 90
+            },
+            {
+                "name": "1 hour and 35 minutes ",
+                "value": 95
+            },
+            {
+                "name": "1 hour and 40 minute ",
+                "value": 100
+            },
+            {
+                "name": "1 hour and 45 minutes ",
+                "value": 105
+            },
+            {
+                "name": "1 hour and 50 minutes ",
+                "value": 110
+            },
+            {
+                "name": "1 hour and 55 minutes ",
+                "value": 115
+            },
+            {
+                "name": "2 hours ",
+                "value": 120
+            },
+            {
+                "name": "2 hours and 5 minutes ",
+                "value": 125
+            },
+            {
+                "name": "2 hours and 10 minutes ",
+                "value": 130
+            },
+            {
+                "name": "2 hours and 15 minutes ",
+                "value": 135
+            },
+            {
+                "name": "2 hours and 20 minutes ",
+                "value": 140
+            },
+            {
+                "name": "2 hours and 25 minutes ",
+                "value": 145
+            },
+            {
+                "name": "2 hours and 30 minutes ",
+                "value": 150
+            },
+            {
+                "name": "2 hours and 35 minutes ",
+                "value": 155
+            },
+            {
+                "name": "2 hours and 40 minutes ",
+                "value": 160
+            },
+            {
+                "name": "2 hours and 45 minutes ",
+                "value": 165
+            },
+            {
+                "name": "2 hours and 50 minutes ",
+                "value": 170
+            },
+            {
+                "name": "2 hours and 55 minutes ",
+                "value": 175
+            },
+            {
+                "name": "3 hours ",
+                "value": 180
+            },
+            {
+                "name": "3 hours and 5 minutes ",
+                "value": 185
+            },
+            {
+                "name": "3 hours and 10 minutes ",
+                "value": 190
+            },
+            {
+                "name": "3 hours and 15 minutes ",
+                "value": 195
+            },
+            {
+                "name": "3 hours and 20 minutes ",
+                "value": 200
+            },
+            {
+                "name": "3 hours and 25 minutes ",
+                "value": 205
+            },
+            {
+                "name": "3 hours and 30 minutes ",
+                "value": 210
+            },
+            {
+                "name": "3 hours and 35 minutes ",
+                "value": 215
+            },
+            {
+                "name": "3 hours and 40 minutes ",
+                "value": 220
+            },
+            {
+                "name": "3 hours and 45 minutes ",
+                "value": 225
+            },
+            {
+                "name": "3 hours and 50 minutes ",
+                "value": 230
+            },
+            {
+                "name": "3 hours and 55 minutes ",
+                "value": 235
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "How much total time during the NIGHT is your child usually awake (between when your child goes to bed and wakes for the day? \n\nExample: If you child wakes 2 times and is awake for about 15 mins each time, your child's total time spent awake is 30 minutes."
+    }
+}

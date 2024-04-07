@@ -1,0 +1,25 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "pex_bm_health_preg_i_illness_006_i_04",
+    "prefLabel": "pex_bm_health_preg_i_illness_006_i_04",
+    "description": {
+        "en": "@HIDDEN"
+    },
+    "ui": {
+        "inputType": "number",
+        "hidden": true
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "Select illness label"
+    },
+    "scoringLogic": [
+        {
+            "variableName": "pex_bm_health_preg_i_illness_006_i_04",
+            "jsExpression": "$('#pex_bm_health_preg_i_illness_006_i_03-tr select option:nth___1').prop('selected',true)"
+        }
+    ]
+}

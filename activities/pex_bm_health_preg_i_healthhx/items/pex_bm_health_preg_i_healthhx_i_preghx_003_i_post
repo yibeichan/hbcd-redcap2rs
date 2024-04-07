@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "pex_bm_health_preg_i_healthhx_i_preghx_003_i_post",
+    "prefLabel": "pex_bm_health_preg_i_healthhx_i_preghx_003_i_post",
+    "description": "pex_bm_health_preg_i_healthhx_i_preghx_003_i_post of pex_bm_health_preg_i_healthhx",
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    },
+    "question": {
+        "en": "On what date did your last pregnancy prior to this most recent one end (regardless of the outcome)?"
+    }
+}

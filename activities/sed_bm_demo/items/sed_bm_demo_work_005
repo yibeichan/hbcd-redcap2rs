@@ -1,0 +1,52 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "sed_bm_demo_work_005",
+    "prefLabel": "sed_bm_demo_work_005",
+    "description": {
+        "en": "@NONEOFTHEABOVE='777,999'"
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": [
+            {
+                "name": "Less than 5 hours ",
+                "value": 1
+            },
+            {
+                "name": "5-10 hours ",
+                "value": 2
+            },
+            {
+                "name": "11-20 hours ",
+                "value": 3
+            },
+            {
+                "name": "21-30 hours ",
+                "value": 4
+            },
+            {
+                "name": "31-40 hours ",
+                "value": 5
+            },
+            {
+                "name": "More than 40 hours ",
+                "value": 6
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "How many hours did you work last week at all jobs or businesses?"
+    }
+}

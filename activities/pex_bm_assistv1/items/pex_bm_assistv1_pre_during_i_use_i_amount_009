@@ -1,0 +1,58 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "pex_bm_assistv1_pre_during_i_use_i_amount_009",
+    "prefLabel": "pex_bm_assistv1_pre_during_i_use_i_amount_009",
+    "description": "pex_bm_assistv1_pre_during_i_use_i_amount_009 of pex_bm_assistv1",
+    "ui": {
+        "inputType": "select"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "0.5 ",
+                "value": 1
+            },
+            {
+                "name": "1 ",
+                "value": 2
+            },
+            {
+                "name": "1.5 ",
+                "value": 3
+            },
+            {
+                "name": "2 ",
+                "value": 4
+            },
+            {
+                "name": "2.5 ",
+                "value": 5
+            },
+            {
+                "name": "3 ",
+                "value": 6
+            },
+            {
+                "name": "3.5 ",
+                "value": 7
+            },
+            {
+                "name": "4 ",
+                "value": 8
+            },
+            {
+                "name": "4.5 ",
+                "value": 9
+            },
+            {
+                "name": "5",
+                "value": 10
+            }
+        ]
+    },
+    "question": {
+        "en": "Buprenorphine amount (pills)"
+    }
+}

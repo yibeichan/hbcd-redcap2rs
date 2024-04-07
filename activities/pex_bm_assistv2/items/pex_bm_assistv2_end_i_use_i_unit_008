@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "pex_bm_assistv2_end_i_use_i_unit_008",
+    "prefLabel": "pex_bm_assistv2_end_i_use_i_unit_008",
+    "description": "pex_bm_assistv2_end_i_use_i_unit_008 of pex_bm_assistv2",
+    "ui": {
+        "inputType": "select"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "mg",
+                "value": 1
+            }
+        ]
+    },
+    "question": {
+        "en": "Methadone (units)"
+    }
+}

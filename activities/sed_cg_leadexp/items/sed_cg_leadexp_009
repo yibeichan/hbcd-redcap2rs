@@ -1,0 +1,34 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "sed_cg_leadexp_m01_54",
+    "prefLabel": "sed_cg_leadexp_m01_54",
+    "description": "sed_cg_leadexp_m01_54 of sed_cg_leadexp",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "No ",
+                "value": 0
+            },
+            {
+                "name": "Yes ",
+                "value": 1
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "Has your child ever taken any traditional home remedies or used imported cosmetics? (Examples, Azarcon, Alarcon, Greta, Rueda, Pay-loo-ah, or Kohl)"
+    }
+}

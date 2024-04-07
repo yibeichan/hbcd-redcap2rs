@@ -1,0 +1,52 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Activity",
+    "@id": "sed_cg_foodins_schema",
+    "prefLabel": "sed_cg_foodins",
+    "description": "Default description",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "unknown",
+    "ui": {
+        "order": [
+            "items/sed_cg_foodins_lang",
+            "items/sed_cg_foodins_dtt",
+            "items/sed_cg_foodins_timestamp_start",
+            "items/sed_cg_foodins_location",
+            "items/sed_cg_foodins_001",
+            "items/sed_cg_foodins_002"
+        ],
+        "addProperties": [
+            {
+                "variableName": "sed_cg_foodins_lang",
+                "isAbout": "items/sed_cg_foodins_lang",
+                "isVis": true
+            },
+            {
+                "variableName": "sed_cg_foodins_dtt",
+                "isAbout": "items/sed_cg_foodins_dtt",
+                "isVis": true
+            },
+            {
+                "variableName": "sed_cg_foodins_timestamp_start",
+                "isAbout": "items/sed_cg_foodins_timestamp_start",
+                "isVis": true
+            },
+            {
+                "variableName": "sed_cg_foodins_location",
+                "isAbout": "items/sed_cg_foodins_location",
+                "isVis": true
+            },
+            {
+                "variableName": "sed_cg_foodins_001",
+                "isAbout": "items/sed_cg_foodins_001",
+                "isVis": true
+            },
+            {
+                "variableName": "sed_cg_foodins_002",
+                "isAbout": "items/sed_cg_foodins_002",
+                "isVis": true
+            }
+        ],
+        "shuffle": false
+    }
+}

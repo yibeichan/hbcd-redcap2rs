@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "recruitment_period",
+    "prefLabel": "recruitment_period",
+    "description": "recruitment_period of setup",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Prenatal ",
+                "value": 1
+            },
+            {
+                "name": "Postnatal",
+                "value": 2
+            }
+        ]
+    },
+    "question": {
+        "en": "Timepoint of participant recruitment"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "sed_bm_demo_work_004_i_01",
+    "prefLabel": "sed_bm_demo_work_004_i_01",
+    "description": {
+        "en": "@NONEOFTHEABOVE='777,999'"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Yes I had 1 job that I worked for 20 hours per week for at least a month ",
+                "value": 1
+            },
+            {
+                "name": "Yes I had more than one job that I worked for 20 hours per week for at least a month ",
+                "value": 2
+            },
+            {
+                "name": "No I worked but none of them were at least 20 hours per week for a month ",
+                "value": 3
+            },
+            {
+                "name": "No I did not work ",
+                "value": 0
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "preamble": {
+        "en": "Jobs During Pregnancy"
+    },
+    "question": {
+        "en": "Since your first study visit, did you have a job that involved at least 20 hours per week of work, that you held for at least one month?"
+    }
+}

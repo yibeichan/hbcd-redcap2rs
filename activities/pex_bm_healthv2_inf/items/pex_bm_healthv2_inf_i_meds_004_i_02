@@ -1,0 +1,42 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "pex_bm_healthv2_inf_i_meds_004_i_02",
+    "prefLabel": "pex_bm_healthv2_inf_i_meds_004_i_02",
+    "description": "pex_bm_healthv2_inf_i_meds_004_i_02 of pex_bm_healthv2_inf",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "Never filled prescription and/or never gave the medicine ",
+                "value": 1
+            },
+            {
+                "name": "Completed it ",
+                "value": 2
+            },
+            {
+                "name": "Still giving it as needed ",
+                "value": 3
+            },
+            {
+                "name": "Still giving it regularly ",
+                "value": 4
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "What is the status of this medication?"
+    }
+}

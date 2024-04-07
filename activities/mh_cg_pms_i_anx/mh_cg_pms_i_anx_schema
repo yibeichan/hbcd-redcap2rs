@@ -1,0 +1,70 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Activity",
+    "@id": "mh_cg_pms_i_anx_schema",
+    "prefLabel": "mh_cg_pms_i_anx",
+    "description": "Default description",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "unknown",
+    "ui": {
+        "order": [
+            "items/mh_cg_pms_i_anx_lang",
+            "items/mh_cg_pms_i_anx_dtt",
+            "items/mh_cg_pms_i_anx_timestamp_start",
+            "items/mh_cg_pms_i_anx_location",
+            "items/mh_cg_pms_i_anx_instr01",
+            "items/mh_cg_pms_i_anx_001",
+            "items/mh_cg_pms_i_anx_002",
+            "items/mh_cg_pms_i_anx_003",
+            "items/mh_cg_pms_i_anx_004"
+        ],
+        "addProperties": [
+            {
+                "variableName": "mh_cg_pms_i_anx_lang",
+                "isAbout": "items/mh_cg_pms_i_anx_lang",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_pms_i_anx_dtt",
+                "isAbout": "items/mh_cg_pms_i_anx_dtt",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_pms_i_anx_timestamp_start",
+                "isAbout": "items/mh_cg_pms_i_anx_timestamp_start",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_pms_i_anx_location",
+                "isAbout": "items/mh_cg_pms_i_anx_location",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_pms_i_anx_instr01",
+                "isAbout": "items/mh_cg_pms_i_anx_instr01",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_pms_i_anx_001",
+                "isAbout": "items/mh_cg_pms_i_anx_001",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_pms_i_anx_002",
+                "isAbout": "items/mh_cg_pms_i_anx_002",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_pms_i_anx_003",
+                "isAbout": "items/mh_cg_pms_i_anx_003",
+                "isVis": true
+            },
+            {
+                "variableName": "mh_cg_pms_i_anx_004",
+                "isAbout": "items/mh_cg_pms_i_anx_004",
+                "isVis": true
+            }
+        ],
+        "shuffle": false
+    }
+}

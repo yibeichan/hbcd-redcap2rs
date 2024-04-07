@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "sed_bm_bfy_bensvc_001",
+    "prefLabel": "sed_bm_bfy_bensvc_001",
+    "description": {
+        "en": "@NONEOFTHEABOVE='777,999,12'"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "choices": null
+    },
+    "preamble": {
+        "en": "Services and Support"
+    },
+    "question": {
+        "en": "Have you received any of these services in the past 12 months..."
+    }
+}

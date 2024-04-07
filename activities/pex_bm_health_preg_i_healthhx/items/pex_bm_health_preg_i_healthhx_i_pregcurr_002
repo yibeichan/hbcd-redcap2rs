@@ -1,0 +1,38 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
+    "@type": "reproschema:Item",
+    "@id": "pex_bm_health_preg_i_healthhx_i_pregcurr_002",
+    "prefLabel": "pex_bm_health_preg_i_healthhx_i_pregcurr_002",
+    "description": "pex_bm_health_preg_i_healthhx_i_pregcurr_002 of pex_bm_health_preg_i_healthhx",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": "I was trying to get pregnant ",
+                "value": 1
+            },
+            {
+                "name": "I was not trying to get pregnant but I also was not trying to keep from getting pregnant ",
+                "value": 2
+            },
+            {
+                "name": "I was trying to keep from getting pregnant ",
+                "value": 3
+            },
+            {
+                "name": "<font color=\"gray\">Don't know</font> ",
+                "value": 999
+            },
+            {
+                "name": "<font color=\"gray\">Decline to answer</font>",
+                "value": 777
+            }
+        ]
+    },
+    "question": {
+        "en": "Which of the following statements best describes you during the three months before you got pregnant?"
+    }
+}
