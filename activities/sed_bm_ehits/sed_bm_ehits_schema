@@ -27,7 +27,7 @@
             "variableName": "sed_bm_ehits_score"
         },
         {
-            "jsExpression": "if(( sed_bm_ehits_score > 7 OR sed_bm_ehits_001 >= 1 OR sed_bm_ehits_005 >= 1), 1, 0)",
+            "jsExpression": "if(( sed_bm_ehits_score > 7 OR ( sed_bm_ehits_001 >= 1 AND sed_bm_ehits_001 < 777) OR ( sed_bm_ehits_005 >= 1 AND sed_bm_ehits_005 < 777)), 1, 0)",
             "variableName": "sed_bm_ehits_flag01"
         }
     ],
