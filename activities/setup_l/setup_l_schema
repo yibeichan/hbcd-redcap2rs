@@ -22,7 +22,7 @@
             },
             {
                 "isAbout": "items/admin_caregiver_002",
-                "isVis": "admin_caregiver_001 == '1'",
+                "isVis": true,
                 "valueRequired": true,
                 "variableName": "admin_caregiver_002"
             },
