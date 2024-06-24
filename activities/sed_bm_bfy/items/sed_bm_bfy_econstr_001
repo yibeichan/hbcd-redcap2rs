@@ -1,53 +1,72 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "sed_bm_bfy_econstr_001",
-    "prefLabel": "sed_bm_bfy_econstr_001",
-    "description": "sed_bm_bfy_econstr_001 of sed_bm_bfy",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "All the time ",
-                "value": 1
-            },
-            {
-                "name": "Very frequently ",
-                "value": 2
-            },
-            {
-                "name": "Occasionally ",
-                "value": 3
-            },
-            {
-                "name": "Rarely ",
-                "value": 4
-            },
-            {
-                "name": "Very rarely ",
-                "value": 5
-            },
-            {
-                "name": "Never ",
-                "value": 6
-            },
-            {
-                "name": "<font color=\"gray\">Don't know</font> ",
-                "value": 999
-            },
-            {
-                "name": "<font color=\"gray\">Decline to answer</font>",
-                "value": 777
-            }
-        ]
-    },
+    "id": "sed_bm_bfy_econstr_001",
+    "category": "reproschema:Item",
     "preamble": {
         "en": "Economic Stress"
     },
+    "prefLabel": {
+        "en": "sed_bm_bfy_econstr_001"
+    },
     "question": {
         "en": "How often do you worry about being able to meet your monthly living expenses?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "All the time "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Very frequently "
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Occasionally "
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Rarely "
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Very rarely "
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Never "
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font> "
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

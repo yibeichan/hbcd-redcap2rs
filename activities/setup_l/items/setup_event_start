@@ -1,16 +1,19 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "setup_event_start",
-    "prefLabel": "setup_event_start",
-    "description": "setup_event_start of setup_l",
-    "ui": {
-        "inputType": "text"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string"
+    "id": "setup_event_start",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "setup_event_start"
     },
     "question": {
         "en": "Visit window start date"
-    }
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

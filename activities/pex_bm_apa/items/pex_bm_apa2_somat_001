@@ -1,41 +1,54 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "pex_bm_apa2_somat_m01_106",
-    "prefLabel": "pex_bm_apa2_somat_m01_106",
-    "description": "pex_bm_apa2_somat_m01_106 of pex_bm_apa",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Not bothered at all ",
-                "value": 0
-            },
-            {
-                "name": "Bothered a little ",
-                "value": 1
-            },
-            {
-                "name": "Bothered a lot ",
-                "value": 2
-            },
-            {
-                "name": "<font color=\"gray\">Don't know</font> ",
-                "value": 999
-            },
-            {
-                "name": "<font color=\"gray\">Decline to answer</font>",
-                "value": 777
-            }
-        ]
-    },
+    "id": "pex_bm_apa2_somat_m01_1",
+    "category": "reproschema:Item",
     "preamble": {
         "en": "During the past 7 days, how much have you been bothered by any of the following problems?"
     },
+    "prefLabel": {
+        "en": "pex_bm_apa2_somat_m01_1"
+    },
     "question": {
         "en": "Stomach Pain"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not bothered at all "
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Bothered a little "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Bothered a lot "
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font> "
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

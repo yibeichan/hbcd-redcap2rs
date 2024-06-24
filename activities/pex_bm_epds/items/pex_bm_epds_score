@@ -1,25 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "pex_bm_epds_score",
-    "prefLabel": "pex_bm_epds_score",
-    "description": {
-        "en": "@HIDDEN"
-    },
-    "ui": {
-        "inputType": "number",
-        "hidden": true
-    },
-    "responseOptions": {
-        "valueType": "xsd:string"
+    "id": "pex_bm_epds_score",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_epds_score"
     },
     "question": {
         "en": "EPDS Summary Score"
     },
-    "scoringLogic": [
-        {
-            "variableName": "pex_bm_epds_score",
-            "jsExpression": "sum( pex_bm_epds_001_i_01 , pex_bm_epds_002_i_01 , pex_bm_epds_003_i_01 , pex_bm_epds_004_i_01 , pex_bm_epds_005_i_01 , pex_bm_epds_006_i_01 , pex_bm_epds_007_i_01 , pex_bm_epds_008_i_01 , pex_bm_epds_009_i_01 , pex_bm_epds_010_i_01 )"
-        }
-    ]
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,38 +1,51 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "sed_bm_demo_roster_012_i_03",
-    "prefLabel": "sed_bm_demo_roster_012_i_03",
-    "description": "sed_bm_demo_roster_012_i_03 of sed_bm_demo",
-    "ui": {
-        "inputType": "select"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Male ",
-                "value": 1
-            },
-            {
-                "name": "Female ",
-                "value": 2
-            },
-            {
-                "name": "I'd like to consider additional options ",
-                "value": 3
-            },
-            {
-                "name": "<font color=\"gray\">Don't know</font> ",
-                "value": 999
-            },
-            {
-                "name": "<font color=\"gray\">Decline to answer</font>",
-                "value": 777
-            }
-        ]
+    "id": "sed_bm_demo_roster_012_i_03",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_demo_roster_012_i_03"
     },
     "question": {
         "en": "Person 9 gender"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Male "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Female "
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "I'd like to consider additional options "
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font> "
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

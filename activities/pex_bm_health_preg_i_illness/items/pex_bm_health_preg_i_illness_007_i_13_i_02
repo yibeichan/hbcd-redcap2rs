@@ -1,26 +1,33 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "pex_bm_health_preg_i_illness_007_i_13_i_02",
-    "prefLabel": "pex_bm_health_preg_i_illness_007_i_13_i_02",
-    "description": "pex_bm_health_preg_i_illness_007_i_13_i_02 of pex_bm_health_preg_i_illness",
-    "ui": {
-        "inputType": "radio"
+    "id": "pex_bm_health_preg_i_illness_007_i_13_i_02",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_illness_007_i_13_i_02"
+    },
+    "question": {
+        "en": "Unit of duration"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
         "choices": [
             {
-                "name": "Hours ",
+                "name": {
+                    "en": "Hours "
+                },
                 "value": 0
             },
             {
-                "name": "Days",
+                "name": {
+                    "en": "Days"
+                },
                 "value": 1
             }
+        ],
+        "valueType": [
+            "xsd:integer"
         ]
     },
-    "question": {
-        "en": "Unit of duration fever  5"
-    }
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,11 +1,13 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Activity",
-    "@id": "mh_cg_pms_i_cc_i_inf_schema",
-    "prefLabel": "mh_cg_pms_i_cc_i_inf",
-    "description": "Default description",
+    "id": "mh_cg_pms_i_cc_i_inf_schema",
+    "category": "reproschema:Activity",
+    "preamble": {
+        "en": "In the past 7 days"
+    },
+    "prefLabel": {
+        "en": "mh_cg_pms_i_cc_i_inf"
+    },
     "schemaVersion": "1.0.0-rc4",
-    "version": "unknown",
     "ui": {
         "order": [
             "items/mh_cg_pms_i_cc_i_inf_lang",
@@ -21,56 +23,63 @@
         ],
         "addProperties": [
             {
-                "variableName": "mh_cg_pms_i_cc_i_inf_lang",
                 "isAbout": "items/mh_cg_pms_i_cc_i_inf_lang",
-                "isVis": true
+                "isVis": true,
+                "variableName": "mh_cg_pms_i_cc_i_inf_lang"
             },
             {
-                "variableName": "mh_cg_pms_i_cc_i_inf_dtt",
                 "isAbout": "items/mh_cg_pms_i_cc_i_inf_dtt",
-                "isVis": true
+                "isVis": true,
+                "variableName": "mh_cg_pms_i_cc_i_inf_dtt"
             },
             {
-                "variableName": "mh_cg_pms_i_cc_i_inf_timestamp_start",
                 "isAbout": "items/mh_cg_pms_i_cc_i_inf_timestamp_start",
-                "isVis": true
+                "isVis": true,
+                "variableName": "mh_cg_pms_i_cc_i_inf_timestamp_start"
             },
             {
-                "variableName": "mh_cg_pms_i_cc_i_inf_location",
                 "isAbout": "items/mh_cg_pms_i_cc_i_inf_location",
-                "isVis": true
+                "isVis": true,
+                "variableName": "mh_cg_pms_i_cc_i_inf_location"
             },
             {
-                "variableName": "mh_cg_pms_i_cc_i_inf_instr01",
                 "isAbout": "items/mh_cg_pms_i_cc_i_inf_instr01",
-                "isVis": true
+                "isVis": true,
+                "variableName": "mh_cg_pms_i_cc_i_inf_instr01"
             },
             {
-                "variableName": "mh_cg_pms_i_cc_i_inf_001",
                 "isAbout": "items/mh_cg_pms_i_cc_i_inf_001",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_pms_i_cc_i_inf_001"
             },
             {
-                "variableName": "mh_cg_pms_i_cc_i_inf_002",
                 "isAbout": "items/mh_cg_pms_i_cc_i_inf_002",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_pms_i_cc_i_inf_002"
             },
             {
-                "variableName": "mh_cg_pms_i_cc_i_inf_003",
                 "isAbout": "items/mh_cg_pms_i_cc_i_inf_003",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_pms_i_cc_i_inf_003"
             },
             {
-                "variableName": "mh_cg_pms_i_cc_i_inf_004",
                 "isAbout": "items/mh_cg_pms_i_cc_i_inf_004",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_pms_i_cc_i_inf_004"
             },
             {
-                "variableName": "mh_cg_pms_i_cc_i_inf_005",
                 "isAbout": "items/mh_cg_pms_i_cc_i_inf_005",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_pms_i_cc_i_inf_005"
             }
         ],
         "shuffle": false
-    }
+    },
+    "version": "07.06.2023",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,11 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Activity",
-    "@id": "sed_bm_phx_i_discr_schema",
-    "prefLabel": "sed_bm_phx_i_discr",
-    "description": "Default description",
+    "id": "sed_bm_phx_i_discr_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "sed_bm_phx_i_discr"
+    },
     "schemaVersion": "1.0.0-rc4",
-    "version": "unknown",
     "ui": {
         "order": [
             "items/sed_bm_phx_i_discr_lang",
@@ -27,86 +26,100 @@
         ],
         "addProperties": [
             {
-                "variableName": "sed_bm_phx_i_discr_lang",
                 "isAbout": "items/sed_bm_phx_i_discr_lang",
-                "isVis": true
+                "isVis": true,
+                "variableName": "sed_bm_phx_i_discr_lang"
             },
             {
-                "variableName": "sed_bm_phx_i_discr_dtt",
                 "isAbout": "items/sed_bm_phx_i_discr_dtt",
-                "isVis": true
+                "isVis": true,
+                "variableName": "sed_bm_phx_i_discr_dtt"
             },
             {
-                "variableName": "sed_bm_phx_i_discr_timestamp_start",
                 "isAbout": "items/sed_bm_phx_i_discr_timestamp_start",
-                "isVis": true
+                "isVis": true,
+                "variableName": "sed_bm_phx_i_discr_timestamp_start"
             },
             {
-                "variableName": "sed_bm_phx_i_discr_location",
                 "isAbout": "items/sed_bm_phx_i_discr_location",
-                "isVis": true
+                "isVis": true,
+                "variableName": "sed_bm_phx_i_discr_location"
             },
             {
-                "variableName": "sed_bm_phx_i_discr_001",
                 "isAbout": "items/sed_bm_phx_i_discr_001",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_phx_i_discr_001"
             },
             {
-                "variableName": "sed_bm_phx_i_discr_002",
                 "isAbout": "items/sed_bm_phx_i_discr_002",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_phx_i_discr_002"
             },
             {
-                "variableName": "sed_bm_phx_i_discr_003",
                 "isAbout": "items/sed_bm_phx_i_discr_003",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_phx_i_discr_003"
             },
             {
-                "variableName": "sed_bm_phx_i_discr_004",
                 "isAbout": "items/sed_bm_phx_i_discr_004",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_phx_i_discr_004"
             },
             {
-                "variableName": "sed_bm_phx_i_discr_005",
                 "isAbout": "items/sed_bm_phx_i_discr_005",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_phx_i_discr_005"
             },
             {
-                "variableName": "sed_bm_phx_i_discr_007",
                 "isAbout": "items/sed_bm_phx_i_discr_007",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_phx_i_discr_007"
             },
             {
-                "variableName": "sed_bm_phx_i_discr_008",
                 "isAbout": "items/sed_bm_phx_i_discr_008",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_phx_i_discr_008"
             },
             {
-                "variableName": "sed_bm_phx_i_discr_009",
                 "isAbout": "items/sed_bm_phx_i_discr_009",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_phx_i_discr_009"
             },
             {
-                "variableName": "sed_bm_phx_i_discr_010",
                 "isAbout": "items/sed_bm_phx_i_discr_010",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_phx_i_discr_010"
             },
             {
-                "variableName": "sed_bm_phx_i_discr_011",
                 "isAbout": "items/sed_bm_phx_i_discr_011",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_phx_i_discr_011"
             },
             {
-                "variableName": "sed_bm_phx_i_discr_012",
                 "isAbout": "items/sed_bm_phx_i_discr_012",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_phx_i_discr_012"
             },
             {
-                "variableName": "sed_bm_phx_i_discr_006",
                 "isAbout": "items/sed_bm_phx_i_discr_006",
-                "isVis": "sed_bm_phx_i_discr_001 == '1' || sed_bm_phx_i_discr_001 == '2' || sed_bm_phx_i_discr_001 == '3' || sed_bm_phx_i_discr_001 == '4' || sed_bm_phx_i_discr_002 == '1' || sed_bm_phx_i_discr_002 == '2' || sed_bm_phx_i_discr_002 == '3' || sed_bm_phx_i_discr_002 == '4' || sed_bm_phx_i_discr_003 == '1' || sed_bm_phx_i_discr_003 == '2' || sed_bm_phx_i_discr_003 == '3' || sed_bm_phx_i_discr_003 == '4' || sed_bm_phx_i_discr_004 == '1' || sed_bm_phx_i_discr_004 == '3' || sed_bm_phx_i_discr_004 == '2' || sed_bm_phx_i_discr_004 == '4' || sed_bm_phx_i_discr_005 == '1' || sed_bm_phx_i_discr_005 == '2' || sed_bm_phx_i_discr_005 == '3' || sed_bm_phx_i_discr_005 == '4' OR sed_bm_phx_i_discr_007 == '1' OR sed_bm_phx_i_discr_008 == '1' OR sed_bm_phx_i_discr_009 == '1' OR sed_bm_phx_i_discr_010 == '1' OR sed_bm_phx_i_discr_011 == '1' OR sed_bm_phx_i_discr_012 == '1'"
+                "isVis": "sed_bm_phx_i_discr_001 == '1' || sed_bm_phx_i_discr_001 == '2' || sed_bm_phx_i_discr_001 == '3' || sed_bm_phx_i_discr_001 == '4' || sed_bm_phx_i_discr_002 == '1' || sed_bm_phx_i_discr_002 == '2' || sed_bm_phx_i_discr_002 == '3' || sed_bm_phx_i_discr_002 == '4' || sed_bm_phx_i_discr_003 == '1' || sed_bm_phx_i_discr_003 == '2' || sed_bm_phx_i_discr_003 == '3' || sed_bm_phx_i_discr_003 == '4' || sed_bm_phx_i_discr_004 == '1' || sed_bm_phx_i_discr_004 == '3' || sed_bm_phx_i_discr_004 == '2' || sed_bm_phx_i_discr_004 == '4' || sed_bm_phx_i_discr_005 == '1' || sed_bm_phx_i_discr_005 == '2' || sed_bm_phx_i_discr_005 == '3' || sed_bm_phx_i_discr_005 == '4' OR sed_bm_phx_i_discr_007 == '1' OR sed_bm_phx_i_discr_008 == '1' OR sed_bm_phx_i_discr_009 == '1' OR sed_bm_phx_i_discr_010 == '1' OR sed_bm_phx_i_discr_011 == '1' OR sed_bm_phx_i_discr_012 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_phx_i_discr_006"
             }
         ],
         "shuffle": false
-    }
+    },
+    "version": "07.06.2023",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

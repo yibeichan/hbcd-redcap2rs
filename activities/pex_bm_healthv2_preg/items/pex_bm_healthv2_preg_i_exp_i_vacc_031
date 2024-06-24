@@ -1,19 +1,52 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "pex_bm_healthv2_preg_i_exp_i_vacc_m02_9638",
-    "prefLabel": "pex_bm_healthv2_preg_i_exp_i_vacc_m02_9638",
-    "description": {
-        "en": "@NONEOFTHEABOVE='777,999'"
+    "id": "pex_bm_healthv2_preg_i_exp_i_vacc_m02_13",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_healthv2_preg_i_exp_i_vacc_m02_13"
+    },
+    "question": {
+        "en": "Yellow Fever vaccine"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "1st Trimester<br>([v01_arm_1][pex_bm_health_preg_i_exp_i_pnv_001] - [v01_arm_1][pex_bm_health_preg_i_exp_i_pnv_002]) "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2nd Trimester<br>([v01_arm_1][pex_bm_health_preg_i_exp_i_pnv_003] - [v01_arm_1][pex_bm_health_preg_i_exp_i_pnv_004]) "
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3rd Trimester<br>(after [v01_arm_1][pex_bm_health_preg_i_exp_i_pnv_005]) "
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font> "
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
     },
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": {
-        "valueType": "xsd:string",
-        "choices": null
-    },
-    "question": {
-        "en": "Yellow Fever vaccine"
-    }
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

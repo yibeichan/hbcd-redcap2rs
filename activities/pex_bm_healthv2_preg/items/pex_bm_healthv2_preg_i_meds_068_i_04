@@ -1,16 +1,19 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "pex_bm_healthv2_preg_i_meds_068_i_04",
-    "prefLabel": "pex_bm_healthv2_preg_i_meds_068_i_04",
-    "description": "pex_bm_healthv2_preg_i_meds_068_i_04 of pex_bm_healthv2_preg",
-    "ui": {
-        "inputType": "text"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string"
+    "id": "pex_bm_healthv2_preg_i_meds_068_i_04",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_healthv2_preg_i_meds_068_i_04"
     },
     "question": {
         "en": "What day did you start taking [pex_bm_healthv2_preg_i_meds_068_i_01]?"
-    }
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

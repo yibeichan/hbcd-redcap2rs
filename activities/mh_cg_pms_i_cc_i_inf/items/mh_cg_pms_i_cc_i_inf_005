@@ -1,42 +1,57 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "mh_cg_pms_i_cc_i_inf_m01_15",
-    "prefLabel": "mh_cg_pms_i_cc_i_inf_m01_15",
-    "description": "mh_cg_pms_i_cc_i_inf_m01_15 of mh_cg_pms_i_cc_i_inf",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Never ",
-                "value": 1
-            },
-            {
-                "name": "Rarely ",
-                "value": 2
-            },
-            {
-                "name": "Sometimes ",
-                "value": 3
-            },
-            {
-                "name": "Often ",
-                "value": 4
-            },
-            {
-                "name": "Always ",
-                "value": 5
-            },
-            {
-                "name": "<font color=\"gray\">Decline to answer</font>",
-                "value": 777
-            }
-        ]
+    "id": "mh_cg_pms_i_cc_i_inf_m01_5",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "mh_cg_pms_i_cc_i_inf_m01_5"
     },
     "question": {
         "en": "My baby was excited to see me or other parent after being apart."
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Rarely "
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Sometimes "
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Often "
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Always "
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,21 +1,22 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "sed_bm_demo_instr03",
-    "prefLabel": "sed_bm_demo_instr03",
-    "description": {
-        "en": "@NONEOFTHEABOVE='777,999'"
+    "id": "sed_bm_demo_instr03",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Jobs During Pregnancy"
+    },
+    "prefLabel": {
+        "en": "sed_bm_demo_instr03"
+    },
+    "question": {
+        "en": "The purpose of the employment and occupation section is to obtain information on jobs held during pregnancy."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "static"
     },
-    "responseOptions": {
-        "valueType": "xsd:string"
-    },
-    "preamble": {
-        "en": "Jobs During Pregnancy"
-    },
-    "question": {
-        "en": "The purpose of the employment and occupation section is to obtain information on jobs held during pregnancy."
-    }
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

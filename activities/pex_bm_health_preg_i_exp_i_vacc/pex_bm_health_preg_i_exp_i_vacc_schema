@@ -1,11 +1,13 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Activity",
-    "@id": "pex_bm_health_preg_i_exp_i_vacc_schema",
-    "prefLabel": "pex_bm_health_preg_i_exp_i_vacc",
-    "description": "Default description",
+    "id": "pex_bm_health_preg_i_exp_i_vacc_schema",
+    "category": "reproschema:Activity",
+    "preamble": {
+        "en": "Vaccines During Pregnancy"
+    },
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_exp_i_vacc"
+    },
     "schemaVersion": "1.0.0-rc4",
-    "version": "unknown",
     "ui": {
         "order": [
             "items/pex_bm_health_preg_i_exp_i_vacc_lang",
@@ -28,91 +30,109 @@
         ],
         "addProperties": [
             {
-                "variableName": "pex_bm_health_preg_i_exp_i_vacc_lang",
                 "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_lang",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_lang"
             },
             {
-                "variableName": "pex_bm_health_preg_i_exp_i_vacc_001",
                 "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_001",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_001"
             },
             {
-                "variableName": "pex_bm_health_preg_i_exp_i_vacc_002",
                 "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_002",
-                "isVis": "pex_bm_health_preg_i_exp_i_vacc_001 == '1'"
+                "isVis": "pex_bm_health_preg_i_exp_i_vacc_001 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_002"
             },
             {
-                "variableName": "pex_bm_health_preg_i_exp_i_vacc_003",
                 "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_003",
-                "isVis": "pex_bm_health_preg_i_exp_i_vacc_002___0 == '1'"
+                "isVis": "pex_bm_health_preg_i_exp_i_vacc_002___0 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_003"
             },
             {
-                "variableName": "pex_bm_health_preg_i_exp_i_vacc_004",
                 "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_004",
-                "isVis": "pex_bm_health_preg_i_exp_i_vacc_002___1 == '1'"
+                "isVis": "pex_bm_health_preg_i_exp_i_vacc_002___1 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_004"
             },
             {
-                "variableName": "pex_bm_health_preg_i_exp_i_vacc_005",
                 "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_005",
-                "isVis": "pex_bm_health_preg_i_exp_i_vacc_002___2 == '1'"
+                "isVis": "pex_bm_health_preg_i_exp_i_vacc_002___2 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_005"
             },
             {
-                "variableName": "pex_bm_health_preg_i_exp_i_vacc_006",
                 "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_006",
-                "isVis": "pex_bm_health_preg_i_exp_i_vacc_002___3 == '1'"
+                "isVis": "pex_bm_health_preg_i_exp_i_vacc_002___3 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_006"
             },
             {
-                "variableName": "pex_bm_health_preg_i_exp_i_vacc_007",
                 "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_007",
-                "isVis": "pex_bm_health_preg_i_exp_i_vacc_002___4 == '1'"
+                "isVis": "pex_bm_health_preg_i_exp_i_vacc_002___4 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_007"
             },
             {
-                "variableName": "pex_bm_health_preg_i_exp_i_vacc_008",
                 "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_008",
-                "isVis": "pex_bm_health_preg_i_exp_i_vacc_002___5 == '1'"
+                "isVis": "pex_bm_health_preg_i_exp_i_vacc_002___5 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_008"
             },
             {
-                "variableName": "pex_bm_health_preg_i_exp_i_vacc_009",
                 "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_009",
-                "isVis": "pex_bm_health_preg_i_exp_i_vacc_002___6 == '1'"
+                "isVis": "pex_bm_health_preg_i_exp_i_vacc_002___6 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_009"
             },
             {
-                "variableName": "pex_bm_health_preg_i_exp_i_vacc_010",
                 "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_010",
-                "isVis": "pex_bm_health_preg_i_exp_i_vacc_002___7 == '1'"
+                "isVis": "pex_bm_health_preg_i_exp_i_vacc_002___7 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_010"
             },
             {
-                "variableName": "pex_bm_health_preg_i_exp_i_vacc_011",
                 "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_011",
-                "isVis": "pex_bm_health_preg_i_exp_i_vacc_002___8 == '1'"
+                "isVis": "pex_bm_health_preg_i_exp_i_vacc_002___8 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_011"
             },
             {
-                "variableName": "pex_bm_health_preg_i_exp_i_vacc_012",
                 "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_012",
-                "isVis": "pex_bm_health_preg_i_exp_i_vacc_002___9 == '1'"
+                "isVis": "pex_bm_health_preg_i_exp_i_vacc_002___9 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_012"
             },
             {
-                "variableName": "pex_bm_health_preg_i_exp_i_vacc_013",
                 "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_013",
-                "isVis": "pex_bm_health_preg_i_exp_i_vacc_002___10 == '1'"
+                "isVis": "pex_bm_health_preg_i_exp_i_vacc_002___10 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_013"
             },
             {
-                "variableName": "pex_bm_health_preg_i_exp_i_vacc_014",
                 "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_014",
-                "isVis": "pex_bm_health_preg_i_exp_i_vacc_002___11 == '1'"
+                "isVis": "pex_bm_health_preg_i_exp_i_vacc_002___11 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_014"
             },
             {
-                "variableName": "pex_bm_health_preg_i_exp_i_vacc_015",
                 "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_015",
-                "isVis": "pex_bm_health_preg_i_exp_i_vacc_002___12 == '1'"
+                "isVis": "pex_bm_health_preg_i_exp_i_vacc_002___12 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_015"
             },
             {
-                "variableName": "pex_bm_health_preg_i_exp_i_vacc_016",
                 "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_016",
-                "isVis": "pex_bm_health_preg_i_exp_i_vacc_002___13 == '1'"
+                "isVis": "pex_bm_health_preg_i_exp_i_vacc_002___13 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_exp_i_vacc_016"
             }
         ],
         "shuffle": false
-    }
+    },
+    "version": "07.06.2023",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

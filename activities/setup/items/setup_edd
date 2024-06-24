@@ -1,16 +1,19 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "setup_edd",
-    "prefLabel": "setup_edd",
-    "description": "setup_edd of setup",
-    "ui": {
-        "inputType": "text"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string"
+    "id": "setup_edd",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "setup_edd"
     },
     "question": {
         "en": "Estimated date of delivery (EDD)"
-    }
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

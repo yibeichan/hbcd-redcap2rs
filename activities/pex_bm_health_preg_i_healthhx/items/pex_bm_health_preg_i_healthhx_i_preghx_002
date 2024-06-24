@@ -1,16 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "pex_bm_health_preg_i_healthhx_i_preghx_002",
-    "prefLabel": "pex_bm_health_preg_i_healthhx_i_preghx_002",
-    "description": "pex_bm_health_preg_i_healthhx_i_preghx_002 of pex_bm_health_preg_i_healthhx",
-    "ui": {
-        "inputType": "text"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string"
+    "id": "pex_bm_health_preg_i_healthhx_i_preghx_002",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_healthhx_i_preghx_002"
     },
     "question": {
         "en": "How many times has your pregnancy ended in a live birth?"
-    }
+    },
+    "responseOptions": {
+        "minValue": 0.0,
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

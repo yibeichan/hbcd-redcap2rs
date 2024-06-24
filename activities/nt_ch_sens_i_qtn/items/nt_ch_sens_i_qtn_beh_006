@@ -1,54 +1,75 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "nt_ch_sens_i_qtn_beh_006",
-    "prefLabel": "nt_ch_sens_i_qtn_beh_006",
-    "description": "nt_ch_sens_i_qtn_beh_006 of nt_ch_sens_i_qtn",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "0 ",
-                "value": 0
-            },
-            {
-                "name": "1 ",
-                "value": 1
-            },
-            {
-                "name": "2 ",
-                "value": 2
-            },
-            {
-                "name": "3 ",
-                "value": 3
-            },
-            {
-                "name": "4 ",
-                "value": 4
-            },
-            {
-                "name": "5 ",
-                "value": 5
-            },
-            {
-                "name": "more than 5 ",
-                "value": 6
-            },
-            {
-                "name": "<font color=\"gray\">Don't know</font> ",
-                "value": 999
-            },
-            {
-                "name": "<font color=\"gray\">Decline to answer</font>",
-                "value": 777
-            }
-        ]
+    "id": "nt_ch_sens_i_qtn_beh_006",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "nt_ch_sens_i_qtn_beh_006"
     },
     "question": {
         "en": "How many times do you estimate your infant woke up during the night?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0 "
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1 "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2 "
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3 "
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4 "
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "5 "
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "more than 5 "
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font> "
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

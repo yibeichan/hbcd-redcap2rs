@@ -1,39 +1,48 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "sed_bm_demo_herit_006",
-    "prefLabel": "sed_bm_demo_herit_006",
-    "description": {
-        "en": "@NONEOFTHEABOVE='777,999'"
+    "id": "sed_bm_demo_herit_006",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Biological Parents"
+    },
+    "prefLabel": {
+        "en": "sed_bm_demo_herit_006"
+    },
+    "question": {
+        "en": "Was your biological mother born in the United States or elsewhere?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "United States "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Another country "
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font> "
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
     },
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "United States ",
-                "value": 1
-            },
-            {
-                "name": "Another country ",
-                "value": 2
-            },
-            {
-                "name": "<font color=\"gray\">Don't know</font> ",
-                "value": 999
-            },
-            {
-                "name": "<font color=\"gray\">Decline to answer</font>",
-                "value": 777
-            }
-        ]
-    },
-    "preamble": {
-        "en": "Biological Parents"
-    },
-    "question": {
-        "en": "Was your biological mother born in the United States or elsewhere?"
-    }
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

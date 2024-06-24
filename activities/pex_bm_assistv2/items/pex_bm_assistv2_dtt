@@ -1,18 +1,19 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "pex_bm_assistv2_dtt",
-    "prefLabel": "pex_bm_assistv2_dtt",
-    "description": {
-        "en": "@HIDDEN @NOW"
-    },
-    "ui": {
-        "inputType": "text"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string"
+    "id": "pex_bm_assistv2_dtt",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_assistv2_dtt"
     },
     "question": {
         "en": "Start time"
-    }
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

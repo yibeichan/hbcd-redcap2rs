@@ -1,17 +1,19 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "pex_bm_healthv2_inf_i_meds_012",
-    "prefLabel": "pex_bm_healthv2_inf_i_meds_012",
-    "description": "pex_bm_healthv2_inf_i_meds_012 of pex_bm_healthv2_inf",
-    "ui": {
-        "inputType": "text"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string",
-        "choices": null
+    "id": "pex_bm_healthv2_inf_i_meds_012",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_healthv2_inf_i_meds_012"
     },
     "question": {
         "en": "What is the third medication (over-the-counter) your infant used?"
-    }
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,28 +1,33 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "mh_cg_pms_i_cc_i_inf_lang",
-    "prefLabel": "mh_cg_pms_i_cc_i_inf_lang",
-    "description": {
-        "en": "@HIDDEN @LANGUAGE-CURRENT-SURVEY"
+    "id": "mh_cg_pms_i_cc_i_inf_lang",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "mh_cg_pms_i_cc_i_inf_lang"
+    },
+    "question": {
+        "en": "Language"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "English "
+                },
+                "value": "en"
+            },
+            {
+                "name": {
+                    "en": "Spanish"
+                },
+                "value": " es"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "English ",
-                "value": "en"
-            },
-            {
-                "name": "Spanish",
-                "value": " es"
-            }
-        ]
-    },
-    "question": {
-        "en": "Language"
-    }
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

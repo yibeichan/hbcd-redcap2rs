@@ -1,37 +1,48 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "sed_bm_demo_herit_001",
-    "prefLabel": "sed_bm_demo_herit_001",
-    "description": "sed_bm_demo_herit_001 of sed_bm_demo",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "USA ",
-                "value": 0
-            },
-            {
-                "name": "Other ",
-                "value": 1
-            },
-            {
-                "name": "<font color=\"gray\">Don't know</font> ",
-                "value": 999
-            },
-            {
-                "name": "<font color=\"gray\">Decline to answer</font>",
-                "value": 777
-            }
-        ]
-    },
+    "id": "sed_bm_demo_herit_001",
+    "category": "reproschema:Item",
     "preamble": {
         "en": "Birthplace and Heritage"
     },
+    "prefLabel": {
+        "en": "sed_bm_demo_herit_001"
+    },
     "question": {
         "en": "In what country were you born?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "USA "
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Other "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font> "
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

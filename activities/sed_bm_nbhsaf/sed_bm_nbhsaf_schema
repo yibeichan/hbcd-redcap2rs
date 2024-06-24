@@ -1,11 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Activity",
-    "@id": "sed_bm_nbhsaf_schema",
-    "prefLabel": "sed_bm_nbhsaf",
-    "description": "Default description",
+    "id": "sed_bm_nbhsaf_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "sed_bm_nbhsaf"
+    },
     "schemaVersion": "1.0.0-rc4",
-    "version": "unknown",
     "ui": {
         "order": [
             "items/sed_bm_nbhsaf_lang",
@@ -18,41 +17,46 @@
         ],
         "addProperties": [
             {
-                "variableName": "sed_bm_nbhsaf_lang",
                 "isAbout": "items/sed_bm_nbhsaf_lang",
-                "isVis": true
+                "isVis": true,
+                "variableName": "sed_bm_nbhsaf_lang"
             },
             {
-                "variableName": "sed_bm_nbhsaf_dtt",
                 "isAbout": "items/sed_bm_nbhsaf_dtt",
-                "isVis": true
+                "isVis": true,
+                "variableName": "sed_bm_nbhsaf_dtt"
             },
             {
-                "variableName": "sed_bm_nbhsaf_timestamp_start",
                 "isAbout": "items/sed_bm_nbhsaf_timestamp_start",
-                "isVis": true
+                "isVis": true,
+                "variableName": "sed_bm_nbhsaf_timestamp_start"
             },
             {
-                "variableName": "sed_bm_nbhsaf_location",
                 "isAbout": "items/sed_bm_nbhsaf_location",
-                "isVis": true
+                "isVis": true,
+                "variableName": "sed_bm_nbhsaf_location"
             },
             {
-                "variableName": "sed_bm_nbhsaf_001",
                 "isAbout": "items/sed_bm_nbhsaf_001",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_nbhsaf_001"
             },
             {
-                "variableName": "sed_bm_nbhsaf_002",
                 "isAbout": "items/sed_bm_nbhsaf_002",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_nbhsaf_002"
             },
             {
-                "variableName": "sed_bm_nbhsaf_003",
                 "isAbout": "items/sed_bm_nbhsaf_003",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_nbhsaf_003"
             }
         ],
         "shuffle": false
-    }
+    },
+    "version": "07.06.2023",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

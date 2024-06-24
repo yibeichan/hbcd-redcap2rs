@@ -1,23 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "pex_bm_health_preg_i_healthhx_i_pregcurr_006",
-    "prefLabel": "pex_bm_health_preg_i_healthhx_i_pregcurr_006",
-    "description": "pex_bm_health_preg_i_healthhx_i_pregcurr_006 of pex_bm_health_preg_i_healthhx",
-    "ui": {
-        "inputType": "number",
-        "hidden": true
-    },
-    "responseOptions": {
-        "valueType": "xsd:string"
+    "id": "pex_bm_health_preg_i_healthhx_i_pregcurr_006",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_healthhx_i_pregcurr_006"
     },
     "question": {
         "en": "Current weight in kg"
     },
-    "scoringLogic": [
-        {
-            "variableName": "pex_bm_health_preg_i_healthhx_i_pregcurr_006",
-            "jsExpression": "( pex_bm_health_preg_i_healthhx_i_pregcurr_005 /2.2046)"
-        }
-    ]
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

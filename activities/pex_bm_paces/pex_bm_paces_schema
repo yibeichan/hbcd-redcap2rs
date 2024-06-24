@@ -1,11 +1,13 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Activity",
-    "@id": "pex_bm_paces_schema",
-    "prefLabel": "pex_bm_paces",
-    "description": "Default description",
+    "id": "pex_bm_paces_schema",
+    "category": "reproschema:Activity",
+    "preamble": {
+        "en": "When answering these questions, think about the last 12 months. Please select the response that best describes you."
+    },
+    "prefLabel": {
+        "en": "pex_bm_paces"
+    },
     "schemaVersion": "1.0.0-rc4",
-    "version": "unknown",
     "ui": {
         "order": [
             "items/pex_bm_paces_lang",
@@ -25,76 +27,88 @@
         ],
         "addProperties": [
             {
-                "variableName": "pex_bm_paces_lang",
                 "isAbout": "items/pex_bm_paces_lang",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pex_bm_paces_lang"
             },
             {
-                "variableName": "pex_bm_paces_dtt",
                 "isAbout": "items/pex_bm_paces_dtt",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pex_bm_paces_dtt"
             },
             {
-                "variableName": "pex_bm_paces_timestamp_start",
                 "isAbout": "items/pex_bm_paces_timestamp_start",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pex_bm_paces_timestamp_start"
             },
             {
-                "variableName": "pex_bm_paces_location",
                 "isAbout": "items/pex_bm_paces_location",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pex_bm_paces_location"
             },
             {
-                "variableName": "pex_bm_paces_001",
                 "isAbout": "items/pex_bm_paces_001",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_paces_001"
             },
             {
-                "variableName": "pex_bm_paces_002",
                 "isAbout": "items/pex_bm_paces_002",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_paces_002"
             },
             {
-                "variableName": "pex_bm_paces_003",
                 "isAbout": "items/pex_bm_paces_003",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_paces_003"
             },
             {
-                "variableName": "pex_bm_paces_004",
                 "isAbout": "items/pex_bm_paces_004",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_paces_004"
             },
             {
-                "variableName": "pex_bm_paces_005",
                 "isAbout": "items/pex_bm_paces_005",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_paces_005"
             },
             {
-                "variableName": "pex_bm_paces_006",
                 "isAbout": "items/pex_bm_paces_006",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_paces_006"
             },
             {
-                "variableName": "pex_bm_paces_007",
                 "isAbout": "items/pex_bm_paces_007",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_paces_007"
             },
             {
-                "variableName": "pex_bm_paces_008",
                 "isAbout": "items/pex_bm_paces_008",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_paces_008"
             },
             {
-                "variableName": "pex_bm_paces_009",
                 "isAbout": "items/pex_bm_paces_009",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_paces_009"
             },
             {
-                "variableName": "pex_bm_paces_010",
                 "isAbout": "items/pex_bm_paces_010",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_paces_010"
             }
         ],
         "shuffle": false
-    }
+    },
+    "version": "07.06.2023",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

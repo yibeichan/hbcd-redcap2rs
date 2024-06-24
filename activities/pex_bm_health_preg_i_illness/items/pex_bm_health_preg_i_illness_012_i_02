@@ -1,17 +1,19 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "pex_bm_health_preg_i_illness_012_i_02",
-    "prefLabel": "pex_bm_health_preg_i_illness_012_i_02",
-    "description": "pex_bm_health_preg_i_illness_012_i_02 of pex_bm_health_preg_i_illness",
-    "ui": {
-        "inputType": "text"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string",
-        "choices": null
+    "id": "pex_bm_health_preg_i_illness_012_i_02",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_illness_012_i_02"
     },
     "question": {
         "en": "If you don't know the name of the illness, please select the most prominent symptom."
-    }
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

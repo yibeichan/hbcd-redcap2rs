@@ -1,11 +1,13 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Activity",
-    "@id": "nt_ch_sens_i_qtn_schema",
-    "prefLabel": "nt_ch_sens_i_qtn",
-    "description": "Default description",
+    "id": "nt_ch_sens_i_qtn_schema",
+    "category": "reproschema:Activity",
+    "preamble": {
+        "en": "Infant's Behavior"
+    },
+    "prefLabel": {
+        "en": "nt_ch_sens_i_qtn"
+    },
     "schemaVersion": "1.0.0-rc4",
-    "version": "unknown",
     "ui": {
         "order": [
             "items/nt_ch_sens_i_qtn_lang",
@@ -25,76 +27,88 @@
         ],
         "addProperties": [
             {
-                "variableName": "nt_ch_sens_i_qtn_lang",
                 "isAbout": "items/nt_ch_sens_i_qtn_lang",
-                "isVis": true
+                "isVis": true,
+                "variableName": "nt_ch_sens_i_qtn_lang"
             },
             {
-                "variableName": "nt_ch_sens_i_qtn_dtt",
                 "isAbout": "items/nt_ch_sens_i_qtn_dtt",
-                "isVis": true
+                "isVis": true,
+                "variableName": "nt_ch_sens_i_qtn_dtt"
             },
             {
-                "variableName": "nt_ch_sens_i_qtn_timestamp_start",
                 "isAbout": "items/nt_ch_sens_i_qtn_timestamp_start",
-                "isVis": true
+                "isVis": true,
+                "variableName": "nt_ch_sens_i_qtn_timestamp_start"
             },
             {
-                "variableName": "nt_ch_sens_i_qtn_location",
                 "isAbout": "items/nt_ch_sens_i_qtn_location",
-                "isVis": true
+                "isVis": true,
+                "variableName": "nt_ch_sens_i_qtn_location"
             },
             {
-                "variableName": "nt_ch_sens_i_qtn_mv_002",
                 "isAbout": "items/nt_ch_sens_i_qtn_mv_002",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nt_ch_sens_i_qtn_mv_002"
             },
             {
-                "variableName": "nt_ch_sens_i_qtn_hr_002",
                 "isAbout": "items/nt_ch_sens_i_qtn_hr_002",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nt_ch_sens_i_qtn_hr_002"
             },
             {
-                "variableName": "nt_ch_sens_i_qtn_beh_001",
                 "isAbout": "items/nt_ch_sens_i_qtn_beh_001",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nt_ch_sens_i_qtn_beh_001"
             },
             {
-                "variableName": "nt_ch_sens_i_qtn_beh_001_i_01",
                 "isAbout": "items/nt_ch_sens_i_qtn_beh_001_i_01",
-                "isVis": "nt_ch_sens_i_qtn_beh_001 == '0'"
+                "isVis": "nt_ch_sens_i_qtn_beh_001 == '0'",
+                "valueRequired": true,
+                "variableName": "nt_ch_sens_i_qtn_beh_001_i_01"
             },
             {
-                "variableName": "nt_ch_sens_i_qtn_beh_002",
                 "isAbout": "items/nt_ch_sens_i_qtn_beh_002",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nt_ch_sens_i_qtn_beh_002"
             },
             {
-                "variableName": "nt_ch_sens_i_qtn_beh_003",
                 "isAbout": "items/nt_ch_sens_i_qtn_beh_003",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nt_ch_sens_i_qtn_beh_003"
             },
             {
-                "variableName": "nt_ch_sens_i_qtn_beh_004",
                 "isAbout": "items/nt_ch_sens_i_qtn_beh_004",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nt_ch_sens_i_qtn_beh_004"
             },
             {
-                "variableName": "nt_ch_sens_i_qtn_beh_005",
                 "isAbout": "items/nt_ch_sens_i_qtn_beh_005",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nt_ch_sens_i_qtn_beh_005"
             },
             {
-                "variableName": "nt_ch_sens_i_qtn_beh_006",
                 "isAbout": "items/nt_ch_sens_i_qtn_beh_006",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nt_ch_sens_i_qtn_beh_006"
             },
             {
-                "variableName": "nt_ch_sens_i_qtn_beh_007",
                 "isAbout": "items/nt_ch_sens_i_qtn_beh_007",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nt_ch_sens_i_qtn_beh_007"
             }
         ],
         "shuffle": false
-    }
+    },
+    "version": "07.06.2023",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

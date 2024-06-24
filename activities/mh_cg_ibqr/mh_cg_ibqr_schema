@@ -1,11 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Activity",
-    "@id": "mh_cg_ibqr_schema",
-    "prefLabel": "mh_cg_ibqr",
-    "description": "Default description",
+    "id": "mh_cg_ibqr_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "mh_cg_ibqr"
+    },
     "schemaVersion": "1.0.0-rc4",
-    "version": "unknown",
     "ui": {
         "order": [
             "items/mh_cg_ibqr_lang",
@@ -63,266 +62,315 @@
         ],
         "addProperties": [
             {
-                "variableName": "mh_cg_ibqr_lang",
                 "isAbout": "items/mh_cg_ibqr_lang",
-                "isVis": true
+                "isVis": true,
+                "variableName": "mh_cg_ibqr_lang"
             },
             {
-                "variableName": "mh_cg_ibqr_dtt",
                 "isAbout": "items/mh_cg_ibqr_dtt",
-                "isVis": true
+                "isVis": true,
+                "variableName": "mh_cg_ibqr_dtt"
             },
             {
-                "variableName": "mh_cg_ibqr_timestamp_start",
                 "isAbout": "items/mh_cg_ibqr_timestamp_start",
-                "isVis": true
+                "isVis": true,
+                "variableName": "mh_cg_ibqr_timestamp_start"
             },
             {
-                "variableName": "mh_cg_ibqr_location",
                 "isAbout": "items/mh_cg_ibqr_location",
-                "isVis": true
+                "isVis": true,
+                "variableName": "mh_cg_ibqr_location"
             },
             {
-                "variableName": "mh_cg_ibqr_instr01",
                 "isAbout": "items/mh_cg_ibqr_instr01",
-                "isVis": true
+                "isVis": true,
+                "variableName": "mh_cg_ibqr_instr01"
             },
             {
-                "variableName": "mh_cg_ibqr_surg_001",
                 "isAbout": "items/mh_cg_ibqr_surg_001",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_surg_001"
             },
             {
-                "variableName": "mh_cg_ibqr_surg_002",
                 "isAbout": "items/mh_cg_ibqr_surg_002",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_surg_002"
             },
             {
-                "variableName": "mh_cg_ibqr_neg_001",
                 "isAbout": "items/mh_cg_ibqr_neg_001",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_neg_001"
             },
             {
-                "variableName": "mh_cg_ibqr_beh_i_neg_001",
                 "isAbout": "items/mh_cg_ibqr_beh_i_neg_001",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_beh_i_neg_001"
             },
             {
-                "variableName": "mh_cg_ibqr_efrt_001",
                 "isAbout": "items/mh_cg_ibqr_efrt_001",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_efrt_001"
             },
             {
-                "variableName": "mh_cg_ibqr_efrt_002",
                 "isAbout": "items/mh_cg_ibqr_efrt_002",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_efrt_002"
             },
             {
-                "variableName": "mh_cg_ibqr_surg_003",
                 "isAbout": "items/mh_cg_ibqr_surg_003",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_surg_003"
             },
             {
-                "variableName": "mh_cg_ibqr_surg_004",
                 "isAbout": "items/mh_cg_ibqr_surg_004",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_surg_004"
             },
             {
-                "variableName": "mh_cg_ibqr_neg_002",
                 "isAbout": "items/mh_cg_ibqr_neg_002",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_neg_002"
             },
             {
-                "variableName": "mh_cg_ibqr_neg_003",
                 "isAbout": "items/mh_cg_ibqr_neg_003",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_neg_003"
             },
             {
-                "variableName": "mh_cg_ibqr_efrt_003",
                 "isAbout": "items/mh_cg_ibqr_efrt_003",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_efrt_003"
             },
             {
-                "variableName": "mh_cg_ibqr_efrt_004",
                 "isAbout": "items/mh_cg_ibqr_efrt_004",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_efrt_004"
             },
             {
-                "variableName": "mh_cg_ibqr_surg_005",
                 "isAbout": "items/mh_cg_ibqr_surg_005",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_surg_005"
             },
             {
-                "variableName": "mh_cg_ibqr_surg_006",
                 "isAbout": "items/mh_cg_ibqr_surg_006",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_surg_006"
             },
             {
-                "variableName": "mh_cg_ibqr_surg_007",
                 "isAbout": "items/mh_cg_ibqr_surg_007",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_surg_007"
             },
             {
-                "variableName": "mh_cg_ibqr_neg_004",
                 "isAbout": "items/mh_cg_ibqr_neg_004",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_neg_004"
             },
             {
-                "variableName": "mh_cg_ibqr_neg_005",
                 "isAbout": "items/mh_cg_ibqr_neg_005",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_neg_005"
             },
             {
-                "variableName": "mh_cg_ibqr_efrt_005",
                 "isAbout": "items/mh_cg_ibqr_efrt_005",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_efrt_005"
             },
             {
-                "variableName": "mh_cg_ibqr_efrt_006",
                 "isAbout": "items/mh_cg_ibqr_efrt_006",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_efrt_006"
             },
             {
-                "variableName": "mh_cg_ibqr_surg_008",
                 "isAbout": "items/mh_cg_ibqr_surg_008",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_surg_008"
             },
             {
-                "variableName": "mh_cg_ibqr_surg_009",
                 "isAbout": "items/mh_cg_ibqr_surg_009",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_surg_009"
             },
             {
-                "variableName": "mh_cg_ibqr_neg_006",
                 "isAbout": "items/mh_cg_ibqr_neg_006",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_neg_006"
             },
             {
-                "variableName": "mh_cg_ibqr_neg_007",
                 "isAbout": "items/mh_cg_ibqr_neg_007",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_neg_007"
             },
             {
-                "variableName": "mh_cg_ibqr_efrt_007",
                 "isAbout": "items/mh_cg_ibqr_efrt_007",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_efrt_007"
             },
             {
-                "variableName": "mh_cg_ibqr_efrt_008",
                 "isAbout": "items/mh_cg_ibqr_efrt_008",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_efrt_008"
             },
             {
-                "variableName": "mh_cg_ibqr_surg_010",
                 "isAbout": "items/mh_cg_ibqr_surg_010",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_surg_010"
             },
             {
-                "variableName": "mh_cg_ibqr_surg_011",
                 "isAbout": "items/mh_cg_ibqr_surg_011",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_surg_011"
             },
             {
-                "variableName": "mh_cg_ibqr_beh_i_neg_002",
                 "isAbout": "items/mh_cg_ibqr_beh_i_neg_002",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_beh_i_neg_002"
             },
             {
-                "variableName": "mh_cg_ibqr_neg_008",
                 "isAbout": "items/mh_cg_ibqr_neg_008",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_neg_008"
             },
             {
-                "variableName": "mh_cg_ibqr_efrt_009",
                 "isAbout": "items/mh_cg_ibqr_efrt_009",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_efrt_009"
             },
             {
-                "variableName": "mh_cg_ibqr_efrt_010",
                 "isAbout": "items/mh_cg_ibqr_efrt_010",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_efrt_010"
             },
             {
-                "variableName": "mh_cg_ibqr_neg_009",
                 "isAbout": "items/mh_cg_ibqr_neg_009",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_neg_009"
             },
             {
-                "variableName": "mh_cg_ibqr_beh_i_neg_003",
                 "isAbout": "items/mh_cg_ibqr_beh_i_neg_003",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_beh_i_neg_003"
             },
             {
-                "variableName": "mh_cg_ibqr_efrt_011",
                 "isAbout": "items/mh_cg_ibqr_efrt_011",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_efrt_011"
             },
             {
-                "variableName": "mh_cg_ibqr_efrt_012",
                 "isAbout": "items/mh_cg_ibqr_efrt_012",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_efrt_012"
             },
             {
-                "variableName": "mh_cg_ibqr_surg_012",
                 "isAbout": "items/mh_cg_ibqr_surg_012",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_surg_012"
             },
             {
-                "variableName": "mh_cg_ibqr_surg_013",
                 "isAbout": "items/mh_cg_ibqr_surg_013",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_surg_013"
             },
             {
-                "variableName": "mh_cg_ibqr_beh_001",
                 "isAbout": "items/mh_cg_ibqr_beh_001",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_beh_001"
             },
             {
-                "variableName": "mh_cg_ibqr_beh_002",
                 "isAbout": "items/mh_cg_ibqr_beh_002",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_beh_002"
             },
             {
-                "variableName": "mh_cg_ibqr_beh_003",
                 "isAbout": "items/mh_cg_ibqr_beh_003",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_beh_003"
             },
             {
-                "variableName": "mh_cg_ibqr_beh_004",
                 "isAbout": "items/mh_cg_ibqr_beh_004",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_beh_004"
             },
             {
-                "variableName": "mh_cg_ibqr_beh_005",
                 "isAbout": "items/mh_cg_ibqr_beh_005",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_beh_005"
             },
             {
-                "variableName": "mh_cg_ibqr_beh_006",
                 "isAbout": "items/mh_cg_ibqr_beh_006",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_beh_006"
             },
             {
-                "variableName": "mh_cg_ibqr_beh_007",
                 "isAbout": "items/mh_cg_ibqr_beh_007",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_beh_007"
             },
             {
-                "variableName": "mh_cg_ibqr_beh_008",
                 "isAbout": "items/mh_cg_ibqr_beh_008",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_beh_008"
             },
             {
-                "variableName": "mh_cg_ibqr_beh_009",
                 "isAbout": "items/mh_cg_ibqr_beh_009",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_beh_009"
             },
             {
-                "variableName": "mh_cg_ibqr_beh_010",
                 "isAbout": "items/mh_cg_ibqr_beh_010",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ibqr_beh_010"
             }
         ],
         "shuffle": false
-    }
+    },
+    "version": "07.06.2023",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

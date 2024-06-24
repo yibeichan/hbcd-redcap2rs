@@ -1,16 +1,19 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "admin_alert_apa_2",
-    "prefLabel": "admin_alert_apa_2",
-    "description": "admin_alert_apa_2 of admin_alert",
-    "ui": {
-        "inputType": "static"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string"
+    "id": "admin_alert_apa_2",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "admin_alert_apa_2"
     },
     "question": {
         "en": "Alert (APA)The participant has endorsed depressive symptoms over threshold."
-    }
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

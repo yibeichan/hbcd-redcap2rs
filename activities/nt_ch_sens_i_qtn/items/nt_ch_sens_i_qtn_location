@@ -1,28 +1,33 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "nt_ch_sens_i_qtn_location",
-    "prefLabel": "nt_ch_sens_i_qtn_location",
-    "description": {
-        "en": "@IF([event-name][visit_start_complete] != 2, @DEFAULT='1', @DEFAULT='2') @HIDDEN"
+    "id": "nt_ch_sens_i_qtn_location",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "nt_ch_sens_i_qtn_location"
+    },
+    "question": {
+        "en": "Remote or on-site?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Remote "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "On-site"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
     },
     "ui": {
         "inputType": "select"
     },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Remote ",
-                "value": 1
-            },
-            {
-                "name": "On-site",
-                "value": 2
-            }
-        ]
-    },
-    "question": {
-        "en": "Remote or on-site?"
-    }
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

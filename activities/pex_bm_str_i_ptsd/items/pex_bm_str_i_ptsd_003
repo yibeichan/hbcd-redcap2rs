@@ -1,46 +1,63 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "pex_bm_str_i_ptsd_m01_48",
-    "prefLabel": "pex_bm_str_i_ptsd_m01_48",
-    "description": "pex_bm_str_i_ptsd_m01_48 of pex_bm_str_i_ptsd",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Not at all ",
-                "value": 0
-            },
-            {
-                "name": "A little bit ",
-                "value": 1
-            },
-            {
-                "name": "Moderately ",
-                "value": 2
-            },
-            {
-                "name": "Quite a bit ",
-                "value": 3
-            },
-            {
-                "name": "Extremely ",
-                "value": 4
-            },
-            {
-                "name": "<font color=\"gray\">Don't know</font> ",
-                "value": 999
-            },
-            {
-                "name": "<font color=\"gray\">Decline to answer</font>",
-                "value": 777
-            }
-        ]
+    "id": "pex_bm_str_i_ptsd_m01_3",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_str_i_ptsd_m01_3"
     },
     "question": {
         "en": "Trying to avoid thoughts, feelings, or physical sensations that reminded you of a stressful experience?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all "
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "A little bit "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Moderately "
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Quite a bit "
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Extremely "
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font> "
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

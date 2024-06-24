@@ -1,16 +1,19 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "pex_bm_healthv2_inf_004",
-    "prefLabel": "pex_bm_healthv2_inf_004",
-    "description": "pex_bm_healthv2_inf_004 of pex_bm_healthv2_inf",
-    "ui": {
-        "inputType": "text"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string"
+    "id": "pex_bm_healthv2_inf_004",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_healthv2_inf_004"
     },
     "question": {
         "en": "How many nights did your baby stay in the hospital?"
-    }
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

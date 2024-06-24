@@ -1,16 +1,19 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "pex_bm_health_preg_i_healthhx_i_preghx_003_i_pre",
-    "prefLabel": "pex_bm_health_preg_i_healthhx_i_preghx_003_i_pre",
-    "description": "pex_bm_health_preg_i_healthhx_i_preghx_003_i_pre of pex_bm_health_preg_i_healthhx",
-    "ui": {
-        "inputType": "text"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string"
+    "id": "pex_bm_health_preg_i_healthhx_i_preghx_003_i_pre",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_healthhx_i_preghx_003_i_pre"
     },
     "question": {
         "en": "On what date did your last pregnancy end (regardless of the outcome)?"
-    }
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

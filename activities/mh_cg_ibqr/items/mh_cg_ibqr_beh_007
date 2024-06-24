@@ -1,54 +1,75 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "mh_cg_ibqr_m01_1125",
-    "prefLabel": "mh_cg_ibqr_m01_1125",
-    "description": "mh_cg_ibqr_m01_1125 of mh_cg_ibqr",
-    "ui": {
-        "inputType": "radio"
+    "id": "mh_cg_ibqr_m01_44",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "mh_cg_ibqr_m01_44"
+    },
+    "question": {
+        "en": "When your baby was approached by an unfamiliar person when you and s/he were out (for example, shopping), how often did the baby show distress?"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
         "choices": [
             {
-                "name": "Never ",
+                "name": {
+                    "en": "Never "
+                },
                 "value": 1
             },
             {
-                "name": "Very Rarely ",
+                "name": {
+                    "en": "Very Rarely "
+                },
                 "value": 2
             },
             {
-                "name": "Less Than Half the Time ",
+                "name": {
+                    "en": "Less Than Half the Time "
+                },
                 "value": 3
             },
             {
-                "name": "About Half the Time ",
+                "name": {
+                    "en": "About Half the Time "
+                },
                 "value": 4
             },
             {
-                "name": "More than Half the Time ",
+                "name": {
+                    "en": "More than Half the Time "
+                },
                 "value": 5
             },
             {
-                "name": "Almost Always ",
+                "name": {
+                    "en": "Almost Always "
+                },
                 "value": 6
             },
             {
-                "name": "Always ",
+                "name": {
+                    "en": "Always "
+                },
                 "value": 7
             },
             {
-                "name": "Does Not Apply ",
+                "name": {
+                    "en": "Does Not Apply "
+                },
                 "value": 8
             },
             {
-                "name": "<font color=\"gray\">Decline to answer</font>",
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
                 "value": 777
             }
+        ],
+        "valueType": [
+            "xsd:integer"
         ]
     },
-    "question": {
-        "en": "When your baby was approached by an unfamiliar person when you and your baby were out (for example, shopping), how often did the baby show distress?"
-    }
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

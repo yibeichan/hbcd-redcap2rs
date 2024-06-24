@@ -1,21 +1,22 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "sed_bm_demo_income_001",
-    "prefLabel": "sed_bm_demo_income_001",
-    "description": {
-        "en": "@NONEOFTHEABOVE='777,999'"
+    "id": "sed_bm_demo_income_001",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Income"
+    },
+    "prefLabel": {
+        "en": "sed_bm_demo_income_001"
+    },
+    "question": {
+        "en": "When answering this next question, please remember to include your income PLUS the income of all family members living in this household."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "static"
     },
-    "responseOptions": {
-        "valueType": "xsd:string"
-    },
-    "preamble": {
-        "en": "Income"
-    },
-    "question": {
-        "en": "When answering this next question, please remember to include your income PLUS the income of all family members living in this household."
-    }
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

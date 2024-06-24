@@ -1,46 +1,63 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "pex_bm_apa1_m01_1772",
-    "prefLabel": "pex_bm_apa1_m01_1772",
-    "description": "pex_bm_apa1_m01_1772 of pex_bm_apa",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "None-Not at all ",
-                "value": 0
-            },
-            {
-                "name": "Slight-Rare less than a day or two ",
-                "value": 1
-            },
-            {
-                "name": "Mild-Several Days ",
-                "value": 2
-            },
-            {
-                "name": "Moderate-More than half the days ",
-                "value": 3
-            },
-            {
-                "name": "Severe-Nearly every day ",
-                "value": 4
-            },
-            {
-                "name": "<font color=\"gray\">Don't know</font> ",
-                "value": 999
-            },
-            {
-                "name": "<font color=\"gray\">Decline to answer</font>",
-                "value": 777
-            }
-        ]
+    "id": "pex_bm_apa1_m01_17",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_apa1_m01_17"
     },
     "question": {
         "en": "Feeling driven to perform certain behaviors or mental acts over and over again?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "None-Not at all "
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Slight-Rare less than a day or two "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Mild-Several Days "
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Moderate-More than half the days "
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Severe-Nearly every day "
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font> "
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

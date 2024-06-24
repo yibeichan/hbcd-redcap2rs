@@ -1,34 +1,45 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "nt_ch_sens_i_qtn_mv_002",
-    "prefLabel": "nt_ch_sens_i_qtn_mv_002",
-    "description": "nt_ch_sens_i_qtn_mv_002 of nt_ch_sens_i_qtn",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Yes ",
-                "value": 1
-            },
-            {
-                "name": "No ",
-                "value": 0
-            },
-            {
-                "name": "<font color=\"gray\">Don't know</font> ",
-                "value": 999
-            },
-            {
-                "name": "<font color=\"gray\">Decline to answer</font>",
-                "value": 777
-            }
-        ]
+    "id": "nt_ch_sens_i_qtn_mv_002",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "nt_ch_sens_i_qtn_mv_002"
     },
     "question": {
         "en": "For all questions, we are asking about the 24 hours before the date and time this survey was sent to you. Did your baby wear themovement sensorsall or most of the 24 hours?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No "
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font> "
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

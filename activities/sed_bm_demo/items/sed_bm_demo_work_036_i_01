@@ -1,43 +1,54 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "sed_bm_demo_work_036_m01_776",
-    "prefLabel": "sed_bm_demo_work_036_m01_776",
-    "description": {
-        "en": "@NONEOFTHEABOVE='777,999'"
+    "id": "sed_bm_demo_work_036_m01_1",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "How often did you use any of these safety tools at this job?"
+    },
+    "prefLabel": {
+        "en": "sed_bm_demo_work_036_m01_1"
+    },
+    "question": {
+        "en": "Gloves"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Some days "
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Every day "
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font> "
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
     },
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Never ",
-                "value": 1
-            },
-            {
-                "name": "Some days ",
-                "value": 2
-            },
-            {
-                "name": "Every day ",
-                "value": 3
-            },
-            {
-                "name": "<font color=\"gray\">Don't know</font> ",
-                "value": 999
-            },
-            {
-                "name": "<font color=\"gray\">Decline to answer</font>",
-                "value": 777
-            }
-        ]
-    },
-    "preamble": {
-        "en": "How often did you use any of these safety tools at this job?"
-    },
-    "question": {
-        "en": "Gloves"
-    }
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

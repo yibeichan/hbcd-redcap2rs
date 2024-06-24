@@ -1,34 +1,45 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "ph_cg_phx_i_bfh_003",
-    "prefLabel": "ph_cg_phx_i_bfh_003",
-    "description": "ph_cg_phx_i_bfh_003 of ph_cg_phx_i_bfh",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Still breastfeeding ",
-                "value": 1
-            },
-            {
-                "name": "No longer breastfeeding ",
-                "value": 0
-            },
-            {
-                "name": "Don't know ",
-                "value": 777
-            },
-            {
-                "name": "Decline to answer",
-                "value": 999
-            }
-        ]
+    "id": "ph_cg_phx_i_bfh_003",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_phx_i_bfh_003"
     },
     "question": {
         "en": "Is your child still breastfeeding or being fed breast milk?"
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Still breastfeeding "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No longer breastfeeding "
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't know "
+                },
+                "value": 777
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

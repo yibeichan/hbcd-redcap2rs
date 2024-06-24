@@ -1,26 +1,33 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "pex_bm_healthv2_preg_i_meds_060_i_04_dk",
-    "prefLabel": "pex_bm_healthv2_preg_i_meds_060_i_04_dk",
-    "description": "pex_bm_healthv2_preg_i_meds_060_i_04_dk of pex_bm_healthv2_preg",
-    "ui": {
-        "inputType": "radio"
+    "id": "pex_bm_healthv2_preg_i_meds_060_i_04_dk",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_healthv2_preg_i_meds_060_i_04_dk"
+    },
+    "question": {
+        "en": "med start date dk/decline"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
         "choices": [
             {
-                "name": "<font color=\"gray\">Don't know</font> ",
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font> "
+                },
                 "value": 999
             },
             {
-                "name": "<font color=\"gray\">Decline to answer</font>",
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
                 "value": 777
             }
+        ],
+        "valueType": [
+            "xsd:integer"
         ]
     },
-    "question": {
-        "en": "med start date dk/decline otc 2"
-    }
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

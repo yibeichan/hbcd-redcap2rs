@@ -1,16 +1,19 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "sed_bm_demo_roster_table_11",
-    "prefLabel": "sed_bm_demo_roster_table_11",
-    "description": "sed_bm_demo_roster_table_11 of sed_bm_demo",
-    "ui": {
-        "inputType": "static"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string"
+    "id": "sed_bm_demo_roster_table_11",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_demo_roster_table_11"
     },
     "question": {
         "en": "Person 11Years {sed_bm_demo_roster_014_i_01}Months {sed_bm_demo_roster_014_i_02}{sed_bm_demo_roster_014_i_03}{sed_bm_demo_roster_014_i_03_i_01}{sed_bm_demo_roster_014_i_04}"
-    }
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

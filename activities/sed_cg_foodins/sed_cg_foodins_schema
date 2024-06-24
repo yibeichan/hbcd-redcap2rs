@@ -1,11 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Activity",
-    "@id": "sed_cg_foodins_schema",
-    "prefLabel": "sed_cg_foodins",
-    "description": "Default description",
+    "id": "sed_cg_foodins_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "sed_cg_foodins"
+    },
     "schemaVersion": "1.0.0-rc4",
-    "version": "unknown",
     "ui": {
         "order": [
             "items/sed_cg_foodins_lang",
@@ -17,36 +16,40 @@
         ],
         "addProperties": [
             {
-                "variableName": "sed_cg_foodins_lang",
                 "isAbout": "items/sed_cg_foodins_lang",
-                "isVis": true
+                "isVis": true,
+                "variableName": "sed_cg_foodins_lang"
             },
             {
-                "variableName": "sed_cg_foodins_dtt",
                 "isAbout": "items/sed_cg_foodins_dtt",
-                "isVis": true
+                "isVis": true,
+                "variableName": "sed_cg_foodins_dtt"
             },
             {
-                "variableName": "sed_cg_foodins_timestamp_start",
                 "isAbout": "items/sed_cg_foodins_timestamp_start",
-                "isVis": true
+                "isVis": true,
+                "variableName": "sed_cg_foodins_timestamp_start"
             },
             {
-                "variableName": "sed_cg_foodins_location",
                 "isAbout": "items/sed_cg_foodins_location",
-                "isVis": true
+                "isVis": true,
+                "variableName": "sed_cg_foodins_location"
             },
             {
-                "variableName": "sed_cg_foodins_001",
                 "isAbout": "items/sed_cg_foodins_001",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_foodins_001"
             },
             {
-                "variableName": "sed_cg_foodins_002",
                 "isAbout": "items/sed_cg_foodins_002",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_foodins_002"
             }
         ],
         "shuffle": false
-    }
+    },
+    "version": "07.06.2023",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

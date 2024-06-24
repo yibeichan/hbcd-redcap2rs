@@ -1,42 +1,57 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "pex_bm_apa2_pers_m01_694",
-    "prefLabel": "pex_bm_apa2_pers_m01_694",
-    "description": "pex_bm_apa2_pers_m01_694 of pex_bm_apa",
-    "ui": {
-        "inputType": "radio"
-    },
-    "responseOptions": {
-        "valueType": "xsd:integer",
-        "choices": [
-            {
-                "name": "Very False or Often False ",
-                "value": 0
-            },
-            {
-                "name": "Sometimes or Somewhat False ",
-                "value": 1
-            },
-            {
-                "name": "Sometimes or Somewhat True ",
-                "value": 2
-            },
-            {
-                "name": "Very True or Often True ",
-                "value": 3
-            },
-            {
-                "name": "<font color=\"gray\">Don't know</font> ",
-                "value": 999
-            },
-            {
-                "name": "<font color=\"gray\">Decline to answer</font>",
-                "value": 777
-            }
-        ]
+    "id": "pex_bm_apa2_pers_m01_19",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_apa2_pers_m01_19"
     },
     "question": {
         "en": "I crave attention."
-    }
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Very False or Often False "
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Sometimes or Somewhat False "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Sometimes or Somewhat True "
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Very True or Often True "
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font> "
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

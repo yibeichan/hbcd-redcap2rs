@@ -1,34 +1,45 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "pex_bm_healthv2_preg_i_meds_043",
-    "prefLabel": "pex_bm_healthv2_preg_i_meds_043",
-    "description": "pex_bm_healthv2_preg_i_meds_043 of pex_bm_healthv2_preg",
-    "ui": {
-        "inputType": "radio"
+    "id": "pex_bm_healthv2_preg_i_meds_043",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_healthv2_preg_i_meds_043"
+    },
+    "question": {
+        "en": "For [v01_arm_1][pex_bm_healthv2_preg_i_meds_023_i_01], have you continued to take this medication until today?"
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
         "choices": [
             {
-                "name": "Yes ",
+                "name": {
+                    "en": "Yes "
+                },
                 "value": 1
             },
             {
-                "name": "No ",
+                "name": {
+                    "en": "No "
+                },
                 "value": 0
             },
             {
-                "name": "<font color=\"gray\">Don't know</font> ",
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font> "
+                },
                 "value": 999
             },
             {
-                "name": "<font color=\"gray\">Decline to answer</font>",
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
                 "value": 777
             }
+        ],
+        "valueType": [
+            "xsd:integer"
         ]
     },
-    "question": {
-        "en": "For [v01_arm_1][pex_bm_health_preg_i_meds_023_i_01], have you continued to take this medication until today?"
-    }
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

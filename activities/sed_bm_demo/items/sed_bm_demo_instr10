@@ -1,18 +1,19 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "sed_bm_demo_instr10",
-    "prefLabel": "sed_bm_demo_instr10",
-    "description": {
-        "en": "@NONEOFTHEABOVE='777,999'"
+    "id": "sed_bm_demo_instr10",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_demo_instr10"
+    },
+    "question": {
+        "en": "This set of questions is about your NEXT MOST RECENT JOB"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
     },
     "ui": {
         "inputType": "static"
     },
-    "responseOptions": {
-        "valueType": "xsd:string"
-    },
-    "question": {
-        "en": "This set of questions is about your NEXT MOST RECENT JOB"
-    }
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

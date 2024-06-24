@@ -1,19 +1,70 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_002",
-    "prefLabel": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_002",
-    "description": {
-        "en": "@NONEOFTHEABOVE='777,999'"
+    "id": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_002",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_002"
+    },
+    "question": {
+        "en": "Why did you seek assisted reproductive technology (check all that apply)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Infertility "
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Same sex relationship "
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Genetic concerns "
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Sex selection or family balancing "
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Previously preserved embryos prior to chemotherapy or other medical interventions "
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Other "
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font> "
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
     },
     "ui": {
         "inputType": "radio"
     },
-    "responseOptions": {
-        "valueType": "xsd:string",
-        "choices": null
-    },
-    "question": {
-        "en": "Why did you seek assisted reproductive technology (check all that apply)?"
-    }
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

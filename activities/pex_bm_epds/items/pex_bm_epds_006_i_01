@@ -1,25 +1,20 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Item",
-    "@id": "pex_bm_epds_006_i_01",
-    "prefLabel": "pex_bm_epds_006_i_01",
-    "description": {
-        "en": "@HIDDEN"
-    },
-    "ui": {
-        "inputType": "number",
-        "hidden": true
-    },
-    "responseOptions": {
-        "valueType": "xsd:string"
+    "id": "pex_bm_epds_006_i_01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_epds_006_i_01"
     },
     "question": {
         "en": "Value of \"getting to me\""
     },
-    "scoringLogic": [
-        {
-            "variableName": "pex_bm_epds_006_i_01",
-            "jsExpression": "if(( pex_bm_epds_006 == '777' OR pex_bm_epds_006 == '999'), '', pex_bm_epds_006 )"
-        }
-    ]
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

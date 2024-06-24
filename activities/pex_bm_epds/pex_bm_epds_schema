@@ -1,11 +1,67 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/efb74e155c09e13aa009ea04609ba4f1152fcbc6/contexts/reproschema_new",
-    "@type": "reproschema:Activity",
-    "@id": "pex_bm_epds_schema",
-    "prefLabel": "pex_bm_epds",
-    "description": "Default description",
+    "id": "pex_bm_epds_schema",
+    "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "if(( pex_bm_epds_001 == '777' OR pex_bm_epds_001 == '999'), '', pex_bm_epds_001 )",
+            "variableName": "pex_bm_epds_001_i_01"
+        },
+        {
+            "jsExpression": "if(( pex_bm_epds_002 == '777' OR pex_bm_epds_002 == '999'), '', pex_bm_epds_002 )",
+            "variableName": "pex_bm_epds_002_i_01"
+        },
+        {
+            "jsExpression": "if(( pex_bm_epds_003 == '777' OR pex_bm_epds_003 == '999'), '', pex_bm_epds_003 )",
+            "variableName": "pex_bm_epds_003_i_01"
+        },
+        {
+            "jsExpression": "if(( pex_bm_epds_004 == '777' OR pex_bm_epds_004 == '999'), '', pex_bm_epds_004 )",
+            "variableName": "pex_bm_epds_004_i_01"
+        },
+        {
+            "jsExpression": "if(( pex_bm_epds_005 == '777' OR pex_bm_epds_005 == '999'), '', pex_bm_epds_005 )",
+            "variableName": "pex_bm_epds_005_i_01"
+        },
+        {
+            "jsExpression": "if(( pex_bm_epds_006 == '777' OR pex_bm_epds_006 == '999'), '', pex_bm_epds_006 )",
+            "variableName": "pex_bm_epds_006_i_01"
+        },
+        {
+            "jsExpression": "if(( pex_bm_epds_007 == '777' OR pex_bm_epds_007 == '999'), '', pex_bm_epds_007 )",
+            "variableName": "pex_bm_epds_007_i_01"
+        },
+        {
+            "jsExpression": "if(( pex_bm_epds_008 == '777' OR pex_bm_epds_008 == '999'), '', pex_bm_epds_008 )",
+            "variableName": "pex_bm_epds_008_i_01"
+        },
+        {
+            "jsExpression": "if(( pex_bm_epds_009 == '777' OR pex_bm_epds_009 == '999'), '', pex_bm_epds_009 )",
+            "variableName": "pex_bm_epds_009_i_01"
+        },
+        {
+            "jsExpression": "if(( pex_bm_epds_010 == '777' OR pex_bm_epds_010 == '999'), '', pex_bm_epds_010 )",
+            "variableName": "pex_bm_epds_010_i_01"
+        },
+        {
+            "jsExpression": "sum( pex_bm_epds_001_i_01 , pex_bm_epds_002_i_01 , pex_bm_epds_003_i_01 , pex_bm_epds_004_i_01 , pex_bm_epds_005_i_01 , pex_bm_epds_006_i_01 , pex_bm_epds_007_i_01 , pex_bm_epds_008_i_01 , pex_bm_epds_009_i_01 , pex_bm_epds_010_i_01 )",
+            "variableName": "pex_bm_epds_score"
+        },
+        {
+            "jsExpression": "if(( pex_bm_epds_010 >= 2 AND pex_bm_epds_010 < 777), 1, 0)",
+            "variableName": "pex_bm_epds_flag01"
+        },
+        {
+            "jsExpression": "if( pex_bm_epds_score >= 12, 1, 0)",
+            "variableName": "pex_bm_epds_flag02"
+        }
+    ],
+    "preamble": {
+        "en": "Edinburgh Postnatal Depression Scale (EDPS)"
+    },
+    "prefLabel": {
+        "en": "pex_bm_epds"
+    },
     "schemaVersion": "1.0.0-rc4",
-    "version": "unknown",
     "ui": {
         "order": [
             "items/pex_bm_epds_lang",
@@ -22,163 +78,162 @@
             "items/pex_bm_epds_007",
             "items/pex_bm_epds_008",
             "items/pex_bm_epds_009",
-            "items/pex_bm_epds_010",
-            "items/pex_bm_epds_001_i_01",
-            "items/pex_bm_epds_002_i_01",
-            "items/pex_bm_epds_003_i_01",
-            "items/pex_bm_epds_004_i_01",
-            "items/pex_bm_epds_005_i_01",
-            "items/pex_bm_epds_006_i_01",
-            "items/pex_bm_epds_007_i_01",
-            "items/pex_bm_epds_008_i_01",
-            "items/pex_bm_epds_009_i_01",
-            "items/pex_bm_epds_010_i_01",
-            "items/pex_bm_epds_score",
-            "items/pex_bm_epds_flag01",
-            "items/pex_bm_epds_flag02"
+            "items/pex_bm_epds_010"
         ],
         "addProperties": [
             {
-                "variableName": "pex_bm_epds_lang",
                 "isAbout": "items/pex_bm_epds_lang",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pex_bm_epds_lang"
             },
             {
-                "variableName": "pex_bm_epds_dtt",
                 "isAbout": "items/pex_bm_epds_dtt",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pex_bm_epds_dtt"
             },
             {
-                "variableName": "pex_bm_epds_timestamp_start",
                 "isAbout": "items/pex_bm_epds_timestamp_start",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pex_bm_epds_timestamp_start"
             },
             {
-                "variableName": "pex_bm_epds_location",
                 "isAbout": "items/pex_bm_epds_location",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pex_bm_epds_location"
             },
             {
-                "variableName": "pex_bm_epds_instr01",
                 "isAbout": "items/pex_bm_epds_instr01",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pex_bm_epds_instr01"
             },
             {
-                "variableName": "pex_bm_epds_001",
                 "isAbout": "items/pex_bm_epds_001",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_epds_001"
             },
             {
-                "variableName": "pex_bm_epds_002",
                 "isAbout": "items/pex_bm_epds_002",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_epds_002"
             },
             {
-                "variableName": "pex_bm_epds_003",
                 "isAbout": "items/pex_bm_epds_003",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_epds_003"
             },
             {
-                "variableName": "pex_bm_epds_004",
                 "isAbout": "items/pex_bm_epds_004",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_epds_004"
             },
             {
-                "variableName": "pex_bm_epds_005",
                 "isAbout": "items/pex_bm_epds_005",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_epds_005"
             },
             {
-                "variableName": "pex_bm_epds_006",
                 "isAbout": "items/pex_bm_epds_006",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_epds_006"
             },
             {
-                "variableName": "pex_bm_epds_007",
                 "isAbout": "items/pex_bm_epds_007",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_epds_007"
             },
             {
-                "variableName": "pex_bm_epds_008",
                 "isAbout": "items/pex_bm_epds_008",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_epds_008"
             },
             {
-                "variableName": "pex_bm_epds_009",
                 "isAbout": "items/pex_bm_epds_009",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_epds_009"
             },
             {
-                "variableName": "pex_bm_epds_010",
                 "isAbout": "items/pex_bm_epds_010",
-                "isVis": true
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_epds_010"
             },
             {
-                "variableName": "pex_bm_epds_001_i_01",
                 "isAbout": "items/pex_bm_epds_001_i_01",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pex_bm_epds_001_i_01"
             },
             {
-                "variableName": "pex_bm_epds_002_i_01",
                 "isAbout": "items/pex_bm_epds_002_i_01",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pex_bm_epds_002_i_01"
             },
             {
-                "variableName": "pex_bm_epds_003_i_01",
                 "isAbout": "items/pex_bm_epds_003_i_01",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pex_bm_epds_003_i_01"
             },
             {
-                "variableName": "pex_bm_epds_004_i_01",
                 "isAbout": "items/pex_bm_epds_004_i_01",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pex_bm_epds_004_i_01"
             },
             {
-                "variableName": "pex_bm_epds_005_i_01",
                 "isAbout": "items/pex_bm_epds_005_i_01",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pex_bm_epds_005_i_01"
             },
             {
-                "variableName": "pex_bm_epds_006_i_01",
                 "isAbout": "items/pex_bm_epds_006_i_01",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pex_bm_epds_006_i_01"
             },
             {
-                "variableName": "pex_bm_epds_007_i_01",
                 "isAbout": "items/pex_bm_epds_007_i_01",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pex_bm_epds_007_i_01"
             },
             {
-                "variableName": "pex_bm_epds_008_i_01",
                 "isAbout": "items/pex_bm_epds_008_i_01",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pex_bm_epds_008_i_01"
             },
             {
-                "variableName": "pex_bm_epds_009_i_01",
                 "isAbout": "items/pex_bm_epds_009_i_01",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pex_bm_epds_009_i_01"
             },
             {
-                "variableName": "pex_bm_epds_010_i_01",
                 "isAbout": "items/pex_bm_epds_010_i_01",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pex_bm_epds_010_i_01"
             },
             {
-                "variableName": "pex_bm_epds_score",
                 "isAbout": "items/pex_bm_epds_score",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pex_bm_epds_score"
             },
             {
-                "variableName": "pex_bm_epds_flag01",
                 "isAbout": "items/pex_bm_epds_flag01",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pex_bm_epds_flag01"
             },
             {
-                "variableName": "pex_bm_epds_flag02",
                 "isAbout": "items/pex_bm_epds_flag02",
-                "isVis": true
+                "isVis": true,
+                "variableName": "pex_bm_epds_flag02"
             }
         ],
         "shuffle": false
-    }
+    },
+    "version": "07.06.2023",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
