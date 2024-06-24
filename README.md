@@ -44,8 +44,10 @@ Push the current tag to remote
 ```
 # push the tag
 git push origin <tag_name>
-# push the content
+
+# push the content to main
 git push 
+
 # if there is a conflict, you can use --force
 git push -f
 ```
