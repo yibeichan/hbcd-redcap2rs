@@ -74,7 +74,6 @@
             {
                 "isAbout": "items/webcdi_en_completion_status",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "webcdi_en_completion_status"
             }
         ],
