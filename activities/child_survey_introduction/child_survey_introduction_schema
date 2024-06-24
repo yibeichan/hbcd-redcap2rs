@@ -1,0 +1,35 @@
+{
+    "id": "child_survey_introduction_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "child_survey_introduction"
+    },
+    "schemaVersion": "1.0.0-rc4",
+    "ui": {
+        "order": [
+            "items/child_introduction_v4",
+            "items/child_introduction_v5",
+            "items/child_introduction_v6"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/child_introduction_v4",
+                "isVis": "event-name == 'v04_arm_1'",
+                "variableName": "child_introduction_v4"
+            },
+            {
+                "isAbout": "items/child_introduction_v5",
+                "isVis": "event-name == 'v05_arm_1'",
+                "variableName": "child_introduction_v5"
+            },
+            {
+                "isAbout": "items/child_introduction_v6",
+                "isVis": "event-name == 'v06_arm_1'",
+                "variableName": "child_introduction_v6"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "unknown",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -204,6 +204,7 @@
             {
                 "isAbout": "items/pex_bm_health_preg_i_erhosp_lang",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "pex_bm_health_preg_i_erhosp_lang"
             },
             {

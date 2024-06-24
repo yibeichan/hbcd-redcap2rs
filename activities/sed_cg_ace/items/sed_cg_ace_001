@@ -1,0 +1,19 @@
+{
+    "id": "sed_cg_ace_001",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_ace_001"
+    },
+    "question": {
+        "en": "1) Did you feel that you didn't have enough to eat, had to wear dirty clothes, or had no one to protect or take care of you?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

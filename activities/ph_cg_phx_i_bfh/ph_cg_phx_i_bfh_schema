@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc4",
     "ui": {
         "order": [
-            "items/ph_cg_phx_lang",
+            "items/ph_cg_phx_i_bfh_lang",
             "items/ph_cg_phx_i_bfh_dtt",
             "items/ph_cg_phx_i_bfh_timestamp_start",
             "items/ph_cg_phx_i_bfh_location",
@@ -32,23 +32,27 @@
         ],
         "addProperties": [
             {
-                "isAbout": "items/ph_cg_phx_lang",
+                "isAbout": "items/ph_cg_phx_i_bfh_lang",
                 "isVis": true,
-                "variableName": "ph_cg_phx_lang"
+                "valueRequired": true,
+                "variableName": "ph_cg_phx_i_bfh_lang"
             },
             {
                 "isAbout": "items/ph_cg_phx_i_bfh_dtt",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "ph_cg_phx_i_bfh_dtt"
             },
             {
                 "isAbout": "items/ph_cg_phx_i_bfh_timestamp_start",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "ph_cg_phx_i_bfh_timestamp_start"
             },
             {
                 "isAbout": "items/ph_cg_phx_i_bfh_location",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "ph_cg_phx_i_bfh_location"
             },
             {

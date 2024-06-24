@@ -98,27 +98,32 @@
             "items/ncl_cg_spm2_i_inf_plan_007",
             "items/ncl_cg_spm2_i_inf_plan_008",
             "items/ncl_cg_spm2_i_inf_plan_009",
-            "items/ncl_cg_spm2_i_inf_plan_010"
+            "items/ncl_cg_spm2_i_inf_plan_010",
+            "items/ncl_cg_spm2_i_inf_copyright"
         ],
         "addProperties": [
             {
                 "isAbout": "items/ncl_cg_spm2_i_inf_lang",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "ncl_cg_spm2_i_inf_lang"
             },
             {
                 "isAbout": "items/ncl_cg_spm2_i_inf_dtt",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "ncl_cg_spm2_i_inf_dtt"
             },
             {
                 "isAbout": "items/ncl_cg_spm2_i_inf_timestamp_start",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "ncl_cg_spm2_i_inf_timestamp_start"
             },
             {
                 "isAbout": "items/ncl_cg_spm2_i_inf_location",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "ncl_cg_spm2_i_inf_location"
             },
             {
@@ -640,6 +645,11 @@
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "ncl_cg_spm2_i_inf_plan_010"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_copyright",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2_i_inf_copyright"
             }
         ],
         "shuffle": false

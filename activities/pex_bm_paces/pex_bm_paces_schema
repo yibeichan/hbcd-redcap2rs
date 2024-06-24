@@ -29,21 +29,25 @@
             {
                 "isAbout": "items/pex_bm_paces_lang",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "pex_bm_paces_lang"
             },
             {
                 "isAbout": "items/pex_bm_paces_dtt",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "pex_bm_paces_dtt"
             },
             {
                 "isAbout": "items/pex_bm_paces_timestamp_start",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "pex_bm_paces_timestamp_start"
             },
             {
                 "isAbout": "items/pex_bm_paces_location",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "pex_bm_paces_location"
             },
             {

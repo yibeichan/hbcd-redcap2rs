@@ -29,21 +29,25 @@
             {
                 "isAbout": "items/nt_ch_sens_i_qtn_lang",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "nt_ch_sens_i_qtn_lang"
             },
             {
                 "isAbout": "items/nt_ch_sens_i_qtn_dtt",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "nt_ch_sens_i_qtn_dtt"
             },
             {
                 "isAbout": "items/nt_ch_sens_i_qtn_timestamp_start",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "nt_ch_sens_i_qtn_timestamp_start"
             },
             {
                 "isAbout": "items/nt_ch_sens_i_qtn_location",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "nt_ch_sens_i_qtn_location"
             },
             {

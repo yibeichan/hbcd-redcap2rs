@@ -32,6 +32,7 @@
             {
                 "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_lang",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "pex_bm_health_preg_i_exp_i_vacc_lang"
             },
             {

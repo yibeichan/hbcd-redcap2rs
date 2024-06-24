@@ -29,16 +29,19 @@
             {
                 "isAbout": "items/setup_onsite_started",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "setup_onsite_started"
             },
             {
                 "isAbout": "items/setup_event_start",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "setup_event_start"
             },
             {
                 "isAbout": "items/setup_event_end",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "setup_event_end"
             }
         ],

@@ -73,21 +73,25 @@
             {
                 "isAbout": "items/pex_bm_assistv3_lang",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "pex_bm_assistv3_lang"
             },
             {
                 "isAbout": "items/pex_bm_assistv3_dtt",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "pex_bm_assistv3_dtt"
             },
             {
                 "isAbout": "items/pex_bm_assistv3_timestamp_start",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "pex_bm_assistv3_timestamp_start"
             },
             {
                 "isAbout": "items/pex_bm_assistv3_location",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "pex_bm_assistv3_location"
             },
             {

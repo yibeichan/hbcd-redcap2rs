@@ -1,0 +1,23 @@
+{
+    "id": "sensitive_question_introduction_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "sensitive_question_introduction"
+    },
+    "schemaVersion": "1.0.0-rc4",
+    "ui": {
+        "order": [
+            "items/sensitive_q_introduction"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sensitive_q_introduction",
+                "isVis": true,
+                "variableName": "sensitive_q_introduction"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "unknown",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

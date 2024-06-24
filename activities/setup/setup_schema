@@ -17,26 +17,31 @@
             {
                 "isAbout": "items/record_id",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "record_id"
             },
             {
                 "isAbout": "items/setup_lmp",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "setup_lmp"
             },
             {
                 "isAbout": "items/setup_edd",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "setup_edd"
             },
             {
                 "isAbout": "items/setup_delivery",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "setup_delivery"
             },
             {
                 "isAbout": "items/recruitment_period",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "recruitment_period"
             }
         ],

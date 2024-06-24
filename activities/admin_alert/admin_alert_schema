@@ -21,11 +21,13 @@
             {
                 "isAbout": "items/admin_alert_fb_dtt",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "admin_alert_fb_dtt"
             },
             {
                 "isAbout": "items/admin_alert_timestamp_start",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "admin_alert_timestamp_start"
             },
             {
