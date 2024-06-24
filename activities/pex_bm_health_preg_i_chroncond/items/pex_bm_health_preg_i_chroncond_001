@@ -14,79 +14,79 @@
         "choices": [
             {
                 "name": {
-                    "en": "Hypertension or High Blood Pressure "
+                    "en": "Hypertension or High Blood Pressure"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Hyperlipidemia or high cholesterol "
+                    "en": "Hyperlipidemia or high cholesterol"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Type I Diabetes "
+                    "en": "Type I Diabetes"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Type II Diabetes "
+                    "en": "Type II Diabetes"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Asthma "
+                    "en": "Asthma"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Seizures "
+                    "en": "Seizures"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Migraines "
+                    "en": "Migraines"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "ADHD (attention deficit hyperactivity disorder) or ADD (attention deficit disorder) "
+                    "en": "ADHD (attention deficit hyperactivity disorder) or ADD (attention deficit disorder)"
                 },
                 "value": 8
             },
             {
                 "name": {
-                    "en": "Other neurologic disorder (e.g. Multiple Sclerosis) "
+                    "en": "Other neurologic disorder (e.g. Multiple Sclerosis)"
                 },
                 "value": 9
             },
             {
                 "name": {
-                    "en": "Autoimmune condition (for example rheumatoid arthritis lupus Crohn's disease) "
+                    "en": "Autoimmune condition (for example rheumatoid arthritis lupus Crohn's disease)"
                 },
                 "value": 10
             },
             {
                 "name": {
-                    "en": "HIV "
+                    "en": "HIV"
                 },
                 "value": 11
             },
             {
                 "name": {
-                    "en": "None of the above "
+                    "en": "None of the above"
                 },
                 "value": 12
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

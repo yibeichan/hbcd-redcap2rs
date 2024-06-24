@@ -11,49 +11,49 @@
         "choices": [
             {
                 "name": {
-                    "en": "Never "
+                    "en": "Never"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Very Rarely "
+                    "en": "Very Rarely"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Less Than Half the Time "
+                    "en": "Less Than Half the Time"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "About Half the Time "
+                    "en": "About Half the Time"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "More than Half the Time "
+                    "en": "More than Half the Time"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Almost Always "
+                    "en": "Almost Always"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Always "
+                    "en": "Always"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "Does Not Apply "
+                    "en": "Does Not Apply"
                 },
                 "value": 0
             },

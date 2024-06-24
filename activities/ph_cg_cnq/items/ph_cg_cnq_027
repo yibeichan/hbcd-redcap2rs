@@ -11,31 +11,31 @@
         "choices": [
             {
                 "name": {
-                    "en": "My child should weigh more "
+                    "en": "My child should weigh more"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "My child is about the right weight "
+                    "en": "My child is about the right weight"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "My child should weigh less "
+                    "en": "My child should weigh less"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "I'm not sure "
+                    "en": "I'm not sure"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

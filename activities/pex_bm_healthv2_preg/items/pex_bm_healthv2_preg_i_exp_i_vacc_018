@@ -11,79 +11,79 @@
         "choices": [
             {
                 "name": {
-                    "en": "Tdap "
+                    "en": "Tdap"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "Flu "
+                    "en": "Flu"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "HPV "
+                    "en": "HPV"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "MMR "
+                    "en": "MMR"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Meningitis "
+                    "en": "Meningitis"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Hepatitis A "
+                    "en": "Hepatitis A"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Hepatitis B "
+                    "en": "Hepatitis B"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Hepatitis C "
+                    "en": "Hepatitis C"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "Varicella "
+                    "en": "Varicella"
                 },
                 "value": 8
             },
             {
                 "name": {
-                    "en": "Polio "
+                    "en": "Polio"
                 },
                 "value": 9
             },
             {
                 "name": {
-                    "en": "Shingles "
+                    "en": "Shingles"
                 },
                 "value": 10
             },
             {
                 "name": {
-                    "en": "Typhoid "
+                    "en": "Typhoid"
                 },
                 "value": 11
             },
             {
                 "name": {
-                    "en": "Yellow Fever "
+                    "en": "Yellow Fever"
                 },
                 "value": 12
             },

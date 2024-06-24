@@ -14,19 +14,19 @@
         "choices": [
             {
                 "name": {
-                    "en": "No continued use "
+                    "en": "No continued use"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "Yes stopped use "
+                    "en": "Yes stopped use"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

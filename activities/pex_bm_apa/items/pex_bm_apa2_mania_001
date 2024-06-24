@@ -11,37 +11,37 @@
         "choices": [
             {
                 "name": {
-                    "en": "I do not feel happier or more cheerful than usual "
+                    "en": "I do not feel happier or more cheerful than usual"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "I occasionally feel happier than usual "
+                    "en": "I occasionally feel happier than usual"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "I often feel happier than usual "
+                    "en": "I often feel happier than usual"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "I feel happier or more cheerful than usual most of the time "
+                    "en": "I feel happier or more cheerful than usual most of the time"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "I feel happier or more cheerful than usual all of the time. "
+                    "en": "I feel happier or more cheerful than usual all of the time."
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

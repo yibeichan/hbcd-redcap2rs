@@ -11,25 +11,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "More than combined income "
+                    "en": "More than combined income"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "The same as combined income "
+                    "en": "The same as combined income"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Less than combined income "
+                    "en": "Less than combined income"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

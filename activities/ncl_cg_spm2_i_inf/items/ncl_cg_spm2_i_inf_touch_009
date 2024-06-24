@@ -11,25 +11,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "Never "
+                    "en": "Never"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Occasionally "
+                    "en": "Occasionally"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Frequently "
+                    "en": "Frequently"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Always "
+                    "en": "Always"
                 },
                 "value": 4
             },

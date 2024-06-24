@@ -11,19 +11,19 @@
         "choices": [
             {
                 "name": {
-                    "en": "Fast-paced more action "
+                    "en": "Fast-paced more action"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Slower paced more talking or singing "
+                    "en": "Slower paced more talking or singing"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

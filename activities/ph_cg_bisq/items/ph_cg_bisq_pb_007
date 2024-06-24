@@ -11,31 +11,31 @@
         "choices": [
             {
                 "name": {
-                    "en": "In his/her own room "
+                    "en": "In his/her own room"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "In sibling's or other bedroom "
+                    "en": "In sibling's or other bedroom"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "In parents' room "
+                    "en": "In parents' room"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "In another room of the house "
+                    "en": "In another room of the house"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

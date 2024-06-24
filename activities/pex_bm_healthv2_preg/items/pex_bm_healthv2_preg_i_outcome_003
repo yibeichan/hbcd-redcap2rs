@@ -11,73 +11,73 @@
         "choices": [
             {
                 "name": {
-                    "en": "Breech presentation (baby not positioned head down) "
+                    "en": "Breech presentation (baby not positioned head down)"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Forceps-assisted delivery  "
+                    "en": "Forceps-assisted delivery"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Vacuum-assisted delivery "
+                    "en": "Vacuum-assisted delivery"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Placental abruption "
+                    "en": "Placental abruption"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Chorioamnionitis or infection in the womb during labor "
+                    "en": "Chorioamnionitis or infection in the womb during labor"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Preterm labor (regular contractions between 20-37 weeks of pregnancy) "
+                    "en": "Preterm labor (regular contractions between 20-37 weeks of pregnancy)"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Premature rupture of the membranes "
+                    "en": "Premature rupture of the membranes"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "Prolonged rupture of the membranes "
+                    "en": "Prolonged rupture of the membranes"
                 },
                 "value": 8
             },
             {
                 "name": {
-                    "en": "Meconium presence (baby stooled in the womb) "
+                    "en": "Meconium presence (baby stooled in the womb)"
                 },
                 "value": 9
             },
             {
                 "name": {
-                    "en": "Postpartum hemorrhage (bleeding) requiring transfusion "
+                    "en": "Postpartum hemorrhage (bleeding) requiring transfusion"
                 },
                 "value": 10
             },
             {
                 "name": {
-                    "en": "None of the above "
+                    "en": "None of the above"
                 },
                 "value": 11
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

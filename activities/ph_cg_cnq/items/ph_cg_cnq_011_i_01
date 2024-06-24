@@ -11,55 +11,55 @@
         "choices": [
             {
                 "name": {
-                    "en": "Seafood "
+                    "en": "Seafood"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Peanuts "
+                    "en": "Peanuts"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Nuts "
+                    "en": "Nuts"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Eggs "
+                    "en": "Eggs"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Wheat "
+                    "en": "Wheat"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Soy "
+                    "en": "Soy"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Milk "
+                    "en": "Milk"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "Other "
+                    "en": "Other"
                 },
                 "value": 8
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

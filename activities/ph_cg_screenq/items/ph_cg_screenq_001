@@ -11,37 +11,37 @@
         "choices": [
             {
                 "name": {
-                    "en": "Television (TV) "
+                    "en": "Television (TV)"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Video Game system (Xbox Play Statione) "
+                    "en": "Video Game system (Xbox Play Statione)"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Handheld device such as Leapster or iPad "
+                    "en": "Handheld device such as Leapster or iPad"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Computer with internet access "
+                    "en": "Computer with internet access"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "None "
+                    "en": "None"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

@@ -14,43 +14,43 @@
         "choices": [
             {
                 "name": {
-                    "en": "Man "
+                    "en": "Man"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Woman "
+                    "en": "Woman"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Non-binary "
+                    "en": "Non-binary"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Transgender man "
+                    "en": "Transgender man"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Transgender woman "
+                    "en": "Transgender woman"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "None of these describe me / I'd like to consider additional options "
+                    "en": "None of these describe me / I'd like to consider additional options"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

@@ -11,19 +11,19 @@
         "choices": [
             {
                 "name": {
-                    "en": "Hour "
+                    "en": "Hour"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Day "
+                    "en": "Day"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Month "
+                    "en": "Month"
                 },
                 "value": 3
             },

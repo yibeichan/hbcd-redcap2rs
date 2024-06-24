@@ -11,25 +11,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "Yes a regular screening "
+                    "en": "Yes a regular screening"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Yes a referral for hearing concerns "
+                    "en": "Yes a referral for hearing concerns"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "No "
+                    "en": "No"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

@@ -14,37 +14,37 @@
         "choices": [
             {
                 "name": {
-                    "en": "I wanted to be pregnant sooner "
+                    "en": "I wanted to be pregnant sooner"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "I wanted to be pregnant then "
+                    "en": "I wanted to be pregnant then"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "I wanted to be pregnant later "
+                    "en": "I wanted to be pregnant later"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "I didn't want to be pregnant then or ever "
+                    "en": "I didn't want to be pregnant then or ever"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "I wasn't sure what I wanted "
+                    "en": "I wasn't sure what I wanted"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

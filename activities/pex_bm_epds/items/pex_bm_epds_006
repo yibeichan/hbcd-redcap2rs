@@ -11,31 +11,31 @@
         "choices": [
             {
                 "name": {
-                    "en": "Yes most of the time I haven't been able to cope at all "
+                    "en": "Yes most of the time I haven't been able to cope at all"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Yes sometimes I haven't been coping as well as usual "
+                    "en": "Yes sometimes I haven't been coping as well as usual"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "No most of the time I have coped quite well "
+                    "en": "No most of the time I have coped quite well"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "No I have been coping as well as ever "
+                    "en": "No I have been coping as well as ever"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

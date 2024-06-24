@@ -11,55 +11,55 @@
         "choices": [
             {
                 "name": {
-                    "en": "Gas: from underground pipes serving the neighborhood "
+                    "en": "Gas: from underground pipes serving the neighborhood"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Gas: bottled tank or liquid petroleum "
+                    "en": "Gas: bottled tank or liquid petroleum"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Electricity "
+                    "en": "Electricity"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Fuel oil kerosene etc. "
+                    "en": "Fuel oil kerosene etc."
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Coal or coke "
+                    "en": "Coal or coke"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Wood "
+                    "en": "Wood"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Solar energy "
+                    "en": "Solar energy"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "Other fuel "
+                    "en": "Other fuel"
                 },
                 "value": 8
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

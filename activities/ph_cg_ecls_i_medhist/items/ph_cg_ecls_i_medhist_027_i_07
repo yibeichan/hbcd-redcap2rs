@@ -11,31 +11,31 @@
         "choices": [
             {
                 "name": {
-                    "en": "Yes currently using "
+                    "en": "Yes currently using"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Yes prescribe but no longer using "
+                    "en": "Yes prescribe but no longer using"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Yes but never got "
+                    "en": "Yes but never got"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "No "
+                    "en": "No"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

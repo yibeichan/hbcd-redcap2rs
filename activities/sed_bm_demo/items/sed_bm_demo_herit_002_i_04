@@ -11,67 +11,67 @@
         "choices": [
             {
                 "name": {
-                    "en": "Colombian "
+                    "en": "Colombian"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "Cuban "
+                    "en": "Cuban"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Dominican "
+                    "en": "Dominican"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Ecuadorian "
+                    "en": "Ecuadorian"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Honduran "
+                    "en": "Honduran"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Mexican or Mexican American "
+                    "en": "Mexican or Mexican American"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Puerto Rican "
+                    "en": "Puerto Rican"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Salvadoran "
+                    "en": "Salvadoran"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "Spanish "
+                    "en": "Spanish"
                 },
                 "value": 8
             },
             {
                 "name": {
-                    "en": "None of these fully describe me / Other "
+                    "en": "None of these fully describe me / Other"
                 },
                 "value": 9
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

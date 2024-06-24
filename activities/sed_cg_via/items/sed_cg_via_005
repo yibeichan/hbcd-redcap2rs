@@ -14,565 +14,565 @@
         "choices": [
             {
                 "name": {
-                    "en": "None "
+                    "en": "None"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "African "
+                    "en": "African"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "African-American Black "
+                    "en": "African-American Black"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Afro-Caribbean "
+                    "en": "Afro-Caribbean"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Arabian Arab "
+                    "en": "Arabian Arab"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Argentinian "
+                    "en": "Argentinian"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Armenian "
+                    "en": "Armenian"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Asian "
+                    "en": "Asian"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "Australian "
+                    "en": "Australian"
                 },
                 "value": 8
             },
             {
                 "name": {
-                    "en": "Austrian "
+                    "en": "Austrian"
                 },
                 "value": 9
             },
             {
                 "name": {
-                    "en": "Belgian "
+                    "en": "Belgian"
                 },
                 "value": 10
             },
             {
                 "name": {
-                    "en": "Brazilian "
+                    "en": "Brazilian"
                 },
                 "value": 12
             },
             {
                 "name": {
-                    "en": "British "
+                    "en": "British"
                 },
                 "value": 13
             },
             {
                 "name": {
-                    "en": "Cambodian "
+                    "en": "Cambodian"
                 },
                 "value": 14
             },
             {
                 "name": {
-                    "en": "Canadian "
+                    "en": "Canadian"
                 },
                 "value": 15
             },
             {
                 "name": {
-                    "en": "Caribbean "
+                    "en": "Caribbean"
                 },
                 "value": 16
             },
             {
                 "name": {
-                    "en": "Catholic "
+                    "en": "Catholic"
                 },
                 "value": 17
             },
             {
                 "name": {
-                    "en": "Celtic "
+                    "en": "Celtic"
                 },
                 "value": 18
             },
             {
                 "name": {
-                    "en": "Central-American "
+                    "en": "Central-American"
                 },
                 "value": 19
             },
             {
                 "name": {
-                    "en": "Chagga "
+                    "en": "Chagga"
                 },
                 "value": 20
             },
             {
                 "name": {
-                    "en": "Chinese "
+                    "en": "Chinese"
                 },
                 "value": 22
             },
             {
                 "name": {
-                    "en": "Christian "
+                    "en": "Christian"
                 },
                 "value": 23
             },
             {
                 "name": {
-                    "en": "Colombian "
+                    "en": "Colombian"
                 },
                 "value": 24
             },
             {
                 "name": {
-                    "en": "Creole "
+                    "en": "Creole"
                 },
                 "value": 25
             },
             {
                 "name": {
-                    "en": "Croatian "
+                    "en": "Croatian"
                 },
                 "value": 26
             },
             {
                 "name": {
-                    "en": "Cuban "
+                    "en": "Cuban"
                 },
                 "value": 27
             },
             {
                 "name": {
-                    "en": "Czech "
+                    "en": "Czech"
                 },
                 "value": 28
             },
             {
                 "name": {
-                    "en": "Dominican "
+                    "en": "Dominican"
                 },
                 "value": 29
             },
             {
                 "name": {
-                    "en": "Dutch "
+                    "en": "Dutch"
                 },
                 "value": 30
             },
             {
                 "name": {
-                    "en": "Eastern European "
+                    "en": "Eastern European"
                 },
                 "value": 31
             },
             {
                 "name": {
-                    "en": "Eastern Orthodox Christian "
+                    "en": "Eastern Orthodox Christian"
                 },
                 "value": 32
             },
             {
                 "name": {
-                    "en": "Ecuadorian "
+                    "en": "Ecuadorian"
                 },
                 "value": 33
             },
             {
                 "name": {
-                    "en": "English "
+                    "en": "English"
                 },
                 "value": 34
             },
             {
                 "name": {
-                    "en": "European "
+                    "en": "European"
                 },
                 "value": 35
             },
             {
                 "name": {
-                    "en": "Filipino "
+                    "en": "Filipino"
                 },
                 "value": 36
             },
             {
                 "name": {
-                    "en": "Finnish "
+                    "en": "Finnish"
                 },
                 "value": 37
             },
             {
                 "name": {
-                    "en": "French "
+                    "en": "French"
                 },
                 "value": 38
             },
             {
                 "name": {
-                    "en": "French Canadian Quebecois "
+                    "en": "French Canadian Quebecois"
                 },
                 "value": 39
             },
             {
                 "name": {
-                    "en": "Fundamentalist "
+                    "en": "Fundamentalist"
                 },
                 "value": 40
             },
             {
                 "name": {
-                    "en": "German "
+                    "en": "German"
                 },
                 "value": 41
             },
             {
                 "name": {
-                    "en": "Greek "
+                    "en": "Greek"
                 },
                 "value": 42
             },
             {
                 "name": {
-                    "en": "Guatemalan "
+                    "en": "Guatemalan"
                 },
                 "value": 43
             },
             {
                 "name": {
-                    "en": "Haitian "
+                    "en": "Haitian"
                 },
                 "value": 44
             },
             {
                 "name": {
-                    "en": "Hawaiian "
+                    "en": "Hawaiian"
                 },
                 "value": 45
             },
             {
                 "name": {
-                    "en": "Hispanic "
+                    "en": "Hispanic"
                 },
                 "value": 46
             },
             {
                 "name": {
-                    "en": "Honduran "
+                    "en": "Honduran"
                 },
                 "value": 47
             },
             {
                 "name": {
-                    "en": "Hungarian "
+                    "en": "Hungarian"
                 },
                 "value": 48
             },
             {
                 "name": {
-                    "en": "Indian Asian Indian "
+                    "en": "Indian Asian Indian"
                 },
                 "value": 49
             },
             {
                 "name": {
-                    "en": "Indonesian "
+                    "en": "Indonesian"
                 },
                 "value": 50
             },
             {
                 "name": {
-                    "en": "Irish "
+                    "en": "Irish"
                 },
                 "value": 51
             },
             {
                 "name": {
-                    "en": "Israeli "
+                    "en": "Israeli"
                 },
                 "value": 52
             },
             {
                 "name": {
-                    "en": "Italian "
+                    "en": "Italian"
                 },
                 "value": 53
             },
             {
                 "name": {
-                    "en": "Jamaican "
+                    "en": "Jamaican"
                 },
                 "value": 54
             },
             {
                 "name": {
-                    "en": "Japanese "
+                    "en": "Japanese"
                 },
                 "value": 55
             },
             {
                 "name": {
-                    "en": "Jewish "
+                    "en": "Jewish"
                 },
                 "value": 56
             },
             {
                 "name": {
-                    "en": "Korean "
+                    "en": "Korean"
                 },
                 "value": 57
             },
             {
                 "name": {
-                    "en": "Latin Latino(a) "
+                    "en": "Latin Latino(a)"
                 },
                 "value": 58
             },
             {
                 "name": {
-                    "en": "Latter-day Saint (LDS) Mormon "
+                    "en": "Latter-day Saint (LDS) Mormon"
                 },
                 "value": 59
             },
             {
                 "name": {
-                    "en": "Lebanese "
+                    "en": "Lebanese"
                 },
                 "value": 60
             },
             {
                 "name": {
-                    "en": "Lithuanian "
+                    "en": "Lithuanian"
                 },
                 "value": 61
             },
             {
                 "name": {
-                    "en": "Mexican "
+                    "en": "Mexican"
                 },
                 "value": 62
             },
             {
                 "name": {
-                    "en": "Middle-Eastern "
+                    "en": "Middle-Eastern"
                 },
                 "value": 63
             },
             {
                 "name": {
-                    "en": "Midwesterner "
+                    "en": "Midwesterner"
                 },
                 "value": 64
             },
             {
                 "name": {
-                    "en": "Moroccan "
+                    "en": "Moroccan"
                 },
                 "value": 65
             },
             {
                 "name": {
-                    "en": "Muslim "
+                    "en": "Muslim"
                 },
                 "value": 66
             },
             {
                 "name": {
-                    "en": "Native American American Indian "
+                    "en": "Native American American Indian"
                 },
                 "value": 67
             },
             {
                 "name": {
-                    "en": "Nicaraguan "
+                    "en": "Nicaraguan"
                 },
                 "value": 68
             },
             {
                 "name": {
-                    "en": "Northern European "
+                    "en": "Northern European"
                 },
                 "value": 69
             },
             {
                 "name": {
-                    "en": "Norwegian "
+                    "en": "Norwegian"
                 },
                 "value": 70
             },
             {
                 "name": {
-                    "en": "Pacific Islander "
+                    "en": "Pacific Islander"
                 },
                 "value": 71
             },
             {
                 "name": {
-                    "en": "Pentecostal "
+                    "en": "Pentecostal"
                 },
                 "value": 72
             },
             {
                 "name": {
-                    "en": "Persian "
+                    "en": "Persian"
                 },
                 "value": 73
             },
             {
                 "name": {
-                    "en": "Peruvian "
+                    "en": "Peruvian"
                 },
                 "value": 74
             },
             {
                 "name": {
-                    "en": "Polish "
+                    "en": "Polish"
                 },
                 "value": 75
             },
             {
                 "name": {
-                    "en": "Protestant "
+                    "en": "Protestant"
                 },
                 "value": 76
             },
             {
                 "name": {
-                    "en": "Puerto-Rican "
+                    "en": "Puerto-Rican"
                 },
                 "value": 77
             },
             {
                 "name": {
-                    "en": "Romanian "
+                    "en": "Romanian"
                 },
                 "value": 78
             },
             {
                 "name": {
-                    "en": "Russian "
+                    "en": "Russian"
                 },
                 "value": 79
             },
             {
                 "name": {
-                    "en": "Salvadorian "
+                    "en": "Salvadorian"
                 },
                 "value": 80
             },
             {
                 "name": {
-                    "en": "Scandinavian "
+                    "en": "Scandinavian"
                 },
                 "value": 81
             },
             {
                 "name": {
-                    "en": "Scottish "
+                    "en": "Scottish"
                 },
                 "value": 82
             },
             {
                 "name": {
-                    "en": "Slovak "
+                    "en": "Slovak"
                 },
                 "value": 83
             },
             {
                 "name": {
-                    "en": "South American "
+                    "en": "South American"
                 },
                 "value": 84
             },
             {
                 "name": {
-                    "en": "Southerner "
+                    "en": "Southerner"
                 },
                 "value": 85
             },
             {
                 "name": {
-                    "en": "Swedish "
+                    "en": "Swedish"
                 },
                 "value": 86
             },
             {
                 "name": {
-                    "en": "Swiss "
+                    "en": "Swiss"
                 },
                 "value": 87
             },
             {
                 "name": {
-                    "en": "Taiwanese "
+                    "en": "Taiwanese"
                 },
                 "value": 88
             },
             {
                 "name": {
-                    "en": "Thai "
+                    "en": "Thai"
                 },
                 "value": 89
             },
             {
                 "name": {
-                    "en": "Turkish "
+                    "en": "Turkish"
                 },
                 "value": 90
             },
             {
                 "name": {
-                    "en": "Venezuelan "
+                    "en": "Venezuelan"
                 },
                 "value": 91
             },
             {
                 "name": {
-                    "en": "Vietnamese "
+                    "en": "Vietnamese"
                 },
                 "value": 92
             },
             {
                 "name": {
-                    "en": "Welsh "
+                    "en": "Welsh"
                 },
                 "value": 93
             },
             {
                 "name": {
-                    "en": "West Indian "
+                    "en": "West Indian"
                 },
                 "value": 94
             },
             {
                 "name": {
-                    "en": "Western European "
+                    "en": "Western European"
                 },
                 "value": 95
             },

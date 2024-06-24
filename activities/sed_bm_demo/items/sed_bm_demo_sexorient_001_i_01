@@ -11,55 +11,55 @@
         "choices": [
             {
                 "name": {
-                    "en": "Queer "
+                    "en": "Queer"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Polysexual omnisexual sapiosexual or pansexual "
+                    "en": "Polysexual omnisexual sapiosexual or pansexual"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Asexual "
+                    "en": "Asexual"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Two-spirit "
+                    "en": "Two-spirit"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Have not figured out or are in the process of figuring out your sexuality "
+                    "en": "Have not figured out or are in the process of figuring out your sexuality"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Mostly straight but sometimes attracted to people of your own sex "
+                    "en": "Mostly straight but sometimes attracted to people of your own sex"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Do not think of yourself as having sexuality "
+                    "en": "Do not think of yourself as having sexuality"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "Do not use labels to identify yourself "
+                    "en": "Do not use labels to identify yourself"
                 },
                 "value": 8
             },
             {
                 "name": {
-                    "en": "Don't know the answer "
+                    "en": "Don't know the answer"
                 },
                 "value": 9
             },

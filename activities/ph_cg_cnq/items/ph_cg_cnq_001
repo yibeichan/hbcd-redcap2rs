@@ -11,31 +11,31 @@
         "choices": [
             {
                 "name": {
-                    "en": "Less than 1 cup "
+                    "en": "Less than 1 cup"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "1-2 cups "
+                    "en": "1-2 cups"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "3 or more cups "
+                    "en": "3 or more cups"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Does not drink milk "
+                    "en": "Does not drink milk"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

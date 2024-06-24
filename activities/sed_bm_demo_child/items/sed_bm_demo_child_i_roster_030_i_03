@@ -11,25 +11,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "Male "
+                    "en": "Male"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Female "
+                    "en": "Female"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "I'd like to consider additional options "
+                    "en": "I'd like to consider additional options"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

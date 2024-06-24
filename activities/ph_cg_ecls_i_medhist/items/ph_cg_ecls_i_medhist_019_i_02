@@ -11,31 +11,31 @@
         "choices": [
             {
                 "name": {
-                    "en": "No symptoms "
+                    "en": "No symptoms"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Mild symptoms (still able to play normally) "
+                    "en": "Mild symptoms (still able to play normally)"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Moderate symptoms (impacted their daily activities) "
+                    "en": "Moderate symptoms (impacted their daily activities)"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Severe symptoms (prompted medical evaluation) "
+                    "en": "Severe symptoms (prompted medical evaluation)"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

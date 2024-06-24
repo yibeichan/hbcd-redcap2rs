@@ -11,25 +11,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "Completed it "
+                    "en": "Completed it"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Still giving it as needed "
+                    "en": "Still giving it as needed"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Still giving it regularly "
+                    "en": "Still giving it regularly"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

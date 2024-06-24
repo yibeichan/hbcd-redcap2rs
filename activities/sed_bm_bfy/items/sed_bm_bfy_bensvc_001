@@ -14,79 +14,79 @@
         "choices": [
             {
                 "name": {
-                    "en": "Food stamps SNAP / EBT "
+                    "en": "Food stamps SNAP / EBT"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Free or reduced childcare "
+                    "en": "Free or reduced childcare"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Early Head Start "
+                    "en": "Early Head Start"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Head Start "
+                    "en": "Head Start"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Women Infants and Children (WIC) "
+                    "en": "Women Infants and Children (WIC)"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "State Unemployment "
+                    "en": "State Unemployment"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Cash assistance "
+                    "en": "Cash assistance"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "Free or reduced school lunch "
+                    "en": "Free or reduced school lunch"
                 },
                 "value": 8
             },
             {
                 "name": {
-                    "en": "Housing assistance "
+                    "en": "Housing assistance"
                 },
                 "value": 9
             },
             {
                 "name": {
-                    "en": "LIHEAP/heat/AC assistance "
+                    "en": "LIHEAP/heat/AC assistance"
                 },
                 "value": 10
             },
             {
                 "name": {
-                    "en": "Other "
+                    "en": "Other"
                 },
                 "value": 11
             },
             {
                 "name": {
-                    "en": "None "
+                    "en": "None"
                 },
                 "value": 12
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

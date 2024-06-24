@@ -11,25 +11,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "Strongly Agree "
+                    "en": "Strongly Agree"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Agree "
+                    "en": "Agree"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Neutral (neither agree nor disagree) "
+                    "en": "Neutral (neither agree nor disagree)"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Disagree "
+                    "en": "Disagree"
                 },
                 "value": 4
             },

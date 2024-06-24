@@ -11,337 +11,337 @@
         "choices": [
             {
                 "name": {
-                    "en": "Alabama (AL) "
+                    "en": "Alabama (AL)"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Alaska (AK) "
+                    "en": "Alaska (AK)"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Arizona (AZ) "
+                    "en": "Arizona (AZ)"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Arkansas (AR) "
+                    "en": "Arkansas (AR)"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "California (CA) "
+                    "en": "California (CA)"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Colorado (CO) "
+                    "en": "Colorado (CO)"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Connecticut (CT) "
+                    "en": "Connecticut (CT)"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "Delaware (DE) "
+                    "en": "Delaware (DE)"
                 },
                 "value": 8
             },
             {
                 "name": {
-                    "en": "District of Columbia (DC) "
+                    "en": "District of Columbia (DC)"
                 },
                 "value": 9
             },
             {
                 "name": {
-                    "en": "Florida (FL) "
+                    "en": "Florida (FL)"
                 },
                 "value": 10
             },
             {
                 "name": {
-                    "en": "Georgia (GA) "
+                    "en": "Georgia (GA)"
                 },
                 "value": 11
             },
             {
                 "name": {
-                    "en": "Hawaii (HI) "
+                    "en": "Hawaii (HI)"
                 },
                 "value": 12
             },
             {
                 "name": {
-                    "en": "Idaho (ID) "
+                    "en": "Idaho (ID)"
                 },
                 "value": 13
             },
             {
                 "name": {
-                    "en": "Illinois (IL) "
+                    "en": "Illinois (IL)"
                 },
                 "value": 14
             },
             {
                 "name": {
-                    "en": "Indiana (IN) "
+                    "en": "Indiana (IN)"
                 },
                 "value": 15
             },
             {
                 "name": {
-                    "en": "Iowa (IA) "
+                    "en": "Iowa (IA)"
                 },
                 "value": 16
             },
             {
                 "name": {
-                    "en": "Kansas (KS) "
+                    "en": "Kansas (KS)"
                 },
                 "value": 17
             },
             {
                 "name": {
-                    "en": "Kentucky (KY) "
+                    "en": "Kentucky (KY)"
                 },
                 "value": 18
             },
             {
                 "name": {
-                    "en": "Louisiana (LA) "
+                    "en": "Louisiana (LA)"
                 },
                 "value": 19
             },
             {
                 "name": {
-                    "en": "Maine (ME) "
+                    "en": "Maine (ME)"
                 },
                 "value": 20
             },
             {
                 "name": {
-                    "en": "Maryland (MD) "
+                    "en": "Maryland (MD)"
                 },
                 "value": 21
             },
             {
                 "name": {
-                    "en": "Massachusetts (MA) "
+                    "en": "Massachusetts (MA)"
                 },
                 "value": 22
             },
             {
                 "name": {
-                    "en": "Michigan (MI) "
+                    "en": "Michigan (MI)"
                 },
                 "value": 23
             },
             {
                 "name": {
-                    "en": "Minnesota (MN) "
+                    "en": "Minnesota (MN)"
                 },
                 "value": 24
             },
             {
                 "name": {
-                    "en": "Mississippi (MS) "
+                    "en": "Mississippi (MS)"
                 },
                 "value": 25
             },
             {
                 "name": {
-                    "en": "Missouri (MO) "
+                    "en": "Missouri (MO)"
                 },
                 "value": 26
             },
             {
                 "name": {
-                    "en": "Montana (MT) "
+                    "en": "Montana (MT)"
                 },
                 "value": 27
             },
             {
                 "name": {
-                    "en": "Nebraska (NE) "
+                    "en": "Nebraska (NE)"
                 },
                 "value": 28
             },
             {
                 "name": {
-                    "en": "Nevada (NV) "
+                    "en": "Nevada (NV)"
                 },
                 "value": 29
             },
             {
                 "name": {
-                    "en": "New Hampshire (NH) "
+                    "en": "New Hampshire (NH)"
                 },
                 "value": 30
             },
             {
                 "name": {
-                    "en": "New Jersey (NJ) "
+                    "en": "New Jersey (NJ)"
                 },
                 "value": 31
             },
             {
                 "name": {
-                    "en": "New Mexico (NM) "
+                    "en": "New Mexico (NM)"
                 },
                 "value": 32
             },
             {
                 "name": {
-                    "en": "New York (NY) "
+                    "en": "New York (NY)"
                 },
                 "value": 33
             },
             {
                 "name": {
-                    "en": "North Carolina (NC) "
+                    "en": "North Carolina (NC)"
                 },
                 "value": 34
             },
             {
                 "name": {
-                    "en": "North Dakota (ND) "
+                    "en": "North Dakota (ND)"
                 },
                 "value": 35
             },
             {
                 "name": {
-                    "en": "Ohio (OH) "
+                    "en": "Ohio (OH)"
                 },
                 "value": 36
             },
             {
                 "name": {
-                    "en": "Oklahoma (OK) "
+                    "en": "Oklahoma (OK)"
                 },
                 "value": 37
             },
             {
                 "name": {
-                    "en": "Oregon (OR) "
+                    "en": "Oregon (OR)"
                 },
                 "value": 38
             },
             {
                 "name": {
-                    "en": "Pennsylvania (PA) "
+                    "en": "Pennsylvania (PA)"
                 },
                 "value": 39
             },
             {
                 "name": {
-                    "en": "Rhode Island (RI) "
+                    "en": "Rhode Island (RI)"
                 },
                 "value": 40
             },
             {
                 "name": {
-                    "en": "South Carolina (SC) "
+                    "en": "South Carolina (SC)"
                 },
                 "value": 41
             },
             {
                 "name": {
-                    "en": "South Dakota (SD) "
+                    "en": "South Dakota (SD)"
                 },
                 "value": 42
             },
             {
                 "name": {
-                    "en": "Tennessee (TN) "
+                    "en": "Tennessee (TN)"
                 },
                 "value": 43
             },
             {
                 "name": {
-                    "en": "Texas (TX) "
+                    "en": "Texas (TX)"
                 },
                 "value": 44
             },
             {
                 "name": {
-                    "en": "Utah (UT) "
+                    "en": "Utah (UT)"
                 },
                 "value": 45
             },
             {
                 "name": {
-                    "en": "Vermont (VT) "
+                    "en": "Vermont (VT)"
                 },
                 "value": 46
             },
             {
                 "name": {
-                    "en": "Virginia (VA) "
+                    "en": "Virginia (VA)"
                 },
                 "value": 47
             },
             {
                 "name": {
-                    "en": "Washington (WA) "
+                    "en": "Washington (WA)"
                 },
                 "value": 48
             },
             {
                 "name": {
-                    "en": "West Virginia (WV) "
+                    "en": "West Virginia (WV)"
                 },
                 "value": 49
             },
             {
                 "name": {
-                    "en": "Wisconsin (WI) "
+                    "en": "Wisconsin (WI)"
                 },
                 "value": 50
             },
             {
                 "name": {
-                    "en": "Wyoming (WY) "
+                    "en": "Wyoming (WY)"
                 },
                 "value": 51
             },
             {
                 "name": {
-                    "en": "American Samoa (AS) "
+                    "en": "American Samoa (AS)"
                 },
                 "value": 52
             },
             {
                 "name": {
-                    "en": "Guam (GU) "
+                    "en": "Guam (GU)"
                 },
                 "value": 53
             },
             {
                 "name": {
-                    "en": "Northern Mariana Islands (MP) "
+                    "en": "Northern Mariana Islands (MP)"
                 },
                 "value": 54
             },
             {
                 "name": {
-                    "en": "Puerto Rico (PR) "
+                    "en": "Puerto Rico (PR)"
                 },
                 "value": 55
             },
             {
                 "name": {
-                    "en": "Virgin Islands (VI) "
+                    "en": "Virgin Islands (VI)"
                 },
                 "value": 56
             },

@@ -14,43 +14,43 @@
         "choices": [
             {
                 "name": {
-                    "en": "Personal private residence "
+                    "en": "Personal private residence"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Residence of relative or friend "
+                    "en": "Residence of relative or friend"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Treatment facility "
+                    "en": "Treatment facility"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Shelter "
+                    "en": "Shelter"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "No primary residence "
+                    "en": "No primary residence"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Other "
+                    "en": "Other"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

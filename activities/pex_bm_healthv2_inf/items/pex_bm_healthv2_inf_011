@@ -11,37 +11,37 @@
         "choices": [
             {
                 "name": {
-                    "en": "Excellent "
+                    "en": "Excellent"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Very good "
+                    "en": "Very good"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Good "
+                    "en": "Good"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Fair "
+                    "en": "Fair"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Poor "
+                    "en": "Poor"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

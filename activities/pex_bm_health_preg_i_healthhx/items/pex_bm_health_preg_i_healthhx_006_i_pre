@@ -11,49 +11,49 @@
         "choices": [
             {
                 "name": {
-                    "en": "Private health insurance from my job or the job of my spouse or partner "
+                    "en": "Private health insurance from my job or the job of my spouse or partner"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Private health insurance from the California Health Insurance Marketplace or coveredca.com or HealthCare.gov "
+                    "en": "Private health insurance from the California Health Insurance Marketplace or coveredca.com or HealthCare.gov"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Medicaid "
+                    "en": "Medicaid"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "TRICARE or other military health care "
+                    "en": "TRICARE or other military health care"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Indian Health Service or tribal "
+                    "en": "Indian Health Service or tribal"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Other health insurance "
+                    "en": "Other health insurance"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "I did not have any health insurance during the month before I got pregnant "
+                    "en": "I did not have any health insurance during the month before I got pregnant"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

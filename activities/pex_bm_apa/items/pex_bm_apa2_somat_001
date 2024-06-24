@@ -14,25 +14,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "Not bothered at all "
+                    "en": "Not bothered at all"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "Bothered a little "
+                    "en": "Bothered a little"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Bothered a lot "
+                    "en": "Bothered a lot"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

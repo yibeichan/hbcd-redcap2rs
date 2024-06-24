@@ -11,25 +11,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "Pass "
+                    "en": "Pass"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Referred or Refer (didn't pass) "
+                    "en": "Referred or Refer (didn't pass)"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Not tested "
+                    "en": "Not tested"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

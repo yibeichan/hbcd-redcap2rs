@@ -11,31 +11,31 @@
         "choices": [
             {
                 "name": {
-                    "en": "Cigarettes "
+                    "en": "Cigarettes"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Marijuana "
+                    "en": "Marijuana"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Methamphetamine "
+                    "en": "Methamphetamine"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "None "
+                    "en": "None"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

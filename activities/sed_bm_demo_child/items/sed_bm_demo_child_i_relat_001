@@ -14,49 +14,49 @@
         "choices": [
             {
                 "name": {
-                    "en": "Child "
+                    "en": "Child"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Foster Child "
+                    "en": "Foster Child"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Grandchild "
+                    "en": "Grandchild"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Sibling "
+                    "en": "Sibling"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Other family member "
+                    "en": "Other family member"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Non-family (a friend or friend of the family) "
+                    "en": "Non-family (a friend or friend of the family)"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Other "
+                    "en": "Other"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

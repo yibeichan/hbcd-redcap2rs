@@ -11,31 +11,31 @@
         "choices": [
             {
                 "name": {
-                    "en": "Always pleasant "
+                    "en": "Always pleasant"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Usually pleasant "
+                    "en": "Usually pleasant"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Sometimes pleasant "
+                    "en": "Sometimes pleasant"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Never pleasant "
+                    "en": "Never pleasant"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

@@ -11,25 +11,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "Yes (current) "
+                    "en": "Yes (current)"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Yes (past) "
+                    "en": "Yes (past)"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "No "
+                    "en": "No"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

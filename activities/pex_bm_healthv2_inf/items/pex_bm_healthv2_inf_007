@@ -11,43 +11,43 @@
         "choices": [
             {
                 "name": {
-                    "en": "Neonatal Abstinence Syndrome/Neinatal Opioid Withdrawal Syndrome "
+                    "en": "Neonatal Abstinence Syndrome/Neinatal Opioid Withdrawal Syndrome"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Low blood sugar "
+                    "en": "Low blood sugar"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Small head (microcephaly) "
+                    "en": "Small head (microcephaly)"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Jaundice or hyperbilirubinemia "
+                    "en": "Jaundice or hyperbilirubinemia"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Fetal Alcohol Syndrome "
+                    "en": "Fetal Alcohol Syndrome"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "None of the above "
+                    "en": "None of the above"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

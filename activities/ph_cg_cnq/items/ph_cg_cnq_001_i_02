@@ -11,37 +11,37 @@
         "choices": [
             {
                 "name": {
-                    "en": "Raw milk "
+                    "en": "Raw milk"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Whole milk "
+                    "en": "Whole milk"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "2% milk "
+                    "en": "2% milk"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "1% milk "
+                    "en": "1% milk"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Skim milk "
+                    "en": "Skim milk"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

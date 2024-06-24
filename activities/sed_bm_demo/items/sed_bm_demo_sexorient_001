@@ -14,37 +14,37 @@
         "choices": [
             {
                 "name": {
-                    "en": "Gay "
+                    "en": "Gay"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Lesbian "
+                    "en": "Lesbian"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Straight; that is not gay or lesbian etc. "
+                    "en": "Straight; that is not gay or lesbian etc."
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Bisexual "
+                    "en": "Bisexual"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "None of these describe me and I'd like to see additional options "
+                    "en": "None of these describe me and I'd like to see additional options"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

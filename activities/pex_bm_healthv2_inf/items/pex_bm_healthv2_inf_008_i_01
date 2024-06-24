@@ -11,49 +11,49 @@
         "choices": [
             {
                 "name": {
-                    "en": "Brain or spinal cord "
+                    "en": "Brain or spinal cord"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Kidneys bladder or genitals (including hypospadias) "
+                    "en": "Kidneys bladder or genitals (including hypospadias)"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Heart (including septal defects) "
+                    "en": "Heart (including septal defects)"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Lungs "
+                    "en": "Lungs"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Bones arms or legs (including club foot) "
+                    "en": "Bones arms or legs (including club foot)"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Face (including cleft lip or palate) "
+                    "en": "Face (including cleft lip or palate)"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Other "
+                    "en": "Other"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

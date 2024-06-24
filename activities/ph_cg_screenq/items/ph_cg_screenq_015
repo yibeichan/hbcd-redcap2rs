@@ -11,19 +11,19 @@
         "choices": [
             {
                 "name": {
-                    "en": "Together with a grown up "
+                    "en": "Together with a grown up"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "By themselves "
+                    "en": "By themselves"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

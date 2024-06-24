@@ -11,25 +11,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "Yes once "
+                    "en": "Yes once"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Yes multiple times "
+                    "en": "Yes multiple times"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "No "
+                    "en": "No"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

@@ -14,37 +14,37 @@
         "choices": [
             {
                 "name": {
-                    "en": "Not at all "
+                    "en": "Not at all"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "A little "
+                    "en": "A little"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Somewhat "
+                    "en": "Somewhat"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Usually "
+                    "en": "Usually"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Almost always "
+                    "en": "Almost always"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

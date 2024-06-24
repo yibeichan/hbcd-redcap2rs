@@ -11,37 +11,37 @@
         "choices": [
             {
                 "name": {
-                    "en": "Little pouches that you break open and apply behind the pet's neck "
+                    "en": "Little pouches that you break open and apply behind the pet's neck"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Other sprays dusts powders or skin applications "
+                    "en": "Other sprays dusts powders or skin applications"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Flea or tick shampoos "
+                    "en": "Flea or tick shampoos"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Flea or tick collars "
+                    "en": "Flea or tick collars"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Oral Flea / Tick medicine "
+                    "en": "Oral Flea / Tick medicine"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

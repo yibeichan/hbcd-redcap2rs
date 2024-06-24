@@ -11,43 +11,43 @@
         "choices": [
             {
                 "name": {
-                    "en": "Tonsils and/or adenoids removed "
+                    "en": "Tonsils and/or adenoids removed"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Ear tubes "
+                    "en": "Ear tubes"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Hernia repair "
+                    "en": "Hernia repair"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Appendectomy (appendix removed) "
+                    "en": "Appendectomy (appendix removed)"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Surgery for a broken bone or after an accident "
+                    "en": "Surgery for a broken bone or after an accident"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Other "
+                    "en": "Other"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

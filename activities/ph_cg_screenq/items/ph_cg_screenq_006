@@ -11,25 +11,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "0-12 months "
+                    "en": "0-12 months"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "12-18 months "
+                    "en": "12-18 months"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": ">18 months "
+                    "en": ">18 months"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

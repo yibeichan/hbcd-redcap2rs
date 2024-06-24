@@ -11,37 +11,37 @@
         "choices": [
             {
                 "name": {
-                    "en": "Not at all important "
+                    "en": "Not at all important"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Not very important "
+                    "en": "Not very important"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Somewhat important "
+                    "en": "Somewhat important"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Very important "
+                    "en": "Very important"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Not applicable "
+                    "en": "Not applicable"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

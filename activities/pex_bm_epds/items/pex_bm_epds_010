@@ -11,31 +11,31 @@
         "choices": [
             {
                 "name": {
-                    "en": "Yes quite often "
+                    "en": "Yes quite often"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Sometimes "
+                    "en": "Sometimes"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Hardly ever "
+                    "en": "Hardly ever"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Never "
+                    "en": "Never"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

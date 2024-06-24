@@ -11,37 +11,37 @@
         "choices": [
             {
                 "name": {
-                    "en": "None "
+                    "en": "None"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "Mild (slightly disturbing) "
+                    "en": "Mild (slightly disturbing)"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Moderate (disturbing but still manageable) "
+                    "en": "Moderate (disturbing but still manageable)"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Severe (very disturbing) "
+                    "en": "Severe (very disturbing)"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Extreme (overwhelming distress) "
+                    "en": "Extreme (overwhelming distress)"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

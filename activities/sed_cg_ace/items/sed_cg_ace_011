@@ -11,25 +11,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "Not much "
+                    "en": "Not much"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Some "
+                    "en": "Some"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "A lot "
+                    "en": "A lot"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

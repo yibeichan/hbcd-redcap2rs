@@ -11,25 +11,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "Daily "
+                    "en": "Daily"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Some days "
+                    "en": "Some days"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Never "
+                    "en": "Never"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

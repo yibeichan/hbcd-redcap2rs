@@ -11,37 +11,37 @@
         "choices": [
             {
                 "name": {
-                    "en": "Complete control "
+                    "en": "Complete control"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "Much control (usually able to control thoughts or behaviors) "
+                    "en": "Much control (usually able to control thoughts or behaviors)"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Moderate control (sometimes able to control thoughts or behaviors) "
+                    "en": "Moderate control (sometimes able to control thoughts or behaviors)"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Little control (infrequently able to control thoughts or behaviors) "
+                    "en": "Little control (infrequently able to control thoughts or behaviors)"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "No control (unable to control thoughts or behaviors) "
+                    "en": "No control (unable to control thoughts or behaviors)"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

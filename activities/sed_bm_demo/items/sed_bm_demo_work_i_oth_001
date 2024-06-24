@@ -14,43 +14,43 @@
         "choices": [
             {
                 "name": {
-                    "en": "Working "
+                    "en": "Working"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Looking for work "
+                    "en": "Looking for work"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Retired "
+                    "en": "Retired"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Stay at home parent "
+                    "en": "Stay at home parent"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Student "
+                    "en": "Student"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Other "
+                    "en": "Other"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

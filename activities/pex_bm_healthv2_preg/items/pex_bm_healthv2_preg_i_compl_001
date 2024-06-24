@@ -14,79 +14,79 @@
         "choices": [
             {
                 "name": {
-                    "en": "Gestational diabetes (diabetes that started during the pregnancy) "
+                    "en": "Gestational diabetes (diabetes that started during the pregnancy)"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "High blood pressure (hypertension) that was first diagnosed during the pregnancy "
+                    "en": "High blood pressure (hypertension) that was first diagnosed during the pregnancy"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Pre-eclampsia or eclampsia (high blood pressure related to pregnancy) "
+                    "en": "Pre-eclampsia or eclampsia (high blood pressure related to pregnancy)"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Pulmonary embolism (blood clot to the lungs) "
+                    "en": "Pulmonary embolism (blood clot to the lungs)"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Deep vein thrombosis (blood clot in the legs or other vein) "
+                    "en": "Deep vein thrombosis (blood clot in the legs or other vein)"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Cervical insufficiency or cervical incompetence "
+                    "en": "Cervical insufficiency or cervical incompetence"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Chorioamnionitis or infection in the womb during labor "
+                    "en": "Chorioamnionitis or infection in the womb during labor"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "Placenta previa (placenta blocking the cervix) "
+                    "en": "Placenta previa (placenta blocking the cervix)"
                 },
                 "value": 8
             },
             {
                 "name": {
-                    "en": "Oligohydramnios (not enough amniotic fluid) "
+                    "en": "Oligohydramnios (not enough amniotic fluid)"
                 },
                 "value": 9
             },
             {
                 "name": {
-                    "en": "Polyhydramnios (too much amniotic fluid) "
+                    "en": "Polyhydramnios (too much amniotic fluid)"
                 },
                 "value": 10
             },
             {
                 "name": {
-                    "en": "Fetal growth restriction or poor growth of the baby "
+                    "en": "Fetal growth restriction or poor growth of the baby"
                 },
                 "value": 11
             },
             {
                 "name": {
-                    "en": "None of these "
+                    "en": "None of these"
                 },
                 "value": 12
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

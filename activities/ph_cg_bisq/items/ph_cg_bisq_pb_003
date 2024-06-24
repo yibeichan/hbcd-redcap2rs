@@ -11,55 +11,55 @@
         "choices": [
             {
                 "name": {
-                    "en": "Crib "
+                    "en": "Crib"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Bassinet/infant seat "
+                    "en": "Bassinet/infant seat"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Own bed (any size) "
+                    "en": "Own bed (any size)"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Swing/stroller "
+                    "en": "Swing/stroller"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Caregiver's bed "
+                    "en": "Caregiver's bed"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Caregiver's arms "
+                    "en": "Caregiver's arms"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Co-sleeper (attached to parent's bed) "
+                    "en": "Co-sleeper (attached to parent's bed)"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "Other "
+                    "en": "Other"
                 },
                 "value": 8
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

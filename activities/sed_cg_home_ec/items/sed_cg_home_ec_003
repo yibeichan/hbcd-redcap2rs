@@ -11,37 +11,37 @@
         "choices": [
             {
                 "name": {
-                    "en": "Less than 1 hour "
+                    "en": "Less than 1 hour"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "1-2 hours "
+                    "en": "1-2 hours"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "3-4 hours "
+                    "en": "3-4 hours"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "5-7 hours "
+                    "en": "5-7 hours"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "8 hours or more "
+                    "en": "8 hours or more"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

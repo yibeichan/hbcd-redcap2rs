@@ -11,43 +11,43 @@
         "choices": [
             {
                 "name": {
-                    "en": "Picky eater "
+                    "en": "Picky eater"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Leaves food on the plate "
+                    "en": "Leaves food on the plate"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Wants the same food all the time "
+                    "en": "Wants the same food all the time"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Begs for snacks between meals "
+                    "en": "Begs for snacks between meals"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Wants milk or juice all day long "
+                    "en": "Wants milk or juice all day long"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "None of these "
+                    "en": "None of these"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

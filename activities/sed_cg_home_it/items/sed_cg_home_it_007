@@ -11,43 +11,43 @@
         "choices": [
             {
                 "name": {
-                    "en": "Never "
+                    "en": "Never"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Several times a year "
+                    "en": "Several times a year"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Several times a month "
+                    "en": "Several times a month"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Once a week "
+                    "en": "Once a week"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "About 3 times a week "
+                    "en": "About 3 times a week"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Every day "
+                    "en": "Every day"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

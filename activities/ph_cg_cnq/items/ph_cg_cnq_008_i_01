@@ -11,31 +11,31 @@
         "choices": [
             {
                 "name": {
-                    "en": "Mashed "
+                    "en": "Mashed"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Finely chopped "
+                    "en": "Finely chopped"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Chunky "
+                    "en": "Chunky"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Regular "
+                    "en": "Regular"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

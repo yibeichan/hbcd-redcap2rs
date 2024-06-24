@@ -14,37 +14,37 @@
         "choices": [
             {
                 "name": {
-                    "en": "Never "
+                    "en": "Never"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "Almost Never "
+                    "en": "Almost Never"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Sometimes "
+                    "en": "Sometimes"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Fairly Often "
+                    "en": "Fairly Often"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Very Often "
+                    "en": "Very Often"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

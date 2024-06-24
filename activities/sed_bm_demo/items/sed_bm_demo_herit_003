@@ -11,55 +11,55 @@
         "choices": [
             {
                 "name": {
-                    "en": "American Indian or Alaska Native "
+                    "en": "American Indian or Alaska Native"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Asian "
+                    "en": "Asian"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Black African American or African "
+                    "en": "Black African American or African"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Hispanic Latino or Spanish "
+                    "en": "Hispanic Latino or Spanish"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Middle Eastern or North African "
+                    "en": "Middle Eastern or North African"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Native Hawaiian or other Pacific Islander "
+                    "en": "Native Hawaiian or other Pacific Islander"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "White "
+                    "en": "White"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "None of these fully describe me "
+                    "en": "None of these fully describe me"
                 },
                 "value": 8
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

@@ -11,31 +11,31 @@
         "choices": [
             {
                 "name": {
-                    "en": "CG Type A (Temporary alternative caregiver) "
+                    "en": "CG Type A (Temporary alternative caregiver)"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "CG Type B (Change in primary caregiver (placement only) without change in legal custody (but BP unable to complete visit)) "
+                    "en": "CG Type B (Change in primary caregiver (placement only) without change in legal custody (but BP unable to complete visit))"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "CG Type C (Change in joint custody) "
+                    "en": "CG Type C (Change in joint custody)"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "CG Type D (Child removed from BP and placed in foster care (change in placement)) "
+                    "en": "CG Type D (Child removed from BP and placed in foster care (change in placement))"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "CG Type E (Change in legal custody and placement e.g. adoption) "
+                    "en": "CG Type E (Change in legal custody and placement e.g. adoption)"
                 },
                 "value": 5
             },

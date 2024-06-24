@@ -14,37 +14,37 @@
         "choices": [
             {
                 "name": {
-                    "en": "None-Not at all "
+                    "en": "None-Not at all"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "Slight-Rare less than a day or two "
+                    "en": "Slight-Rare less than a day or two"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Mild-Several Days "
+                    "en": "Mild-Several Days"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Moderate-More than half the days "
+                    "en": "Moderate-More than half the days"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Severe-Nearly every day "
+                    "en": "Severe-Nearly every day"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

@@ -11,37 +11,37 @@
         "choices": [
             {
                 "name": {
-                    "en": "I do not feel more self-confident than usual "
+                    "en": "I do not feel more self-confident than usual"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "I occasionally feel more self confident than usual "
+                    "en": "I occasionally feel more self confident than usual"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "I often feel more self-confident than usual "
+                    "en": "I often feel more self-confident than usual"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "I frequently feel more self-confident than usual "
+                    "en": "I frequently feel more self-confident than usual"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "I feel extremely self-confident all of the time "
+                    "en": "I feel extremely self-confident all of the time"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

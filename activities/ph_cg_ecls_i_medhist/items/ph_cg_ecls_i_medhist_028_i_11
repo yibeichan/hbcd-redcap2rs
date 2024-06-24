@@ -11,37 +11,37 @@
         "choices": [
             {
                 "name": {
-                    "en": "Daily "
+                    "en": "Daily"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Weekly "
+                    "en": "Weekly"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Monthly "
+                    "en": "Monthly"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Less than monthly "
+                    "en": "Less than monthly"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Never "
+                    "en": "Never"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

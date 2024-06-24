@@ -11,19 +11,19 @@
         "choices": [
             {
                 "name": {
-                    "en": "USA "
+                    "en": "USA"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Other "
+                    "en": "Other"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

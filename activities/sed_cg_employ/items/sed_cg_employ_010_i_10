@@ -11,49 +11,49 @@
         "choices": [
             {
                 "name": {
-                    "en": "Regular daytime schedule "
+                    "en": "Regular daytime schedule"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Regular evening shift "
+                    "en": "Regular evening shift"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Regular nighttime shift "
+                    "en": "Regular nighttime shift"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Rotating shifts (one that changes regularly from days to evenings or nights) "
+                    "en": "Rotating shifts (one that changes regularly from days to evenings or nights)"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Split shift (one consisting of two distinct periods each day) "
+                    "en": "Split shift (one consisting of two distinct periods each day)"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Irregular schedule (one that changes from day to day) "
+                    "en": "Irregular schedule (one that changes from day to day)"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Other "
+                    "en": "Other"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

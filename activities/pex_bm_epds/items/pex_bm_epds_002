@@ -11,31 +11,31 @@
         "choices": [
             {
                 "name": {
-                    "en": "As much as I ever did "
+                    "en": "As much as I ever did"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "Rather less than I used to "
+                    "en": "Rather less than I used to"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Definitely less than I used to "
+                    "en": "Definitely less than I used to"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Hardly at all "
+                    "en": "Hardly at all"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

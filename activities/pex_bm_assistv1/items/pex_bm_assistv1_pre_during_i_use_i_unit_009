@@ -11,13 +11,13 @@
         "choices": [
             {
                 "name": {
-                    "en": "pills "
+                    "en": "pills"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "injectable "
+                    "en": "injectable"
                 },
                 "value": 2
             },

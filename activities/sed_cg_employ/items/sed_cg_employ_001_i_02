@@ -11,31 +11,31 @@
         "choices": [
             {
                 "name": {
-                    "en": "No leave "
+                    "en": "No leave"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "Paid leave "
+                    "en": "Paid leave"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Unpaid leave "
+                    "en": "Unpaid leave"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Both paid and unpaid leave "
+                    "en": "Both paid and unpaid leave"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

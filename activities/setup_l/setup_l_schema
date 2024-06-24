@@ -48,7 +48,6 @@
             {
                 "isAbout": "items/url_vineland",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "url_vineland"
             }
         ],

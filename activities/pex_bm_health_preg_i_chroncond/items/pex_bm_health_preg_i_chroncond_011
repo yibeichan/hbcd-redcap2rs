@@ -11,19 +11,19 @@
         "choices": [
             {
                 "name": {
-                    "en": "Resolved "
+                    "en": "Resolved"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "Ongoing "
+                    "en": "Ongoing"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

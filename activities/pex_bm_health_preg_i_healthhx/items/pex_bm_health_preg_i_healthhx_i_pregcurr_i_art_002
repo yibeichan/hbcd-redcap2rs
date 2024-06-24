@@ -11,43 +11,43 @@
         "choices": [
             {
                 "name": {
-                    "en": "Infertility "
+                    "en": "Infertility"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Same sex relationship "
+                    "en": "Same sex relationship"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Genetic concerns "
+                    "en": "Genetic concerns"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Sex selection or family balancing "
+                    "en": "Sex selection or family balancing"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Previously preserved embryos prior to chemotherapy or other medical interventions "
+                    "en": "Previously preserved embryos prior to chemotherapy or other medical interventions"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Other "
+                    "en": "Other"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

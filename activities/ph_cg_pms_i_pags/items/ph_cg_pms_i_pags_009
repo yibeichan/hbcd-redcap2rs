@@ -11,25 +11,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "Walk "
+                    "en": "Walk"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Drive "
+                    "en": "Drive"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Public transportation "
+                    "en": "Public transportation"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

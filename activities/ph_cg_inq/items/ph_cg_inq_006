@@ -11,19 +11,19 @@
         "choices": [
             {
                 "name": {
-                    "en": "Have not started solids "
+                    "en": "Have not started solids"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Months old "
+                    "en": "Months old"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

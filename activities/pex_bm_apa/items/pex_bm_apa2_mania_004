@@ -11,37 +11,37 @@
         "choices": [
             {
                 "name": {
-                    "en": "I do not talk more than usual "
+                    "en": "I do not talk more than usual"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "I occasionally talk more than usual "
+                    "en": "I occasionally talk more than usual"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "I often talk more than usual "
+                    "en": "I often talk more than usual"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "I frequently talk more than usual "
+                    "en": "I frequently talk more than usual"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "I talk constantly and cannot be interrupted "
+                    "en": "I talk constantly and cannot be interrupted"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

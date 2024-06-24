@@ -11,43 +11,43 @@
         "choices": [
             {
                 "name": {
-                    "en": "Not in the past 12 months "
+                    "en": "Not in the past 12 months"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Once "
+                    "en": "Once"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "A few times "
+                    "en": "A few times"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Monthly "
+                    "en": "Monthly"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Weekly "
+                    "en": "Weekly"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Daily/almost daily "
+                    "en": "Daily/almost daily"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

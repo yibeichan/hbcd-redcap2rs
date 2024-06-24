@@ -11,25 +11,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "HIV "
+                    "en": "HIV"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Hepatitis C "
+                    "en": "Hepatitis C"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Hepatitis B "
+                    "en": "Hepatitis B"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "A different one not listed here "
+                    "en": "A different one not listed here"
                 },
                 "value": 4
             },

@@ -14,91 +14,91 @@
         "choices": [
             {
                 "name": {
-                    "en": "Gonorrhea "
+                    "en": "Gonorrhea"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Chlamydia "
+                    "en": "Chlamydia"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Herpes "
+                    "en": "Herpes"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "HPV "
+                    "en": "HPV"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Syphilis "
+                    "en": "Syphilis"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "CMV "
+                    "en": "CMV"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Group B Strep "
+                    "en": "Group B Strep"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "Hepatitis A "
+                    "en": "Hepatitis A"
                 },
                 "value": 8
             },
             {
                 "name": {
-                    "en": "Hepatitis B "
+                    "en": "Hepatitis B"
                 },
                 "value": 9
             },
             {
                 "name": {
-                    "en": "Hepatitis C "
+                    "en": "Hepatitis C"
                 },
                 "value": 10
             },
             {
                 "name": {
-                    "en": "HIV "
+                    "en": "HIV"
                 },
                 "value": 11
             },
             {
                 "name": {
-                    "en": "Toxoplasmosis "
+                    "en": "Toxoplasmosis"
                 },
                 "value": 12
             },
             {
                 "name": {
-                    "en": "Urinary Tract Infection "
+                    "en": "Urinary Tract Infection"
                 },
                 "value": 13
             },
             {
                 "name": {
-                    "en": "None "
+                    "en": "None"
                 },
                 "value": 14
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

@@ -11,25 +11,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "Very much like your own home "
+                    "en": "Very much like your own home"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Somewhat like your own home "
+                    "en": "Somewhat like your own home"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "A little bit like your own home "
+                    "en": "A little bit like your own home"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Not at all like your own home "
+                    "en": "Not at all like your own home"
                 },
                 "value": 4
             },

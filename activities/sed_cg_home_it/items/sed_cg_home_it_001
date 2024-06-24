@@ -11,37 +11,37 @@
         "choices": [
             {
                 "name": {
-                    "en": "None "
+                    "en": "None"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "1-2 "
+                    "en": "1-2"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "3-9 "
+                    "en": "3-9"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "10-19 "
+                    "en": "10-19"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "20 or more "
+                    "en": "20 or more"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

@@ -11,37 +11,37 @@
         "choices": [
             {
                 "name": {
-                    "en": "E-cigarettes or Electronic Nicotine Delivery Device or Vaporizer such as JUUL "
+                    "en": "E-cigarettes or Electronic Nicotine Delivery Device or Vaporizer such as JUUL"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Cigars "
+                    "en": "Cigars"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Pipes "
+                    "en": "Pipes"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Marijuana/Hashish "
+                    "en": "Marijuana/Hashish"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Other "
+                    "en": "Other"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

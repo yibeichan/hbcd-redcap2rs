@@ -11,79 +11,79 @@
         "choices": [
             {
                 "name": {
-                    "en": "Cockroaches  "
+                    "en": "Cockroaches"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Bees/Wasps  "
+                    "en": "Bees/Wasps"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Ants "
+                    "en": "Ants"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Flies "
+                    "en": "Flies"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Mosquitos "
+                    "en": "Mosquitos"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Termites "
+                    "en": "Termites"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Fleas "
+                    "en": "Fleas"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "Moths "
+                    "en": "Moths"
                 },
                 "value": 8
             },
             {
                 "name": {
-                    "en": "Spiders "
+                    "en": "Spiders"
                 },
                 "value": 9
             },
             {
                 "name": {
-                    "en": "Snails "
+                    "en": "Snails"
                 },
                 "value": 10
             },
             {
                 "name": {
-                    "en": "Rodents "
+                    "en": "Rodents"
                 },
                 "value": 11
             },
             {
                 "name": {
-                    "en": " None were treated "
+                    "en": "None were treated"
                 },
                 "value": 12
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

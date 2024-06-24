@@ -11,31 +11,31 @@
         "choices": [
             {
                 "name": {
-                    "en": "Non-binary "
+                    "en": "Non-binary"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Transgender male "
+                    "en": "Transgender male"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Transgender female "
+                    "en": "Transgender female"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "None of these "
+                    "en": "None of these"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

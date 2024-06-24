@@ -11,31 +11,31 @@
         "choices": [
             {
                 "name": {
-                    "en": "Cockroaches "
+                    "en": "Cockroaches"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Rodents (mice or rats) "
+                    "en": "Rodents (mice or rats)"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Other "
+                    "en": "Other"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "None "
+                    "en": "None"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

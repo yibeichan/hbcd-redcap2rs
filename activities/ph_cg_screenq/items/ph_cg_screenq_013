@@ -11,19 +11,19 @@
         "choices": [
             {
                 "name": {
-                    "en": "Entertainment for fun "
+                    "en": "Entertainment for fun"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Education for learning "
+                    "en": "Education for learning"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

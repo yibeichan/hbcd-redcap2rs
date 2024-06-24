@@ -14,73 +14,73 @@
         "choices": [
             {
                 "name": {
-                    "en": "Asthma "
+                    "en": "Asthma"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "A respiratory illness such as bronchitis pneumonia or bronchiolitis (for example RSV) "
+                    "en": "A respiratory illness such as bronchitis pneumonia or bronchiolitis (for example RSV)"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "A severe gastrointestinal illness with frequent vomiting diarrhea or dehydration "
+                    "en": "A severe gastrointestinal illness with frequent vomiting diarrhea or dehydration"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "A mood or behavior problem "
+                    "en": "A mood or behavior problem"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Seizures "
+                    "en": "Seizures"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Appendicitis "
+                    "en": "Appendicitis"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Urinary tract infection "
+                    "en": "Urinary tract infection"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "Skin infection "
+                    "en": "Skin infection"
                 },
                 "value": 8
             },
             {
                 "name": {
-                    "en": "Brain injury "
+                    "en": "Brain injury"
                 },
                 "value": 9
             },
             {
                 "name": {
-                    "en": "Trauma broken bone or other injury from an accident "
+                    "en": "Trauma broken bone or other injury from an accident"
                 },
                 "value": 10
             },
             {
                 "name": {
-                    "en": "Other acute (transient or short lived) problem "
+                    "en": "Other acute (transient or short lived) problem"
                 },
                 "value": 11
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

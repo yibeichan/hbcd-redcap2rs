@@ -11,37 +11,37 @@
         "choices": [
             {
                 "name": {
-                    "en": "Private pool "
+                    "en": "Private pool"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Public pool "
+                    "en": "Public pool"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Public beach or water access (lake or ocean) "
+                    "en": "Public beach or water access (lake or ocean)"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Private beach or water access (lake or ocean) "
+                    "en": "Private beach or water access (lake or ocean)"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Brook/stream/estuary "
+                    "en": "Brook/stream/estuary"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

@@ -11,19 +11,19 @@
         "choices": [
             {
                 "name": {
-                    "en": "Vaginal "
+                    "en": "Vaginal"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "Cesarean delivery "
+                    "en": "Cesarean delivery"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

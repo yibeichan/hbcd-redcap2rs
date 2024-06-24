@@ -11,43 +11,43 @@
         "choices": [
             {
                 "name": {
-                    "en": "My child does not travel in hired vehicles "
+                    "en": "My child does not travel in hired vehicles"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Front facing car seat in the back seat of the vehicle "
+                    "en": "Front facing car seat in the back seat of the vehicle"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Rear facing car seat in the back seat of the vehicle "
+                    "en": "Rear facing car seat in the back seat of the vehicle"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Front or rear facing car seat in the front seat of the vehicle "
+                    "en": "Front or rear facing car seat in the front seat of the vehicle"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "In a car on the lap of another passenger "
+                    "en": "In a car on the lap of another passenger"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Other "
+                    "en": "Other"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

@@ -11,37 +11,37 @@
         "choices": [
             {
                 "name": {
-                    "en": "A regular daytime schedule "
+                    "en": "A regular daytime schedule"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "A regular evening shift "
+                    "en": "A regular evening shift"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "A regular night shift "
+                    "en": "A regular night shift"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "A rotating shift "
+                    "en": "A rotating shift"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Another schedule "
+                    "en": "Another schedule"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

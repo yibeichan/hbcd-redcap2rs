@@ -11,79 +11,79 @@
         "choices": [
             {
                 "name": {
-                    "en": "Dutch "
+                    "en": "Dutch"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "English "
+                    "en": "English"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "European "
+                    "en": "European"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "French "
+                    "en": "French"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "German "
+                    "en": "German"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Irish "
+                    "en": "Irish"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Italian "
+                    "en": "Italian"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Norwegian "
+                    "en": "Norwegian"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "Polish "
+                    "en": "Polish"
                 },
                 "value": 8
             },
             {
                 "name": {
-                    "en": "Scottish "
+                    "en": "Scottish"
                 },
                 "value": 9
             },
             {
                 "name": {
-                    "en": "Spanish "
+                    "en": "Spanish"
                 },
                 "value": 10
             },
             {
                 "name": {
-                    "en": "None of these fully describe the other biological parent / Other "
+                    "en": "None of these fully describe the other biological parent / Other"
                 },
                 "value": 11
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

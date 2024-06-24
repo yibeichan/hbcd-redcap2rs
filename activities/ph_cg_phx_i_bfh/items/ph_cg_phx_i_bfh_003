@@ -11,19 +11,19 @@
         "choices": [
             {
                 "name": {
-                    "en": "Still breastfeeding "
+                    "en": "Still breastfeeding"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "No longer breastfeeding "
+                    "en": "No longer breastfeeding"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "Don't know "
+                    "en": "Don't know"
                 },
                 "value": 777
             },

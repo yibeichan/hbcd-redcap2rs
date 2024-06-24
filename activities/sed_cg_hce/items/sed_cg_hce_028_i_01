@@ -11,25 +11,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "Indoors  "
+                    "en": "Indoors"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Outdoors "
+                    "en": "Outdoors"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Both indoors and outdoors "
+                    "en": "Both indoors and outdoors"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

@@ -11,37 +11,37 @@
         "choices": [
             {
                 "name": {
-                    "en": "Plain water "
+                    "en": "Plain water"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Milk (including cow's milk and other milks) "
+                    "en": "Milk (including cow's milk and other milks)"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Juice drinks (including Kool-Aid 100% Juice Sweet Tea and Gatorade) "
+                    "en": "Juice drinks (including Kool-Aid 100% Juice Sweet Tea and Gatorade)"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Soda/Pop "
+                    "en": "Soda/Pop"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Other "
+                    "en": "Other"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

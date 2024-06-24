@@ -11,73 +11,73 @@
         "choices": [
             {
                 "name": {
-                    "en": "Afghan "
+                    "en": "Afghan"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "Algerian "
+                    "en": "Algerian"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Egyptian "
+                    "en": "Egyptian"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Iranian "
+                    "en": "Iranian"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Iraqi "
+                    "en": "Iraqi"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Israeli "
+                    "en": "Israeli"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Lebanese "
+                    "en": "Lebanese"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Moroccan "
+                    "en": "Moroccan"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "Syrian "
+                    "en": "Syrian"
                 },
                 "value": 8
             },
             {
                 "name": {
-                    "en": "Tunisian "
+                    "en": "Tunisian"
                 },
                 "value": 9
             },
             {
                 "name": {
-                    "en": "None of these fully describe the other biological parent / Other "
+                    "en": "None of these fully describe the other biological parent / Other"
                 },
                 "value": 10
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

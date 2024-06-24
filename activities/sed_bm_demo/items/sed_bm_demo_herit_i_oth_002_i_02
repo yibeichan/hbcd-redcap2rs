@@ -11,67 +11,67 @@
         "choices": [
             {
                 "name": {
-                    "en": "Asian Indian "
+                    "en": "Asian Indian"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "Cambodian "
+                    "en": "Cambodian"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Chinese "
+                    "en": "Chinese"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Filipino "
+                    "en": "Filipino"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Hmong "
+                    "en": "Hmong"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Japanese "
+                    "en": "Japanese"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Korean "
+                    "en": "Korean"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Pakistani "
+                    "en": "Pakistani"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "Vietnamese "
+                    "en": "Vietnamese"
                 },
                 "value": 8
             },
             {
                 "name": {
-                    "en": "None of these fully describe the other biological parent / Other "
+                    "en": "None of these fully describe the other biological parent / Other"
                 },
                 "value": 9
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

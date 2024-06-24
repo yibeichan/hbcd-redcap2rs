@@ -11,61 +11,61 @@
         "choices": [
             {
                 "name": {
-                    "en": "slept more than usual "
+                    "en": "slept more than usual"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "slept less than usual "
+                    "en": "slept less than usual"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "slept usual amount but sleep schedule was different "
+                    "en": "slept usual amount but sleep schedule was different"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "feeding schedule was different "
+                    "en": "feeding schedule was different"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "spent more time in a vehicle than usual "
+                    "en": "spent more time in a vehicle than usual"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "was carried/held more than usual "
+                    "en": "was carried/held more than usual"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "fussier than usual "
+                    "en": "fussier than usual"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "baby was sick or not feeling well "
+                    "en": "baby was sick or not feeling well"
                 },
                 "value": 8
             },
             {
                 "name": {
-                    "en": "other "
+                    "en": "other"
                 },
                 "value": 9
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

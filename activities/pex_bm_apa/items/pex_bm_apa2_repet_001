@@ -14,37 +14,37 @@
         "choices": [
             {
                 "name": {
-                    "en": "None "
+                    "en": "None"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "Mild (Less than an hour a day) "
+                    "en": "Mild (Less than an hour a day)"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Moderate (1 to 3 hours a day) "
+                    "en": "Moderate (1 to 3 hours a day)"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Severe (3 to 8 hours a day) "
+                    "en": "Severe (3 to 8 hours a day)"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Extreme (more than 8 hours a day) "
+                    "en": "Extreme (more than 8 hours a day)"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

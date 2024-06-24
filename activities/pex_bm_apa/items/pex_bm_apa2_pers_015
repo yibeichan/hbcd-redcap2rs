@@ -11,31 +11,31 @@
         "choices": [
             {
                 "name": {
-                    "en": "Very False or Often False "
+                    "en": "Very False or Often False"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "Sometimes or Somewhat False "
+                    "en": "Sometimes or Somewhat False"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Sometimes or Somewhat True "
+                    "en": "Sometimes or Somewhat True"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Very True or Often True "
+                    "en": "Very True or Often True"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

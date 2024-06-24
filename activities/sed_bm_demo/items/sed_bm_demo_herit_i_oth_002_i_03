@@ -11,79 +11,79 @@
         "choices": [
             {
                 "name": {
-                    "en": "African American "
+                    "en": "African American"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "Barbadian "
+                    "en": "Barbadian"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Caribbean "
+                    "en": "Caribbean"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Ethiopian "
+                    "en": "Ethiopian"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Ghanaian "
+                    "en": "Ghanaian"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Haitian "
+                    "en": "Haitian"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Jamaican "
+                    "en": "Jamaican"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Liberian "
+                    "en": "Liberian"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "Nigerian "
+                    "en": "Nigerian"
                 },
                 "value": 8
             },
             {
                 "name": {
-                    "en": "Somali "
+                    "en": "Somali"
                 },
                 "value": 9
             },
             {
                 "name": {
-                    "en": "South African "
+                    "en": "South African"
                 },
                 "value": 10
             },
             {
                 "name": {
-                    "en": "None of these fully describe the other biological parent / Other "
+                    "en": "None of these fully describe the other biological parent / Other"
                 },
                 "value": 11
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

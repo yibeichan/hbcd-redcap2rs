@@ -11,25 +11,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "Very Positive "
+                    "en": "Very Positive"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Positive "
+                    "en": "Positive"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Neutral (neither positive nor negative) "
+                    "en": "Neutral (neither positive nor negative)"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Negative "
+                    "en": "Negative"
                 },
                 "value": 4
             },

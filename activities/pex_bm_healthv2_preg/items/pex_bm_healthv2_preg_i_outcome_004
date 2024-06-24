@@ -11,31 +11,31 @@
         "choices": [
             {
                 "name": {
-                    "en": "Hospital "
+                    "en": "Hospital"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Birthing center (not within a hospital) "
+                    "en": "Birthing center (not within a hospital)"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Home "
+                    "en": "Home"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Other (like ambulance street etc) "
+                    "en": "Other (like ambulance street etc)"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

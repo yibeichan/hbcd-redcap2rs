@@ -14,25 +14,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "Spontaneous "
+                    "en": "Spontaneous"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "Induced "
+                    "en": "Induced"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Neither (I did not experience labor) "
+                    "en": "Neither (I did not experience labor)"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

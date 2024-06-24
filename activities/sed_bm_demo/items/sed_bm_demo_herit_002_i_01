@@ -11,31 +11,31 @@
         "choices": [
             {
                 "name": {
-                    "en": "American Indian "
+                    "en": "American Indian"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "Alaska Native "
+                    "en": "Alaska Native"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Central or South American Indian "
+                    "en": "Central or South American Indian"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "None of these fully describe me / Other "
+                    "en": "None of these fully describe me / Other"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

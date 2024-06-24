@@ -11,31 +11,31 @@
         "choices": [
             {
                 "name": {
-                    "en": "No choice "
+                    "en": "No choice"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Little choice "
+                    "en": "Little choice"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Some choice "
+                    "en": "Some choice"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "A great deal of choice "
+                    "en": "A great deal of choice"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

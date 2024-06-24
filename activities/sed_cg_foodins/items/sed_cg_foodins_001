@@ -11,25 +11,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "Never true "
+                    "en": "Never true"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "Sometimes true "
+                    "en": "Sometimes true"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Often true "
+                    "en": "Often true"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

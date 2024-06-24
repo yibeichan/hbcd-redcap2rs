@@ -14,25 +14,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "< 4 months "
+                    "en": "< 4 months"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "4-6 months "
+                    "en": "4-6 months"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "7-8 months "
+                    "en": "7-8 months"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "9-10 months "
+                    "en": "9-10 months"
                 },
                 "value": 4
             },
@@ -44,13 +44,13 @@
             },
             {
                 "name": {
-                    "en": "> 12 months "
+                    "en": "> 12 months"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

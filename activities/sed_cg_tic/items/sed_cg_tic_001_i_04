@@ -11,97 +11,97 @@
         "choices": [
             {
                 "name": {
-                    "en": "Parent had a legal custody agreement that the other caregiver would take care of the child "
+                    "en": "Parent had a legal custody agreement that the other caregiver would take care of the child"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Parent had an informal agreement that the other caregiver would take care of the child "
+                    "en": "Parent had an informal agreement that the other caregiver would take care of the child"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Child protective services or the court removed the child "
+                    "en": "Child protective services or the court removed the child"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Parent was in jail or prison "
+                    "en": "Parent was in jail or prison"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Child had prenatal exposure to substances "
+                    "en": "Child had prenatal exposure to substances"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Parent was getting treatment for substance use disorder "
+                    "en": "Parent was getting treatment for substance use disorder"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Parent experienced deportation "
+                    "en": "Parent experienced deportation"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "Parent had health problems (other than substance use disorder) "
+                    "en": "Parent had health problems (other than substance use disorder)"
                 },
                 "value": 8
             },
             {
                 "name": {
-                    "en": "Child had health problems (other than prenatal exposure to substances) "
+                    "en": "Child had health problems (other than prenatal exposure to substances)"
                 },
                 "value": 9
             },
             {
                 "name": {
-                    "en": "Child had behavior problems "
+                    "en": "Child had behavior problems"
                 },
                 "value": 10
             },
             {
                 "name": {
-                    "en": "Parent felt that the child was no longer safe in the home "
+                    "en": "Parent felt that the child was no longer safe in the home"
                 },
                 "value": 11
             },
             {
                 "name": {
-                    "en": "Parent felt that the child was no longer safe in their neighborhood "
+                    "en": "Parent felt that the child was no longer safe in their neighborhood"
                 },
                 "value": 12
             },
             {
                 "name": {
-                    "en": "Economic reasons "
+                    "en": "Economic reasons"
                 },
                 "value": 13
             },
             {
                 "name": {
-                    "en": "Spouse/partner wanted the child to move "
+                    "en": "Spouse/partner wanted the child to move"
                 },
                 "value": 14
             },
             {
                 "name": {
-                    "en": "Other "
+                    "en": "Other"
                 },
                 "value": 15
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

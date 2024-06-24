@@ -11,19 +11,19 @@
         "choices": [
             {
                 "name": {
-                    "en": "No did not take or restart "
+                    "en": "No did not take or restart"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "Yes began taking "
+                    "en": "Yes began taking"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

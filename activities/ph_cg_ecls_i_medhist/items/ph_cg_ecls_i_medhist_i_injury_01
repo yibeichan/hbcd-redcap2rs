@@ -11,43 +11,43 @@
         "choices": [
             {
                 "name": {
-                    "en": "Front facing car seat in the back seat of the vehicle "
+                    "en": "Front facing car seat in the back seat of the vehicle"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Rear facing car seat in the back seat of the vehicle "
+                    "en": "Rear facing car seat in the back seat of the vehicle"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Front or rear facing car seat in the front seat of the vehicle "
+                    "en": "Front or rear facing car seat in the front seat of the vehicle"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "On the lap of another passenger "
+                    "en": "On the lap of another passenger"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Other "
+                    "en": "Other"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "My child doesn't ride in a personal vehicle "
+                    "en": "My child doesn't ride in a personal vehicle"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

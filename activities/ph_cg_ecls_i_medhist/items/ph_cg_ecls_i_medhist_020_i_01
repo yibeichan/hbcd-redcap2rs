@@ -11,73 +11,73 @@
         "choices": [
             {
                 "name": {
-                    "en": "Ophthalmology (eye doctor) "
+                    "en": "Ophthalmology (eye doctor)"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Cardiology (heart doctor) "
+                    "en": "Cardiology (heart doctor)"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Pulmonology (lung doctor) "
+                    "en": "Pulmonology (lung doctor)"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Dermatology (skin doctor) "
+                    "en": "Dermatology (skin doctor)"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Allergy/Immunology "
+                    "en": "Allergy/Immunology"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Endocrinology (hormone doctor) "
+                    "en": "Endocrinology (hormone doctor)"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Otorhinolaryngology (ENT) "
+                    "en": "Otorhinolaryngology (ENT)"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "Gastroenterology (GI doctor) "
+                    "en": "Gastroenterology (GI doctor)"
                 },
                 "value": 8
             },
             {
                 "name": {
-                    "en": "Nephrology (kidney doctor) "
+                    "en": "Nephrology (kidney doctor)"
                 },
                 "value": 9
             },
             {
                 "name": {
-                    "en": "Neurology (brain doctor) "
+                    "en": "Neurology (brain doctor)"
                 },
                 "value": 10
             },
             {
                 "name": {
-                    "en": "Other "
+                    "en": "Other"
                 },
                 "value": 11
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

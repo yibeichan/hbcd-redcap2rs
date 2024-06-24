@@ -11,25 +11,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "I was trying to get pregnant "
+                    "en": "I was trying to get pregnant"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "I was not trying to get pregnant but I also was not trying to keep from getting pregnant "
+                    "en": "I was not trying to get pregnant but I also was not trying to keep from getting pregnant"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "I was trying to keep from getting pregnant "
+                    "en": "I was trying to keep from getting pregnant"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

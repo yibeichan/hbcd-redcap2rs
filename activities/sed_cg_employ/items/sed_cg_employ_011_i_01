@@ -11,25 +11,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "Change clothes? "
+                    "en": "Change clothes?"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Change shoes? "
+                    "en": "Change shoes?"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Shower?  "
+                    "en": "Shower?"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

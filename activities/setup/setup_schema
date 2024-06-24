@@ -11,7 +11,9 @@
             "items/setup_lmp",
             "items/setup_edd",
             "items/setup_delivery",
-            "items/recruitment_period"
+            "items/setup_offset",
+            "items/recruitment_period",
+            "items/setup_sex"
         ],
         "addProperties": [
             {
@@ -39,10 +41,21 @@
                 "variableName": "setup_delivery"
             },
             {
+                "isAbout": "items/setup_offset",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "setup_offset"
+            },
+            {
                 "isAbout": "items/recruitment_period",
                 "isVis": true,
                 "valueRequired": true,
                 "variableName": "recruitment_period"
+            },
+            {
+                "isAbout": "items/setup_sex",
+                "isVis": true,
+                "variableName": "setup_sex"
             }
         ],
         "shuffle": false

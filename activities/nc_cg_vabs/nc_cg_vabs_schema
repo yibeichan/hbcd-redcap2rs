@@ -1,0 +1,36 @@
+{
+    "id": "nc_cg_vabs_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "nc_cg_vabs"
+    },
+    "schemaVersion": "1.0.0-rc4",
+    "ui": {
+        "order": [
+            "items/nc_cg_vabs_redirect",
+            "items/nc_cg_vabs_banner_post",
+            "items/nc_cg_vabs_completion_status"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/nc_cg_vabs_redirect",
+                "isVis": "nc_cg_vabs_completion_status ! == '1'",
+                "variableName": "nc_cg_vabs_redirect"
+            },
+            {
+                "isAbout": "items/nc_cg_vabs_banner_post",
+                "isVis": "nc_cg_vabs_completion_status == '1'",
+                "variableName": "nc_cg_vabs_banner_post"
+            },
+            {
+                "isAbout": "items/nc_cg_vabs_completion_status",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nc_cg_vabs_completion_status"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "unknown",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

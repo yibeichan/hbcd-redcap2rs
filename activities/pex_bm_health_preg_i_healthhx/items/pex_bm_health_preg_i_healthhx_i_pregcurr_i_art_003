@@ -11,55 +11,55 @@
         "choices": [
             {
                 "name": {
-                    "en": "Artificial insemination "
+                    "en": "Artificial insemination"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "In-vitro fertilization "
+                    "en": "In-vitro fertilization"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Fertility-enhancing medications "
+                    "en": "Fertility-enhancing medications"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "ICSI "
+                    "en": "ICSI"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Pre-implantation genetic screening "
+                    "en": "Pre-implantation genetic screening"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Donor egg "
+                    "en": "Donor egg"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Donor sperm "
+                    "en": "Donor sperm"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "Donor embryo "
+                    "en": "Donor embryo"
                 },
                 "value": 8
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

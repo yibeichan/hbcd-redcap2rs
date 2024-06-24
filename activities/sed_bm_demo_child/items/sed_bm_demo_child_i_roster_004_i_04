@@ -11,109 +11,109 @@
         "choices": [
             {
                 "name": {
-                    "en": "Self "
+                    "en": "Self"
                 },
                 "value": 17
             },
             {
                 "name": {
-                    "en": "Biological Child "
+                    "en": "Biological Child"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Step Child "
+                    "en": "Step Child"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Adopted Child "
+                    "en": "Adopted Child"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Foster Child "
+                    "en": "Foster Child"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Child-in-Law "
+                    "en": "Child-in-Law"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Grandchild "
+                    "en": "Grandchild"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Spouse/Partner "
+                    "en": "Spouse/Partner"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "Friend/Roommate "
+                    "en": "Friend/Roommate"
                 },
                 "value": 8
             },
             {
                 "name": {
-                    "en": "Roomer/Boarder "
+                    "en": "Roomer/Boarder"
                 },
                 "value": 9
             },
             {
                 "name": {
-                    "en": "Parent "
+                    "en": "Parent"
                 },
                 "value": 10
             },
             {
                 "name": {
-                    "en": "Step-parent "
+                    "en": "Step-parent"
                 },
                 "value": 16
             },
             {
                 "name": {
-                    "en": "Parent-in-Law "
+                    "en": "Parent-in-Law"
                 },
                 "value": 11
             },
             {
                 "name": {
-                    "en": "Grandparent "
+                    "en": "Grandparent"
                 },
                 "value": 12
             },
             {
                 "name": {
-                    "en": "Sibling "
+                    "en": "Sibling"
                 },
                 "value": 13
             },
             {
                 "name": {
-                    "en": "Other Relative "
+                    "en": "Other Relative"
                 },
                 "value": 14
             },
             {
                 "name": {
-                    "en": "Other Non-relative "
+                    "en": "Other Non-relative"
                 },
                 "value": 15
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

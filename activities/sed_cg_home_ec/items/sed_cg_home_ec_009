@@ -11,31 +11,31 @@
         "choices": [
             {
                 "name": {
-                    "en": "Hardly ever "
+                    "en": "Hardly ever"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Once a month "
+                    "en": "Once a month"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Once a week "
+                    "en": "Once a week"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Twice a week or more "
+                    "en": "Twice a week or more"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

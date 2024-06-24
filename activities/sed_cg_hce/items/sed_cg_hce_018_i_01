@@ -11,55 +11,55 @@
         "choices": [
             {
                 "name": {
-                    "en": "Participating child's bedroom "
+                    "en": "Participating child's bedroom"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Bedroom other than participating child's "
+                    "en": "Bedroom other than participating child's"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Family room den or common space "
+                    "en": "Family room den or common space"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Bathroom "
+                    "en": "Bathroom"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Kitchen "
+                    "en": "Kitchen"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "External feature like a roof or external wall "
+                    "en": "External feature like a roof or external wall"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Basement "
+                    "en": "Basement"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "Other "
+                    "en": "Other"
                 },
                 "value": 8
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

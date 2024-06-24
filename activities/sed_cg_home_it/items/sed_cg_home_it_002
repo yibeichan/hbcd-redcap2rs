@@ -11,31 +11,31 @@
         "choices": [
             {
                 "name": {
-                    "en": "Never "
+                    "en": "Never"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Once a month or less "
+                    "en": "Once a month or less"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Once a week "
+                    "en": "Once a week"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Several times a week "
+                    "en": "Several times a week"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Once a day "
+                    "en": "Once a day"
                 },
                 "value": 5
             },
@@ -47,7 +47,7 @@
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

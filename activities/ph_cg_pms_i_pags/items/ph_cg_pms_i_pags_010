@@ -11,49 +11,49 @@
         "choices": [
             {
                 "name": {
-                    "en": "Relax/Socialize with family and friends "
+                    "en": "Relax/Socialize with family and friends"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Play on playground "
+                    "en": "Play on playground"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Play on sports field or court "
+                    "en": "Play on sports field or court"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Walk around "
+                    "en": "Walk around"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Ride Bicycle scooter or other toy "
+                    "en": "Ride Bicycle scooter or other toy"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Read "
+                    "en": "Read"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Other "
+                    "en": "Other"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

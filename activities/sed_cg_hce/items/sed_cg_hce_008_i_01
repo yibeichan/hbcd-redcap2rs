@@ -11,31 +11,31 @@
         "choices": [
             {
                 "name": {
-                    "en": "1 "
+                    "en": "1"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "2 "
+                    "en": "2"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "3 "
+                    "en": "3"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "4 or more "
+                    "en": "4 or more"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

@@ -11,37 +11,37 @@
         "choices": [
             {
                 "name": {
-                    "en": "Other parent (biological step- or adoptive) "
+                    "en": "Other parent (biological step- or adoptive)"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Foster parent "
+                    "en": "Foster parent"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Grandparent or great grandparent "
+                    "en": "Grandparent or great grandparent"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Other relative (sibling aunt uncle cousin) "
+                    "en": "Other relative (sibling aunt uncle cousin)"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Non-relative (e.g. family friend) "
+                    "en": "Non-relative (e.g. family friend)"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

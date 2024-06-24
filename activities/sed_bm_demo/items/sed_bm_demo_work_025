@@ -11,25 +11,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "20-30 hours "
+                    "en": "20-30 hours"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "31-40 hours "
+                    "en": "31-40 hours"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "More than 40 hours "
+                    "en": "More than 40 hours"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

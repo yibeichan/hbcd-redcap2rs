@@ -11,31 +11,31 @@
         "choices": [
             {
                 "name": {
-                    "en": "As much as I always could "
+                    "en": "As much as I always could"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "Not quite so much now "
+                    "en": "Not quite so much now"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Definitely not so much now "
+                    "en": "Definitely not so much now"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Not at all "
+                    "en": "Not at all"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

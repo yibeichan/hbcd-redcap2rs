@@ -11,19 +11,19 @@
         "choices": [
             {
                 "name": {
-                    "en": "Public water supply "
+                    "en": "Public water supply"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Private well "
+                    "en": "Private well"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

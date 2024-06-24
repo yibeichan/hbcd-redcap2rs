@@ -14,49 +14,49 @@
         "choices": [
             {
                 "name": {
-                    "en": "Asbestos "
+                    "en": "Asbestos"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Batteries "
+                    "en": "Batteries"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Lead "
+                    "en": "Lead"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Mercury "
+                    "en": "Mercury"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Paint "
+                    "en": "Paint"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Pesticides "
+                    "en": "Pesticides"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "None "
+                    "en": "None"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

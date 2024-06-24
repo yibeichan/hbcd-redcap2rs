@@ -11,85 +11,85 @@
         "choices": [
             {
                 "name": {
-                    "en": "I am still working at this job "
+                    "en": "I am still working at this job"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "January "
+                    "en": "January"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "February "
+                    "en": "February"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "March "
+                    "en": "March"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "April "
+                    "en": "April"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "May "
+                    "en": "May"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "June "
+                    "en": "June"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "July "
+                    "en": "July"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "August "
+                    "en": "August"
                 },
                 "value": 8
             },
             {
                 "name": {
-                    "en": "September "
+                    "en": "September"
                 },
                 "value": 9
             },
             {
                 "name": {
-                    "en": "October "
+                    "en": "October"
                 },
                 "value": 10
             },
             {
                 "name": {
-                    "en": "November "
+                    "en": "November"
                 },
                 "value": 11
             },
             {
                 "name": {
-                    "en": "December "
+                    "en": "December"
                 },
                 "value": 12
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

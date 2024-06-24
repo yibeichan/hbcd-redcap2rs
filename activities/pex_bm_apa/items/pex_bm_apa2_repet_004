@@ -11,37 +11,37 @@
         "choices": [
             {
                 "name": {
-                    "en": "No avoidance "
+                    "en": "No avoidance"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "Mild (occasional avoidance) "
+                    "en": "Mild (occasional avoidance)"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Moderate (regularly avoid doing these things) "
+                    "en": "Moderate (regularly avoid doing these things)"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Severe (frequent and extensive avoidance) "
+                    "en": "Severe (frequent and extensive avoidance)"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Extreme (nearly complete avoidance; house- bound) "
+                    "en": "Extreme (nearly complete avoidance; house- bound)"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

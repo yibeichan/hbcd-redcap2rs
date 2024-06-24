@@ -11,37 +11,37 @@
         "choices": [
             {
                 "name": {
-                    "en": "Not at all a problem "
+                    "en": "Not at all a problem"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "A very small problem "
+                    "en": "A very small problem"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "A small problem "
+                    "en": "A small problem"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "A moderate problem "
+                    "en": "A moderate problem"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "A serious problem "
+                    "en": "A serious problem"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font>  "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

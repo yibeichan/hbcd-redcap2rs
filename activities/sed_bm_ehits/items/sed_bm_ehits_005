@@ -11,43 +11,43 @@
         "choices": [
             {
                 "name": {
-                    "en": "Never "
+                    "en": "Never"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "Rarely "
+                    "en": "Rarely"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Sometimes "
+                    "en": "Sometimes"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Fairly often "
+                    "en": "Fairly often"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Freq-<Br>uently "
+                    "en": "Freq-<Br>uently"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Not Applicable "
+                    "en": "Not Applicable"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

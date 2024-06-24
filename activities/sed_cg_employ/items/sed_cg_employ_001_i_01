@@ -11,25 +11,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "No but I plan to return "
+                    "en": "No but I plan to return"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "No and I don't plan to return "
+                    "en": "No and I don't plan to return"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Yes "
+                    "en": "Yes"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

@@ -11,37 +11,37 @@
         "choices": [
             {
                 "name": {
-                    "en": "At least once per day "
+                    "en": "At least once per day"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "3-6 times per week "
+                    "en": "3-6 times per week"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "1-2 times per week "
+                    "en": "1-2 times per week"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "1-3 times per month "
+                    "en": "1-3 times per month"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Rarely or Never "
+                    "en": "Rarely or Never"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

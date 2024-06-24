@@ -11,37 +11,37 @@
         "choices": [
             {
                 "name": {
-                    "en": "Very Easy "
+                    "en": "Very Easy"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "Somewhat Easy "
+                    "en": "Somewhat Easy"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Neither easy nor difficult "
+                    "en": "Neither easy nor difficult"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Somewhat difficult "
+                    "en": "Somewhat difficult"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Very difficult "
+                    "en": "Very difficult"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

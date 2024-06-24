@@ -11,25 +11,25 @@
         "choices": [
             {
                 "name": {
-                    "en": "While being rocked "
+                    "en": "While being rocked"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "With an adult in the room but not being held or rocked "
+                    "en": "With an adult in the room but not being held or rocked"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "On own (without an adult in the room) "
+                    "en": "On own (without an adult in the room)"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },

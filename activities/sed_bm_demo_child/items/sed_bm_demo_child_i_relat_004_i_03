@@ -11,49 +11,49 @@
         "choices": [
             {
                 "name": {
-                    "en": "Parent "
+                    "en": "Parent"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "State foster care system "
+                    "en": "State foster care system"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Grandparent "
+                    "en": "Grandparent"
                 },
                 "value": 3
             },
             {
                 "name": {
-                    "en": "Sibling "
+                    "en": "Sibling"
                 },
                 "value": 4
             },
             {
                 "name": {
-                    "en": "Other family "
+                    "en": "Other family"
                 },
                 "value": 5
             },
             {
                 "name": {
-                    "en": "Non-family (friend or friend of the family) "
+                    "en": "Non-family (friend or friend of the family)"
                 },
                 "value": 6
             },
             {
                 "name": {
-                    "en": "Other "
+                    "en": "Other"
                 },
                 "value": 7
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font> "
+                    "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
             },
