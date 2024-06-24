@@ -25,6 +25,7 @@
             {
                 "isAbout": "items/nc_cg_vabs_completion_status",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "nc_cg_vabs_completion_status"
             }
         ],
