@@ -1,11 +1,11 @@
 {
-    "id": "pex_bm_apa2_pers_m01_251",
+    "id": "pex_bm_apa2_pers_m01_276",
     "category": "reproschema:Item",
     "preamble": {
         "en": "This is a list of things different people might say about themselves. We are interested in how you would describe yourself. There are no right or wrong answers. So you can describe yourself as honestly as possible, we will keep your responses confidential. We'd like you to take your time and read each statement carefully, selecting the response that best describes you."
     },
     "prefLabel": {
-        "en": "pex_bm_apa2_pers_m01_251"
+        "en": "pex_bm_apa2_pers_m01_276"
     },
     "question": {
         "en": "People would describe me as reckless."

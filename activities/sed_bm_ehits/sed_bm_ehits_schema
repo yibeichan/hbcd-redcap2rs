@@ -142,6 +142,6 @@
         ],
         "shuffle": false
     },
-    "version": "2023.08.31",
+    "version": "2023.09.11",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
