@@ -1,11 +1,11 @@
 {
-    "id": "pex_bm_psych_bm_m01_99",
+    "id": "pex_bm_psych_bm_m01_107",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "pex_bm_psych_bm_m01_99"
+        "en": "pex_bm_psych_bm_m01_107"
     },
     "question": {
-        "en": "Autism spectrum disorder"
+        "en": "Austism spectrum disorder"
     },
     "responseOptions": {
         "choices": [

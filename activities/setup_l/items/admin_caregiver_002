@@ -5,7 +5,7 @@
         "en": "admin_caregiver_002"
     },
     "question": {
-        "en": "Caregiver type for this visit"
+        "en": "New caregiver type"
     },
     "responseOptions": {
         "choices": [
@@ -38,12 +38,6 @@
                     "en": "CG Type E (Change in legal custody and placement e.g. adoption)"
                 },
                 "value": 5
-            },
-            {
-                "name": {
-                    "en": "CG Type F (Birth mother)"
-                },
-                "value": 6
             }
         ],
         "valueType": [

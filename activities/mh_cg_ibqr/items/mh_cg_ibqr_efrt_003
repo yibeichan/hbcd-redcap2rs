@@ -1,8 +1,8 @@
 {
-    "id": "mh_cg_ibqr_m01_575",
+    "id": "mh_cg_ibqr_m01_622",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "mh_cg_ibqr_m01_575"
+        "en": "mh_cg_ibqr_m01_622"
     },
     "question": {
         "en": "In the last week, while being fed in your lap, how often did the baby seem eager to get away as soon as the feeding was over?"
@@ -56,6 +56,12 @@
                     "en": "Does Not Apply"
                 },
                 "value": 8
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
             },
             {
                 "name": {

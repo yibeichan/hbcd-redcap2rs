@@ -1,11 +1,11 @@
 {
-    "id": "mh_cg_mapdb_i_inf_m02_73",
+    "id": "mh_cg_mapdb_i_inf_m02_79",
     "category": "reproschema:Item",
     "preamble": {
         "en": "OVER THE PAST MONTH, HOW OFTEN DID YOUR BABY"
     },
     "prefLabel": {
-        "en": "mh_cg_mapdb_i_inf_m02_73"
+        "en": "mh_cg_mapdb_i_inf_m02_79"
     },
     "question": {
         "en": "Cry inconsolably when s/he was with other adults (e.g., babysitter, childcare provider, teacher, family member)?"
@@ -47,6 +47,12 @@
                     "en": "Many times each day"
                 },
                 "value": 6
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
             },
             {
                 "name": {

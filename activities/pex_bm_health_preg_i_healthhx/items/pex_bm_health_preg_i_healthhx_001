@@ -1,19 +1,22 @@
 {
-    "id": "rapfb_issues_roport2_03",
+    "id": "pex_bm_health_preg_i_healthhx_001",
     "category": "reproschema:Item",
+    "preamble": {
+        "en": "Health History"
+    },
     "prefLabel": {
-        "en": "rapfb_issues_roport2_03"
+        "en": "pex_bm_health_preg_i_healthhx_001"
     },
     "question": {
-        "en": "Issues with Child stool"
+        "en": "LMP"
     },
     "responseOptions": {
         "valueType": [
-            "xsd:string"
+            "xsd:date"
         ]
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "date"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

@@ -1,8 +1,8 @@
 {
-    "id": "ncl_cg_spm2_i_inf_balance_m01_126",
+    "id": "ncl_cg_spm2_i_inf_balance_m01_136",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "ncl_cg_spm2_i_inf_balance_m01_126"
+        "en": "ncl_cg_spm2_i_inf_balance_m01_136"
     },
     "question": {
         "en": "This child needs movement to fall asleep, such as riding in a car or swinging in an infant seat."
@@ -32,6 +32,12 @@
                     "en": "Always"
                 },
                 "value": 4
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
             },
             {
                 "name": {

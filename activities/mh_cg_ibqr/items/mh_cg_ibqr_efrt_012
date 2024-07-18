@@ -1,8 +1,8 @@
 {
-    "id": "mh_cg_ibqr_m01_599",
+    "id": "mh_cg_ibqr_m01_646",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "mh_cg_ibqr_m01_599"
+        "en": "mh_cg_ibqr_m01_646"
     },
     "question": {
         "en": "When patting or gently rubbing some part of the baby's body, how often did s/he soothe immediately?"
@@ -56,6 +56,12 @@
                     "en": "Does Not Apply"
                 },
                 "value": 8
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
             },
             {
                 "name": {
