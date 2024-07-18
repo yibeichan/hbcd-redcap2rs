@@ -5,7 +5,7 @@
         "en": "mh_cg_ibqr_beh_i_neg_003"
     },
     "question": {
-        "en": "When in the presence of several unfamiliar adults, how often did the baby cling to a parent/caregiver?"
+        "en": "When in the presence of several unfamiliar adults, how often did the baby cling to a parent?"
     },
     "responseOptions": {
         "choices": [
@@ -56,6 +56,12 @@
                     "en": "Does Not Apply"
                 },
                 "value": 8
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
             },
             {
                 "name": {

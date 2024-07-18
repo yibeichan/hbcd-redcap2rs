@@ -5,7 +5,7 @@
         "en": "mh_cg_ibqr_neg_008"
     },
     "question": {
-        "en": "When you were busy with another activity, and your baby was not able to get your attention, how often did the baby cry?"
+        "en": "When you were busy with another activity, and your baby was not able to get your attention, how often did s/he cry?"
     },
     "responseOptions": {
         "choices": [
@@ -56,6 +56,12 @@
                     "en": "Does Not Apply"
                 },
                 "value": 8
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
             },
             {
                 "name": {

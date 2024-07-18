@@ -30,7 +30,6 @@
             {
                 "isAbout": "items/pex_bm_health_preg_i_exp_i_vacc_lang",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "pex_bm_health_preg_i_exp_i_vacc_lang"
             },
             {
@@ -137,6 +136,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid134",
+    "version": "revid103",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
