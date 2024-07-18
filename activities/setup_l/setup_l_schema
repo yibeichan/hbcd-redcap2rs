@@ -26,23 +26,26 @@
             },
             {
                 "isAbout": "items/admin_caregiver_002",
-                "isVis": "admin_caregiver_001 == '1'",
+                "isVis": true,
                 "valueRequired": true,
                 "variableName": "admin_caregiver_002"
             },
             {
                 "isAbout": "items/setup_onsite_started",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "setup_onsite_started"
             },
             {
                 "isAbout": "items/setup_event_start",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "setup_event_start"
             },
             {
                 "isAbout": "items/setup_event_end",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "setup_event_end"
             },
             {
@@ -53,6 +56,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid105",
+    "version": "revid118",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
