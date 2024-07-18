@@ -1,11 +1,11 @@
 {
-    "id": "pex_bm_psych_bm_m01_1",
+    "id": "pex_bm_psych_bm_m01_9",
     "category": "reproschema:Item",
     "preamble": {
         "en": "Have you ever been diagnosed with the following health conditions and/or health events:"
     },
     "prefLabel": {
-        "en": "pex_bm_psych_bm_m01_1"
+        "en": "pex_bm_psych_bm_m01_9"
     },
     "question": {
         "en": "Alcohol use disorder"

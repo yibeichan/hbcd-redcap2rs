@@ -1,8 +1,8 @@
 {
-    "id": "sed_cg_leadexp_m01_10",
+    "id": "sed_cg_leadexp_m01_20",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "sed_cg_leadexp_m01_10"
+        "en": "sed_cg_leadexp_m01_20"
     },
     "question": {
         "en": "Does your child live near lead smelters, battery recycling plants, or other industries likely to release atmospheric lead?"

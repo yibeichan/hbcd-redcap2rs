@@ -1,8 +1,8 @@
 {
-    "id": "pex_bm_healthv2_preg_i_exp_i_vacc_m02_10",
+    "id": "pex_bm_healthv2_preg_i_exp_i_vacc_m02_24",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "pex_bm_healthv2_preg_i_exp_i_vacc_m02_10"
+        "en": "pex_bm_healthv2_preg_i_exp_i_vacc_m02_24"
     },
     "question": {
         "en": "Polio vaccine"

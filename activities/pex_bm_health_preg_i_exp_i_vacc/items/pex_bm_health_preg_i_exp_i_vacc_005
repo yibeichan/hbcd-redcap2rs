@@ -1,8 +1,8 @@
 {
-    "id": "pex_bm_health_preg_i_exp_i_vacc_m01_3",
+    "id": "pex_bm_health_preg_i_exp_i_vacc_m01_17",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "pex_bm_health_preg_i_exp_i_vacc_m01_3"
+        "en": "pex_bm_health_preg_i_exp_i_vacc_m01_17"
     },
     "question": {
         "en": "HPV vaccine"

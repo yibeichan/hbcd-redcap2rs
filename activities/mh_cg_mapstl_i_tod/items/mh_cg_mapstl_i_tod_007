@@ -1,11 +1,11 @@
 {
-    "id": "mg_cg_mapstl_i_tod_m02_1",
+    "id": "mg_cg_mapstl_i_tod_m02_7",
     "category": "reproschema:Item",
     "preamble": {
         "en": "OVER THE PAST MONTH, HOW OFTEN DID YOUR CHILD"
     },
     "prefLabel": {
-        "en": "mg_cg_mapstl_i_tod_m02_1"
+        "en": "mg_cg_mapstl_i_tod_m02_7"
     },
     "question": {
         "en": "Do things that could hurt themselves during a temper tantrum (for example bang head, bite or scratch self)"

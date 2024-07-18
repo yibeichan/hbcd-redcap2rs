@@ -1,11 +1,11 @@
 {
-    "id": "mh_cg_mapdb_i_inf_m01_1",
+    "id": "mh_cg_mapdb_i_inf_m01_7",
     "category": "reproschema:Item",
     "preamble": {
         "en": "OVER THE PAST MONTH, HOW OFTEN DID YOUR BABY"
     },
     "prefLabel": {
-        "en": "mh_cg_mapdb_i_inf_m01_1"
+        "en": "mh_cg_mapdb_i_inf_m01_7"
     },
     "question": {
         "en": "Stay fussy for a long time?"

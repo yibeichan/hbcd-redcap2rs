@@ -1,11 +1,11 @@
 {
-    "id": "ph_cg_cnq_m01_1",
+    "id": "ph_cg_cnq_m01_2",
     "category": "reproschema:Item",
     "preamble": {
         "en": "How often does your child eat each of the foods below:"
     },
     "prefLabel": {
-        "en": "ph_cg_cnq_m01_1"
+        "en": "ph_cg_cnq_m01_2"
     },
     "question": {
         "en": "Meats, chicken, fish"

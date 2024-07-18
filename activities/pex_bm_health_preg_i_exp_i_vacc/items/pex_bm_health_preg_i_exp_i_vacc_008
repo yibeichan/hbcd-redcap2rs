@@ -1,8 +1,8 @@
 {
-    "id": "pex_bm_health_preg_i_exp_i_vacc_m01_6",
+    "id": "pex_bm_health_preg_i_exp_i_vacc_m01_20",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "pex_bm_health_preg_i_exp_i_vacc_m01_6"
+        "en": "pex_bm_health_preg_i_exp_i_vacc_m01_20"
     },
     "question": {
         "en": "Hepatitis A vaccine"
