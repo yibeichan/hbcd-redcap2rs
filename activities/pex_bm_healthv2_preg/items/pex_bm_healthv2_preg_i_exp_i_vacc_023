@@ -1,8 +1,8 @@
 {
-    "id": "pex_bm_healthv2_preg_i_exp_i_vacc_m02_19",
+    "id": "pex_bm_healthv2_preg_i_exp_i_vacc_m02_33",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "pex_bm_healthv2_preg_i_exp_i_vacc_m02_19"
+        "en": "pex_bm_healthv2_preg_i_exp_i_vacc_m02_33"
     },
     "question": {
         "en": "Meningitis vaccine"

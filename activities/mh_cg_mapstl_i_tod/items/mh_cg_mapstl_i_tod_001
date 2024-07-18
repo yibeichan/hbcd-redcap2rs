@@ -1,11 +1,11 @@
 {
-    "id": "mg_cg_mapstl_i_tod_m01_7",
+    "id": "mg_cg_mapstl_i_tod_m01_13",
     "category": "reproschema:Item",
     "preamble": {
         "en": "OVER THE PAST MONTH, HOW OFTEN DID YOUR CHILD"
     },
     "prefLabel": {
-        "en": "mg_cg_mapstl_i_tod_m01_7"
+        "en": "mg_cg_mapstl_i_tod_m01_13"
     },
     "question": {
         "en": "Hit, bite, or kick during a temper tantrum"

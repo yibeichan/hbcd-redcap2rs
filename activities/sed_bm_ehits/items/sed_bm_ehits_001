@@ -1,11 +1,11 @@
 {
-    "id": "sed_bm_ehits_m01_6",
+    "id": "sed_bm_ehits_m01_11",
     "category": "reproschema:Item",
     "preamble": {
         "en": "In the previous 12 months, how often has your current partner..."
     },
     "prefLabel": {
-        "en": "sed_bm_ehits_m01_6"
+        "en": "sed_bm_ehits_m01_11"
     },
     "question": {
         "en": "physically hurt you?"

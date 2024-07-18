@@ -1,11 +1,11 @@
 {
-    "id": "ph_cg_pms_i_pags_m01_7",
+    "id": "ph_cg_pms_i_pags_m01_13",
     "category": "reproschema:Item",
     "preamble": {
         "en": "In the past 7 days:"
     },
     "prefLabel": {
-        "en": "ph_cg_pms_i_pags_m01_7"
+        "en": "ph_cg_pms_i_pags_m01_13"
     },
     "question": {
         "en": "How many days was your child so physically active that he/she sweated?"
