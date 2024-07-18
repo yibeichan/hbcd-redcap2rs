@@ -31,7 +31,7 @@
             "../activities/pex_bm_assistv3/pex_bm_assistv3_schema",
             "../activities/remote_survey_completion/remote_survey_completion_schema",
             "../activities/sed_bm_nbhsaf/sed_bm_nbhsaf_schema",
-            "../activities/pex_bm_paces/pex_bm_paces_schema",
+            "../activities/sed_bm_paces/sed_bm_paces_schema",
             "../activities/sed_bm_bfy/sed_bm_bfy_schema",
             "../activities/pex_bm_health_preg_i_healthhx/pex_bm_health_preg_i_healthhx_schema",
             "../activities/pex_bm_health_preg_i_exp_i_vacc/pex_bm_health_preg_i_exp_i_vacc_schema",
@@ -81,7 +81,11 @@
             "../activities/sed_cg_employ/sed_cg_employ_schema",
             "../activities/sed_bm_demo/sed_bm_demo_schema",
             "../activities/sed_bm_demo_child/sed_bm_demo_child_schema",
-            "../activities/admin_part_fb/admin_part_fb_schema"
+            "../activities/admin_part_fb/admin_part_fb_schema",
+            "../activities/ncl_ch_mlds/ncl_ch_mlds_schema",
+            "../activities/nc_cg_vabs/nc_cg_vabs_schema",
+            "../activities/webcdi_en/webcdi_en_schema",
+            "../activities/webcdi_es/webcdi_es_schema"
         ],
         "addProperties": [
             {
@@ -253,12 +257,12 @@
                 "variableName": "sed_bm_nbhsaf_schema"
             },
             {
-                "isAbout": "../activities/pex_bm_paces/pex_bm_paces_schema",
+                "isAbout": "../activities/sed_bm_paces/sed_bm_paces_schema",
                 "isVis": true,
                 "prefLabel": {
-                    "en": "Pex Bm Paces"
+                    "en": "Sed Bm Paces"
                 },
-                "variableName": "pex_bm_paces_schema"
+                "variableName": "sed_bm_paces_schema"
             },
             {
                 "isAbout": "../activities/sed_bm_bfy/sed_bm_bfy_schema",
@@ -659,10 +663,42 @@
                     "en": "Admin Part Fb"
                 },
                 "variableName": "admin_part_fb_schema"
+            },
+            {
+                "isAbout": "../activities/ncl_ch_mlds/ncl_ch_mlds_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Ncl Ch Mlds"
+                },
+                "variableName": "ncl_ch_mlds_schema"
+            },
+            {
+                "isAbout": "../activities/nc_cg_vabs/nc_cg_vabs_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Nc Cg Vabs"
+                },
+                "variableName": "nc_cg_vabs_schema"
+            },
+            {
+                "isAbout": "../activities/webcdi_en/webcdi_en_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Webcdi En"
+                },
+                "variableName": "webcdi_en_schema"
+            },
+            {
+                "isAbout": "../activities/webcdi_es/webcdi_es_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Webcdi Es"
+                },
+                "variableName": "webcdi_es_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid117",
+    "version": "revid135",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
