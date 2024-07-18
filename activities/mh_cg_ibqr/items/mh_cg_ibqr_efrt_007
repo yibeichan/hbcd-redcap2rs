@@ -1,11 +1,11 @@
 {
-    "id": "mh_cg_ibqr_m01_353",
+    "id": "mh_cg_ibqr_m01_400",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "mh_cg_ibqr_m01_353"
+        "en": "mh_cg_ibqr_m01_400"
     },
     "question": {
-        "en": "When being held, in the last week, did your baby seem to enjoy themself?"
+        "en": "When being held, in the last week, did your baby seem to enjoy him/herself?"
     },
     "responseOptions": {
         "choices": [

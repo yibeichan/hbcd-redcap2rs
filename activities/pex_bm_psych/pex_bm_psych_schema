@@ -63,25 +63,21 @@
             {
                 "isAbout": "items/pex_bm_psych_lang",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "pex_bm_psych_lang"
             },
             {
                 "isAbout": "items/pex_bm_psych_dtt",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "pex_bm_psych_dtt"
             },
             {
                 "isAbout": "items/pex_bm_psych_timestamp_start",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "pex_bm_psych_timestamp_start"
             },
             {
                 "isAbout": "items/pex_bm_psych_location",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "pex_bm_psych_location"
             },
             {
@@ -368,6 +364,6 @@
         ],
         "shuffle": false
     },
-    "version": "2024.03.07",
+    "version": "2023.07.25",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

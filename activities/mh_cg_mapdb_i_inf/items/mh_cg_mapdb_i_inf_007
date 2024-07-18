@@ -1,14 +1,14 @@
 {
-    "id": "mh_cg_mapdb_i_inf_m02_43",
+    "id": "mh_cg_mapdb_i_inf_m02_49",
     "category": "reproschema:Item",
     "preamble": {
         "en": "OVER THE PAST MONTH, HOW OFTEN DID YOUR BABY"
     },
     "prefLabel": {
-        "en": "mh_cg_mapdb_i_inf_m02_43"
+        "en": "mh_cg_mapdb_i_inf_m02_49"
     },
     "question": {
-        "en": "Cry inconsolably when your baby was with other adults (e.g., babysitter, childcare provider, teacher, family member)?"
+        "en": "Cry inconsolably when s/he was with other adults (e.g., babysitter, childcare provider, teacher, family member)?"
     },
     "responseOptions": {
         "choices": [

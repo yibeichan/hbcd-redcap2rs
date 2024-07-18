@@ -1,8 +1,8 @@
 {
-    "id": "pex_bm_healthv2_preg_i_exp_i_vacc_m02_111",
+    "id": "pex_bm_healthv2_preg_i_exp_i_vacc_m02_125",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "pex_bm_healthv2_preg_i_exp_i_vacc_m02_111"
+        "en": "pex_bm_healthv2_preg_i_exp_i_vacc_m02_125"
     },
     "question": {
         "en": "Yellow Fever vaccine"
@@ -11,19 +11,19 @@
         "choices": [
             {
                 "name": {
-                    "en": "1st Trimester<br>([v01_arm_1][pex_bm_health_preg_i_healthhx_i_exp_i_pnv_001] - [v01_arm_1][pex_bm_health_preg_i_healthhx_i_exp_i_pnv_002])"
+                    "en": "1st Trimester<br>([v01_arm_1][pex_bm_health_preg_i_exp_i_pnv_001] - [v01_arm_1][pex_bm_health_preg_i_exp_i_pnv_002])"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "2nd Trimester<br>([v01_arm_1][pex_bm_health_preg_i_healthhx_i_exp_i_pnv_003] - [v01_arm_1][pex_bm_health_preg_i_healthhx_i_exp_i_pnv_004])"
+                    "en": "2nd Trimester<br>([v01_arm_1][pex_bm_health_preg_i_exp_i_pnv_003] - [v01_arm_1][pex_bm_health_preg_i_exp_i_pnv_004])"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "3rd Trimester<br>(after [v01_arm_1][pex_bm_health_preg_i_healthhx_i_exp_i_pnv_005])"
+                    "en": "3rd Trimester<br>(after [v01_arm_1][pex_bm_health_preg_i_exp_i_pnv_005])"
                 },
                 "value": 3
             },

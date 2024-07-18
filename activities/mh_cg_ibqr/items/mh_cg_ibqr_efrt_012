@@ -1,11 +1,11 @@
 {
-    "id": "mh_cg_ibqr_m01_364",
+    "id": "mh_cg_ibqr_m01_411",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "mh_cg_ibqr_m01_364"
+        "en": "mh_cg_ibqr_m01_411"
     },
     "question": {
-        "en": "When patting or gently rubbing some part of the baby's body, how often did the baby soothe immediately?"
+        "en": "When patting or gently rubbing some part of the baby's body, how often did s/he soothe immediately?"
     },
     "responseOptions": {
         "choices": [
