@@ -863,25 +863,21 @@
             {
                 "isAbout": "items/pex_bm_healthv2_preg_lang",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "pex_bm_healthv2_preg_lang"
             },
             {
                 "isAbout": "items/pex_bm_healthv2_preg_dtt",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "pex_bm_healthv2_preg_dtt"
             },
             {
                 "isAbout": "items/pex_bm_healthv2_preg_timestamp_start",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "pex_bm_healthv2_preg_timestamp_start"
             },
             {
                 "isAbout": "items/pex_bm_healthv2_preg_location",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "pex_bm_healthv2_preg_location"
             },
             {
@@ -3638,7 +3634,6 @@
             {
                 "isAbout": "items/pex_bm_healthv2_preg_i_illness_015_i_04",
                 "isVis": "pex_bm_healthv2_preg_i_illness_014 >=1",
-                "valueRequired": true,
                 "variableName": "pex_bm_healthv2_preg_i_illness_015_i_04"
             },
             {
@@ -3650,7 +3645,6 @@
             {
                 "isAbout": "items/pex_bm_healthv2_preg_i_illness_015_i_06",
                 "isVis": "pex_bm_healthv2_preg_i_illness_014 >=1",
-                "valueRequired": true,
                 "variableName": "pex_bm_healthv2_preg_i_illness_015_i_06"
             },
             {
@@ -3771,7 +3765,6 @@
             {
                 "isAbout": "items/pex_bm_healthv2_preg_i_illness_016_i_04",
                 "isVis": "pex_bm_healthv2_preg_i_illness_014 >=2",
-                "valueRequired": true,
                 "variableName": "pex_bm_healthv2_preg_i_illness_016_i_04"
             },
             {
@@ -3783,7 +3776,6 @@
             {
                 "isAbout": "items/pex_bm_healthv2_preg_i_illness_016_i_06",
                 "isVis": "pex_bm_healthv2_preg_i_illness_014 >= 2",
-                "valueRequired": true,
                 "variableName": "pex_bm_healthv2_preg_i_illness_016_i_06"
             },
             {
@@ -3904,7 +3896,6 @@
             {
                 "isAbout": "items/pex_bm_healthv2_preg_i_illness_017_i_04",
                 "isVis": "pex_bm_healthv2_preg_i_illness_014 >= 3",
-                "valueRequired": true,
                 "variableName": "pex_bm_healthv2_preg_i_illness_017_i_04"
             },
             {
@@ -3916,7 +3907,6 @@
             {
                 "isAbout": "items/pex_bm_healthv2_preg_i_illness_017_i_06",
                 "isVis": "pex_bm_healthv2_preg_i_illness_014 >= 3",
-                "valueRequired": true,
                 "variableName": "pex_bm_healthv2_preg_i_illness_017_i_06"
             },
             {
@@ -4037,7 +4027,6 @@
             {
                 "isAbout": "items/pex_bm_healthv2_preg_i_illness_018_i_04",
                 "isVis": "pex_bm_healthv2_preg_i_illness_014 >= 4",
-                "valueRequired": true,
                 "variableName": "pex_bm_healthv2_preg_i_illness_018_i_04"
             },
             {
@@ -4049,7 +4038,6 @@
             {
                 "isAbout": "items/pex_bm_healthv2_preg_i_illness_018_i_06",
                 "isVis": "pex_bm_healthv2_preg_i_illness_014 >= 4",
-                "valueRequired": true,
                 "variableName": "pex_bm_healthv2_preg_i_illness_018_i_06"
             },
             {
@@ -4170,7 +4158,6 @@
             {
                 "isAbout": "items/pex_bm_healthv2_preg_i_illness_019_i_04",
                 "isVis": "pex_bm_healthv2_preg_i_illness_014 >= 5",
-                "valueRequired": true,
                 "variableName": "pex_bm_healthv2_preg_i_illness_019_i_04"
             },
             {
@@ -4182,7 +4169,6 @@
             {
                 "isAbout": "items/pex_bm_healthv2_preg_i_illness_019_i_06",
                 "isVis": "pex_bm_healthv2_preg_i_illness_014 >= 5",
-                "valueRequired": true,
                 "variableName": "pex_bm_healthv2_preg_i_illness_019_i_06"
             },
             {
@@ -4303,7 +4289,6 @@
             {
                 "isAbout": "items/pex_bm_healthv2_preg_i_illness_020_i_04",
                 "isVis": "pex_bm_healthv2_preg_i_illness_014 >= 6",
-                "valueRequired": true,
                 "variableName": "pex_bm_healthv2_preg_i_illness_020_i_04"
             },
             {
@@ -4315,7 +4300,6 @@
             {
                 "isAbout": "items/pex_bm_healthv2_preg_i_illness_020_i_06",
                 "isVis": "pex_bm_healthv2_preg_i_illness_014 >= 6",
-                "valueRequired": true,
                 "variableName": "pex_bm_healthv2_preg_i_illness_020_i_06"
             },
             {
@@ -4436,7 +4420,6 @@
             {
                 "isAbout": "items/pex_bm_healthv2_preg_i_illness_021_i_04",
                 "isVis": "pex_bm_healthv2_preg_i_illness_014 >= 7",
-                "valueRequired": true,
                 "variableName": "pex_bm_healthv2_preg_i_illness_021_i_04"
             },
             {
@@ -4448,7 +4431,6 @@
             {
                 "isAbout": "items/pex_bm_healthv2_preg_i_illness_021_i_06",
                 "isVis": "pex_bm_healthv2_preg_i_illness_014 >= 7",
-                "valueRequired": true,
                 "variableName": "pex_bm_healthv2_preg_i_illness_021_i_06"
             },
             {
@@ -4569,7 +4551,6 @@
             {
                 "isAbout": "items/pex_bm_healthv2_preg_i_illness_022_i_04",
                 "isVis": "pex_bm_healthv2_preg_i_illness_014 >= 8",
-                "valueRequired": true,
                 "variableName": "pex_bm_healthv2_preg_i_illness_022_i_04"
             },
             {
@@ -4581,7 +4562,6 @@
             {
                 "isAbout": "items/pex_bm_healthv2_preg_i_illness_022_i_06",
                 "isVis": "pex_bm_healthv2_preg_i_illness_014 >= 8",
-                "valueRequired": true,
                 "variableName": "pex_bm_healthv2_preg_i_illness_022_i_06"
             },
             {
@@ -4702,7 +4682,6 @@
             {
                 "isAbout": "items/pex_bm_healthv2_preg_i_illness_023_i_04",
                 "isVis": "pex_bm_healthv2_preg_i_illness_014 >= 9",
-                "valueRequired": true,
                 "variableName": "pex_bm_healthv2_preg_i_illness_023_i_04"
             },
             {
@@ -4714,7 +4693,6 @@
             {
                 "isAbout": "items/pex_bm_healthv2_preg_i_illness_023_i_06",
                 "isVis": "pex_bm_healthv2_preg_i_illness_014 >= 9",
-                "valueRequired": true,
                 "variableName": "pex_bm_healthv2_preg_i_illness_023_i_06"
             },
             {
@@ -4835,7 +4813,6 @@
             {
                 "isAbout": "items/pex_bm_healthv2_preg_i_illness_024_i_04",
                 "isVis": "pex_bm_healthv2_preg_i_illness_014 >= 10",
-                "valueRequired": true,
                 "variableName": "pex_bm_healthv2_preg_i_illness_024_i_04"
             },
             {
@@ -4847,7 +4824,6 @@
             {
                 "isAbout": "items/pex_bm_healthv2_preg_i_illness_024_i_06",
                 "isVis": "pex_bm_healthv2_preg_i_illness_014 >= 10",
-                "valueRequired": true,
                 "variableName": "pex_bm_healthv2_preg_i_illness_024_i_06"
             },
             {
@@ -5054,6 +5030,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid133",
+    "version": "revid114",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
