@@ -239,7 +239,6 @@
             {
                 "isAbout": "items/pex_bm_apa1_suic_001",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "pex_bm_apa1_suic_001"
             },
             {
@@ -815,6 +814,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid116",
+    "version": "revid102",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
