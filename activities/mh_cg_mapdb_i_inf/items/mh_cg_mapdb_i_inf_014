@@ -1,11 +1,11 @@
 {
-    "id": "mh_cg_mapdb_i_inf_m03_42",
+    "id": "mh_cg_mapdb_i_inf_m03_47",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "mh_cg_mapdb_i_inf_m03_42"
+        "en": "mh_cg_mapdb_i_inf_m03_47"
     },
     "question": {
-        "en": "Fuss when you were playing with him/her?"
+        "en": "Fuss when you were playing with your baby?"
     },
     "responseOptions": {
         "choices": [

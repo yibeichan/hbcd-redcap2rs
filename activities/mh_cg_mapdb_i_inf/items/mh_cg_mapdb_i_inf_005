@@ -1,11 +1,11 @@
 {
-    "id": "mh_cg_mapdb_i_inf_m01_53",
+    "id": "mh_cg_mapdb_i_inf_m01_59",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "mh_cg_mapdb_i_inf_m01_53"
+        "en": "mh_cg_mapdb_i_inf_m01_59"
     },
     "question": {
-        "en": "Cry inconsolably when s/he was tired, hungry, or sick?"
+        "en": "Cry inconsolably when tired, hungry, or sick?"
     },
     "responseOptions": {
         "choices": [

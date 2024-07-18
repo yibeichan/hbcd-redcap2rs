@@ -1,14 +1,14 @@
 {
-    "id": "mh_cg_mapdb_i_inf_m03_41",
+    "id": "mh_cg_mapdb_i_inf_m03_46",
     "category": "reproschema:Item",
     "preamble": {
         "en": "OVER THE PAST MONTH, HOW OFTEN DID YOUR BABY"
     },
     "prefLabel": {
-        "en": "mh_cg_mapdb_i_inf_m03_41"
+        "en": "mh_cg_mapdb_i_inf_m03_46"
     },
     "question": {
-        "en": "Cry inconsolably when you were out in public with him/her?"
+        "en": "Cry inconsolably when you were out in public?"
     },
     "responseOptions": {
         "choices": [
