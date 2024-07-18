@@ -1,11 +1,11 @@
 {
-    "id": "pex_bm_psych_dep_m01_55",
+    "id": "pex_bm_psych_dep_m01_61",
     "category": "reproschema:Item",
     "preamble": {
         "en": "Have any of your relatives ever suffered from depression, that is, have they felt so low for a period  of at least two weeks that they hardly ate or slept or couldn't work or do whatever they usually do?"
     },
     "prefLabel": {
-        "en": "pex_bm_psych_dep_m01_55"
+        "en": "pex_bm_psych_dep_m01_61"
     },
     "question": {
         "en": "Baby's Biological Mother"

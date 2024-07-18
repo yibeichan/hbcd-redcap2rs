@@ -1,11 +1,11 @@
 {
-    "id": "mh_cg_ibqr_m01_435",
+    "id": "mh_cg_ibqr_m01_482",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "mh_cg_ibqr_m01_435"
+        "en": "mh_cg_ibqr_m01_482"
     },
     "question": {
-        "en": "When singing or talking to your baby, how often did the baby soothe immediately?"
+        "en": "When singing or talking to your baby, how often did s/he soothe immediately?"
     },
     "responseOptions": {
         "choices": [

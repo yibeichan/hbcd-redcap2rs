@@ -1,11 +1,11 @@
 {
-    "id": "pex_bm_apa2_somat_m01_136",
+    "id": "pex_bm_apa2_somat_m01_151",
     "category": "reproschema:Item",
     "preamble": {
         "en": "During the past 7 days, how much have you been bothered by any of the following problems?"
     },
     "prefLabel": {
-        "en": "pex_bm_apa2_somat_m01_136"
+        "en": "pex_bm_apa2_somat_m01_151"
     },
     "question": {
         "en": "Stomach Pain"

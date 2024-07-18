@@ -1,11 +1,11 @@
 {
-    "id": "mh_cg_ibqr_m01_427",
+    "id": "mh_cg_ibqr_m01_474",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "mh_cg_ibqr_m01_427"
+        "en": "mh_cg_ibqr_m01_474"
     },
     "question": {
-        "en": "When introduced to an unfamiliar adult, how often did the baby cling to a parent/caregiver?"
+        "en": "When introduced to an unfamiliar adult, how often did the baby cling to a parent?"
     },
     "responseOptions": {
         "choices": [
