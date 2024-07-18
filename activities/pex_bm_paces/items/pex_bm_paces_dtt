@@ -1,8 +1,8 @@
 {
-    "id": "sed_bm_paces_dtt",
+    "id": "pex_bm_paces_dtt",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "sed_bm_paces_dtt"
+        "en": "pex_bm_paces_dtt"
     },
     "question": {
         "en": "Start time"

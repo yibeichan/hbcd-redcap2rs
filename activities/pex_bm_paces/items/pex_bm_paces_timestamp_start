@@ -1,8 +1,8 @@
 {
-    "id": "sed_bm_paces_timestamp_start",
+    "id": "pex_bm_paces_timestamp_start",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "sed_bm_paces_timestamp_start"
+        "en": "pex_bm_paces_timestamp_start"
     },
     "question": {
         "en": "Start time (server)"

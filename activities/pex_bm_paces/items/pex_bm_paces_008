@@ -1,11 +1,11 @@
 {
-    "id": "sed_bm_paces_006",
+    "id": "pex_bm_paces_008",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "sed_bm_paces_006"
+        "en": "pex_bm_paces_008"
     },
     "question": {
-        "en": "I had regular routines for things like sleeping, eating, and exercising."
+        "en": "I had opportunities to learn and grow as a person or in my work."
     },
     "responseOptions": {
         "choices": [

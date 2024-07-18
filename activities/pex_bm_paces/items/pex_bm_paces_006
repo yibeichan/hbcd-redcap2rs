@@ -1,11 +1,11 @@
 {
-    "id": "sed_bm_paces_007",
+    "id": "pex_bm_paces_006",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "sed_bm_paces_007"
+        "en": "pex_bm_paces_006"
     },
     "question": {
-        "en": "I lived in a space that was clean, safe, and uncluttered."
+        "en": "I had regular routines for things like sleeping, eating, and exercising."
     },
     "responseOptions": {
         "choices": [

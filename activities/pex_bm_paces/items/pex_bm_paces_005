@@ -1,11 +1,11 @@
 {
-    "id": "sed_bm_paces_008",
+    "id": "pex_bm_paces_005",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "sed_bm_paces_008"
+        "en": "pex_bm_paces_005"
     },
     "question": {
-        "en": "I had opportunities to learn and grow as a person or in my work."
+        "en": "I did things to benefit others or participated in community helping projects."
     },
     "responseOptions": {
         "choices": [
