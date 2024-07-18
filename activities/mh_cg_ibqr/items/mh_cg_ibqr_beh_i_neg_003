@@ -1,11 +1,11 @@
 {
-    "id": "mh_cg_ibqr_m01_268",
+    "id": "mh_cg_ibqr_m01_315",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "mh_cg_ibqr_m01_268"
+        "en": "mh_cg_ibqr_m01_315"
     },
     "question": {
-        "en": "When in the presence of several unfamiliar adults, how often did the baby cling to a parent?"
+        "en": "When in the presence of several unfamiliar adults, how often did the baby cling to a parent/caregiver?"
     },
     "responseOptions": {
         "choices": [
@@ -56,12 +56,6 @@
                     "en": "Does Not Apply"
                 },
                 "value": 8
-            },
-            {
-                "name": {
-                    "en": "<font color=\"gray\">Don't know</font>"
-                },
-                "value": 999
             },
             {
                 "name": {

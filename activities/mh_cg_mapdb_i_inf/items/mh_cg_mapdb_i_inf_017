@@ -1,8 +1,8 @@
 {
-    "id": "mh_cg_mapdb_i_inf_m03_30",
+    "id": "mh_cg_mapdb_i_inf_m03_35",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "mh_cg_mapdb_i_inf_m03_30"
+        "en": "mh_cg_mapdb_i_inf_m03_35"
     },
     "question": {
         "en": "Scream loudly when crying?"
@@ -44,12 +44,6 @@
                     "en": "Many times each day"
                 },
                 "value": 6
-            },
-            {
-                "name": {
-                    "en": "<font color=\"gray\">Don't know</font>"
-                },
-                "value": 999
             },
             {
                 "name": {

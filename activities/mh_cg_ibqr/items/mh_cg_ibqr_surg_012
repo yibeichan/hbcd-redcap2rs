@@ -1,8 +1,8 @@
 {
-    "id": "mh_cg_ibqr_m01_271",
+    "id": "mh_cg_ibqr_m01_318",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "mh_cg_ibqr_m01_271"
+        "en": "mh_cg_ibqr_m01_318"
     },
     "question": {
         "en": "How often did your baby make talking sounds when riding in a car?"
@@ -56,12 +56,6 @@
                     "en": "Does Not Apply"
                 },
                 "value": 8
-            },
-            {
-                "name": {
-                    "en": "<font color=\"gray\">Don't know</font>"
-                },
-                "value": 999
             },
             {
                 "name": {

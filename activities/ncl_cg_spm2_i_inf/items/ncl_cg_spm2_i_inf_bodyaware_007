@@ -1,8 +1,8 @@
 {
-    "id": "ncl_cg_spm2_i_inf_bodyaware_m01_57",
+    "id": "ncl_cg_spm2_i_inf_bodyaware_m01_67",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "ncl_cg_spm2_i_inf_bodyaware_m01_57"
+        "en": "ncl_cg_spm2_i_inf_bodyaware_m01_67"
     },
     "question": {
         "en": "This child moves slowly or sluggishly."
@@ -32,12 +32,6 @@
                     "en": "Always"
                 },
                 "value": 4
-            },
-            {
-                "name": {
-                    "en": "<font color=\"gray\">Don't know</font>"
-                },
-                "value": 999
             },
             {
                 "name": {

@@ -1,8 +1,8 @@
 {
-    "id": "mh_cg_ibqr_m01_275",
+    "id": "mh_cg_ibqr_m01_322",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "mh_cg_ibqr_m01_275"
+        "en": "mh_cg_ibqr_m01_322"
     },
     "question": {
         "en": "When in the presence of several unfamiliar adults, how often did the baby cry?"
@@ -56,12 +56,6 @@
                     "en": "Does Not Apply"
                 },
                 "value": 8
-            },
-            {
-                "name": {
-                    "en": "<font color=\"gray\">Don't know</font>"
-                },
-                "value": 999
             },
             {
                 "name": {

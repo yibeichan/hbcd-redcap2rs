@@ -1,8 +1,8 @@
 {
-    "id": "mh_cg_ibqr_m01_261",
+    "id": "mh_cg_ibqr_m01_308",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "mh_cg_ibqr_m01_261"
+        "en": "mh_cg_ibqr_m01_308"
     },
     "question": {
         "en": "When hair was washed, how often did the baby vocalize?"
@@ -56,12 +56,6 @@
                     "en": "Does Not Apply"
                 },
                 "value": 8
-            },
-            {
-                "name": {
-                    "en": "<font color=\"gray\">Don't know</font>"
-                },
-                "value": 999
             },
             {
                 "name": {

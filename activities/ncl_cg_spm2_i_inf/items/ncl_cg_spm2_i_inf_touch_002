@@ -1,8 +1,8 @@
 {
-    "id": "ncl_cg_spm2_i_inf_touch_m01_52",
+    "id": "ncl_cg_spm2_i_inf_touch_m01_62",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "ncl_cg_spm2_i_inf_touch_m01_52"
+        "en": "ncl_cg_spm2_i_inf_touch_m01_62"
     },
     "question": {
         "en": "This child shows distress when touching foods with fingers."
@@ -32,12 +32,6 @@
                     "en": "Always"
                 },
                 "value": 4
-            },
-            {
-                "name": {
-                    "en": "<font color=\"gray\">Don't know</font>"
-                },
-                "value": 999
             },
             {
                 "name": {

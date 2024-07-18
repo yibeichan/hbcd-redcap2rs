@@ -1,11 +1,11 @@
 {
-    "id": "mh_cg_mapdb_i_inf_m01_31",
+    "id": "mh_cg_mapdb_i_inf_m01_37",
     "category": "reproschema:Item",
     "preamble": {
         "en": "OVER THE PAST MONTH, HOW OFTEN DID YOUR BABY"
     },
     "prefLabel": {
-        "en": "mh_cg_mapdb_i_inf_m01_31"
+        "en": "mh_cg_mapdb_i_inf_m01_37"
     },
     "question": {
         "en": "Stay fussy for a long time?"
@@ -47,12 +47,6 @@
                     "en": "Many times each day"
                 },
                 "value": 6
-            },
-            {
-                "name": {
-                    "en": "<font color=\"gray\">Don't know</font>"
-                },
-                "value": 999
             },
             {
                 "name": {

@@ -1,11 +1,11 @@
 {
-    "id": "sed_bm_strsup_socspprt_m01_21",
+    "id": "sed_bm_strsup_socspprt_m01_25",
     "category": "reproschema:Item",
     "preamble": {
         "en": "Please respond to each item by selecting one response per row."
     },
     "prefLabel": {
-        "en": "sed_bm_strsup_socspprt_m01_21"
+        "en": "sed_bm_strsup_socspprt_m01_25"
     },
     "question": {
         "en": "I have someone who will listen to me when I need to talk"
