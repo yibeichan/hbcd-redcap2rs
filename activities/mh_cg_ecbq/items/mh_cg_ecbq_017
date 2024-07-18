@@ -1,11 +1,11 @@
 {
-    "id": "mh_cg_ecbq_m02_28",
+    "id": "mh_cg_ecbq_m02_38",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "mh_cg_ecbq_m02_28"
+        "en": "mh_cg_ecbq_m02_38"
     },
     "question": {
-        "en": "During everyday activities, how often did your child become bothered by sounds while in noisy environments?"
+        "en": "During everyday activities, how often did your become bothered by sounds while in noisy environments?"
     },
     "responseOptions": {
         "choices": [

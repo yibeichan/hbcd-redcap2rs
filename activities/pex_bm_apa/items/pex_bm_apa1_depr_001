@@ -1,11 +1,11 @@
 {
-    "id": "pex_bm_apa1_m01_37",
+    "id": "pex_bm_apa1_m01_55",
     "category": "reproschema:Item",
     "preamble": {
         "en": "The questions below ask about things that might have bothered you. For each question, circle the number that best describes how much (or how often) you have been bothered by each problem during the past TWO (2) WEEKS.\n\nDuring the past TWO (2) WEEKS, how much (or how often) have you been bothered by the following problems?"
     },
     "prefLabel": {
-        "en": "pex_bm_apa1_m01_37"
+        "en": "pex_bm_apa1_m01_55"
     },
     "question": {
         "en": "Little interest or pleasure in doing things?"

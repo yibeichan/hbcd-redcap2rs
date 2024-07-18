@@ -1,11 +1,11 @@
 {
-    "id": "sed_bm_paces_m01_22",
+    "id": "sed_bm_paces_m01_39",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "sed_bm_paces_m01_22"
+        "en": "sed_bm_paces_m01_39"
     },
     "question": {
-        "en": "I had someone I trust that I could turn to for advice, mentorship, or support."
+        "en": "I was physically active, either alone or with others."
     },
     "responseOptions": {
         "choices": [

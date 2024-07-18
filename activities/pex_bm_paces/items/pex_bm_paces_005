@@ -1,11 +1,11 @@
 {
-    "id": "sed_bm_paces_m01_26",
+    "id": "sed_bm_paces_m01_35",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "sed_bm_paces_m01_26"
+        "en": "sed_bm_paces_m01_35"
     },
     "question": {
-        "en": "I had regular routines for things like sleeping, eating, and exercising."
+        "en": "I did things to benefit others or participated in community helping projects."
     },
     "responseOptions": {
         "choices": [
