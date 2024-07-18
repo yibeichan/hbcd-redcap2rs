@@ -1,11 +1,11 @@
 {
-    "id": "pex_bm_psych_man_m01_19",
+    "id": "pex_bm_psych_man_m01_25",
     "category": "reproschema:Item",
     "preamble": {
         "en": "Have any of your relatives ever had a period of time when others were concerned because they suddenly became more active day and night and seemed not to need any sleep and talked much more than usual for them?"
     },
     "prefLabel": {
-        "en": "pex_bm_psych_man_m01_19"
+        "en": "pex_bm_psych_man_m01_25"
     },
     "question": {
         "en": "Baby's Biological Mother"

@@ -1,11 +1,11 @@
 {
-    "id": "sed_cg_hpss_m01_55",
+    "id": "sed_cg_hpss_m01_73",
     "category": "reproschema:Item",
     "preamble": {
         "en": "In this questionnaire, I will ask you a set of questions for me to understand types of stress you experienced during your last pregnancy. We would really like to know what you think. This information helps us better understand how your pregnancy needs are being met. \n\nPlease be as honest about your experience as you can with 1= \"Not a source of stress during pregnancy at all\" to 6 = \"Source of great stress during pregnancy.\""
     },
     "prefLabel": {
-        "en": "sed_cg_hpss_m01_55"
+        "en": "sed_cg_hpss_m01_73"
     },
     "question": {
         "en": "I had difficulty finding help with other children when I needed it during pregnancy."

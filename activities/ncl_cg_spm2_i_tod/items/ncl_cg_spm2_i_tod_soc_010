@@ -1,8 +1,8 @@
 {
-    "id": "ncl_cg_spm2_i_tod_soc_m01_40",
+    "id": "ncl_cg_spm2_i_tod_soc_m01_50",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "ncl_cg_spm2_i_tod_soc_m01_40"
+        "en": "ncl_cg_spm2_i_tod_soc_m01_50"
     },
     "question": {
         "en": "Checks to make sure that I am nearby when in a new place."

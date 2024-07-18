@@ -1,11 +1,11 @@
 {
-    "id": "pex_bm_health_preg_chroncond_m01_40",
+    "id": "pex_bm_health_preg_chroncond_m01_53",
     "category": "reproschema:Item",
     "preamble": {
         "en": "During which trimester were you diagnosed with..."
     },
     "prefLabel": {
-        "en": "pex_bm_health_preg_chroncond_m01_40"
+        "en": "pex_bm_health_preg_chroncond_m01_53"
     },
     "question": {
         "en": "gonorrhea?"
