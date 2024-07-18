@@ -1,8 +1,8 @@
 {
-    "id": "mh_cg_ibqr_m01_202",
+    "id": "mh_cg_ibqr_m01_249",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "mh_cg_ibqr_m01_202"
+        "en": "mh_cg_ibqr_m01_249"
     },
     "question": {
         "en": "During a peekaboo game, how often did the baby laugh?"
@@ -56,6 +56,12 @@
                     "en": "Does Not Apply"
                 },
                 "value": 8
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
             },
             {
                 "name": {

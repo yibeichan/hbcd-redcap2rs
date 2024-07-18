@@ -1,11 +1,11 @@
 {
-    "id": "mh_cg_mapdb_i_inf_m03_22",
+    "id": "mh_cg_mapdb_i_inf_m03_27",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "mh_cg_mapdb_i_inf_m03_22"
+        "en": "mh_cg_mapdb_i_inf_m03_27"
     },
     "question": {
-        "en": "Fuss when you were playing with your baby?"
+        "en": "Fuss when you were playing with him/her?"
     },
     "responseOptions": {
         "choices": [
@@ -44,6 +44,12 @@
                     "en": "Many times each day"
                 },
                 "value": 6
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
             },
             {
                 "name": {

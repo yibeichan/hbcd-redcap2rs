@@ -1,8 +1,8 @@
 {
-    "id": "mh_cg_ibqr_m01_198",
+    "id": "mh_cg_ibqr_m01_245",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "mh_cg_ibqr_m01_198"
+        "en": "mh_cg_ibqr_m01_245"
     },
     "question": {
         "en": "After sleeping, how often did the baby cry if someone doesn't come within a few minutes?"
@@ -56,6 +56,12 @@
                     "en": "Does Not Apply"
                 },
                 "value": 8
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
             },
             {
                 "name": {

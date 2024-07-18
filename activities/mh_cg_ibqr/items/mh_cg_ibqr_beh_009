@@ -1,11 +1,11 @@
 {
-    "id": "mh_cg_ibqr_m01_234",
+    "id": "mh_cg_ibqr_m01_281",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "mh_cg_ibqr_m01_234"
+        "en": "mh_cg_ibqr_m01_281"
     },
     "question": {
-        "en": "When an unfamiliar person came to your home or apartment, how often did your baby allow themself to be picked up without protest?"
+        "en": "When an unfamiliar person came to your home or apartment, how often did your baby allow her/himself to be picked up without protest?"
     },
     "responseOptions": {
         "choices": [
@@ -56,6 +56,12 @@
                     "en": "Does Not Apply"
                 },
                 "value": 8
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
             },
             {
                 "name": {

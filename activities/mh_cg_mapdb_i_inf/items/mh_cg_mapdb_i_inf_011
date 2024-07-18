@@ -1,8 +1,8 @@
 {
-    "id": "mh_cg_mapdb_i_inf_m02_29",
+    "id": "mh_cg_mapdb_i_inf_m02_35",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "mh_cg_mapdb_i_inf_m02_29"
+        "en": "mh_cg_mapdb_i_inf_m02_35"
     },
     "question": {
         "en": "Cry inconsolably?"
@@ -44,6 +44,12 @@
                     "en": "Many times each day"
                 },
                 "value": 6
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
             },
             {
                 "name": {

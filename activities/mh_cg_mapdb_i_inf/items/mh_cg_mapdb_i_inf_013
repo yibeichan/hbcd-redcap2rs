@@ -1,14 +1,14 @@
 {
-    "id": "mh_cg_mapdb_i_inf_m03_21",
+    "id": "mh_cg_mapdb_i_inf_m03_26",
     "category": "reproschema:Item",
     "preamble": {
         "en": "OVER THE PAST MONTH, HOW OFTEN DID YOUR BABY"
     },
     "prefLabel": {
-        "en": "mh_cg_mapdb_i_inf_m03_21"
+        "en": "mh_cg_mapdb_i_inf_m03_26"
     },
     "question": {
-        "en": "Cry inconsolably when you were out in public?"
+        "en": "Cry inconsolably when you were out in public with him/her?"
     },
     "responseOptions": {
         "choices": [
@@ -47,6 +47,12 @@
                     "en": "Many times each day"
                 },
                 "value": 6
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
             },
             {
                 "name": {

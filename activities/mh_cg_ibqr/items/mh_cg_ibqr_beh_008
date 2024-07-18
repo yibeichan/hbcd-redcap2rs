@@ -1,11 +1,11 @@
 {
-    "id": "mh_cg_ibqr_m01_233",
+    "id": "mh_cg_ibqr_m01_280",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "mh_cg_ibqr_m01_233"
+        "en": "mh_cg_ibqr_m01_280"
     },
     "question": {
-        "en": "When your baby was approached by an unfamiliar person when you and the baby were out (for example, shopping), how often did the baby cry?"
+        "en": "When your baby was approached by an unfamiliar person when you and s/he were out (for example, shopping), how often did the baby cry?"
     },
     "responseOptions": {
         "choices": [
@@ -56,6 +56,12 @@
                     "en": "Does Not Apply"
                 },
                 "value": 8
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
             },
             {
                 "name": {

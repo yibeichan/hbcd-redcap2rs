@@ -5,7 +5,7 @@
         "en": "pex_bm_assistv1_pre_during_i_use_002_i_02"
     },
     "question": {
-        "en": "Beer, hard cider, hard seltzer?"
+        "en": "Beer?"
     },
     "responseOptions": {
         "choices": [
@@ -39,7 +39,7 @@
         ]
     },
     "ui": {
-        "inputType": "select"
+        "inputType": "radio"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
