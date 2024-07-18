@@ -1,8 +1,8 @@
 {
-    "id": "pex_bm_healthv2_preg_i_exp_i_vacc_m02_158",
+    "id": "pex_bm_healthv2_preg_i_exp_i_vacc_m02_172",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "pex_bm_healthv2_preg_i_exp_i_vacc_m02_158"
+        "en": "pex_bm_healthv2_preg_i_exp_i_vacc_m02_172"
     },
     "question": {
         "en": "MMR vaccine"
