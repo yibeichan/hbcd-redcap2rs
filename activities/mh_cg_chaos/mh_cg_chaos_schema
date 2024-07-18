@@ -160,6 +160,6 @@
         ],
         "shuffle": false
     },
-    "version": "2024.03.05",
+    "version": "2024.03.07",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }
